@@ -1,0 +1,9 @@
+{
+  "method": "dfr",
+  "url": "https://github.com/YoungGod/DFR",
+  "commit": "f2e2d4ef5e542fb99aa41566cd9f662bec9ce771",
+  "commit_evidence": "historical local audit",
+  "license": "No local license identified;implementation not bundled",
+  "adaptation_reference": "",
+  "relocated_execution_verified": false
+}

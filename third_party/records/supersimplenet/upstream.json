@@ -1,0 +1,10 @@
+{
+  "method": "supersimplenet",
+  "url": "https://github.com/blaz-r/SuperSimpleNet",
+  "commit": "98ab4d5fbdcdef528fafbc42e4b5ee15f08f5a7d",
+  "commit_evidence": "Local recorded source metadata; not independently re-fetched",
+  "license": "MIT",
+  "local_source": "SimpleNet_SuperSimpleNet_setup_20261020/runtime/supersimplenet",
+  "snapshot_date": "2026-10-22",
+  "relocated_execution_verified": false
+}

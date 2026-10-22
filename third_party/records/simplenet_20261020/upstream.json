@@ -1,0 +1,10 @@
+{
+  "method": "simplenet_20261020",
+  "url": "https://github.com/DonaldRR/SimpleNet",
+  "commit": "351a2b8d4e8cfc944dbccbf9bc6ceda930c6f26b",
+  "commit_evidence": "Local recorded source metadata; not independently re-fetched",
+  "license": "MIT",
+  "local_source": "SimpleNet_SuperSimpleNet_setup_20261020/runtime/simplenet",
+  "snapshot_date": "2026-10-22",
+  "relocated_execution_verified": false
+}

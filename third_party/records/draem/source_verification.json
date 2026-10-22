@@ -1,0 +1,33 @@
+{
+  "commit": "2dbf67397ab5c10a1494e5ae70ab59a25d7c35ef",
+  "files": {
+    "data_loader.py": {
+      "sha256": "92e6309293c8e36277471393d29f3cf13d007ccfb1fbacb3a5acfc4406c14ecd",
+      "matches_local": true
+    },
+    "loss.py": {
+      "sha256": "556a7718294b79d504e36673da537abfe5c3bacd49a0fe27ff1d87d3645981f9",
+      "matches_local": true
+    },
+    "model_unet.py": {
+      "sha256": "fc8995f7f26599ea323dca5dfdae83ede3e19bf802cd0b748ecd46bea2beec1c",
+      "matches_local": true
+    },
+    "perlin.py": {
+      "sha256": "b6ab97c1fd81d0da2513f99bda6fdc65d96536d7abe4dab49f55bf73a7d64fc1",
+      "matches_local": true
+    },
+    "tensorboard_visualizer.py": {
+      "sha256": "7a43af1699db9cd3c9b7bde95c6f7f4bbf61cefc38f799551924ac403cb6fc9e",
+      "matches_local": true
+    },
+    "test_DRAEM.py": {
+      "sha256": "4dce02d522b4d632837dfb1e79ce782d0d651ff4faff269ad13a7e98602e4b64",
+      "matches_local": true
+    },
+    "train_DRAEM.py": {
+      "sha256": "b97daef7c7c5d8c6230635097f112e22dec4aa45effd4b1ed0b26fc72fe67113",
+      "matches_local": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "method": "simplenet",
+  "url": "https://github.com/DonaldRR/SimpleNet",
+  "commit": "unknown",
+  "commit_evidence": "not recovered",
+  "license": "MIT",
+  "adaptation_reference": "",
+  "relocated_execution_verified": false
+}

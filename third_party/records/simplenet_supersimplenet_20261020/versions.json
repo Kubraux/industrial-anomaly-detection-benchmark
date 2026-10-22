@@ -1,0 +1,12 @@
+{
+  "simplenet": {
+    "repository": "DonaldRR/SimpleNet",
+    "commit": "351a2b8d4e8cfc944dbccbf9bc6ceda930c6f26b",
+    "zip_sha256": "5ec9e1bbc96759f97346c66fc4490e0821fda7b5845dfd4742e09abd383e1235"
+  },
+  "supersimplenet": {
+    "repository": "blaz-r/SuperSimpleNet",
+    "commit": "98ab4d5fbdcdef528fafbc42e4b5ee15f08f5a7d",
+    "zip_sha256": "b697847ccaea35d96d73a0b507dcaac8f33cbf942490b2408dcb2e06b9491978"
+  }
+}

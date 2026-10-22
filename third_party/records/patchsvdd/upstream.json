@@ -1,0 +1,9 @@
+{
+  "method": "patchsvdd",
+  "url": "https://github.com/nuclearboy95/Anomaly-Detection-PatchSVDD-PyTorch",
+  "commit": "unknown",
+  "commit_evidence": "not recovered",
+  "license": "No local license identified;implementation not bundled",
+  "adaptation_reference": "",
+  "relocated_execution_verified": false
+}

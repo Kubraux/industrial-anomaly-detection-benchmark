@@ -1,0 +1,10 @@
+{
+  "method": "draem",
+  "url": "https://github.com/VitjanZ/DRAEM",
+  "commit": "2dbf67397ab5c10a1494e5ae70ab59a25d7c35ef",
+  "commit_evidence": "Local recorded source metadata; not independently re-fetched",
+  "license": "MIT",
+  "local_source": "DRAEM_MVTec_all15_20261015/source_snapshot",
+  "snapshot_date": "2026-10-22",
+  "relocated_execution_verified": false
+}

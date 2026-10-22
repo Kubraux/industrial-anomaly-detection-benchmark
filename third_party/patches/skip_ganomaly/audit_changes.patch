@@ -1,0 +1,533 @@
+--- before/lib/data/dataloader.py
++++ after/lib/data/dataloader.py
+@@ -99,7 +99,7 @@
+         valid_ds = ImageFolder(os.path.join(opt.dataroot, 'test'), transform)
+ 
+     ## DATALOADER
+-    train_dl = DataLoader(dataset=train_ds, batch_size=opt.batchsize, shuffle=True, drop_last=True)
+-    valid_dl = DataLoader(dataset=valid_ds, batch_size=opt.batchsize, shuffle=False, drop_last=False)
++    train_dl = DataLoader(dataset=train_ds, batch_size=opt.batchsize, shuffle=True, drop_last=opt.droplast, num_workers=opt.workers)
++    valid_dl = DataLoader(dataset=valid_ds, batch_size=opt.batchsize, shuffle=False, drop_last=False, num_workers=opt.workers)
+ 
+     return Data(train_dl, valid_dl)
+--- before/lib/evaluate.py
++++ after/lib/evaluate.py
+@@ -10,7 +10,8 @@
+ from __future__ import print_function
+ 
+ import os
+-from sklearn.metrics import roc_curve, auc, average_precision_score, f1_score
++import numpy as np
++from sklearn.metrics import roc_curve, roc_auc_score, auc, average_precision_score, f1_score
+ from scipy.optimize import brentq
+ from scipy.interpolate import interp1d
+ import matplotlib.pyplot as plt
+@@ -38,17 +39,17 @@
+     tpr = dict()
+     roc_auc = dict()
+ 
+-    labels = labels.cpu()
+-    scores = scores.cpu()
++    labels, scores = _arrays(labels, scores)
+ 
+     # True/False Positive Rates.
+-    fpr, tpr, _ = roc_curve(labels, scores)
+-    roc_auc = auc(fpr, tpr)
++    fpr, tpr, _ = roc_curve(labels, scores, pos_label=1)
++    roc_auc = roc_auc_score(labels, scores)
+ 
+     # Equal Error Rate
+-    eer = brentq(lambda x: 1. - x - interp1d(fpr, tpr)(x), 0., 1.)
++    eer = None
+ 
+     if saveto:
++        eer = brentq(lambda x: 1. - x - interp1d(fpr, tpr)(x), 0., 1.)
+         plt.figure()
+         lw = 2
+         plt.plot(fpr, tpr, color='darkorange', lw=lw, label='(AUC = %0.2f, EER = %0.2f)' % (roc_auc, eer))
+@@ -68,3 +69,33 @@
+ def auprc(labels, scores):
+     ap = average_precision_score(labels, scores)
+     return ap
++
++def _arrays(labels, scores):
++    def array(value):
++        if hasattr(value, 'detach'):
++            value = value.detach().cpu().numpy()
++        return np.asarray(value).reshape(-1)
++    labels, scores = array(labels), array(scores).astype(np.float64)
++    if labels.shape != scores.shape or labels.size == 0:
++        raise ValueError("Labels and continuous scores must have equal nonempty shapes.")
++    if set(np.unique(labels)) != {0, 1}:
++        raise ValueError("AUROC requires normal=0 and anomaly=1, both present.")
++    if not np.isfinite(scores).all():
++        raise ValueError("Non-finite anomaly score.")
++    return labels, scores
++
++
++def score_report(labels, scores):
++    labels, scores = _arrays(labels, scores)
++    span = scores.max()-scores.min()
++    normalized = (scores-scores.min())/span if span > 0 else np.zeros_like(scores)
++    raw_auc = roc(labels, scores)
++    report = dict(raw_auc=raw_auc, normalized_auc=roc(labels, normalized),
++                  one_minus_auc_diagnostic_only=1-raw_auc,
++                  min=float(scores.min()), max=float(scores.max()))
++    for label, name in ((0, 'normal'), (1, 'anomaly')):
++        group = scores[labels == label]
++        report[name] = dict(count=int(group.size), mean=float(group.mean()),
++                            median=float(np.median(group)), min=float(group.min()),
++                            max=float(group.max()))
++    return report, normalized
+--- before/lib/models/basemodel.py
++++ after/lib/models/basemodel.py
+@@ -71,6 +71,8 @@
+             self.input.resize_(input[0].size()).copy_(input[0])
+             self.gt.resize_(input[1].size()).copy_(input[1])
+             self.label.resize_(input[1].size())
++            self.real_label.resize_(input[1].size()).fill_(1)
++            self.fake_label.resize_(input[1].size()).fill_(0)
+ 
+             # Add noise to the input.
+             if noise: self.noise.data.copy_(torch.randn(self.noise.size()))
+@@ -99,6 +101,7 @@
+     def reinit_d(self):
+         """ Initialize the weights of netD
+         """
++        self.d_reinitializations = getattr(self, 'd_reinitializations', 0) + 1
+         self.netd.apply(weights_init)
+         print('Reloading d net')
+ 
+@@ -110,9 +113,17 @@
+             [reals, fakes, fixed]
+         """
+ 
+-        reals = self.input.data
+-        fakes = self.fake.data
+-        fixed = self.netg(self.fixed_input)[0].data
++        reals = self.input.detach()
++        fakes = self.fake.detach()
++        # Logging must not update BatchNorm or discard the batch dimension.
++        was_training = self.netg.training
++        try:
++            self.netg.eval()
++            with torch.no_grad():
++                output = self.netg(self.fixed_input)
++                fixed = (output[0] if isinstance(output, (tuple, list)) else output).detach()
++        finally:
++            self.netg.train(was_training)
+ 
+         return reals, fakes, fixed
+ 
+@@ -159,14 +170,14 @@
+             fname_g = f"netG_{epoch}.pth"
+             fname_d = f"netD_{epoch}.pth"
+ 
+-        if path is None:
+-            path_g = f"./output/{self.name}/{self.opt.dataset}/train/weights/{fname_g}"
+-            path_d = f"./output/{self.name}/{self.opt.dataset}/train/weights/{fname_d}"
++        weight_dir = path or os.path.join(self.trn_dir, 'weights')
++        path_g = os.path.join(weight_dir, fname_g)
++        path_d = os.path.join(weight_dir, fname_d)
+ 
+         # Load the weights of netg and netd.
+         print('>> Loading weights...')
+-        weights_g = torch.load(path_g)['state_dict']
+-        weights_d = torch.load(path_d)['state_dict']
++        weights_g = torch.load(path_g, map_location=self.device)['state_dict']
++        weights_d = torch.load(path_d, map_location=self.device)['state_dict']
+         try:
+             self.netg.load_state_dict(weights_g)
+             self.netd.load_state_dict(weights_d)
+@@ -181,48 +192,54 @@
+ 
+         self.netg.train()
+         self.netd.train()
++        self.opt.phase = 'train'
++        if len(self.data.train) == 0:
++            raise ValueError("Empty training loader: reduce batchsize.")
+         epoch_iter = 0
+-        for data in tqdm(self.data.train, leave=False, total=len(self.data.train)):
+-            self.total_steps += self.opt.batchsize
+-            epoch_iter += self.opt.batchsize
+-
++        sums = {}
++        for batch_index, data in enumerate(tqdm(self.data.train, leave=False)):
++            size = data[0].size(0)
++            self.total_steps += size
++            epoch_iter += size
+             self.set_input(data)
++            self.diagnostic_active = batch_index < getattr(self.opt, 'diagnostic_batches', 0)
+             self.optimize_params()
+-
+-            if self.total_steps % self.opt.print_freq == 0:
+-                errors = self.get_errors()
++            errors = self.get_errors()
++            for key, value in errors.items():
++                sums[key] = sums.get(key, 0.) + value * size
++            if self.opt.print_freq > 0 and self.total_steps % self.opt.print_freq == 0:
++                self.visualizer.print_current_errors(self.epoch + 1, errors)
+                 if self.opt.display:
+-                    counter_ratio = float(epoch_iter) / len(self.data.train.dataset)
+-                    self.visualizer.plot_current_errors(self.epoch, counter_ratio, errors)
+-
+-            if self.total_steps % self.opt.save_image_freq == 0:
++                    self.visualizer.plot_current_errors(
++                        self.epoch, epoch_iter / len(self.data.train.dataset), errors)
++            if self.opt.save_image_freq > 0 and self.total_steps % self.opt.save_image_freq == 0:
+                 reals, fakes, fixed = self.get_current_images()
+                 self.visualizer.save_current_images(self.epoch, reals, fakes, fixed)
+                 if self.opt.display:
+                     self.visualizer.display_current_images(reals, fakes, fixed)
+-
+-        print(">> Training model %s. Epoch %d/%d" % (self.name, self.epoch+1, self.opt.niter))
+-
+-    ##
++        self.epoch_losses = {key: value / epoch_iter for key, value in sums.items()}
++        message = "Epoch %d/%d samples=%d losses=%s D_reinitializations=%d" % (
++            self.epoch+1, self.opt.niter, epoch_iter, self.epoch_losses,
++            getattr(self, 'd_reinitializations', 0))
++        print(message, flush=True)
++        self.visualizer.write_to_log_file(message)
++
+     def train(self):
+-        """ Train the model
+-        """
+-
+-        ##
+-        # TRAIN
++        """Fixed training budget, final checkpoint, then ONE held-out evaluation."""
++        if self.opt.load_weights:
++            raise ValueError("Use --resume for training; --load_weights is evaluation only.")
++        if self.opt.niter <= self.opt.iter:
++            raise ValueError("niter must exceed iter.")
+         self.total_steps = 0
+-        best_auc = 0
+-
+-        # Train for niter epochs.
+-        print(f">> Training {self.name} on {self.opt.dataset} to detect {self.opt.abnormal_class}")
+         for self.epoch in range(self.opt.iter, self.opt.niter):
+             self.train_one_epoch()
+-            res = self.test()
+-            if res['AUC'] > best_auc:
+-                best_auc = res['AUC']
+-                self.save_weights(self.epoch)
+-            self.visualizer.print_current_performance(res, best_auc)
+-        print(">> Training model %s.[Done]" % self.name)
++        # Epoch in filename is the completed epoch count (1-based).
++        self.save_weights(self.epoch + 1)
++        result = self.test()
++        message = "Final evaluation: " + str(dict(result))
++        print(message, flush=True)
++        self.visualizer.write_to_log_file(message)
++        return result
+ 
+     ##
+     def test(self):
+--- before/lib/models/skipganomaly.py
++++ after/lib/models/skipganomaly.py
+@@ -37,7 +37,7 @@
+         ##
+ 
+         # -- Misc attributes
+-        self.add_noise = True
++        self.add_noise = False  # Explicit no-noise experiment.
+         self.epoch = 0
+         self.times = []
+         self.total_steps = 0
+@@ -125,6 +125,10 @@
+         self.err_d_fake = self.l_adv(pred_fake, self.fake_label)
+ 
+         # Real branch: fresh discriminator forward pass.
++        # This real forward replaces the cached official D(real) graph.
++        # Restore its extra BN updates AFTER backward; keep official real/fake/fake
++        # buffer updates, without modifying any saved tensor before backward.
++        buffers = {name: value.clone() for name, value in self.netd.named_buffers()}
+         pred_real, feat_real = self.netd(self.input)
+         self.err_d_real = self.l_adv(pred_real, self.real_label)
+ 
+@@ -135,12 +139,17 @@
+         # Combine losses.
+         self.err_d = self.err_d_real + self.err_d_fake + self.err_d_lat
+         self.err_d.backward()
++        with torch.no_grad():
++            for name, value in self.netd.named_buffers():
++                value.copy_(buffers[name])
+ 
+     def update_netg(self):
+         """ Update Generator Network.
+         """       
+         self.optimizer_g.zero_grad()
+         self.backward_g()
++        if getattr(self, 'diagnostic_active', False):
++            self.g_gradient_norm = self.gradient_norm(self.netg)
+         self.optimizer_g.step()
+ 
+     def update_netd(self):
+@@ -148,138 +157,122 @@
+         """       
+         self.optimizer_d.zero_grad()
+         self.backward_d()
++        if getattr(self, 'diagnostic_active', False):
++            self.d_gradient_norm = self.gradient_norm(self.netd)
+         self.optimizer_d.step()
+         if self.err_d < 1e-5: self.reinit_d()
+     ##
++    @staticmethod
++    def gradient_norm(network):
++        return float(torch.sqrt(sum(p.grad.detach().square().sum()
++                                    for p in network.parameters() if p.grad is not None)))
++
+     def optimize_params(self):
+-        """Optimize netG and netD with separate computation graphs.
+-
+-        Architecture and loss weights are unchanged. The only change is graph
+-        separation required by modern PyTorch autograd.
+-        """
+-        # ---- Generator step ----
+-        # Freeze D parameters but still allow gradients to flow through D to G.
++        """G update through frozen D, then D update on independent detached fake."""
++        diagnostic = getattr(self, 'diagnostic_active', False)
++        self.optimizer_d.zero_grad(set_to_none=True)
++        if diagnostic:
++            g_param = next(self.netg.parameters())
++            d_param = next(self.netd.parameters())
++            g_before, d_before = g_param.detach().clone(), d_param.detach().clone()
++            bn = next(m for m in self.netd.modules() if isinstance(m, nn.BatchNorm2d))
++            bn_before = int(bn.num_batches_tracked)
+         for param in self.netd.parameters():
+             param.requires_grad_(False)
+-
+-        self.forward_g()
+-        self.pred_real, self.feat_real = self.netd(self.input)
+-        self.pred_fake, self.feat_fake = self.netd(self.fake)
+-        self.update_netg()
+-
+-        # ---- Discriminator step ----
+-        # Re-enable D parameters and build a fresh graph inside backward_d().
+-        for param in self.netd.parameters():
+-            param.requires_grad_(True)
+-
++        try:
++            self.forward_g()
++            self.forward_d()
++            self.update_netg()
++        finally:
++            for param in self.netd.parameters():
++                param.requires_grad_(True)
++        if diagnostic:
++            assert all(p.grad is None for p in self.netd.parameters())
++            assert torch.equal(d_before, d_param)
++            g_grad_before_d = g_param.grad.detach().clone()
+         self.update_netd()
+-
+-    ##
++        if diagnostic:
++            assert torch.equal(g_grad_before_d, g_param.grad), "D backward entered G"
++            g_delta = float((g_param.detach()-g_before).norm())
++            d_delta = float((d_param.detach()-d_before).norm())
++            assert self.g_gradient_norm > 0 and self.d_gradient_norm > 0
++            assert g_delta > 0 and d_delta > 0
++            assert torch.isfinite(self.err_g) and torch.isfinite(self.err_d)
++            assert int(bn.num_batches_tracked)-bn_before == 3
++            record = dict(self.get_errors(), g_grad_norm=self.g_gradient_norm,
++                          d_grad_norm=self.d_gradient_norm, g_parameter_delta=g_delta,
++                          d_parameter_delta=d_delta, input_shape=list(self.input.shape),
++                          fake_shape=list(self.fake.shape), pred_shape=list(self.pred_fake.shape),
++                          feature_shape=list(self.feat_fake.shape),
++                          d_bn_updates=int(bn.num_batches_tracked)-bn_before)
++            print("DIAGNOSTIC " + str(record), flush=True)
++            self.visualizer.write_to_log_file("DIAGNOSTIC " + str(record))
++
+     def test(self, plot_hist=False):
+-        """ Test GANomaly model.
+-
+-        Args:
+-            data ([type]): Dataloader for the test set
+-
+-        Raises:
+-            IOError: Model weights not found.
+-        """
++        """Evaluate once, retain raw components and restore caller's modes."""
++        import json
++        from pathlib import Path
++        from lib.evaluate import score_report
++        old_g, old_d, old_phase = self.netg.training, self.netd.training, self.opt.phase
++        if self.opt.load_weights:
++            self.load_weights(epoch=self.opt.niter)
+         self.netg.eval()
+         self.netd.eval()
+-
+-        with torch.no_grad():
+-            # Load the weights of netg and netd.
+-            if self.opt.load_weights:
+-                self.load_weights(is_best=True)
+-
+-            self.opt.phase = 'test'
+-
+-            scores = {}
+-
+-            # Create big error tensor for the test set.
+-            self.an_scores = torch.zeros(size=(len(self.data.valid.dataset),), dtype=torch.float32, device=self.device)
+-            self.gt_labels = torch.zeros(size=(len(self.data.valid.dataset),), dtype=torch.long, device=self.device)
+-            self.features  = torch.zeros(size=(len(self.data.valid.dataset), self.opt.nz), dtype=torch.float32, device=self.device)
+-
+-            print("   Testing %s" % self.name)
+-            self.times = []
+-            self.total_steps = 0
+-            epoch_iter = 0
+-            for i, data in enumerate(self.data.valid, 0):
+-                self.total_steps += self.opt.batchsize
+-                epoch_iter += self.opt.batchsize
+-                time_i = time.time()
+-
+-                # Forward - Pass
+-                self.set_input(data)
+-                self.fake = self.netg(self.input)
+-
+-                _, self.feat_real = self.netd(self.input)
+-                _, self.feat_fake = self.netd(self.fake)
+-
+-                # Calculate the anomaly score.
+-                si = self.input.size()
+-                sz = self.feat_real.size()
+-                rec = (self.input - self.fake).view(si[0], si[1] * si[2] * si[3])
+-                lat = (self.feat_real - self.feat_fake).view(sz[0], sz[1] * sz[2] * sz[3])
+-                rec = torch.mean(torch.pow(rec, 2), dim=1)
+-                lat = torch.mean(torch.pow(lat, 2), dim=1)
+-                error = 0.9*rec + 0.1*lat
+-
+-                time_o = time.time()
+-
+-                self.an_scores[i*self.opt.batchsize: i*self.opt.batchsize + error.size(0)] = error.reshape(error.size(0))
+-                self.gt_labels[i*self.opt.batchsize: i*self.opt.batchsize + error.size(0)] = self.gt.reshape(error.size(0))
+-
+-                self.times.append(time_o - time_i)
+-
+-                # Save test images.
+-                if self.opt.save_test_images:
+-                    dst = os.path.join(self.opt.outf, self.opt.name, 'test', 'images')
+-                    if not os.path.isdir(dst): os.makedirs(dst)
+-                    real, fake, _ = self.get_current_images()
+-                    vutils.save_image(real, '%s/real_%03d.eps' % (dst, i+1), normalize=True)
+-                    vutils.save_image(fake, '%s/fake_%03d.eps' % (dst, i+1), normalize=True)
+-
+-            # Measure inference time.
+-            self.times = np.array(self.times)
+-            self.times = np.mean(self.times[:100] * 1000)
+-
+-            # Scale error vector between [0, 1]
+-            self.an_scores = (self.an_scores - torch.min(self.an_scores)) / \
+-                             (torch.max(self.an_scores) - torch.min(self.an_scores))
+-            auc = roc(self.gt_labels, self.an_scores)
+-            performance = OrderedDict([('Avg Run Time (ms/batch)', self.times), ('AUC', auc)])
+-
+-            ##
+-            # PLOT HISTOGRAM
++        self.opt.phase = 'test'
++        rows, elapsed = [], []
++        try:
++            with torch.no_grad():
++                for images, labels in self.data.valid:
++                    begin = time.perf_counter()
++                    x = images.to(self.device)
++                    fake = self.netg(x)
++                    _, real_features = self.netd(x)
++                    _, fake_features = self.netd(fake)
++                    rec = (x-fake).square().flatten(1).mean(1)
++                    lat = (real_features-fake_features).square().flatten(1).mean(1)
++                    rows.append(torch.stack((labels.to(self.device).float(), rec, lat,
++                                             x.square().flatten(1).mean(1),
++                                             fake.square().flatten(1).mean(1)), dim=1).cpu())
++                    elapsed.append(time.perf_counter()-begin)
++                    if self.opt.save_test_images:
++                        dst = Path(self.tst_dir)/'images'
++                        dst.mkdir(parents=True, exist_ok=True)
++                        vutils.save_image(x, str(dst/('real_%03d.png' % len(rows))), normalize=True)
++                        vutils.save_image(fake, str(dst/('fake_%03d.png' % len(rows))), normalize=True)
++            values = torch.cat(rows).numpy()
++            assert len(values) == len(self.data.valid.dataset)
++            labels = values[:, 0].astype(np.int64)
++            raw = .9*values[:, 1] + .1*values[:, 2]
++            report, normalized = score_report(labels, raw)
++            report['rec_auc'] = roc(labels, values[:, 1])
++            report['lat_auc'] = roc(labels, values[:, 2])
++            report['zero_reconstruction_auc_diagnostic'] = roc(labels, values[:, 3])
++            for label, group in ((0, 'normal'), (1, 'anomaly')):
++                report[group]['rec_mean'] = float(values[labels == label, 1].mean())
++                report[group]['lat_mean'] = float(values[labels == label, 2].mean())
++            self.raw_an_scores = torch.from_numpy(raw.copy())
++            self.an_scores = torch.from_numpy(normalized.copy())
++            self.gt_labels = torch.from_numpy(labels)
++            self.score_statistics = report
++            destination = Path(self.tst_dir)
++            destination.mkdir(parents=True, exist_ok=True)
++            (destination/'score_statistics.json').write_text(json.dumps(report, indent=2))
++            frame = pd.DataFrame(dict(label=labels, rec=values[:, 1], lat=values[:, 2],
++                                      raw_score=raw, normalized_score=normalized,
++                                      zero_reconstruction_mse=values[:, 3],
++                                      reconstruction_energy=values[:, 4]))
++            samples = getattr(self.data.valid.dataset, 'samples', None)
++            if samples is not None:
++                frame.insert(0, 'path', [p for p, _ in samples])
++            frame.to_csv(destination/'scores.csv', index=False)
+             if plot_hist:
+-                plt.ion()
+-                # Create data frame for scores and labels.
+-                scores['scores'] = self.an_scores
+-                scores['labels'] = self.gt_labels
+-                hist = pd.DataFrame.from_dict(scores)
+-                hist.to_csv("histogram.csv")
+-
+-                # Filter normal and abnormal scores.
+-                abn_scr = hist.loc[hist.labels == 1]['scores']
+-                nrm_scr = hist.loc[hist.labels == 0]['scores']
+-
+-                # Create figure and plot the distribution.
+-                # fig, ax = plt.subplots(figsize=(4,4));
+-                sns.distplot(nrm_scr, label=r'Normal Scores')
+-                sns.distplot(abn_scr, label=r'Abnormal Scores')
+-
+-                plt.legend()
+-                plt.yticks([])
+-                plt.xlabel(r'Anomaly Scores')
+-
+-            ##
+-            # PLOT PERFORMANCE
+-            if self.opt.display_id > 0 and self.opt.phase == 'test':
+-                counter_ratio = float(epoch_iter) / len(self.data.valid.dataset)
+-                self.visualizer.plot_performance(self.epoch, counter_ratio, performance)
+-
+-            ##
+-            # RETURN
+-            return performance
++                frame.hist(column='raw_score', by='label')
++                plt.savefig(destination/'score_histogram.png')
++                plt.close('all')
++            print("SCORE STATISTICS " + json.dumps(report, indent=2), flush=True)
++            return OrderedDict([('Avg Run Time (ms/batch)', 1000*np.mean(elapsed)),
++                                ('AUC', report['raw_auc'])])
++        finally:
++            self.netg.train(old_g)
++            self.netd.train(old_d)
++            self.opt.phase = old_phase
+--- before/options.py
++++ after/options.py
+@@ -71,6 +71,8 @@
+         self.parser.add_argument('--w_lat', type=float, default=1, help='Weight for latent space loss. default=1')
+         self.parser.add_argument('--lr_policy', type=str, default='lambda', help='lambda|step|plateau')
+         self.parser.add_argument('--lr_decay_iters', type=int, default=50, help='multiply by a gamma every lr_decay_iters iterations')
++        self.parser.add_argument('--diagnostic_batches', type=int, default=0,
++                                 help='Log and assert gradients/updates for first N batches per epoch')
+         self.isTrain = True
+         self.opt = None
+ 
+@@ -88,6 +90,8 @@
+             if id >= 0:
+                 self.opt.gpu_ids.append(id)
+ 
++        if self.opt.device == 'cpu':
++            self.opt.gpu_ids = []
+         # set gpu ids
+         if len(self.opt.gpu_ids) > 0:
+             torch.cuda.set_device(self.opt.gpu_ids[0])

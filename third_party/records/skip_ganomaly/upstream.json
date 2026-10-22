@@ -1,0 +1,9 @@
+{
+  "method": "skip_ganomaly",
+  "url": "https://github.com/samet-akcay/skip-ganomaly",
+  "commit": "unknown",
+  "commit_evidence": "not recovered",
+  "license": "MIT",
+  "adaptation_reference": "",
+  "relocated_execution_verified": false
+}

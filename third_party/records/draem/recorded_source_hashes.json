@@ -1,0 +1,16 @@
+{
+  "data_loader.py": "92e6309293c8e36277471393d29f3cf13d007ccfb1fbacb3a5acfc4406c14ecd",
+  "LICENSE": "b8072bab9e17693331b0a1930027b0280bc7c642607871c4f928064807f8fd42",
+  "loss.py": "556a7718294b79d504e36673da537abfe5c3bacd49a0fe27ff1d87d3645981f9",
+  "metrics.py": "2f97e24a22ef244d137fb462949f22619cd126cc031bc1133a0f0df8b304c0f4",
+  "model_unet.py": "fc8995f7f26599ea323dca5dfdae83ede3e19bf802cd0b748ecd46bea2beec1c",
+  "perlin.py": "b6ab97c1fd81d0da2513f99bda6fdc65d96536d7abe4dab49f55bf73a7d64fc1",
+  "README.md": "55df872534e3b69e93c0ad27ccc2ef6157c93af9b4723a5d410d965a223bac4f",
+  "requirements.txt": "3ba5792ea38eeb7c9dc6562954dd5628a90d829631e2df3aa99a37fedc45143d",
+  "run_draem_experiment.py": "b6ed4e4b3c5b0f5c4a7843bce448fd88d18b71591bd5799dc84e180671f57db0",
+  "tensorboard_visualizer.py": "7a43af1699db9cd3c9b7bde95c6f7f4bbf61cefc38f799551924ac403cb6fc9e",
+  "test_DRAEM.py": "4dce02d522b4d632837dfb1e79ce782d0d651ff4faff269ad13a7e98602e4b64",
+  "train_DRAEM.py": "b97daef7c7c5d8c6230635097f112e22dec4aa45effd4b1ed0b26fc72fe67113",
+  "scripts\\download_dataset.sh": "0a92d442103df188414730734fe0190b712028801e2ed718e3ec3684d0b207c9",
+  "scripts\\download_pretrained.sh": "cf97593e624a354b407f0f7c56eeb20eb32e05a81a203949d0f418de3139a222"
+}

@@ -1,0 +1,36 @@
+--- original/main.py
++++ patched/main.py
+@@ -1,3 +1,10 @@
++
++from pathlib import Path
++import os
++_SOURCE_DIR = Path(__file__).resolve().parent
++_DATA_ROOT = Path(os.environ.get("RD4AD_DATA_ROOT", str(_SOURCE_DIR.parent / "archive")))
++_CHECKPOINT_ROOT = _SOURCE_DIR / "checkpoints"
++_CHECKPOINT_ROOT.mkdir(parents=True, exist_ok=True)
+ # This is a sample Python script.
+ 
+ # Press ⌃R to execute it or replace it with your code.
+@@ -69,9 +76,9 @@
+     print(device)
+ 
+     data_transform, gt_transform = get_data_transforms(image_size, image_size)
+-    train_path = './mvtec/' + _class_ + '/train'
+-    test_path = './mvtec/' + _class_
+-    ckp_path = './checkpoints/' + 'wres50_'+_class_+'.pth'
++    train_path = str(_DATA_ROOT / _class_ / 'train')
++    test_path = str(_DATA_ROOT / _class_)
++    ckp_path = str(_CHECKPOINT_ROOT / ('wres50_' + _class_ + '.pth'))
+     train_data = ImageFolder(root=train_path, transform=data_transform)
+     test_data = MVTecDataset(root=test_path, transform=data_transform, gt_transform=gt_transform, phase="test")
+     train_dataloader = torch.utils.data.DataLoader(train_data, batch_size=batch_size, shuffle=True)
+@@ -114,8 +121,7 @@
+ if __name__ == '__main__':
+ 
+     setup_seed(111)
+-    item_list = ['carpet', 'bottle', 'hazelnut', 'leather', 'cable', 'capsule', 'grid', 'pill',
+-                 'transistor', 'metal_nut', 'screw','toothbrush', 'zipper', 'tile', 'wood']
++    item_list = ['bottle']
+     for i in item_list:
+         train(i)
+ 

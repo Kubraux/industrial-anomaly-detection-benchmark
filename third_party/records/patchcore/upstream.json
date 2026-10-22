@@ -1,0 +1,9 @@
+{
+  "method": "patchcore",
+  "url": "https://github.com/amazon-science/patchcore-inspection",
+  "commit": "unknown",
+  "commit_evidence": "not recovered",
+  "license": "Apache-2.0",
+  "adaptation_reference": "",
+  "relocated_execution_verified": false
+}

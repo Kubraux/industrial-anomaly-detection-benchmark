@@ -1,0 +1,9 @@
+{
+  "method": "rd4ad",
+  "url": "https://github.com/hq-deng/RD4AD",
+  "commit": "6554076872c65f8784f6ece8cfb39ce77e1aee12",
+  "commit_evidence": "historical local audit",
+  "license": "MIT",
+  "adaptation_reference": "",
+  "relocated_execution_verified": false
+}

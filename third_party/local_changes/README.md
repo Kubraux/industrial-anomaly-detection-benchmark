@@ -1,0 +1,27 @@
+# Local experiment additions
+
+These selected files are copied byte-for-byte, with original paths recorded in [the copy manifest](../provenance/copy_manifest.csv). They may depend on omitted upstream modules and retain upstream-derived code; this label does not claim exclusive local authorship. Original [license records](../licenses/README.md) are retained.
+
+- [draem/run_draem_experiment.py](draem/run_draem_experiment.py)
+- [draem/metrics.py](draem/metrics.py)
+- [simplenet/run_mvtec_cpu.py](simplenet/run_mvtec_cpu.py)
+- [simplenet/monitor_training.py](simplenet/monitor_training.py)
+- [ganomaly/run_reset_adam_audit.py](ganomaly/run_reset_adam_audit.py)
+- [ganomaly/run_official_flow.py](ganomaly/run_official_flow.py)
+- [ganomaly/run_mvtec_benchmark.py](ganomaly/run_mvtec_benchmark.py)
+- [ganomaly/run_capsule_ablations.py](ganomaly/run_capsule_ablations.py)
+- [skip_ganomaly/verify_graph_equivalence.py](skip_ganomaly/verify_graph_equivalence.py)
+- [skip_ganomaly/verify_checkpoint_buffers.py](skip_ganomaly/verify_checkpoint_buffers.py)
+- [skip_ganomaly/diagnose_mvtec.py](skip_ganomaly/diagnose_mvtec.py)
+- [patchcore/compute_aupro.py](patchcore/compute_aupro.py)
+- [patchcore/bin/finalize_representative_visuals.py](patchcore/bin/finalize_representative_visuals.py)
+- [patchcore/bin/generate_representative_visuals.py](patchcore/bin/generate_representative_visuals.py)
+- [padim/controlled_bottle/independent_metrics.py](padim/controlled_bottle/independent_metrics.py)
+- [padim/controlled_bottle/make_broken_small_panel.py](padim/controlled_bottle/make_broken_small_panel.py)
+- [padim/controlled_bottle/run_bottle.py](padim/controlled_bottle/run_bottle.py)
+- [padim/controlled_bottle/mvtec_controlled.py](padim/controlled_bottle/mvtec_controlled.py)
+- [padim/controlled_bottle/make_broken_small_panel_q999.py](padim/controlled_bottle/make_broken_small_panel_q999.py)
+- [simplenet_supersimplenet_20261020/experiment.py](simplenet_supersimplenet_20261020/experiment.py)
+- [simplenet_supersimplenet_20261020/evaluation_metrics.py](simplenet_supersimplenet_20261020/evaluation_metrics.py)
+- [simplenet_supersimplenet_20261020/paper_report.py](simplenet_supersimplenet_20261020/paper_report.py)
+- [simplenet_supersimplenet_20261020/pip_freeze.txt](simplenet_supersimplenet_20261020/pip_freeze.txt)
