@@ -1,0 +1,3174 @@
+{
+  "dfr_all15": {
+    "environment_info.json": {
+      "common": {
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "executable": "<WORKSPACE_ROOT>/.venv_dfr/Scripts/python.exe",
+        "torch": "2.5.1+cu121",
+        "torchvision": "0.20.1+cu121",
+        "cuda_available": true,
+        "torch_cuda": "12.1",
+        "device": "NVIDIA RTX A4000"
+      },
+      "sources": [
+        {
+          "source": "../DFR_results_all/cable/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/capsule/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/carpet/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/grid/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/hazelnut/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/leather/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/metal_nut/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/pill/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/screw/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/tile/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/toothbrush/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/transistor/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/wood/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_all/zipper/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        }
+      ]
+    },
+    "experiment_config.json": {
+      "common": {
+        "mode": "train",
+        "model_name": "",
+        "img_size": [
+          256,
+          256
+        ],
+        "device": "cuda:0",
+        "backbone": "vgg19",
+        "cnn_layers": [
+          "relu1_1",
+          "relu1_2",
+          "relu2_1",
+          "relu2_2",
+          "relu3_1",
+          "relu3_2",
+          "relu3_3",
+          "relu3_4",
+          "relu4_1",
+          "relu4_2",
+          "relu4_3",
+          "relu4_4"
+        ],
+        "upsample": "bilinear",
+        "is_agg": true,
+        "featmap_size": [
+          256,
+          256
+        ],
+        "kernel_size": [
+          4,
+          4
+        ],
+        "stride": [
+          4,
+          4
+        ],
+        "dilation": 1,
+        "is_bn": true,
+        "batch_size": 4,
+        "lr": 0.0001,
+        "epochs": 150,
+        "thred": 0.5,
+        "except_fpr": 0.005,
+        "seed": 0,
+        "source": "official active repo defaults",
+        "latent_source": "saved original PCA result on first 10 sorted training images",
+        "test_selection": false,
+        "training_validation": false,
+        "algorithmic_change": "none",
+        "environment": {
+          "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+          "executable": "<WORKSPACE_ROOT>/.venv_dfr/Scripts/python.exe",
+          "torch": "2.5.1+cu121",
+          "torchvision": "0.20.1+cu121",
+          "cuda_available": true,
+          "torch_cuda": "12.1",
+          "device": "NVIDIA RTX A4000"
+        }
+      },
+      "sources": [
+        {
+          "source": "../DFR_results_all/cable/experiment_config.json",
+          "sha256": "95113cfbd24bc61fcf90ea8c4466dc95ee5200777eaf282c976ec4dee94c1609",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/cable",
+            "data_name": "cable",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/cable/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/cable/test",
+            "latent_dim": 481
+          }
+        },
+        {
+          "source": "../DFR_results_all/capsule/experiment_config.json",
+          "sha256": "ed4c1c6001655395373efdd4da5b31c5d323523ad52ceef3ac20c61dc06d1890",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/capsule",
+            "data_name": "capsule",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/capsule/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/capsule/test",
+            "latent_dim": 172
+          }
+        },
+        {
+          "source": "../DFR_results_all/carpet/experiment_config.json",
+          "sha256": "785354a2099044fd5129103a497cf129bff2e0db19fab6bd1aed92a4c6d9e842",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/carpet",
+            "data_name": "carpet",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/carpet/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/carpet/test",
+            "latent_dim": 322
+          }
+        },
+        {
+          "source": "../DFR_results_all/grid/experiment_config.json",
+          "sha256": "201d4b7cca6f85919d18204be2b412e79d3997bc850e9c8802f768a0911c2bae",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/grid",
+            "data_name": "grid",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/grid/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/grid/test",
+            "latent_dim": 143
+          }
+        },
+        {
+          "source": "../DFR_results_all/hazelnut/experiment_config.json",
+          "sha256": "897fe03990379520f9289b61559396ad0f488ea25e5c7a809e6302007ca09ba6",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/hazelnut",
+            "data_name": "hazelnut",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/hazelnut/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/hazelnut/test",
+            "latent_dim": 372
+          }
+        },
+        {
+          "source": "../DFR_results_all/leather/experiment_config.json",
+          "sha256": "411c1ef30488600be363dc325aae34ad7f7d70573bd7f81ba9a5505d5e41807f",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/leather",
+            "data_name": "leather",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/leather/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/leather/test",
+            "latent_dim": 361
+          }
+        },
+        {
+          "source": "../DFR_results_all/metal_nut/experiment_config.json",
+          "sha256": "8e32686c8914e11bede0fb3417b91af224dfcca5745fc78a5d96b4fb2b069ea6",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/metal_nut",
+            "data_name": "metal_nut",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/metal_nut/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/metal_nut/test",
+            "latent_dim": 377
+          }
+        },
+        {
+          "source": "../DFR_results_all/pill/experiment_config.json",
+          "sha256": "b95987f3b79ecc2fe5ecd5cdc7f070d035ea883513b1ac2bab7c923d029177e9",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/pill",
+            "data_name": "pill",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/pill/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/pill/test",
+            "latent_dim": 274
+          }
+        },
+        {
+          "source": "../DFR_results_all/screw/experiment_config.json",
+          "sha256": "2b75bf48d88c5c188bdb886c212511e66355c76a9e35aae898c45d8257376a93",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/screw",
+            "data_name": "screw",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/screw/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/screw/test",
+            "latent_dim": 292
+          }
+        },
+        {
+          "source": "../DFR_results_all/tile/experiment_config.json",
+          "sha256": "86be9bdf1417c05909ca5cfc3967b65f28997755a537a02df1f03fceb825ac4c",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/tile",
+            "data_name": "tile",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/tile/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/tile/test",
+            "latent_dim": 522
+          }
+        },
+        {
+          "source": "../DFR_results_all/toothbrush/experiment_config.json",
+          "sha256": "0367636408ccf294a92fb68f80f9729be273e636b0aa418213ab5689bbb14f6d",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/toothbrush",
+            "data_name": "toothbrush",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/toothbrush/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/toothbrush/test",
+            "latent_dim": 226
+          }
+        },
+        {
+          "source": "../DFR_results_all/transistor/experiment_config.json",
+          "sha256": "46d85bfbb14753dfc5fd9e9192acee894433f86028dfa672058fcb1227b26f7e",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/transistor",
+            "data_name": "transistor",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/transistor/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/transistor/test",
+            "latent_dim": 288
+          }
+        },
+        {
+          "source": "../DFR_results_all/wood/experiment_config.json",
+          "sha256": "dcb889b345ef41803ef14e4ae0deff7879ff25ca5e87f08e4c03ec28bbdcb149",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/wood",
+            "data_name": "wood",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/wood/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/wood/test",
+            "latent_dim": 352
+          }
+        },
+        {
+          "source": "../DFR_results_all/zipper/experiment_config.json",
+          "sha256": "5ac7351d828760ea815e561a9721b05ef8d83f4c124cabd153451cef215d30a2",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_all/zipper",
+            "data_name": "zipper",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/zipper/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/zipper/test",
+            "latent_dim": 82
+          }
+        }
+      ]
+    }
+  },
+  "rd4ad_all15": {
+    "config.json": {
+      "common": {
+        "epochs": 200,
+        "input_size": [
+          256,
+          256
+        ],
+        "batch_size": 16,
+        "optimizer": "Adam",
+        "lr": 0.005,
+        "betas": [
+          0.5,
+          0.999
+        ],
+        "weight_decay": 0,
+        "seed": 111,
+        "teacher": "wide_resnet50_2 pretrained=True",
+        "student": "de_wide_resnet50_2 pretrained=False",
+        "ocbe": "official BN_layer",
+        "loss": "official.main.loss_fucntion unchanged",
+        "amp": false,
+        "scheduler": null,
+        "num_workers": 0,
+        "drop_last": false,
+        "teacher_grad_behavior": "Official eval mode, outside optimizer, requires_grad retained",
+        "selection": "Last epoch, no best-test checkpoint selection",
+        "fresh_initialization": true
+      },
+      "sources": [
+        {
+          "source": "../RD4AD_results_all/cable/config.json",
+          "sha256": "a35e6ce07a76e4d6839c76b22abe0a84877f1ae3e2aba2d6a5e3b28d44672c7b",
+          "overrides": {
+            "category": "cable"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/capsule/config.json",
+          "sha256": "626e9512ccaa10acc4ef7f62f829f76301ec8dffde8b1fb0213791ef206b8e58",
+          "overrides": {
+            "category": "capsule"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/carpet/config.json",
+          "sha256": "bfac04373741973e2653e79b1399f49c161e3f46b42f6274ed8ff50a4f662f72",
+          "overrides": {
+            "category": "carpet"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/grid/config.json",
+          "sha256": "3b9dfbb8343449e50d0495c0bcc7cb739bd22b302d6e620cf34003a6d9e004d5",
+          "overrides": {
+            "category": "grid"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/hazelnut/config.json",
+          "sha256": "d04822644eece06590a353767a360be7eddeba08f33a76baf9f79b27e4266df2",
+          "overrides": {
+            "category": "hazelnut"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/leather/config.json",
+          "sha256": "4e917f325d0c4410052aeba39ba22e40294f86517af6c1a1750d543c26abb134",
+          "overrides": {
+            "category": "leather"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/metal_nut/config.json",
+          "sha256": "5e8fd6adae6135808954c9703f082df64f86b0b2e8c4e83dbac2ca39fd4c9484",
+          "overrides": {
+            "category": "metal_nut"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/pill/config.json",
+          "sha256": "b3825d3eaadbf2a88287acbe8170444525f8a617e1fdde6307313b1d6c3c8ec1",
+          "overrides": {
+            "category": "pill"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/screw/config.json",
+          "sha256": "432ce32be758f8b2e1c941c20ce3fe7958d00bd350c4b9443223a81922cc038e",
+          "overrides": {
+            "category": "screw"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/tile/config.json",
+          "sha256": "fda438ae6c92abd0b9c7c11e01385de20ccf2f122ddd6fe968c317cf22f8ff4a",
+          "overrides": {
+            "category": "tile"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/toothbrush/config.json",
+          "sha256": "67a1ceff7713b3ca985b702933dec6ccaf2e70e9109914b31dd9a0ae03ad1146",
+          "overrides": {
+            "category": "toothbrush"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/transistor/config.json",
+          "sha256": "cf8ada790883f48d762246419bf4bddf80c543ae0eb1433a233fbdce9068241f",
+          "overrides": {
+            "category": "transistor"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/wood/config.json",
+          "sha256": "023240cb566a6d715b94d075b1e9a3bebd23bf876d6f8b435787780017a6f0b7",
+          "overrides": {
+            "category": "wood"
+          }
+        },
+        {
+          "source": "../RD4AD_results_all/zipper/config.json",
+          "sha256": "4314d22b95e37021885c6c3828aaa0fc9449e9de3349069c6776d6c6149d175b",
+          "overrides": {
+            "category": "zipper"
+          }
+        }
+      ]
+    },
+    "environment.json": {
+      "common": {
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "torch": "2.5.1+cu121",
+        "torchvision": "0.20.1+cu121",
+        "cuda": "12.1",
+        "gpu": "NVIDIA RTX A4000",
+        "cudnn": 90100,
+        "cudnn_deterministic": true,
+        "cudnn_benchmark": false,
+        "cudnn_allow_tf32": true,
+        "matmul_allow_tf32": false,
+        "weights_sha256": "95faca4d11227dddf8633dbb5ff6c8a9003c1aa5b8945c73834b8007b10950b8"
+      },
+      "sources": [
+        {
+          "source": "../RD4AD_results_all/cable/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/capsule/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/carpet/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/grid/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/hazelnut/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/leather/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/metal_nut/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/pill/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/screw/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/tile/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/toothbrush/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/transistor/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/wood/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        },
+        {
+          "source": "../RD4AD_results_all/zipper/environment.json",
+          "sha256": "a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "padim_all15": {
+    "protocol.json": {
+      "common": {
+        "status": "running",
+        "dataset": "MVTec AD",
+        "backbone": "wide_resnet50_2",
+        "weights": "ImageNet1K_V1; explicit equivalent of repo pretrained=True",
+        "layers": [
+          "layer1[-1]",
+          "layer2[-1]",
+          "layer3[-1]"
+        ],
+        "total_channels": 1792,
+        "selected_dimensions": 550,
+        "dimensionality_reduction": "random.sample without replacement, shared fixed indices train/test; no PCA",
+        "gaussian": "one full sample covariance per spatial location, denominator N-1, plus 0.01I",
+        "seed": 1024,
+        "seed_source": "repository; exact paper seed unspecified",
+        "batch_size": 32,
+        "batch_size_source": "repository; PaDiM paper does not fix this setting",
+        "preprocessing": "RGB; bicubic resize256x256, center crop224; ImageNet mean/std",
+        "mask_preprocessing": "nearest resize256x256, center crop224, binary >0",
+        "scoring": "Mahalanobis; bicubic upsample224 with align_corners=False, gaussian sigma4; image=max(final map)",
+        "thresholds": "none; test masks only for retrospective metric calculation",
+        "aupro": "8-connected, equally weighted regions; background includes normal images; exact tied-score sweep; interpolate at FPR=.30, divide integral by .30",
+        "unspecified_details": "Paper does not fully specify library interpolation coordinate/boundary conventions, connectivity or threshold sweep discretization. Explicit local choices documented.",
+        "train": "all category/train/good",
+        "test": "all category/test folders",
+        "normalization": "No test minmax normalization; strictly monotone shared scaling would preserve ROC and exact AUPRO",
+        "no_augmentation": true,
+        "epochs": "not applicable; frozen pretrained network, Gaussian estimation only",
+        "cache_policy": "new output directory required; no existing cached Gaussian reused",
+        "approval_required_before_execution": false,
+        "visualization": {
+          "seed": 1024,
+          "selection": "2 normal +1 each defect folder before model predictions",
+          "layout": "one panel, rows=selected images; columns=input,GT,heatmap overlay",
+          "prediction_threshold": null,
+          "all_test_images_used_for_metrics": true
+        },
+        "artifact_policy": "No full test map files, individually or bundled. Keep per-image scalar scores, metrics, PRO curve, one comparison panel and fitted Gaussian parameters.",
+        "bottle": "reuse verified completed Bottle, no refitting",
+        "seed_scope": "1024 reset per category, same550 selected channels"
+      },
+      "sources": [
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/cable/protocol.json",
+          "sha256": "edb822720c86716693f965badb24be1409c5023a502d72ef8fb40b5c3860bb6f",
+          "overrides": {
+            "category": "cable",
+            "train_images": 224,
+            "test_images": 150
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/capsule/protocol.json",
+          "sha256": "55592308f590cec4fd9528b1fe64bb7297200a121f3383d9c63c9e7057a83a90",
+          "overrides": {
+            "category": "capsule",
+            "train_images": 219,
+            "test_images": 132
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/carpet/protocol.json",
+          "sha256": "61cced16a02f93ae50a81507a5358d7884a50c219af861ee9315fa57e0d97338",
+          "overrides": {
+            "category": "carpet",
+            "train_images": 280,
+            "test_images": 117
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/grid/protocol.json",
+          "sha256": "fdf885826254905753c68400519c76860344b77114a5de1e214f0f15da79a0ef",
+          "overrides": {
+            "category": "grid",
+            "train_images": 264,
+            "test_images": 78
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/hazelnut/protocol.json",
+          "sha256": "4dcc6bcbf55b6f507bba7fb72423222cd837c251a32e530fcacea51ca6eecc5d",
+          "overrides": {
+            "category": "hazelnut",
+            "train_images": 391,
+            "test_images": 110
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/leather/protocol.json",
+          "sha256": "ecbac00d3e78befca2de6f273c9141406697753395abdf542e0185636afe4972",
+          "overrides": {
+            "category": "leather",
+            "train_images": 245,
+            "test_images": 124
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/metal_nut/protocol.json",
+          "sha256": "3094dd218502ea7ce9cf7e727c60a7436a10bd3ce8641b1c887286767e99fe2c",
+          "overrides": {
+            "category": "metal_nut",
+            "train_images": 220,
+            "test_images": 115
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/pill/protocol.json",
+          "sha256": "9d147ecc39b6657ca1fce2ca4f9a7f98f5fd22e4727f576c0693ce9962bc80f6",
+          "overrides": {
+            "category": "pill",
+            "train_images": 267,
+            "test_images": 167
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/screw/protocol.json",
+          "sha256": "ab1ad09a6028319696e55f02b261941295b679856e1a356186b3879aafc8bc16",
+          "overrides": {
+            "category": "screw",
+            "train_images": 320,
+            "test_images": 160
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/tile/protocol.json",
+          "sha256": "690efed4cac7c1e081f98ecae9cd778427b5e37ad9f88799ea4d04b20e460052",
+          "overrides": {
+            "category": "tile",
+            "train_images": 230,
+            "test_images": 117
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/toothbrush/protocol.json",
+          "sha256": "c444b0aeef462d3dec8f022e3b6dac83b08e7741df1f44b0b253c41971098576",
+          "overrides": {
+            "category": "toothbrush",
+            "train_images": 60,
+            "test_images": 42
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/transistor/protocol.json",
+          "sha256": "9dd912a00aa8f35c601574cc54134a409545703084ba534169d7dff13193a0fb",
+          "overrides": {
+            "category": "transistor",
+            "train_images": 213,
+            "test_images": 100
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/wood/protocol.json",
+          "sha256": "8e13049341f2e3f7203be2015eada8980027b4620efaad964384b5fb4e7bc490",
+          "overrides": {
+            "category": "wood",
+            "train_images": 247,
+            "test_images": 79
+          }
+        },
+        {
+          "source": "../PaDiM_MVTec_all15_20261012/zipper/protocol.json",
+          "sha256": "1b8ca603eeb7500d357791c41637737a0e98a17046619ac3b243eb469356e459",
+          "overrides": {
+            "category": "zipper",
+            "train_images": 240,
+            "test_images": 151
+          }
+        }
+      ]
+    }
+  },
+  "anogan_all15": {
+    "protocol.json": {
+      "common": {
+        "name": "AnoGAN MVTec2019-based15category experiment",
+        "epochs": 50,
+        "latent_dim": 64,
+        "gan_lr": 0.0002,
+        "latent_lr": 0.02,
+        "latent_steps_per_patch": 300,
+        "batch_size": 64,
+        "augmented_examples": 10000,
+        "seed": 0,
+        "object_protocol": "Full image resized128;1latentsearch per image",
+        "texture_protocol": "Resize512;rotated128trainingpatches;test nonoverlapping128patches,stride128,16independent searches;reassemble512map",
+        "normal_holdout": "10% rounded half up of train/good,seed0 split before augmentation",
+        "threshold": "normalvalidationonly;no test-based selection",
+        "metrics": "pixelAUROC at native mask resolution;normal/anomaly image correct fractions;NO Image AUROC",
+        "augmentation_choices": "Explicit not published: aligned cable/capsule/pill/toothbrush/transistor/zipper rotate+/-5deg;otherobjects+/-180;translate+/-6px white fill. Mirror only hazelnut for new categories; no mirroring printed/aligned objects. Textures random fullrotation and random interior crop, nofill. Bottle existing run retains its documented mirroring.",
+        "bottle": "Reuse completed Bottle result with provenance; no retraining or weight sharing",
+        "inference": "eval frozen G/D and BN;fresh z/Adam eachpatch;raw L2map",
+        "source": "CVPR2019 sections4.1.1,4.2,4.3;IJCV2021 sections6.1,6.3;LeeDoYup cited model. Detailed Bottle choices in original protocol.json",
+        "changes": "Compatibility fix:JSON file retry;Paper-faithful restoration:published object/texture routing;MVTec adaptation:channels,augmentation ranges,area scaling explicitly fixed before tests"
+      },
+      "sources": [
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/cable/protocol.json",
+          "sha256": "4e3086d2e554934e06b4f3dffe49c60a5399459d107c0de4b433954619d7b2c8",
+          "overrides": {
+            "minimum_area": 16,
+            "channels": 3,
+            "category": "cable",
+            "map_resolution": 128,
+            "fit_originals": 202,
+            "validation_originals": 22
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/capsule/protocol.json",
+          "sha256": "cebee1ea4923eede86e665a7a8ae03962ee447be13ffbed850f72624e172c3cd",
+          "overrides": {
+            "minimum_area": 16,
+            "channels": 3,
+            "category": "capsule",
+            "map_resolution": 128,
+            "fit_originals": 197,
+            "validation_originals": 22
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/carpet/protocol.json",
+          "sha256": "e860c4b0d367228d77165feba68919aad7e9178156f7bf73e2f28b29de0f8e6d",
+          "overrides": {
+            "minimum_area": 262,
+            "channels": 3,
+            "category": "carpet",
+            "map_resolution": 512,
+            "fit_originals": 252,
+            "validation_originals": 28
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/grid/protocol.json",
+          "sha256": "e3efde5ad8ece6faafe0a3893a7be6ad99185b184408bfde6b8c94fa091223cc",
+          "overrides": {
+            "minimum_area": 262,
+            "channels": 1,
+            "category": "grid",
+            "map_resolution": 512,
+            "fit_originals": 238,
+            "validation_originals": 26
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/hazelnut/protocol.json",
+          "sha256": "19a6957bf2f4c5f6f8688358b610573a69c5f2eb722aa200e19a3ba8c3b275a0",
+          "overrides": {
+            "minimum_area": 16,
+            "channels": 3,
+            "category": "hazelnut",
+            "map_resolution": 128,
+            "fit_originals": 352,
+            "validation_originals": 39
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/leather/protocol.json",
+          "sha256": "65c5c0b016db5e7bb582ee21bc4145f22a7e9ba61c5db7c0ccff4e3df2207415",
+          "overrides": {
+            "minimum_area": 262,
+            "channels": 3,
+            "category": "leather",
+            "map_resolution": 512,
+            "fit_originals": 220,
+            "validation_originals": 25
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/metal_nut/protocol.json",
+          "sha256": "240b8d7a5025ba1db2cba6c33b1a6d71e972dd551f8385c6da845fb80f104e8e",
+          "overrides": {
+            "minimum_area": 16,
+            "channels": 3,
+            "category": "metal_nut",
+            "map_resolution": 128,
+            "fit_originals": 198,
+            "validation_originals": 22
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/pill/protocol.json",
+          "sha256": "17de2edaac2a3c37ce041aecb79efee7c64b8433c1b608fcd105dd4cc7bfb78d",
+          "overrides": {
+            "minimum_area": 16,
+            "channels": 3,
+            "category": "pill",
+            "map_resolution": 128,
+            "fit_originals": 240,
+            "validation_originals": 27
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/screw/protocol.json",
+          "sha256": "ac3cb1c9c92a2da92e920cafdd4f3bef45e59d069a468e62e08ae73010046d1b",
+          "overrides": {
+            "minimum_area": 16,
+            "channels": 1,
+            "category": "screw",
+            "map_resolution": 128,
+            "fit_originals": 288,
+            "validation_originals": 32
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/tile/protocol.json",
+          "sha256": "0aca0114bdcbc4f5a673aa53ff288b117ed296608eb9963f05eb8c2d63e9dd2b",
+          "overrides": {
+            "minimum_area": 262,
+            "channels": 3,
+            "category": "tile",
+            "map_resolution": 512,
+            "fit_originals": 207,
+            "validation_originals": 23
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/toothbrush/protocol.json",
+          "sha256": "aa9b68f2e3c5697a58e3852fb00a523f168761afb420543ed0b1df16e3de2dcc",
+          "overrides": {
+            "minimum_area": 16,
+            "channels": 3,
+            "category": "toothbrush",
+            "map_resolution": 128,
+            "fit_originals": 54,
+            "validation_originals": 6
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/transistor/protocol.json",
+          "sha256": "9adb7e62ae713d377b15ad3e9a6928319da785ee433f8c5993e365a81b0b76c8",
+          "overrides": {
+            "minimum_area": 16,
+            "channels": 3,
+            "category": "transistor",
+            "map_resolution": 128,
+            "fit_originals": 192,
+            "validation_originals": 21
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/wood/protocol.json",
+          "sha256": "f06804221b5a8712bc7d7b80e2a98f22e9fede97a5df5ee93abdef3837b24d79",
+          "overrides": {
+            "minimum_area": 262,
+            "channels": 3,
+            "category": "wood",
+            "map_resolution": 512,
+            "fit_originals": 222,
+            "validation_originals": 25
+          }
+        },
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/zipper/protocol.json",
+          "sha256": "7d71cfb99bbfd7df52937ccb7f681d7230e4e1966a1a5835ac8ff7257cc48a2d",
+          "overrides": {
+            "minimum_area": 16,
+            "channels": 1,
+            "category": "zipper",
+            "map_resolution": 128,
+            "fit_originals": 216,
+            "validation_originals": 24
+          }
+        }
+      ]
+    },
+    "protocol_all15.json": {
+      "common": {
+        "name": "AnoGAN MVTec2019-based15category experiment",
+        "epochs": 50,
+        "latent_dim": 64,
+        "gan_lr": 0.0002,
+        "latent_lr": 0.02,
+        "latent_steps_per_patch": 300,
+        "batch_size": 64,
+        "augmented_examples": 10000,
+        "seed": 0,
+        "object_protocol": "Full image resized128;1latentsearch per image",
+        "texture_protocol": "Resize512;rotated128trainingpatches;test nonoverlapping128patches,stride128,16independent searches;reassemble512map",
+        "normal_holdout": "10% rounded half up of train/good,seed0 split before augmentation",
+        "minimum_area": "round(0.001*map_area);objects16,textures262;8connected;IJCV-inspired user-approved principle extended to full texture map",
+        "threshold": "normalvalidationonly;no test-based selection",
+        "metrics": "pixelAUROC at native mask resolution;normal/anomaly image correct fractions;NO Image AUROC",
+        "channels": "grid/screw/zipper1 per dataset;othersRGB3. Input/output channel adaptation only.",
+        "augmentation_choices": "Explicit not published: aligned cable/capsule/pill/toothbrush/transistor/zipper rotate+/-5deg;otherobjects+/-180;translate+/-6px white fill. Mirror only hazelnut for new categories; no mirroring printed/aligned objects. Textures random fullrotation and random interior crop, nofill. Bottle existing run retains its documented mirroring.",
+        "bottle": "Reuse completed Bottle result with provenance; no retraining or weight sharing",
+        "inference": "eval frozen G/D and BN;fresh z/Adam eachpatch;raw L2map",
+        "source": "CVPR2019 sections4.1.1,4.2,4.3;IJCV2021 sections6.1,6.3;LeeDoYup cited model. Detailed Bottle choices in original protocol.json",
+        "changes": "Compatibility fix:JSON file retry;Paper-faithful restoration:published object/texture routing;MVTec adaptation:channels,augmentation ranges,area scaling explicitly fixed before tests"
+      },
+      "sources": [
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/protocol_all15.json",
+          "sha256": "040c6aa596285c385e118a9c12e15eb879fa471cdf77e79fbca685721acf9e8e",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "ganomaly_all15": {
+    "environment.json": {
+      "common": {
+        "torch": "2.5.1+cu121",
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "gpu": "NVIDIA RTX A4000",
+        "platform": "Windows-10-10.0.26200-SP0"
+      },
+      "sources": [
+        {
+          "source": "../GANomaly_official_flow_20261006/bottle/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/cable/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/capsule/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/carpet/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/grid/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/hazelnut/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/leather/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/metal_nut/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/pill/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/screw/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/tile/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/toothbrush/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/transistor/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/wood/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_official_flow_20261006/zipper/environment.json",
+          "sha256": "5a37a87c1459ec85ad8786a12278b862051411a7f5db45f37167ed0b6004360a",
+          "overrides": {}
+        }
+      ]
+    },
+    "protocol.json": {
+      "common": {
+        "categories": [
+          "bottle",
+          "cable",
+          "capsule",
+          "carpet",
+          "grid",
+          "hazelnut",
+          "leather",
+          "metal_nut",
+          "pill",
+          "screw",
+          "tile",
+          "toothbrush",
+          "transistor",
+          "wood",
+          "zipper"
+        ],
+        "epochs": 25,
+        "image_size": 256,
+        "nz": 100,
+        "seed": 0,
+        "batch_size": 8,
+        "lr": 0.0002,
+        "upstream": "https://github.com/samet-akcay/ganomaly/blob/master/lib/model.py",
+        "flow": "train_one_epoch; test in train mode; save on strictly improved test AUROC",
+        "image_logging": "upstream get_current_images forward retained every 100 total_steps",
+        "optimizer": "upstream Adam and BCELoss; D reinit retains optimizer state",
+        "data": "MVTec adaptation: train/good only; test all; sorted test paths; no test shuffle; batch8",
+        "caveat": "test labels select checkpoint; test BatchNorm statistics persist in model buffers; not independent held-out evaluation",
+        "checkpoints": "best after test; final after test; optimizer/RNG state saved at final",
+        "score": "latent MSE then per-test-set minmax as upstream",
+        "differences": "modern PyTorch/CUDA; MVTec loader; extra metrics/logging; no claim of exact historical paper reproduction",
+        "started_utc": "2026-10-06T11:48:40.754072+00:00"
+      },
+      "sources": [
+        {
+          "source": "../GANomaly_official_flow_20261006/protocol.json",
+          "sha256": "57bd4a3b2a02bea650d9e51eae389280c284f123aca497240b005dd04bb36f76",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "patchsvdd": {
+    "environment.json": {
+      "common": {
+        "torch": "2.5.1+cu121",
+        "numpy": "1.26.4",
+        "gpu": "NVIDIA RTX A4000",
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]"
+      },
+      "sources": [
+        {
+          "source": "../PatchSVDD_Bottle_20261012/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/cable/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/capsule/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/carpet/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/grid/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/hazelnut/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/leather/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/metal_nut/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/pill/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/screw/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/tile/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/toothbrush/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/transistor/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/wood/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/zipper/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        }
+      ]
+    },
+    "protocol.json": {
+      "common": {
+        "training": "train/good only",
+        "seed": 1024,
+        "epochs": 299,
+        "batch": 64,
+        "repeat": 100,
+        "lr": 0.0001,
+        "lambda_value": 0.001,
+        "D": 64,
+        "Adam_betas": [
+          0.9,
+          0.999
+        ],
+        "Adam_eps": 1e-08,
+        "weight_decay": 0,
+        "preprocessing": "RGB bicubic256; subtract training-only spatial RGB mean; divide255",
+        "patches": [
+          {
+            "K": 64,
+            "S": 16
+          },
+          {
+            "K": 32,
+            "S": 4
+          }
+        ],
+        "map": "overlapping patch average; scale maps multiplied",
+        "image_score": "maximum map",
+        "masks": "nearest256 threshold>128",
+        "test_policy": "first read after final checkpoint; no test model/threshold selection",
+        "nearest": "exhaustive full bank L2;query512 bank8192 chunks;float32;TF32 disabled;direct selected distance",
+        "normal_bank_subsampling": false,
+        "aupro": "8connected per-region equal weights; all background; tie-grouped exact curve; linear endpoint0.30;divide0.30",
+        "source": "author repo master ZIP downloaded2026-10-12; archived source hashes",
+        "execution": "fresh smoke model then seed reset fresh final model;num_workers0;no AMP;cuDNN benchmark disabled"
+      },
+      "sources": [
+        {
+          "source": "../PatchSVDD_Bottle_20261012/protocol.json",
+          "sha256": "8e55dbc34a5b4f1cfb35f920321f0c783354da7e0490aa2728e3ce5654adc5c7",
+          "overrides": {
+            "category": "bottle",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda/lr README Bottle;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/cable/protocol.json",
+          "sha256": "2d9bba55fedcb0e0c7ccb93e36b9bb87575a857e9389d5e8468371201a85a685",
+          "overrides": {
+            "category": "cable",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/capsule/protocol.json",
+          "sha256": "d0fe1f943dcb8b109ea92e3993948d19fe211fa95d1900557b166eed31dec52b",
+          "overrides": {
+            "category": "capsule",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/carpet/protocol.json",
+          "sha256": "b183f7338d51018817aefa0f09d49b01e0142b48398d081d5a3d52c1bbb8cab2",
+          "overrides": {
+            "category": "carpet",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/grid/protocol.json",
+          "sha256": "3917ccaad3ce3a87ea1c8521e2bb3f20d6fe88d12b78a162f1aef53c113e4978",
+          "overrides": {
+            "category": "grid",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/hazelnut/protocol.json",
+          "sha256": "2b0d03cf3ca82cb8d84d8739b713a980db629320c7e4a36d8a1f0d3ed83d61e3",
+          "overrides": {
+            "category": "hazelnut",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/leather/protocol.json",
+          "sha256": "fb4e6637a06091034ab823f4e37b147360a6c98423038864b48b85bd6520f8a9",
+          "overrides": {
+            "category": "leather",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/metal_nut/protocol.json",
+          "sha256": "30b49529a18f17f92b1e2f2381dc3d4ac3d9dd3accaa27d96a0f397c76e019e4",
+          "overrides": {
+            "category": "metal_nut",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/pill/protocol.json",
+          "sha256": "6ef27c89e468121cb9a848c162613b50a56ee2dd7934fa2bbf8ab8c2c87b758b",
+          "overrides": {
+            "category": "pill",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/screw/protocol.json",
+          "sha256": "f4b096e72be528ab90bb02d0b22337922da792b15d809320b7cf47373d16770d",
+          "overrides": {
+            "category": "screw",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/tile/protocol.json",
+          "sha256": "0ff91dc6863c769b5c4766402ca2dac33902e7610551b3de793930719e0f2462",
+          "overrides": {
+            "category": "tile",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/toothbrush/protocol.json",
+          "sha256": "37924233fee24d9ca9a8e9cba836af3dd4516f903b78b1406d4878e04d46577d",
+          "overrides": {
+            "category": "toothbrush",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/transistor/protocol.json",
+          "sha256": "5956c9468bcd96ac73cd626584c855e671c8acc25ba2faa2b9e9f70046f26402",
+          "overrides": {
+            "category": "transistor",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/wood/protocol.json",
+          "sha256": "d89234bbea773af50f37f277a251b56023dcb2a34f53a445b972a827836838bc",
+          "overrides": {
+            "category": "wood",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        },
+        {
+          "source": "../PatchSVDD_MVTec_all15_20261012/zipper/protocol.json",
+          "sha256": "3491a9af6738088dbd7d69394259d35cf83652804b263809f9deb01e1002e982",
+          "overrides": {
+            "category": "zipper",
+            "hyperparameter_sources": "D64 and patch geometry paper;lambda0.001/lr README Bottle fixed for ALL categories;batch/repeat/299 passes code;seed local;Adam defaults explicit"
+          }
+        }
+      ]
+    }
+  },
+  "simplenet": {
+    "config.json": {
+      "common": {
+        "parameters": {
+          "backbone": "wideresnet50",
+          "weights": "IMAGENET1K_V1",
+          "layers": [
+            "layer2",
+            "layer3"
+          ],
+          "pretrain_embed_dimension": 1536,
+          "target_embed_dimension": 1536,
+          "patchsize": 3,
+          "embedding_size": 256,
+          "meta_epochs": 40,
+          "gan_epochs": 4,
+          "noise_std": 0.015,
+          "dsc_hidden": 1024,
+          "dsc_layers": 2,
+          "dsc_margin": 0.5,
+          "pre_proj": 1,
+          "dsc_lr": 0.0002,
+          "projection_lr": 0.0001,
+          "batch_size": 8,
+          "resize": 329,
+          "imagesize": 288,
+          "seed": 0,
+          "num_workers": 0,
+          "cpu_threads": 2,
+          "train_backbone": false,
+          "cos_lr": false,
+          "mix_noise": 1
+        },
+        "data_path": "<WORKSPACE_ROOT>/archive",
+        "python": "3.10.11",
+        "torch": "2.14.0+cpu",
+        "torchvision": "0.29.0+cpu",
+        "numpy": "2.2.6",
+        "source": "https://github.com/DonaldRR/SimpleNet/blob/main/run.sh"
+      },
+      "sources": [
+        {
+          "source": "../SimpleNet-main/SimpleNet-main/results/mvtec_official_cpu/config.json",
+          "sha256": "f8c9b2ca5f2b3528e5772df90eb43b54026f7886db4f8a079dd45146550f7402",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "ae_dpae": {
+    "config.json": {
+      "common": {
+        "data": {
+          "root": "../Magnetic-tile-defect-datasets.-master/Magnetic-tile-defect-datasets.-master",
+          "image_size": 224,
+          "manifests": "manifests/magnetic_tile"
+        },
+        "train": {
+          "batch_size": 8,
+          "num_workers": 0,
+          "threads": 4,
+          "epochs": 2,
+          "lr": 0.001,
+          "momentum": 0.9,
+          "weight_decay": 0.0005,
+          "optimizer": "SGD",
+          "seed": 42,
+          "device": "cpu",
+          "augmentation": "random_horizontal_and_vertical_flip"
+        },
+        "models": {
+          "latent_dim": 32,
+          "architecture": {
+            "encoder_kernel": 3,
+            "encoder_stride": 2,
+            "encoder_padding": 1,
+            "decoder_kernel": 3,
+            "decoder_stride": 2,
+            "decoder_padding": 1,
+            "decoder_output_padding": 1,
+            "negative_slope": 0.2,
+            "bn_eps": 1e-05,
+            "bn_momentum": 0.1
+          },
+          "dpae": {
+            "lambda_weight": 1.0,
+            "gamma_weight": 1.0,
+            "prototype_init": {
+              "distribution": "normal",
+              "mean": 0.0,
+              "std": 1.0,
+              "seed": 42
+            },
+            "prototype_update_rule": "v_minus_step_delta",
+            "prototype_step": 1.0,
+            "prototype_update_timing": "after_optimizer_using_pre_step_latents"
+          }
+        }
+      },
+      "sources": [
+        {
+          "source": "../defect-detection-main/runs/normalized_l2_20260916_084513/config.json",
+          "sha256": "f924850ddc9fb54320d509d887e6da31ff65946664ea1305258aa7b4dd3c2516",
+          "overrides": {
+            "experiment": {
+              "name": "same-dataset controlled AE-DPAE comparison",
+              "mode": "CONTROLLED_IMPLEMENTATION",
+              "training_approved": false,
+              "approval_scope": "normalized_10_then_conditional_2_epoch",
+              "exact_reproduction": false,
+              "diagnostic_approved": true
+            },
+            "provenance": {
+              "paper_source": "user_full_text_transcription_Fig3_Table1_Eq4_to_11",
+              "PAPER": {
+                "encoder_progression": "224x224x3 -> 112x112x128 -> 56x56x256 -> 28x28xd -> 14x14xd -> 7x7xd -> FC -> BN -> d",
+                "encoder_blocks": "Conv + BN + LeakyReLU; separate E1/E2 parameters",
+                "decoder_stages": "Linear + BN; five deconv3x3_stride2 + BN + LeakyReLU; channels d,d,256,128,3",
+                "loss": "reconstruction_SUM + lambda/2 * prototype1_SUM + gamma/2 * prototype2_SUM",
+                "anomaly_score": "squared_L2_latent_distance",
+                "prototype_known": "random vector of dimension d; minibatch delta mean(v-z)"
+              },
+              "LOCAL_ASSUMPTION": {
+                "preprocessing": "grayscale_to_RGB; bilinear_square_resize; [0,1]; no crop/normalization",
+                "flips": "independent horizontal/vertical p=0.5; training only",
+                "decoder_linear_layout": "Linear(d,49*d) -> BN1d(49*d) -> reshape(d,7,7)",
+                "layer_bias": true,
+                "batchnorm": "affine=true; track_running_stats=true; eps/momentum above",
+                "parameter_initialization": "PyTorch module defaults; seed42; framework version recorded",
+                "prototype_distribution_and_update": "proposed settings above; NOT paper fact",
+                "prototype_optimizer": "buffers; no SGD momentum or weight decay",
+                "final_output": "Table1 last BN+LeakyReLU; no added sigmoid or clamp",
+                "batch_tail": "rebalance singleton with previous batch; 5+4; no dropping/repetition",
+                "loss_optimization_scale": "mean reconstruction; 0.5*mean each prototype; no clipping/LR/output change"
+              }
+            },
+            "loss": {
+              "label": "LOCAL ASSUMPTION: normalized L2 implementation",
+              "reconstruction": "elementwise_mean",
+              "prototype": "half_elementwise_mean",
+              "lambda": 1,
+              "gamma": 1
+            }
+          }
+        },
+        {
+          "source": "../defect-detection-main/runs/smoke_2epoch_20260916_082748/config.json",
+          "sha256": "e0c2721204b8a70cc1f119be870a42b90248fa4fa18aab82fadfe06a246525f7",
+          "overrides": {
+            "experiment": {
+              "name": "same-dataset controlled AE-DPAE comparison",
+              "mode": "CONTROLLED_IMPLEMENTATION",
+              "training_approved": true,
+              "approval_scope": "two_epoch_smoke_only",
+              "exact_reproduction": false
+            },
+            "provenance": {
+              "paper_source": "user_full_text_transcription_Fig3_Table1_Eq4_to_11",
+              "PAPER": {
+                "encoder_progression": "224x224x3 -> 112x112x128 -> 56x56x256 -> 28x28xd -> 14x14xd -> 7x7xd -> FC -> BN -> d",
+                "encoder_blocks": "Conv + BN + LeakyReLU; separate E1/E2 parameters",
+                "decoder_stages": "Linear + BN; five deconv3x3_stride2 + BN + LeakyReLU; channels d,d,256,128,3",
+                "loss": "reconstruction_SUM + lambda/2 * prototype1_SUM + gamma/2 * prototype2_SUM",
+                "anomaly_score": "squared_L2_latent_distance",
+                "prototype_known": "random vector of dimension d; minibatch delta mean(v-z)"
+              },
+              "LOCAL_ASSUMPTION": {
+                "preprocessing": "grayscale_to_RGB; bilinear_square_resize; [0,1]; no crop/normalization",
+                "flips": "independent horizontal/vertical p=0.5; training only",
+                "decoder_linear_layout": "Linear(d,49*d) -> BN1d(49*d) -> reshape(d,7,7)",
+                "layer_bias": true,
+                "batchnorm": "affine=true; track_running_stats=true; eps/momentum above",
+                "parameter_initialization": "PyTorch module defaults; seed42; framework version recorded",
+                "prototype_distribution_and_update": "proposed settings above; NOT paper fact",
+                "prototype_optimizer": "buffers; no SGD momentum or weight decay",
+                "final_output": "Table1 last BN+LeakyReLU; no added sigmoid or clamp",
+                "batch_tail": "rebalance singleton with previous batch; 5+4; no dropping/repetition",
+                "loss_optimization_scale": "literal Eq9 sum over batch; no hidden mean/clipping/rescaling"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "dfr_nearest": {
+    "environment_info.json": {
+      "common": {
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "executable": "<WORKSPACE_ROOT>/.venv_dfr/Scripts/python.exe",
+        "torch": "2.5.1+cu121",
+        "torchvision": "0.20.1+cu121",
+        "cuda_available": true,
+        "torch_cuda": "12.1",
+        "device": "NVIDIA RTX A4000"
+      },
+      "sources": [
+        {
+          "source": "../DFR_results_nearest/grid/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_nearest/leather/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_nearest/wood/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        }
+      ]
+    },
+    "experiment_config.json": {
+      "common": {
+        "mode": "train",
+        "model_name": "",
+        "img_size": [
+          256,
+          256
+        ],
+        "device": "cuda:0",
+        "backbone": "vgg19",
+        "cnn_layers": [
+          "relu1_1",
+          "relu1_2",
+          "relu2_1",
+          "relu2_2",
+          "relu3_1",
+          "relu3_2",
+          "relu3_3",
+          "relu3_4",
+          "relu4_1",
+          "relu4_2",
+          "relu4_3",
+          "relu4_4"
+        ],
+        "upsample": "nearest",
+        "is_agg": true,
+        "featmap_size": [
+          256,
+          256
+        ],
+        "kernel_size": [
+          4,
+          4
+        ],
+        "stride": [
+          4,
+          4
+        ],
+        "dilation": 1,
+        "is_bn": true,
+        "batch_size": 4,
+        "lr": 0.0001,
+        "epochs": 150,
+        "thred": 0.5,
+        "except_fpr": 0.005,
+        "seed": 0,
+        "source": "controlled nearest-alignment experiment",
+        "latent_source": "saved original PCA result on first 10 sorted training images",
+        "test_selection": false,
+        "training_validation": false,
+        "algorithmic_change": "feature alignment bilinear to nearest only",
+        "environment": {
+          "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+          "executable": "<WORKSPACE_ROOT>/.venv_dfr/Scripts/python.exe",
+          "torch": "2.5.1+cu121",
+          "torchvision": "0.20.1+cu121",
+          "cuda_available": true,
+          "torch_cuda": "12.1",
+          "device": "NVIDIA RTX A4000"
+        }
+      },
+      "sources": [
+        {
+          "source": "../DFR_results_nearest/grid/experiment_config.json",
+          "sha256": "30bb72fe103fc17d89ab36ead1974f4496d7ed4f3c97e1b9a4f1fb0a6460826f",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_nearest/grid",
+            "data_name": "grid",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/grid/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/grid/test",
+            "latent_dim": 209
+          }
+        },
+        {
+          "source": "../DFR_results_nearest/leather/experiment_config.json",
+          "sha256": "33d41a4962d9eec6b036290b73c6af2a254fc3645355504740e8bacbd3aeedcf",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_nearest/leather",
+            "data_name": "leather",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/leather/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/leather/test",
+            "latent_dim": 432
+          }
+        },
+        {
+          "source": "../DFR_results_nearest/wood/experiment_config.json",
+          "sha256": "1e769fe123465dba8c5d99eb68def1cc2719f96f3b56c112dab4ea4f7b5e96b1",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_nearest/wood",
+            "data_name": "wood",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/wood/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/wood/test",
+            "latent_dim": 437
+          }
+        }
+      ]
+    }
+  },
+  "dfr_native128": {
+    "environment_info.json": {
+      "common": {
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "executable": "<WORKSPACE_ROOT>/.venv_dfr/Scripts/python.exe",
+        "torch": "2.5.1+cu121",
+        "torchvision": "0.20.1+cu121",
+        "cuda_available": true,
+        "torch_cuda": "12.1",
+        "device": "NVIDIA RTX A4000"
+      },
+      "sources": [
+        {
+          "source": "../DFR_results_native128/grid/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_native128/leather/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        },
+        {
+          "source": "../DFR_results_native128/wood/environment_info.json",
+          "sha256": "e2e61b4b1ded754271d3dd0a2b7150dc3c05bcfe82d01de4eb5c70ee9baf7ae8",
+          "overrides": {}
+        }
+      ]
+    },
+    "experiment_config.json": {
+      "common": {
+        "mode": "train",
+        "model_name": "",
+        "img_size": [
+          256,
+          256
+        ],
+        "device": "cuda:0",
+        "backbone": "vgg19",
+        "cnn_layers": [
+          "relu1_1",
+          "relu1_2",
+          "relu2_1",
+          "relu2_2",
+          "relu3_1",
+          "relu3_2",
+          "relu3_3",
+          "relu3_4",
+          "relu4_1",
+          "relu4_2",
+          "relu4_3",
+          "relu4_4"
+        ],
+        "upsample": "bilinear",
+        "is_agg": true,
+        "featmap_size": [
+          256,
+          256
+        ],
+        "kernel_size": [
+          2,
+          2
+        ],
+        "stride": [
+          2,
+          2
+        ],
+        "dilation": 1,
+        "is_bn": true,
+        "batch_size": 4,
+        "lr": 0.0001,
+        "epochs": 150,
+        "thred": 0.5,
+        "except_fpr": 0.005,
+        "seed": 0,
+        "source": "native128 ablation from bilinear baseline",
+        "latent_source": "saved original PCA result on first 10 sorted training images",
+        "test_selection": false,
+        "training_validation": false,
+        "algorithmic_change": "aggregation kernel2 stride2; native128; PCA recomputed",
+        "environment": {
+          "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+          "executable": "<WORKSPACE_ROOT>/.venv_dfr/Scripts/python.exe",
+          "torch": "2.5.1+cu121",
+          "torchvision": "0.20.1+cu121",
+          "cuda_available": true,
+          "torch_cuda": "12.1",
+          "device": "NVIDIA RTX A4000"
+        }
+      },
+      "sources": [
+        {
+          "source": "../DFR_results_native128/grid/experiment_config.json",
+          "sha256": "bf30b42c8e9714bb7f7ac612f84b27726c4bddf0feb7a1dfc25d99d2e8b7bcbc",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_native128/grid",
+            "data_name": "grid",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/grid/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/grid/test",
+            "latent_dim": 170
+          }
+        },
+        {
+          "source": "../DFR_results_native128/leather/experiment_config.json",
+          "sha256": "57e14f3ca6b4c45b38d4f33c3416281d0e71163866f95328a5170c739757d3da",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_native128/leather",
+            "data_name": "leather",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/leather/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/leather/test",
+            "latent_dim": 413
+          }
+        },
+        {
+          "source": "../DFR_results_native128/wood/experiment_config.json",
+          "sha256": "6f1f56d9db7774a2bd3ec62d9b2d313194b9bfcb401301607ef57fc863020b12",
+          "overrides": {
+            "save_path": "<WORKSPACE_ROOT>/DFR_results_native128/wood",
+            "data_name": "wood",
+            "train_data_path": "<WORKSPACE_ROOT>/archive/wood/train/good",
+            "test_data_path": "<WORKSPACE_ROOT>/archive/wood/test",
+            "latent_dim": 401
+          }
+        }
+      ]
+    }
+  },
+  "dfr_rd4ad_common": {
+    "protocol.json": {
+      "common": {
+        "target_train_pixel_fpr": 0.005,
+        "train_sampling": "all images, all final-map pixels, batch1",
+        "threshold": "empirical 99.5th percentile method=higher, strict >",
+        "score_normalization": false,
+        "common_gt": "nearest 256x256, original mask >0, no fill",
+        "aupro_fpr_limit": 0.3,
+        "aupro": "exact score sweep, ties grouped, 8-connectivity, equal region weight; all normal pixels in FPR",
+        "threshold_metrics": "micro within category; mean/median/std across categories; ddof=0",
+        "model_source_initial_hashes": {
+          "RD4AD-main\\dataset.py": "deecc93663223793a699efbe4d367738810efa00b4df199783dfac13df2a6a20",
+          "RD4AD-main\\de_resnet.py": "af1cc252e099e0ce0c8522c7cf339ce8367b4f5ec8311a228585cb1599255e5e",
+          "RD4AD-main\\main.py": "6f8635d6e3bed00d446ace3c121d490f7009e64682d665aaea35785021c54811",
+          "RD4AD-main\\resnet.py": "78f914b62bb9b61efbfa20c29a9c3c10e2a7ac1bc50f75c108cdec0e15625b47",
+          "RD4AD-main\\test.py": "cb9fd6489639a83f68f2394c567a683dc5d6bacfe9045261ced1ce060e23bb71",
+          "DFR-master\\DFR-master\\DFR-source\\anoseg_dfr.py": "c006e04002be8c7519498db80649fecaa96ae2a43a64b4f5aca6e6d6b4c1a872",
+          "DFR-master\\DFR-master\\DFR-source\\feature.py": "2ef609ee5c137b55b4d8525298d195bc419ad3c611a4c2a8384085682c03bf9d",
+          "DFR-master\\DFR-master\\DFR-source\\feat_cae.py": "90040caff0c3f06958e2e77495da411d785d71b12da46287d19f9593f65721bf",
+          "DFR-master\\DFR-master\\DFR-source\\main.py": "a294cf29dd1f008b2fe551fbbde1452cc061f98b57252829b7a1242ce775bf92",
+          "DFR-master\\DFR-master\\DFR-source\\MVTec.py": "4237142e31c60c30c759d2f54201e2dada22bcb36b6358ce66de1da2971106b4",
+          "DFR-master\\DFR-master\\DFR-source\\utils.py": "985f6b4f4ce29aa3ee62b6856c76d8b91e948d3e9a1bf66db3a3165532a6e169",
+          "DFR-master\\DFR-master\\DFR-source\\vgg.py": "59abe8eaab1b884746261d76364e3d6501d5334b85696950d436b75c5e71e326",
+          "DFR-master\\DFR-master\\DFR-source\\vgg19.py": "5ad5352f9d7f4b36d2015f863a9c95955ae0c7050737a3d8c6dad87e9bc220fd"
+        }
+      },
+      "sources": [
+        {
+          "source": "../DFR_RD4AD_common_evaluation/protocol.json",
+          "sha256": "16f4afcb98fe55da926b48a486fdcffdf263aa7066310334c0994a74a88d2cee",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "rd4ad_holdout": {
+    "config.json": {
+      "common": {
+        "epochs": 200,
+        "input_size": [
+          256,
+          256
+        ],
+        "batch_size": 16,
+        "optimizer": "Adam",
+        "lr": 0.005,
+        "betas": [
+          0.5,
+          0.999
+        ],
+        "seed": 111,
+        "loss": "unchanged official loss_fucntion",
+        "amp": false,
+        "scheduler": null,
+        "training_time_calibration_access": false,
+        "training_time_test_evaluation": false,
+        "checkpoint_selection": "final epoch200",
+        "teacher_requires_grad": "official behavior retained",
+        "split_seed": 111,
+        "quantile_method": "higher",
+        "drop_last": false
+      },
+      "sources": [
+        {
+          "source": "../RD4AD_holdout_calibration/grid/config.json",
+          "sha256": "f9b841a7b033d7b5c550c99037357d185b7899ce08894138499e24b55cbc84d2",
+          "overrides": {
+            "category": "grid",
+            "training_images": 211,
+            "calibration_images": 53
+          }
+        },
+        {
+          "source": "../RD4AD_holdout_calibration/leather/config.json",
+          "sha256": "d3291d451cc083700aa88371650853e356d0357ae335a3ca8523227564009c1e",
+          "overrides": {
+            "category": "leather",
+            "training_images": 196,
+            "calibration_images": 49
+          }
+        },
+        {
+          "source": "../RD4AD_holdout_calibration/transistor/config.json",
+          "sha256": "be20422aa56a86eba67318c6df3a5dd8cd1cad48d0f9e0336dc771fa89d35418",
+          "overrides": {
+            "category": "transistor",
+            "training_images": 170,
+            "calibration_images": 43
+          }
+        }
+      ]
+    }
+  },
+  "padim_bottle_holdout": {
+    "protocol.json": {
+      "common": {
+        "category": "bottle",
+        "fit_count": 167,
+        "calibration_count": 42,
+        "seed": 1024,
+        "pixel_quantiles": [
+          0.995,
+          0.999
+        ],
+        "primary_pixel_quantile": 0.995,
+        "image_quantile": 0.95,
+        "quantile_method": "higher",
+        "decision": "score > threshold",
+        "model": "frozen WR50 ImageNet1K_V1; layers1/2/3; random550; covariance +0.01I",
+        "preprocessing": "bicubic256 center224; map bicubic224 sigma4",
+        "postprocessing": "none",
+        "test_used_for_selection": false,
+        "notes": "Pilot; existing test previously inspected. No strict unseen confirmation claim. 42 calibration images give limited tail resolution. Baseline fitted with209 is not directly identical to holdout167. No all-test maps saved."
+      },
+      "sources": [
+        {
+          "source": "../PaDiM_Bottle_holdout_calibration_20261012/protocol.json",
+          "sha256": "426f1f1bc02e201e3c083e4e1910a52c020040376fbe7d8e6ca25917b8e1709e",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "padim_screw_holdout": {
+    "protocol.json": {
+      "common": {
+        "category": "screw",
+        "fit_count": 256,
+        "calibration_count": 64,
+        "seed": 1024,
+        "pixel_quantiles": [
+          0.995,
+          0.999
+        ],
+        "primary_pixel_quantile": 0.995,
+        "image_quantile": 0.95,
+        "quantile_method": "higher",
+        "decision": "score > threshold",
+        "model": "frozen WR50 ImageNet1K_V1; layers1/2/3; random550; covariance +0.01I",
+        "preprocessing": "bicubic256 center224; map bicubic224 sigma4",
+        "postprocessing": "none",
+        "test_used_for_selection": false,
+        "notes": "Pilot; existing test previously inspected. No strict unseen confirmation claim. 64 calibration images give limited tail resolution. Baseline fitted with320 is not directly identical to holdout256. No all-test maps saved."
+      },
+      "sources": [
+        {
+          "source": "../PaDiM_Screw_holdout_calibration_20261012/protocol.json",
+          "sha256": "afeaac8e1ea27f953a7169af0130306964019b65b4f58846f9ecf19eec582eee",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "simplenet_all15_20261020": {
+    "config.json": {
+      "common": {
+        "backbone": "wideresnet50",
+        "layers": [
+          "layer2",
+          "layer3"
+        ],
+        "pretrain_embed_dimension": 1536,
+        "target_embed_dimension": 1536,
+        "patchsize": 3,
+        "meta_epochs": 40,
+        "gan_epochs": 4,
+        "embedding_size": 256,
+        "noise_std": 0.015,
+        "dsc_hidden": 1024,
+        "dsc_layers": 2,
+        "dsc_margin": 0.5,
+        "pre_proj": 1,
+        "batch": 8,
+        "resize": 329,
+        "imagesize": 288,
+        "seed": 0,
+        "lr": 0.001,
+        "dsc_lr": 0.0002,
+        "cos_lr": false,
+        "train_backbone": false,
+        "num_workers": 2,
+        "checkpoint": "fixed_final",
+        "train_val_split": 1.0
+      },
+      "sources": [
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/bottle/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/cable/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/capsule/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/carpet/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/grid/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/hazelnut/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/leather/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/metal_nut/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/pill/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/screw/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/tile/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/toothbrush/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/transistor/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/wood/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/zipper/config.json",
+          "sha256": "ef3a3e136045fa11df3061824edcd375df79c9ba1dc0d18ddaa584bd388a1c95",
+          "overrides": {}
+        }
+      ]
+    },
+    "environment.json": {
+      "common": {
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "torch": "2.1.0+cu118",
+        "torchvision": "0.16.0+cu118",
+        "numpy": "1.26.0",
+        "gpu": "NVIDIA RTX A4000",
+        "total_gpu_bytes": 17170956288,
+        "seed": 0,
+        "versions": {
+          "simplenet": {
+            "repository": "DonaldRR/SimpleNet",
+            "commit": "351a2b8d4e8cfc944dbccbf9bc6ceda930c6f26b",
+            "zip_sha256": "5ec9e1bbc96759f97346c66fc4490e0821fda7b5845dfd4742e09abd383e1235"
+          },
+          "supersimplenet": {
+            "repository": "blaz-r/SuperSimpleNet",
+            "commit": "98ab4d5fbdcdef528fafbc42e4b5ee15f08f5a7d",
+            "zip_sha256": "b697847ccaea35d96d73a0b507dcaac8f33cbf942490b2408dcb2e06b9491978"
+          }
+        },
+        "tf32_matmul": false,
+        "tf32_cudnn": true
+      },
+      "sources": [
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/bottle/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/cable/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/capsule/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/carpet/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/grid/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/hazelnut/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/leather/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/metal_nut/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/pill/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/screw/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/tile/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/toothbrush/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/transistor/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/wood/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/zipper/environment.json",
+          "sha256": "ad4a5c36ceeb26e813bd55cd73aebb0121293e9e389d3897dca8f4f9336f995c",
+          "overrides": {}
+        }
+      ]
+    },
+    "optimizer_config.json": {
+      "common": {
+        "adaptor": [
+          {
+            "lr": 0.0001,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "eps": 1e-08,
+            "weight_decay": 0.01,
+            "amsgrad": false,
+            "foreach": null,
+            "maximize": false,
+            "capturable": false,
+            "differentiable": false,
+            "fused": null
+          }
+        ],
+        "discriminator": [
+          {
+            "lr": 0.0002,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "eps": 1e-08,
+            "weight_decay": 1e-05,
+            "amsgrad": false,
+            "maximize": false,
+            "foreach": null,
+            "capturable": false,
+            "differentiable": false,
+            "fused": null,
+            "initial_lr": 0.0002
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/bottle/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/cable/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/capsule/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/carpet/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/grid/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/hazelnut/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/leather/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/metal_nut/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/pill/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/screw/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/tile/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/toothbrush/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/transistor/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/wood/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        },
+        {
+          "source": "../SimpleNet_MVTec_training_20261020/zipper/optimizer_config.json",
+          "sha256": "11a7956bdd875f22f70e9105fa1ffc7762dc40822f110c0e8feed7e2e8e191ea",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "supersimplenet_all15_20261020": {
+    "config.json": {
+      "common": {
+        "wandb_project": "ssn",
+        "datasets_folder": "<WORKSPACE_ROOT>",
+        "num_workers": 8,
+        "setup_name": "superSimpleNet",
+        "backbone": "wide_resnet50_2",
+        "layers": [
+          "layer2",
+          "layer3"
+        ],
+        "patch_size": 3,
+        "noise": true,
+        "perlin": true,
+        "no_anomaly": "empty",
+        "bad": true,
+        "overlap": true,
+        "adapt_cls_feat": false,
+        "noise_std": 0.015,
+        "image_size": [
+          256,
+          256
+        ],
+        "seed": 42,
+        "batch": 32,
+        "epochs": 300,
+        "flips": false,
+        "seg_lr": 0.0002,
+        "dec_lr": 0.0002,
+        "adapt_lr": 0.0001,
+        "gamma": 0.4,
+        "stop_grad": true,
+        "clip_grad": false,
+        "eval_step_size": 4,
+        "results_save_path": "results",
+        "perlin_thr": 0.2,
+        "checkpoint": "fixed_final",
+        "ratio": 1,
+        "dataset": "mvtec"
+      },
+      "sources": [
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/bottle/config.json",
+          "sha256": "10d718079292b3cebc5f608a9adbe09148bf726523e7247c4e44206c8b6696fc",
+          "overrides": {
+            "category": "bottle"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/cable/config.json",
+          "sha256": "2097b3bf831bee6a3287810836633c463edd752d372f9446de4dc2b7814432d7",
+          "overrides": {
+            "category": "cable"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/capsule/config.json",
+          "sha256": "6ae5f8ed56e54c6de3841d79d4e5d8d500fd9432e86ae89e70e106734b6ac634",
+          "overrides": {
+            "category": "capsule"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/carpet/config.json",
+          "sha256": "620eb985242911e0212df39f96df46eb576068094f875ebcc5941671a0c27d59",
+          "overrides": {
+            "category": "carpet"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/grid/config.json",
+          "sha256": "97545476be0157411ca6a597417f31ee88ca0b70592f6f5a2ca59c69b54e1f27",
+          "overrides": {
+            "category": "grid"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/hazelnut/config.json",
+          "sha256": "cb533fe8d8227c979eba8366e07389fd308d82e14a86474c6f66e4194d8564ac",
+          "overrides": {
+            "category": "hazelnut"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/leather/config.json",
+          "sha256": "a588714ca4f4fbfca728558d7e1d326f7467268c59f42369b1523257b7725bd1",
+          "overrides": {
+            "category": "leather"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/metal_nut/config.json",
+          "sha256": "8cfdf03d11734589b1bcb0875ebd3265795a58ca11761b3366f4351d9cff9adc",
+          "overrides": {
+            "category": "metal_nut"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/pill/config.json",
+          "sha256": "c0cdacc07f202da8479c85671e4d73572c2cd4ca0cc2282dd49b0d53fa9db096",
+          "overrides": {
+            "category": "pill"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/screw/config.json",
+          "sha256": "98e417c62c22ef0e2baf3a23dc9e4e8a0f0401705163cfb22d728bbce593a256",
+          "overrides": {
+            "category": "screw"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/tile/config.json",
+          "sha256": "e7db7be21fe6c9c0725ec317ed7865f08af37ad264e07edc86ef9d42d0b65144",
+          "overrides": {
+            "category": "tile"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/toothbrush/config.json",
+          "sha256": "3da19c469c0c7775566ca480748e48729e191f8aadc8086b01571977d42ec62f",
+          "overrides": {
+            "category": "toothbrush"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/transistor/config.json",
+          "sha256": "c24c5a444cdab0f911adfc85df1de8e3f0d4ce56b202453f2834919bb20bd8d5",
+          "overrides": {
+            "category": "transistor"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/wood/config.json",
+          "sha256": "73ed8dc08acf69c0a717e3bf9468eae94c7c755b1295bd451b442a35b0991d1f",
+          "overrides": {
+            "category": "wood"
+          }
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/zipper/config.json",
+          "sha256": "eb3d7ba83c63b067e4e7852c5b6708a5c318410a55f53dafb3a248ffd82c4743",
+          "overrides": {
+            "category": "zipper"
+          }
+        }
+      ]
+    },
+    "environment.json": {
+      "common": {
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "torch": "2.1.0+cu118",
+        "torchvision": "0.16.0+cu118",
+        "numpy": "1.26.0",
+        "gpu": "NVIDIA RTX A4000",
+        "total_gpu_bytes": 17170956288,
+        "seed": 42,
+        "versions": {
+          "simplenet": {
+            "repository": "DonaldRR/SimpleNet",
+            "commit": "351a2b8d4e8cfc944dbccbf9bc6ceda930c6f26b",
+            "zip_sha256": "5ec9e1bbc96759f97346c66fc4490e0821fda7b5845dfd4742e09abd383e1235"
+          },
+          "supersimplenet": {
+            "repository": "blaz-r/SuperSimpleNet",
+            "commit": "98ab4d5fbdcdef528fafbc42e4b5ee15f08f5a7d",
+            "zip_sha256": "b697847ccaea35d96d73a0b507dcaac8f33cbf942490b2408dcb2e06b9491978"
+          }
+        },
+        "tf32_matmul": false,
+        "tf32_cudnn": true
+      },
+      "sources": [
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/bottle/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/cable/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/capsule/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/carpet/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/grid/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/hazelnut/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/leather/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/metal_nut/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/pill/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/screw/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/tile/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/toothbrush/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/transistor/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/wood/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/zipper/environment.json",
+          "sha256": "6d29317e2ebab80c7f502ebf80f733d01f54f82bb9d693358c05cb2c99be2f3b",
+          "overrides": {}
+        }
+      ]
+    },
+    "optimizer_config.json": {
+      "common": {
+        "adamw": [
+          {
+            "lr": 0.0001,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "eps": 1e-08,
+            "weight_decay": 0.01,
+            "amsgrad": false,
+            "foreach": null,
+            "maximize": false,
+            "capturable": false,
+            "differentiable": false,
+            "fused": null,
+            "initial_lr": 0.0001
+          },
+          {
+            "lr": 0.0002,
+            "weight_decay": 1e-05,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "eps": 1e-08,
+            "amsgrad": false,
+            "foreach": null,
+            "maximize": false,
+            "capturable": false,
+            "differentiable": false,
+            "fused": null,
+            "initial_lr": 0.0002
+          },
+          {
+            "lr": 0.0002,
+            "weight_decay": 1e-05,
+            "betas": [
+              0.9,
+              0.999
+            ],
+            "eps": 1e-08,
+            "amsgrad": false,
+            "foreach": null,
+            "maximize": false,
+            "capturable": false,
+            "differentiable": false,
+            "fused": null,
+            "initial_lr": 0.0002
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/bottle/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/cable/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/capsule/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/carpet/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/grid/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/hazelnut/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/leather/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/metal_nut/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/pill/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/screw/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/tile/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/toothbrush/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/transistor/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/wood/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        },
+        {
+          "source": "../SuperSimpleNet_MVTec_training_20261020/zipper/optimizer_config.json",
+          "sha256": "9da887fb126680308f444ebaca359f73a19693857111ab384282b33630e9b3a2",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "draem_all15_20261015": {
+    "environment.json": {
+      "common": {
+        "torch": "2.5.1+cu121",
+        "numpy": "1.26.4",
+        "imgaug": "0.4.0",
+        "opencv": "4.10.0",
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "gpu": "NVIDIA RTX A4000",
+        "gpu_total_bytes": 17170956288,
+        "disk_free_bytes": 140209733632,
+        "parameters": 97422725,
+        "estimated_all15_weights_plus_recovery_bytes": 23381454000
+      },
+      "sources": [
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/preflight/environment.json",
+          "sha256": "b2b2fc13d054b0f460a8862cf115ab94143864a10158d37459941e5b7ceac746",
+          "overrides": {}
+        }
+      ]
+    },
+    "protocol.json": {
+      "common": {
+        "epochs": 700,
+        "batch": 8,
+        "lr": 0.0001,
+        "milestones": [
+          560,
+          630
+        ],
+        "gamma": 0.2,
+        "seed": 1024,
+        "source_commit": "2dbf67397ab5c10a1494e5ae70ab59a25d7c35ef",
+        "test_selection": false,
+        "train_normal_only": true,
+        "workers": 0,
+        "AMP": false,
+        "TF32": false,
+        "preprocessing": "official BGR/255 cv2linear256",
+        "dataset_sampling": "official random replacement"
+      },
+      "sources": [
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/bottle/protocol.json",
+          "sha256": "9a033718d55b9c24429becdb0144e8ff1bfb71c68613b32e7b04a7492f678d72",
+          "overrides": {
+            "category": "bottle",
+            "train_images": 209
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/cable/protocol.json",
+          "sha256": "7a9c21e9ccbaeaeedb337c82884ace51e077778e831c2507498de8a079418a32",
+          "overrides": {
+            "category": "cable",
+            "train_images": 224
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/capsule/protocol.json",
+          "sha256": "1385e6d5d81f056ba5f07e65a8e2b64a054af363eb1baa3d22e59016b28bc926",
+          "overrides": {
+            "category": "capsule",
+            "train_images": 219
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/carpet/protocol.json",
+          "sha256": "2a706cf4e5b3fd6016d001924a9adeb0cef643c8b3069b85fdba0415e81d4fbb",
+          "overrides": {
+            "category": "carpet",
+            "train_images": 280
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/grid/protocol.json",
+          "sha256": "c91cd76d397643f4df5aff79109fb364a72d6e11ce5c2ad9ce1c1cd222fa615a",
+          "overrides": {
+            "category": "grid",
+            "train_images": 264
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/hazelnut/protocol.json",
+          "sha256": "3e3dfa132d147bc0a6f9d668e8639c02c7238c34b18d56efc868d4daef085e51",
+          "overrides": {
+            "category": "hazelnut",
+            "train_images": 391
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/leather/protocol.json",
+          "sha256": "07d351f28d8a481514866149d057a2c847b886ec6638b517dd157d3799713b93",
+          "overrides": {
+            "category": "leather",
+            "train_images": 245
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/metal_nut/protocol.json",
+          "sha256": "e3ffbc41417fae25dd54f2ec1da036927e2fd5f0daf6735276a92a62183e9a4e",
+          "overrides": {
+            "category": "metal_nut",
+            "train_images": 220
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/pill/protocol.json",
+          "sha256": "8e3bb5892ab84495f28f392eedc7d20608ad860ac79421da117bc56195d629e5",
+          "overrides": {
+            "category": "pill",
+            "train_images": 267
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/screw/protocol.json",
+          "sha256": "2fed3de302d49a5974702680f8e9b0c9d35206736da1225a94db45c3b9b0bc79",
+          "overrides": {
+            "category": "screw",
+            "train_images": 320
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/tile/protocol.json",
+          "sha256": "547293e74d83a3965762b777f3f6a134524e76d646fd79618c2ab08a6de11f56",
+          "overrides": {
+            "category": "tile",
+            "train_images": 230
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/toothbrush/protocol.json",
+          "sha256": "024483af2b69739159f56b8ddb82ae35018612fe60581edc519a8219531b32f6",
+          "overrides": {
+            "category": "toothbrush",
+            "train_images": 60
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/transistor/protocol.json",
+          "sha256": "aec92a33d7194b836df5e3994ab6c492178b616860b88ef155c248c08387585a",
+          "overrides": {
+            "category": "transistor",
+            "train_images": 213
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/wood/protocol.json",
+          "sha256": "15529e4d7c03a60c1cd047a3642752d820fadd9c8819f8d06f67541856053e39",
+          "overrides": {
+            "category": "wood",
+            "train_images": 247
+          }
+        },
+        {
+          "source": "../DRAEM_MVTec_all15_20261015/zipper/protocol.json",
+          "sha256": "4abb2953d047f6de417794f5345f408006e802d253f52c6c23c4bc9a00240b3b",
+          "overrides": {
+            "category": "zipper",
+            "train_images": 240
+          }
+        }
+      ]
+    }
+  },
+  "anogan_image_max": {
+    "protocol.json": {
+      "common": {
+        "metric": "Additional Image AUROC",
+        "score": "max(raw_saved_L2_map)",
+        "fixed_before_computing_scores": true,
+        "map_resolution": "objects128x128; textures stitched512x512",
+        "normal_label": 0,
+        "anomaly_label": 1,
+        "higher_score": "more anomalous",
+        "score_normalization": false,
+        "resizing": false,
+        "smoothing": false,
+        "thresholds_used": false,
+        "alternative_aggregation_search": false,
+        "retraining": false,
+        "latent_optimization_repeated": false,
+        "reference": "Local additional metric; not the published CVPR2019 image classification protocol",
+        "aggregation": "Equal-weight mean of 15 category AUROCs, no cross-category pooling",
+        "source_results_sha256": "a70a8aec11d4feaecf5b58c9b36bcffa0f9ca46e324adce0a76ffee0ecbd69f5"
+      },
+      "sources": [
+        {
+          "source": "../AnoGAN_MVTec2019_all15_20261008/additional_image_auroc_max/protocol.json",
+          "sha256": "28234625e0e5db646a9e06b510744a4c25fd97f41add84e80548b5aee073d0fd",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "patchsvdd_carpet_lambda01": {
+    "environment.json": {
+      "common": {
+        "torch": "2.5.1+cu121",
+        "numpy": "1.26.4",
+        "gpu": "NVIDIA RTX A4000",
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]"
+      },
+      "sources": [
+        {
+          "source": "../PatchSVDD_Carpet_lambda01_20261013/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        }
+      ]
+    },
+    "protocol.json": {
+      "common": {
+        "category": "carpet",
+        "training": "train/good only",
+        "seed": 1024,
+        "epochs": 299,
+        "batch": 64,
+        "repeat": 100,
+        "lr": 0.0001,
+        "lambda_value": 0.1,
+        "D": 64,
+        "Adam_betas": [
+          0.9,
+          0.999
+        ],
+        "Adam_eps": 1e-08,
+        "weight_decay": 0,
+        "preprocessing": "RGB bicubic256; subtract training-only spatial RGB mean; divide255",
+        "patches": [
+          {
+            "K": 64,
+            "S": 16
+          },
+          {
+            "K": 32,
+            "S": 4
+          }
+        ],
+        "map": "overlapping patch average; scale maps multiplied",
+        "image_score": "maximum map",
+        "masks": "nearest256 threshold>128",
+        "test_policy": "first read after final checkpoint; no test model/threshold selection",
+        "nearest": "exhaustive full bank L2;query512 bank8192 chunks;float32;TF32 disabled;direct selected distance",
+        "normal_bank_subsampling": false,
+        "aupro": "8connected per-region equal weights; all background; tie-grouped exact curve; linear endpoint0.30;divide0.30",
+        "source": "author repo master ZIP downloaded2026-10-12; archived source hashes",
+        "hyperparameter_sources": "D64 and patch geometry paper;lambda0.1 user-approved Carpet exploratory ablation; lr README Bottle;batch/repeat/299 passes code;seed local;Adam defaults explicit",
+        "execution": "fresh smoke model then seed reset fresh final model;num_workers0;no AMP;cuDNN benchmark disabled"
+      },
+      "sources": [
+        {
+          "source": "../PatchSVDD_Carpet_lambda01_20261013/protocol.json",
+          "sha256": "566847ea46a13cec340c306cf5e8fcce7cba8f08eac9d06518d9ea717e8ffd2d",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "patchsvdd_carpet_lambda001": {
+    "environment.json": {
+      "common": {
+        "torch": "2.5.1+cu121",
+        "numpy": "1.26.4",
+        "gpu": "NVIDIA RTX A4000",
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]"
+      },
+      "sources": [
+        {
+          "source": "../PatchSVDD_Carpet_lambda0p01_20261014/environment.json",
+          "sha256": "9890f9288f6eea68e6fb54816f0b635ae3141bc09f0d1c56de261f29c16b098f",
+          "overrides": {}
+        }
+      ]
+    },
+    "protocol.json": {
+      "common": {
+        "category": "carpet",
+        "training": "train/good only",
+        "seed": 1024,
+        "epochs": 299,
+        "batch": 64,
+        "repeat": 100,
+        "lr": 0.0001,
+        "lambda_value": 0.01,
+        "D": 64,
+        "Adam_betas": [
+          0.9,
+          0.999
+        ],
+        "Adam_eps": 1e-08,
+        "weight_decay": 0,
+        "preprocessing": "RGB bicubic256; subtract training-only spatial RGB mean; divide255",
+        "patches": [
+          {
+            "K": 64,
+            "S": 16
+          },
+          {
+            "K": 32,
+            "S": 4
+          }
+        ],
+        "map": "overlapping patch average; scale maps multiplied",
+        "image_score": "maximum map",
+        "masks": "nearest256 threshold>128",
+        "test_policy": "first read after final checkpoint; no test model/threshold selection",
+        "nearest": "exhaustive full bank L2;query512 bank8192 chunks;float32;TF32 disabled;direct selected distance",
+        "normal_bank_subsampling": false,
+        "aupro": "8connected per-region equal weights; all background; tie-grouped exact curve; linear endpoint0.30;divide0.30",
+        "source": "author repo master ZIP downloaded2026-10-12; archived source hashes",
+        "hyperparameter_sources": "D64 and patch geometry paper;lambda0.01 user-approved Carpet exploratory ablation; lr README Bottle;batch/repeat/299 passes code;seed local;Adam defaults explicit",
+        "execution": "fresh smoke model then seed reset fresh final model;num_workers0;no AMP;cuDNN benchmark disabled"
+      },
+      "sources": [
+        {
+          "source": "../PatchSVDD_Carpet_lambda0p01_20261014/protocol.json",
+          "sha256": "d0cab63ade4b7d32279e55bddc7985571c7212d3c673773708647223ce0843d9",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "patchsvdd_rootcause": {
+    "protocol.json": {
+      "common": {
+        "training": false,
+        "seed": 1024,
+        "protected_checkpoint_hashes": {
+          "<WORKSPACE_ROOT>/PatchSVDD_MVTec_all15_20261012/screw/encoder_final.pt": "c15cb769ea9130b69e1db5069a3a6ff211e44a6284215eb73e60cfa9f5c6db60",
+          "<WORKSPACE_ROOT>/PatchSVDD_MVTec_all15_20261012/screw/checkpoint_latest.pt": "1a2eeb1ff137e4c70ac249d97a4cb2f34b64fd3c5190aee848fffa470c7c2004",
+          "<WORKSPACE_ROOT>/PatchSVDD_MVTec_all15_20261012/capsule/encoder_final.pt": "93bac74c915865021eef0d0c4af5672ce39060a0867936ce508000b960623e35",
+          "<WORKSPACE_ROOT>/PatchSVDD_MVTec_all15_20261012/capsule/checkpoint_latest.pt": "3a82c9eadd9c77605b6329eb1ef2451eea67ce2541ce88b3be10eea5d6b47cfc"
+        },
+        "raw_full_bank": true,
+        "mask_interpolation": "nearest",
+        "random_encoder": "EncoderHier64+D64; library default initialization; no optimizer; per-scale and product",
+        "prior_test_inspection": true
+      },
+      "sources": [
+        {
+          "source": "../PatchSVDD_rootcause_20261015/protocol.json",
+          "sha256": "f88bad8b9d76210b72d1c74cc8bdeece3542cdcb06bb8fdbe23410821a4c1384",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "ganomaly_early_partial": {
+    "environment.json": {
+      "common": {
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "torch": "2.5.1+cu121",
+        "gpu": "NVIDIA RTX A4000",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "generator_parameters": 143950208,
+        "discriminator_parameters": 44739328
+      },
+      "sources": [
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_results_25ep_20261006/bottle/environment.json",
+          "sha256": "99a3dd52dbb2e35275da2c6199f07c9b2cc6e8e3facddf667604ffecf69dedd9",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_results_25ep_20261006/cable/environment.json",
+          "sha256": "99a3dd52dbb2e35275da2c6199f07c9b2cc6e8e3facddf667604ffecf69dedd9",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_results_25ep_20261006/capsule/environment.json",
+          "sha256": "99a3dd52dbb2e35275da2c6199f07c9b2cc6e8e3facddf667604ffecf69dedd9",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_results_25ep_20261006/carpet/environment.json",
+          "sha256": "99a3dd52dbb2e35275da2c6199f07c9b2cc6e8e3facddf667604ffecf69dedd9",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_results_25ep_20261006/grid/environment.json",
+          "sha256": "99a3dd52dbb2e35275da2c6199f07c9b2cc6e8e3facddf667604ffecf69dedd9",
+          "overrides": {}
+        }
+      ]
+    },
+    "protocol.json": {
+      "common": {
+        "epochs": 25,
+        "categories": [
+          "bottle",
+          "cable",
+          "capsule",
+          "carpet",
+          "grid",
+          "hazelnut",
+          "leather",
+          "metal_nut",
+          "pill",
+          "screw",
+          "tile",
+          "toothbrush",
+          "transistor",
+          "wood",
+          "zipper"
+        ],
+        "image_size": 256,
+        "batch_size": 8,
+        "seed": 0,
+        "nz": 100,
+        "lr": 0.0002,
+        "beta1": 0.5,
+        "weights": {
+          "adversarial": 1,
+          "contextual": 50,
+          "encoder": 1
+        },
+        "device": "CUDA",
+        "train": "category/train/good only; shuffle; drop_last=True",
+        "preprocessing": "Resize(256), CenterCrop(256), RGB normalization mean/std 0.5",
+        "score": "mean squared latent difference (repository implementation)",
+        "selection": "final epoch only; test evaluated once after training",
+        "threshold": "99th percentile of training-normal scores; strict greater-than",
+        "f1_max": "test-label-optimized descriptive oracle metric, NOT deployment threshold",
+        "pixel_metrics": "not applicable: no native spatial anomaly map",
+        "logging": "no extra generator forward in train mode for image logging",
+        "historical_comparison": "GPU run; legacy Bottle image logging may have updated BN buffers",
+        "inference_timing": "GPU synchronized forward+score only, excludes loading and transfer; batch=8",
+        "started_utc": "2026-10-06T07:33:39.192590+00:00"
+      },
+      "sources": [
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_results_25ep_20261006/protocol.json",
+          "sha256": "02f245f788a6a9e7ba997994ae963ccb3741892cc8ed125b596ae60a02716359",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "ganomaly_capsule_variants": {
+    "environment.json": {
+      "common": {
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "torch": "2.5.1+cu121",
+        "gpu": "NVIDIA RTX A4000",
+        "platform": "Windows-10-10.0.26200-SP0"
+      },
+      "sources": [
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_capsule_ablations_20261006/size256_nz100_stable_bce/environment.json",
+          "sha256": "99a3dd52dbb2e35275da2c6199f07c9b2cc6e8e3facddf667604ffecf69dedd9",
+          "overrides": {
+            "generator_parameters": 143950208,
+            "discriminator_parameters": 44739328
+          }
+        },
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_capsule_ablations_20261006/size256_nz256/environment.json",
+          "sha256": "58903a9066654085c1c736ead00bf320c542cda1f1c46feb2595c37309bc83a7",
+          "overrides": {
+            "generator_parameters": 159285632,
+            "discriminator_parameters": 44739328
+          }
+        },
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_capsule_ablations_20261006/size64_nz100/environment.json",
+          "sha256": "12e988af552a328c1c9b6cc31d46aa63caeafb827edad617b767f0d2d09a6249",
+          "overrides": {
+            "generator_parameters": 10729856,
+            "discriminator_parameters": 2765568
+          }
+        }
+      ]
+    },
+    "protocol.json": {
+      "common": {
+        "category": "capsule",
+        "epochs": 25,
+        "seed": 0,
+        "batch": 8,
+        "variants": {
+          "size64_nz100": {
+            "image_size": 64,
+            "nz": 100,
+            "stable_bce": false
+          },
+          "size256_nz256": {
+            "image_size": 256,
+            "nz": 256,
+            "stable_bce": false
+          },
+          "size256_nz100_stable_bce": {
+            "image_size": 256,
+            "nz": 100,
+            "stable_bce": true
+          }
+        },
+        "baseline": "<WORKSPACE_ROOT>/GANomaly_results_25ep_20261006/capsule/metrics.json",
+        "lr": 0.0002,
+        "score": "latent mean squared difference; final epoch only",
+        "evaluation": "same existing Capsule test split; EXPLORATORY, not independent tuning validation",
+        "controls": "one factor changed from baseline per variant; size also changes network capacity",
+        "stable_bce": "remove classifier sigmoid, use BCEWithLogitsLoss; same adversarial objective",
+        "diagnostics": "epoch sample-weighted means; cumulative reset count is averaged over batches",
+        "threshold": "train normal score q99; test F1-max explicitly oracle",
+        "started_utc": "2026-10-06T08:12:54.480280+00:00"
+      },
+      "sources": [
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_capsule_ablations_20261006/protocol.json",
+          "sha256": "23b09bf2772b54cf263095084b1d70743811a4bcc7bd35c4e922b755e27c2edd",
+          "overrides": {}
+        }
+      ]
+    }
+  },
+  "ganomaly_reset_adam": {
+    "environment.json": {
+      "common": {
+        "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+        "torch": "2.5.1+cu121",
+        "gpu": "NVIDIA RTX A4000",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "generator_parameters": 143950208,
+        "discriminator_parameters": 44739328
+      },
+      "sources": [
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_reset_adam_audit_20261006/capsule/environment.json",
+          "sha256": "99a3dd52dbb2e35275da2c6199f07c9b2cc6e8e3facddf667604ffecf69dedd9",
+          "overrides": {}
+        },
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_reset_adam_audit_20261006/carpet/environment.json",
+          "sha256": "99a3dd52dbb2e35275da2c6199f07c9b2cc6e8e3facddf667604ffecf69dedd9",
+          "overrides": {}
+        }
+      ]
+    },
+    "protocol.json": {
+      "common": {
+        "categories": [
+          "capsule",
+          "carpet"
+        ],
+        "epochs": 25,
+        "seed": 0,
+        "image_size": 256,
+        "nz": 100,
+        "batch_size": 8,
+        "lr": 0.0002,
+        "change": "clear optimizer_d.state after existing reinit_d",
+        "unchanged": "same initial seed, data order policy, losses, BN behavior, D reset trigger (<1e-5), final epoch selection",
+        "hypothesis": "Repeated random D weights plus stale Adam moments destabilize training",
+        "interpretation": "exploratory paired comparison to existing seed=0 baselines; not independent validation",
+        "selection": "final epoch only; no test-selected checkpoint",
+        "started_utc": "2026-10-06T11:08:33.391068+00:00"
+      },
+      "sources": [
+        {
+          "source": "../GANomaly_archive_20261006/GANomaly_reset_adam_audit_20261006/protocol.json",
+          "sha256": "32b769e2d0d5bde4c8646cb2c4ccf3ab538261446bbc7276931a64113922c2b9",
+          "overrides": {}
+        }
+      ]
+    }
+  }
+}
