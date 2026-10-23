@@ -69,3 +69,10 @@ The provenance and changes links below describe the older working copy; the newe
 [Paper](https://arxiv.org/abs/2303.15140).
 
 No new experiment was run for this documentation. Relocated execution is unverified.
+
+## Visual evidence
+
+![Recorded SimpleNet evidence](../../assets/figures/simplenet_cable.png)
+
+Cable. Input / GT / map from completed fixed-final CUDA run. [All-method gallery](../../assets/GALLERY.md) and [figure provenance](../../assets/figures/SOURCES.csv) identify the original source, selection and scale. This illustration is not a matched-protocol comparison.
+

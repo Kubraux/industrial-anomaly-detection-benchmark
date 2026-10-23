@@ -24,11 +24,9 @@ Archived Carpet reconstructions fail to recover normal texture; Capsule normal/d
 
 ## Visual evidence
 
-![GANomaly recorded example](../../assets/figures/ganomaly_carpet_diagnostic.png)
+![Recorded GANomaly evidence](../../assets/figures/ganomaly_carpet_diagnostic.png)
 
-Archived Carpet diagnostic, input/reconstruction/absolute RGB error. This panel belongs to an earlier diagnostic model, not the official-flow aggregate. The error picture is not the latent image score or a validated segmentation output; GT and binary masks are absent.
-
-[Visual conventions and provenance](../../docs/visual_examples.md).
+Carpet color and good. Archived reconstruction failure; final official-flow qualitative coverage remains unverified. [All-method gallery](../../assets/GALLERY.md) and [figure provenance](../../assets/figures/SOURCES.csv) identify the original source, selection and scale. This illustration is not a matched-protocol comparison.
 
 ## Upstream and local work
 

@@ -78,3 +78,10 @@ Recorded commit: 2dbf67397ab5c10a1494e5ae70ab59a25d7c35ef. The local source-veri
 The local wrapper adds Windows-compatible execution, seed and environment recording, final-checkpoint evaluation, recovery-state saving and reporting. The added metrics.py supplies local evaluation metrics. A NumPy compatibility alias may be used for imgaug; the local protocol records it. Original network/loss/data-loader code and local additions are distinguished in the [third-party reconstruction notes](../../third_party/RECONSTRUCTION_LIMITS.md).
 
 No new experiment was run for this documentation. Relocated execution is unverified.
+
+## Visual evidence
+
+![Recorded DRAEM evidence](../../assets/figures/draem_grid.png)
+
+Grid glue/007. Locally trained final700; original GT/preprocessing conventions retained. [All-method gallery](../../assets/GALLERY.md) and [figure provenance](../../assets/figures/SOURCES.csv) identify the original source, selection and scale. This illustration is not a matched-protocol comparison.
+

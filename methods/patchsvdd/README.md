@@ -56,10 +56,11 @@ The preserved release snapshot is5/15 complete, not a current live status. Bottl
 
 [Paper](https://arxiv.org/abs/2006.16067).
 
-## Existing Bottle panel
-
-![PatchSVDD Bottle input, GT and score map](../../assets/figures/patchsvdd_bottle.png)
-
-Fixed-seed examples; no binary prediction mask. This is a completed Bottle output, not evidence of full benchmark completion.
-
 No new experiment was run for this documentation. Relocated execution is unverified.
+
+## Visual evidence
+
+![Recorded PatchSVDD evidence](../../assets/figures/patchsvdd_screw.png)
+
+Screw good/005; thread_top/003. Score-selected failure; product-map display shared across rows. [All-method gallery](../../assets/GALLERY.md) and [figure provenance](../../assets/figures/SOURCES.csv) identify the original source, selection and scale. This illustration is not a matched-protocol comparison.
+

@@ -12,7 +12,7 @@ The controlled AE is the L2 ablation of the DPAE encoder/decoder. DPAE uses an a
 
 Magnetic Tile; 761 normal fitting images; 191 normal and 392 defective test images; 224 px; latent 32; seed 42; SGD. Prototype and some layer details are explicit local assumptions.
 
-[Configuration/evidence](../../experiments/ae_dpae/configs).
+[Configuration/evidence](../../experiments/CONFIGURATIONS.md).
 
 ## Outcomes and limitations
 

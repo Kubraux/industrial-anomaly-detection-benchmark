@@ -14,7 +14,7 @@ DFR learns to reconstruct normal pretrained features rather than RGB pixels. Fea
 
 RGB 256×256; first 12 VGG19 ReLU outputs; bilinear alignment; 4×4 averaging/stride 4; BN-enabled FeatCAE; PCA 90% from the first 10 sorted normal training images; batch 4; Adam 1e-4; 150 epochs; seed 0. The final checkpoint is used. Bottle is reused from its separately completed run. Repo settings differ from the paper.
 
-[Configuration evidence](../../experiments/dfr/config_summary.json) · [Category results](../../results/benchmarks/dfr/dfr_all_results.csv)
+[Configuration evidence](../../experiments/configurations.json) · [Category results](../../results/benchmarks/dfr/dfr_all_results.csv)
 
 ## Results and what we learned
 
@@ -24,11 +24,9 @@ False positives include both expansion around defects and separate distant regio
 
 ## Visual evidence
 
-![DFR — Deep Feature Reconstruction recorded example](../../assets/figures/dfr_native64_native128.png)
+![Recorded DFR evidence](../../assets/figures/dfr_native64_native128.png)
 
-Existing Leather ablation panel: input, GT, native 64/native 128 scores, binary predictions and false positives. Final maps are256×256. Read the ablation protocol before attributing changes solely to resolution.
-
-[Visual conventions and provenance](../../docs/visual_examples.md).
+Leather color/000. Resolution ablation, with paired scale and binary masks. [All-method gallery](../../assets/GALLERY.md) and [figure provenance](../../assets/figures/SOURCES.csv) identify the original source, selection and scale. This illustration is not a matched-protocol comparison.
 
 ## Upstream and local work
 

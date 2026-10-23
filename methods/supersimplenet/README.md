@@ -95,3 +95,10 @@ The [preserved training patch](../../third_party/patches/supersimplenet/supersim
 [Source status](../../third_party/records/supersimplenet/SOURCE_STATUS.md) and [reconstruction limits](../../third_party/RECONSTRUCTION_LIMITS.md) distinguish preserved evidence from unverified reconstruction.
 
 No new experiment was run for this documentation. Relocated execution is unverified.
+
+## Visual evidence
+
+![Recorded SuperSimpleNet evidence](../../assets/figures/supersimplenet_transistor.png)
+
+Transistor. Final300 JIMS-extension example; separate image head. [All-method gallery](../../assets/GALLERY.md) and [figure provenance](../../assets/figures/SOURCES.csv) identify the original source, selection and scale. This illustration is not a matched-protocol comparison.
+

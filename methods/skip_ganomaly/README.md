@@ -24,9 +24,9 @@ The earlier one-epoch Bottle audit isolated an AUROC change caused by BN buffers
 
 ## Visual evidence
 
-No verified final 20 epoch input/GT/anomaly-map/prediction-mask panel is included. The image-level score table remains the evidence; no segmentation panel is fabricated.
+![Recorded Skip-GANomaly evidence](../../assets/figures/skip_ganomaly_categories.png)
 
-[Visual conventions and provenance](../../docs/visual_examples.md).
+All15. Quantitative category chart only; no saved final-run qualitative images found. [All-method gallery](../../assets/GALLERY.md) and [figure provenance](../../assets/figures/SOURCES.csv) identify the original source, selection and scale. This illustration is not a matched-protocol comparison.
 
 ## Upstream and local work
 

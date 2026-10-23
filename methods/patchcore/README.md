@@ -14,7 +14,7 @@ Normality is represented by a memory bank of pretrained patch features. A test p
 
 The recorded all-category run is IM224_WR50_L2-3_P01_D1024-1024_PS-3_AN-1_S0_ALL15. The evaluation uses resize256/center224. The local AUPRO extension uses200 thresholds and an interpolated FPR 0.30 endpoint. The exact coreset fraction and complete historical fitting command have not been independently recovered; the folder name is not sufficient evidence.
 
-[Configuration evidence](../../experiments/patchcore/config_summary.json) · [Category results](../../results/benchmarks/patchcore/patchcore_final_results.csv)
+[Configuration evidence](../../experiments/configurations.json) · [Category results](../../results/benchmarks/patchcore/patchcore_final_results.csv)
 
 ## Results and what we learned
 
@@ -24,11 +24,9 @@ The stored features provide a strong recorded ranking reference without target-c
 
 ## Visual evidence
 
-![PatchCore recorded example](../../assets/figures/patchcore_bottle.png)
+![Recorded PatchCore evidence](../../assets/figures/patchcore_hazelnut.png)
 
-Bottle / broken_small /000. Input, GT and displayed anomaly map. PowerNorm gamma=0.5 is a display transform; there is no binary prediction mask in this panel.
-
-[Visual conventions and provenance](../../docs/visual_examples.md).
+Hazelnut crack/000. Input / GT / map; class-shared PowerNorm display. [All-method gallery](../../assets/GALLERY.md) and [figure provenance](../../assets/figures/SOURCES.csv) identify the original source, selection and scale. This illustration is not a matched-protocol comparison.
 
 ## Upstream and local work
 

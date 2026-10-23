@@ -22,3 +22,5 @@ Evidence snapshot: 23 October 2026 (Europe/Istanbul). Each guide distinguishes i
 | [AnomalyNCD](anomalyncd/README.md) | Source-only; no verified local execution |
 
 Completed records are not claims of paper reproduction. Ablations and calibration remain under their parent methods. See individual guides for protocols, dates and evidence references.
+
+[Visual coverage and figure gallery](../assets/GALLERY.md).

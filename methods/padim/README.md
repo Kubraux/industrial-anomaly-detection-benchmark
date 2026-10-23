@@ -14,7 +14,7 @@ PaDiM fits a multivariate Gaussian to normal feature vectors at each spatial loc
 
 ImageNet1K_V1 WR50; 550 of 1792 channels; seed 1024; sample covariance+0.01I; batch 32; RGB bicubic256/center224; nearest GT; map sigma 4. Image score=max(final map). No test-selected threshold or test-minmax scaling in the controlled baseline. Independent normal holdout pilots are separate runs.
 
-[Configuration evidence](../../experiments/padim/config_summary.json) · [Category results](../../results/benchmarks/padim/results.csv)
+[Configuration evidence](../../experiments/configurations.json) · [Category results](../../results/benchmarks/padim/results.csv)
 
 ## Results and what we learned
 
@@ -24,11 +24,9 @@ The Screw holdout pilot detected48 of 119 defective images at the recorded image
 
 ## Visual evidence
 
-![PaDiM — Patch Distribution Modeling recorded example](../../assets/figures/padim_bottle.png)
+![Recorded PaDiM evidence](../../assets/figures/padim_calibration.png)
 
-Fixed-seed normal and defective Bottle examples: input, GT and raw Mahalanobis heatmap. No baseline binary prediction mask was produced here; do not read heatmap colors as thresholded decisions.
-
-[Visual conventions and provenance](../../docs/visual_examples.md).
+Bottle good/010; broken_large/005. GT and two holdout-threshold masks; inspected test sensitivity study. [All-method gallery](../../assets/GALLERY.md) and [figure provenance](../../assets/figures/SOURCES.csv) identify the original source, selection and scale. This illustration is not a matched-protocol comparison.
 
 ## Upstream and local work
 

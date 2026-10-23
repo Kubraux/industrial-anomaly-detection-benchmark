@@ -14,7 +14,7 @@ A GAN is fitted to normal images. For each test image or patch, a fresh latent v
 
 50 epochs; seed 0; latent 64; GAN Adam lr 0.0002; 300 latent steps per patch at lr 0.02; batch 64 for GAN fitting. Objects use128 px; textures use512 px with 16independent128 px searches. A 10%normal holdout is split before augmentation. Channel/augmentation/area choices are explicit local adaptations; Bottle is reused with its own provenance.
 
-[Configuration evidence](../../experiments/anogan/protocol_all15.json) · [Category results](../../results/benchmarks/anogan/results.csv)
+[Configuration evidence](../../experiments/configurations.json) · [Category results](../../results/benchmarks/anogan/results.csv)
 
 ## Results and what we learned
 
@@ -24,9 +24,9 @@ Texture cases require16 searches per image and the recorded evaluation is much s
 
 ## Visual evidence
 
-No verified input/GT/score/binary-mask panel for this run is added to this presentation. Reconstruction outputs exist locally, but no missing prediction mask is synthesized.
+![Recorded AnoGAN adaptation evidence](../../assets/figures/anogan_grid.png)
 
-[Visual conventions and provenance](../../docs/visual_examples.md).
+Grid bent and good. Existing pseudocolored reconstruction/residual diagnostic; no GT/mask supplied. [All-method gallery](../../assets/GALLERY.md) and [figure provenance](../../assets/figures/SOURCES.csv) identify the original source, selection and scale. This illustration is not a matched-protocol comparison.
 
 ## Upstream and local work
 

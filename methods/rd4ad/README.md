@@ -14,7 +14,7 @@ A pretrained teacher encodes an image into multiscale features. A trainable one-
 
 256×256; Wide-ResNet50-2 teacher and de_wide_resnet50_2 student; official cosine loss; Adam 0.005, betas(0.5,0.999); batch 16; 200 epochs; seed 111. Final200 checkpoint, not best-test selection. Bottle records periodic test evaluation; that is different from claiming no training-time test access. The held-out pilot uses its separately documented access policy.
 
-[Configuration evidence](../../experiments/rd4ad/config_summary.json) · [Category results](../../results/benchmarks/rd4ad/all15_results.csv)
+[Configuration evidence](../../experiments/configurations.json) · [Category results](../../results/benchmarks/rd4ad/all15_results.csv)
 
 ## Results and what we learned
 
@@ -24,11 +24,9 @@ Strong ranking did not transfer automatically to the training-normal threshold. 
 
 ## Visual evidence
 
-![RD4AD — Reverse Distillation recorded example](../../assets/figures/common_leather.png)
+![Recorded RD4AD evidence](../../assets/figures/rd4ad_grid.png)
 
-Shared-evaluator Leather example. A localized high-score focus can coexist with an almost full-image prediction when the training-derived threshold transfers poorly. This is one selected diagnostic image, not an average case.
-
-[Visual conventions and provenance](../../docs/visual_examples.md).
+Grid bent/011. Input / GT / map; explicitly selected high-FP case. [All-method gallery](../../assets/GALLERY.md) and [figure provenance](../../assets/figures/SOURCES.csv) identify the original source, selection and scale. This illustration is not a matched-protocol comparison.
 
 ## Upstream and local work
 
