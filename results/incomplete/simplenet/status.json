@@ -1,0 +1,10 @@
+{
+    "status":  "stopped_by_user",
+    "class_name":  "screw",
+    "epoch":  8,
+    "total_epochs":  40,
+    "completed_classes":  0,
+    "pid":  8520,
+    "stopped_at":  "2026-09-18T13:55:54.3747884+03:00",
+    "stop_reason":  "User requested switching to AnoGAN or GANomaly. Existing checkpoint and logs preserved."
+}

@@ -1,0 +1,38 @@
+{
+  "category": "bottle",
+  "training": "train/good only",
+  "seed": 1024,
+  "epochs": 299,
+  "batch": 64,
+  "repeat": 100,
+  "lr": 0.0001,
+  "lambda_value": 0.001,
+  "D": 64,
+  "Adam_betas": [
+    0.9,
+    0.999
+  ],
+  "Adam_eps": 1e-08,
+  "weight_decay": 0,
+  "preprocessing": "RGB bicubic256; subtract training-only spatial RGB mean; divide255",
+  "patches": [
+    {
+      "K": 64,
+      "S": 16
+    },
+    {
+      "K": 32,
+      "S": 4
+    }
+  ],
+  "map": "overlapping patch average; scale maps multiplied",
+  "image_score": "maximum map",
+  "masks": "nearest256 threshold>128",
+  "test_policy": "first read after final checkpoint; no test model/threshold selection",
+  "nearest": "exhaustive full bank L2;query512 bank8192 chunks;float32;TF32 disabled;direct selected distance",
+  "normal_bank_subsampling": false,
+  "aupro": "8connected per-region equal weights; all background; tie-grouped exact curve; linear endpoint0.30;divide0.30",
+  "source": "author repo master ZIP downloaded2026-10-12; archived source hashes",
+  "hyperparameter_sources": "D64 and patch geometry paper;lambda/lr README Bottle;batch/repeat/299 passes code;seed local;Adam defaults explicit",
+  "execution": "fresh smoke model then seed reset fresh final model;num_workers0;no AMP;cuDNN benchmark disabled"
+}

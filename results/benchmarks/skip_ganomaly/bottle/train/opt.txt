@@ -1,0 +1,46 @@
+------------ Options -------------
+abnormal_class: bottle
+batchsize: 8
+beta1: 0.5
+dataroot: ..\..\archive
+dataset: mvtec
+device: cpu
+diagnostic_batches: 0
+display: False
+display_id: 0
+display_port: 8097
+display_server: http://localhost
+droplast: True
+extralayers: 0
+gpu_ids: []
+isTrain: True
+isize: 256
+iter: 0
+load_weights: False
+lr: 0.0002
+lr_decay_iters: 50
+lr_policy: lambda
+manualseed: 0
+metric: roc
+model: skipganomaly
+name: skipganomaly_bottle_20ep
+nc: 3
+ndf: 64
+ngf: 64
+ngpu: 1
+niter: 20
+niter_decay: 100
+nz: 100
+outf: ./output
+path: 
+phase: train
+print_freq: 104
+resume: 
+save_image_freq: 0
+save_test_images: False
+verbose: False
+w_adv: 1.0
+w_con: 50.0
+w_lat: 1.0
+workers: 0
+-------------- End ----------------

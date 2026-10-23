@@ -1,0 +1,1 @@
+class,I-AUROC,P-AUROC,PRO-AUPRO_official,inference_s_per_image,best_epoch,train_images,test_images,elapsed_s

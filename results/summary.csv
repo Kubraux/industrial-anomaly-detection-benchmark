@@ -1,0 +1,12 @@
+method,method_id,categories,image_auroc,pixel_auroc,pro_aupro,best_test_image_auroc,protocol_id,scale,aggregation,source_csv,additional_source_csv
+PatchCore,patchcore,15,0.9917955704175335,0.9811075141388599,0.9300449769553281,,patchcore_200_thresholds,fraction_0_1,equal_weight_category_macro,results/benchmarks/patchcore/patchcore_final_results.csv,
+DFR,dfr,15,0.9385406666666667,0.952512,0.899428,,dfr_native_pro,fraction_0_1,equal_weight_category_macro,results/benchmarks/dfr/dfr_all_results.csv,
+RD4AD,rd4ad,15,0.9835663950789573,0.9778895878852026,0.9394116743004822,,rd4ad_per_image_pro,fraction_0_1,equal_weight_category_macro,results/benchmarks/rd4ad/all15_results.csv,
+PaDiM,padim,15,0.9540239143558606,0.9731017656708517,0.9224597303060821,,padim_exact_030,fraction_0_1,equal_weight_category_macro,results/benchmarks/padim/results.csv,
+AnoGAN adaptation,anogan,15,,0.7635385503169321,,,anogan_native_threshold,fraction_0_1,equal_weight_category_macro,results/benchmarks/anogan/results.csv,results/benchmarks/anogan/image_max_results.csv
+GANomaly official-flow,ganomaly,15,0.5762079944069323,,,0.6917143838621485,ganomaly_train_mode_final,fraction_0_1,equal_weight_category_macro,results/benchmarks/ganomaly/results.csv,
+Skip-GANomaly,skip_ganomaly,15,0.655157579880934,,,,skip_final_eval,fraction_0_1,equal_weight_category_macro,results/benchmarks/skip_ganomaly/skipganomaly_mvtec15_results.csv,
+PatchSVDD,patchsvdd,15,0.8033592394448542,0.9115989191258738,0.6860618379410174,,patchsvdd_exact_030,fraction_0_1,equal_weight_category_macro,results/benchmarks/patchsvdd/results.csv,
+SimpleNet,simplenet,15,0.9842862526112985,0.9604563592887077,0.8925649052355391,,simplenet_fixed_final_exact_030,fraction_0_1,equal_weight_category_macro,results/benchmarks/simplenet/results.csv,
+SuperSimpleNet (JIMS),supersimplenet,15,0.9830470553797243,0.9752125781620585,0.9119335260464088,,supersimplenet_fixed_final_exact_030,fraction_0_1,equal_weight_category_macro,results/benchmarks/supersimplenet/results.csv,
+DRAEM,draem,15,0.9759705531630347,0.9713357578669499,0.9250642091240433,,draem_final700_exact_030,fraction_0_1,equal_weight_category_macro,results/benchmarks/draem/results.csv,
