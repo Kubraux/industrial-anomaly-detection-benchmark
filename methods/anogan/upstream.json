@@ -1,0 +1,9 @@
+{
+  "method": "anogan",
+  "url": "https://github.com/seungjunlee96/AnoGAN-pytorch",
+  "commit": "unknown",
+  "commit_evidence": "not recovered",
+  "license": "No local license identified;implementation not bundled",
+  "adaptation_reference": "https://github.com/LeeDoYup/AnoGAN-tf",
+  "relocated_execution_verified": false
+}

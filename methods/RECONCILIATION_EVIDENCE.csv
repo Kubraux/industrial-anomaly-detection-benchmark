@@ -1,0 +1,202 @@
+method,workspace_path,role,bytes,sha256,captured_at
+anogan,AnoGAN_MVTec2019_all15_20261008/additional_image_auroc_max/results.csv,supplementary evidence; interpret with reconciliation report,2602,e38ad35b42d6e582e0d568e51e7aef4ac00af43ba22d7b26354a4daaa25c7767,2026-10-22T10:28:27+03:00
+anogan,AnoGAN_MVTec2019_all15_20261008/results.csv,evaluation table,3289,a70a8aec11d4feaecf5b58c9b36bcffa0f9ca46e324adce0a76ffee0ecbd69f5,2026-10-22T10:28:27+03:00
+anogan,AnoGAN_MVTec2019_all15_20261008/status.json,supplementary evidence; interpret with reconciliation report,117,9e9437a546d8ff9b0fce1fb96ab0b8da6040032338f08862b13c0891359f8a2b,2026-10-22T10:28:27+03:00
+anogan,AnoGAN_MVTec2019_bottle_smoke_20261007/smoke_results.json,supplementary evidence; interpret with reconciliation report,2072,23ca4327ad2c61eaf96ccb9ee7e5e7b400f76d4926e588161d93b39793a6f44f,2026-10-22T10:28:27+03:00
+dfr,DFR_RD4AD_common_evaluation/status.json,supplementary evidence; interpret with reconciliation report,87,9f9e87dc37c5725f96206790a47378495bf3f1f0c986c36f9eb5c3cda5550f38,2026-10-22T10:28:27+03:00
+dfr,DFR_results_all/dfr_all_results.csv,evaluation table,1961,e3fbdc9392ed02612068b4ebd4eab74a62a62d25d37d7db660d500d798b8286c,2026-10-22T10:28:27+03:00
+dfr,DFR_results_all/spatial_fp_analysis/spatial_fp_report.md,supplementary evidence; interpret with reconciliation report,6786,f21adba5d77841132e8ca1db7c0722792f06476df7aa6e6af35feb9a0df74618,2026-10-22T10:28:27+03:00
+dfr,DFR_results_native128/comparison_report.md,supplementary evidence; interpret with reconciliation report,2847,4faba47e044cfad7a9f42941282dd3a29d89ed97d3ea6eb3baee29e14adc318a,2026-10-22T10:28:27+03:00
+dfr,DFR_results_native128/status.json,supplementary evidence; interpret with reconciliation report,186,6b0057c5a026dcbe8d9c472b8eac30e98e4b7999464d3d19287caca6ec6df4f8,2026-10-22T10:28:27+03:00
+dfr,DFR_results_nearest/comparison_report.md,supplementary evidence; interpret with reconciliation report,1606,5f1fcbee691652d6ae1adbdbef5a50ac0b3b93fc26761977cb5dcec967731ef4,2026-10-22T10:28:27+03:00
+dfr,DFR_results_nearest/status.json,supplementary evidence; interpret with reconciliation report,184,f96168549782c94b01abaae4dfec06fa226de3e4ba8c041e4aacbb8a78016d43,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/bottle/metrics.json,execution record,562,f75ca447172ef0ad6a6f608f5e5e8addc834ba4176ff85db9cf371f9e0ec279b,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/bottle/protocol.json,configuration,461,9a033718d55b9c24429becdb0144e8ff1bfb71c68613b32e7b04a7492f678d72,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/bottle/status.json,execution record,740,18959d9003e0ac0a248d6a74dbd250a798679aa433805257ccf16b936c6c94f9,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/bottle/training_summary.json,execution record,317,5bb38bd968658d4e5c41b59a61cc7c037e9ca537e1cab5e0bf8fcab0a366bcc1,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/cable/metrics.json,execution record,562,ec867b1bcbb3e4d110a5a328ab7f087cf6c25decc9830c0b662f4eb12ddfbc53,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/cable/protocol.json,configuration,460,7a9c21e9ccbaeaeedb337c82884ace51e077778e831c2507498de8a079418a32,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/cable/status.json,execution record,739,fe53d0c1d39e783d7535397ac32bb5b6f7e2f4e822ac4fa4564b57415d339a65,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/cable/training_summary.json,execution record,317,7b2e2a6fd49168198a81cfdd0cbae4781cb5311342ea85c062bf9d834cfcc2e1,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/capsule/metrics.json,execution record,562,320d6e7320cb4e2461328e662fa38e05c12c4f64fa72f332de596acd377c5de6,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/capsule/protocol.json,configuration,462,1385e6d5d81f056ba5f07e65a8e2b64a054af363eb1baa3d22e59016b28bc926,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/capsule/status.json,execution record,741,28206ec96eb69c631af4d4b3965369e72d50a97f733b4d8cfc1f2cca018aea04,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/capsule/training_summary.json,execution record,317,a88912aaed2821577790659ea35c177811d9512c3d905d57c2ea81e8d1634d31,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/carpet/metrics.json,execution record,560,bb5432428ccf21a808f022ae31e4cde815c1a3f440c15d5125fc82dd586660f1,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/carpet/protocol.json,configuration,461,2a706cf4e5b3fd6016d001924a9adeb0cef643c8b3069b85fdba0415e81d4fbb,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/carpet/status.json,execution record,738,ae81d11ab94b6b8fb8900657a1acf484babab1b170a6111336cb5ef3cb3a287f,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/carpet/training_summary.json,execution record,316,cc905b08f3aacd8dce340f65dc2b758e378423c2b21d5359371927edb452e205,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/grid/metrics.json,execution record,561,2be4f1f159c9020a6829ae3485cc73256953a1e85ab68bf83d6096c0628ae357,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/grid/protocol.json,configuration,459,c91cd76d397643f4df5aff79109fb364a72d6e11ce5c2ad9ce1c1cd222fa615a,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/grid/status.json,execution record,737,e6aaf79dfcadc551415aa0596217edc54e96ca89cff30550f5dd1a99ca023937,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/grid/training_summary.json,execution record,317,ac31764ffb13a5bb12dbd442ee683b455b81d24cddfc8f97d449f05a6f4e20db,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/hazelnut/metrics.json,execution record,545,32f61a1326a13095d372d4776e3311dec28290cd4bed9e37bf7a2d389797156e,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/hazelnut/protocol.json,configuration,463,3e3dfa132d147bc0a6f9d668e8639c02c7238c34b18d56efc868d4daef085e51,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/hazelnut/status.json,execution record,725,0bd52b2547a89d0947c17c9c66cc5b6eb6ae4f0a76a3e1e95e5e523bd686c0a8,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/hazelnut/training_summary.json,execution record,316,43325ab386fa265ef464e5da20c5c47a6a8f6a7666fc59e03807ba3627005266,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/leather/metrics.json,execution record,546,86ccc7c2f947baf050e9280bf08651e49833fe972e268a499955f060657d6ce1,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/leather/protocol.json,configuration,462,07d351f28d8a481514866149d057a2c847b886ec6638b517dd157d3799713b93,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/leather/status.json,execution record,725,8389c181b4f53b7f1da6c688df3215898061b98fe0e9c0a80b43a019cc087ca2,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/leather/training_summary.json,execution record,317,a482459448b2d1121886b011ebe87ae66789a0556a82687d5af8b08d9a7cf0cb,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/metal_nut/metrics.json,execution record,562,bd7abe0aa2786805612008c98729b43bd961d316f2794faec2b292a40ea6669f,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/metal_nut/protocol.json,configuration,464,e3ffbc41417fae25dd54f2ec1da036927e2fd5f0daf6735276a92a62183e9a4e,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/metal_nut/status.json,execution record,743,1409633e3a2ac191a356ea7405382b863aeff84ba1fe7b6f332760564bb943dc,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/metal_nut/training_summary.json,execution record,315,ccfd06f55391c5c75a6733ca6578a05767b301bc3529b42ddf8a0b83d4e5b905,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/pill/metrics.json,execution record,562,868ca6076d72a46da4fcd94645adec706746260549b0a18022ccf97c64010580,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/pill/protocol.json,configuration,459,8e3bb5892ab84495f28f392eedc7d20608ad860ac79421da117bc56195d629e5,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/pill/status.json,execution record,738,526b3c35209408372b40419828ebf764129065d8a54922b4c8ce22b9a741db6d,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/pill/training_summary.json,execution record,316,1424d2bc4677df91d3c3f216de0e43e7f10dde2b28659281694b2e40b07dc319,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/preflight/environment.json,supplementary evidence; interpret with reconciliation report,385,b2b2fc13d054b0f460a8862cf115ab94143864a10158d37459941e5b7ceac746,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/preflight/smoke_checks.json,supplementary evidence; interpret with reconciliation report,1781,54b09f3fa416e565e38e3d792fdfdd7d39aad5fa01704befe8de474ab42b4e56,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/pretrained_validation/our_metrics.json,supplementary evidence; interpret with reconciliation report,8362,bff4fc5def32163f1416f380f535901e679b295b5ab03bc8eb40bd78b3de6844,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/pretrained_validation/status.json,supplementary evidence; interpret with reconciliation report,81,226857e1fbc2548389ad623635a4eeae5f830ae2115b7a6e60017f254e93cfe8,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/pretrained_validation/validation.json,supplementary evidence; interpret with reconciliation report,9327,158e51a5d22f793a386fcced051f7de5d45b21b1b65fd7f9252a03aa574cf7e4,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/protokol_TR.md,supplementary evidence; interpret with reconciliation report,4280,634cea54479010a9b817e6645de59718dd6f0eb628a5bb4c2083a6faaca76470,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/results.csv,evaluation table,4456,9ddc7f07068140c86bd3c56ea64b52316d5680edc31a88863cf7c6095df0be80,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/screw/metrics.json,execution record,564,708322636cc04f81819de31645c2416de709a3a4b0b0c8e07d8e6d8a07b4d109,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/screw/protocol.json,configuration,460,2fed3de302d49a5974702680f8e9b0c9d35206736da1225a94db45c3b9b0bc79,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/screw/status.json,execution record,741,5dfe3a0a07b31b70fe61b03f2442e35974c21aa620a6bde96561e3c00983c3a9,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/screw/training_summary.json,execution record,317,f88901c3ed7174b1cd35c878197cb0111b8d636cc8bb9df7218f91c4d6967032,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/status.json,supplementary evidence; interpret with reconciliation report,117,1487a61751ffb6d98b7e5e876991afe4ca18877ebf3a0e7150e75f507ecde807,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/summary.json,execution record,178,1388085527abe82a7d116ab4d03b0732ca8014ea210f9809d2a1d89fa3e9ac8e,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/tile/metrics.json,execution record,548,11b489d09669467d61233cf6cd8c9921a787d20926cb444ee82525f6237959b3,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/tile/protocol.json,configuration,459,547293e74d83a3965762b777f3f6a134524e76d646fd79618c2ab08a6de11f56,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/tile/status.json,execution record,724,c913a8d0c00a016a1d504ee2ba9fca39fb31344e7cec882c0bf610af5350e45d,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/tile/training_summary.json,execution record,317,29a11c2cfdcafc0f3973e89bd908f556e4001154ae0eda0c768f0804e2ba00f5,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/toothbrush/metrics.json,execution record,546,f75433384030727ddaa0caa40432a7fd27df5b783b3972508688c9637f112dbd,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/toothbrush/protocol.json,configuration,464,024483af2b69739159f56b8ddb82ae35018612fe60581edc519a8219531b32f6,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/toothbrush/status.json,execution record,728,49a9fd7958e2bca65881a224c9969a2c50f6c221622ee9395e1249672ac480e6,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/toothbrush/training_summary.json,execution record,316,b25008d2820d14b52d14e44b90bff19be7d6c5aee202f38a8d01f6d9020cb0fc,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/transistor/metrics.json,execution record,561,154f4e9849602de0f00d90e3e106e5d1fffbba760e1e8b7747c7c0cabcbe28a8,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/transistor/protocol.json,configuration,465,aec92a33d7194b836df5e3994ab6c492178b616860b88ef155c248c08387585a,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/transistor/status.json,execution record,743,d72b26b30d7348db6a412f650e8aa437e88cd058de9bf9de44386afdd3c402eb,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/transistor/training_summary.json,execution record,317,4d72bb789f566f3cf14b81a64243d295ec5c3adac470cdf2d9bf22ca876108b5,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/wood/metrics.json,execution record,530,3dad8d69f93a18fa8b608b4b127a2eeb8038a3295f22a53c31cb4b066b48cd85,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/wood/protocol.json,configuration,459,15529e4d7c03a60c1cd047a3642752d820fadd9c8819f8d06f67541856053e39,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/wood/status.json,execution record,706,2d8fc3add77108b76d143f3d2aeb8ac689182b0ba127aefce2405f19fbe0cfc8,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/wood/training_summary.json,execution record,316,7455aa7fca98f615fd9f9b7dd78ef28fce7a599a399302d759ee313e18e98a4e,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/zipper/metrics.json,execution record,548,8aca47bd5298282b1945a514ec091316b0525104ec9c55e427415eeb2b8293b9,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/zipper/protocol.json,configuration,461,4abb2953d047f6de417794f5345f408006e802d253f52c6c23c4bc9a00240b3b,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/zipper/status.json,execution record,726,0da2be3540cdce6c799228b9fc345354ccc29cdda060f684c570faefaff6f301,2026-10-22T10:28:27+03:00
+draem,DRAEM_MVTec_all15_20261015/zipper/training_summary.json,execution record,317,d8c54ba374a8422ca09fa440da9f3874dea8839d100db07f3a725acccff8dc5b,2026-10-22T10:28:27+03:00
+ganomaly,GANomaly_archive_20261006/manifest.csv,supplementary evidence; interpret with reconciliation report,23675,e38214596b89f32676ded882c09051bbc6dae0493e2ac53295a14ff500b66baa,2026-10-22T10:28:27+03:00
+ganomaly,GANomaly_official_flow_20261006/results.csv,evaluation table,3710,33865c826e254f6c6e802ba194462eaee7adcbfe380d451dcd09e417c89cf568,2026-10-22T10:28:27+03:00
+ganomaly,GANomaly_official_flow_20261006/status.json,supplementary evidence; interpret with reconciliation report,118,0958eb77ccb6a649af900a0ad7118e301a4fd90411c6a268d7b6e401e46548cb,2026-10-22T10:28:27+03:00
+padim,PaDiM_Bottle_holdout_calibration_20261012/metrics.json,supplementary evidence; interpret with reconciliation report,3993,4db6fae0c7a3e899d7d30215c5a178c61f0018420b5a468bfd26df837cf2010f,2026-10-22T10:28:27+03:00
+padim,PaDiM_Bottle_holdout_calibration_20261012/status.json,supplementary evidence; interpret with reconciliation report,27,5e5d1c916698681c5193aecb2d6ff00621591ad76af910c6489845e2ef1370b4,2026-10-22T10:28:27+03:00
+padim,PaDiM_MVTec_all15_20261012/results.csv,evaluation table,3085,81a6a5a43949f627908b12129f102e5add5f4cf1248f9e18b1fe57522ecb54d2,2026-10-22T10:28:27+03:00
+padim,PaDiM_Screw_holdout_calibration_20261012/metrics.json,supplementary evidence; interpret with reconciliation report,5359,9471ce5623fbd4c934375a1f6cdd0e598549680b5caf510e48d3c58fff38ed3b,2026-10-22T10:28:27+03:00
+padim,PaDiM_Screw_holdout_calibration_20261012/status.json,supplementary evidence; interpret with reconciliation report,27,5e5d1c916698681c5193aecb2d6ff00621591ad76af910c6489845e2ef1370b4,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_Bottle_20261012/metrics.json,execution record,575,7c89aa703a5e69576368b949b751f0902624310b2aa640e9ea143f74363b2bfa,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_Bottle_20261012/status.json,execution record,728,fa6bb73e37cb745bcbe71e3dc2eafc0cbabd37c2790341c2f256b12ff7bde863,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_Carpet_lambda01_20261013/status.json,supplementary evidence; interpret with reconciliation report,786,48bb1acbc92d98daaed50b24861cdd4e06ee232487b76cb22ec160038fb0f11e,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_Carpet_lambda0p01_20261014/status.json,supplementary evidence; interpret with reconciliation report,787,105c999c493de40d74b16c67a80efe14c2c164d1de29477239286d6ff093cc02,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/cable/metrics.json,execution record,580,a9b15c0088ccc2dd65ed5ff91d3b8228a04a61957a56cd82aefeaebe04ec22cd,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/cable/status.json,execution record,731,6a51c7ed2f80c9e8e3df305a5ed044f27056d155aa19ed331a245d9c9bdf3489,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/capsule/metrics.json,execution record,582,d5105cc4b904a034a22237190b8bdca0bd00c7d062525ad259da2a1a8d5d8f6e,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/capsule/status.json,execution record,733,c52b278614d8be12582b52c33fb66abddf79f186c8dc362e7b3920a5c7c97834,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/carpet/metrics.json,execution record,576,1df376f0618d9d809bbcca347ecadafaea93e873080ecfcb399a72764c32d637,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/carpet/status.json,execution record,727,f1ba8557b8ed23c83e4d05a323a4fa6d2798817c012a8e0f364a87dd4cb0768f,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/grid/metrics.json,execution record,579,bab7aac930b81582fa36beca2cb2ffb8c2d86a802b89e36b07e71920064e8bd7,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/grid/status.json,execution record,730,0475d2ad47055acb741c1dd46579b17f82a99cacebb6b93d8603d81d0e319bd6,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/hazelnut/metrics.json,execution record,577,ba1b379406f429d34e6a65dfdd6cfd726bee5724f370c2affac21c58e5775d55,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/hazelnut/status.json,execution record,728,e28502a9afc3017d5d6570305cd16c8594dd6ac8e3d490b0f7be3b96152ae0b3,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/leather/metrics.json,execution record,578,b0328b58beefd999a71a4596dc52ec8c10c29c27d1d57cb4522a8cb357810fb6,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/leather/status.json,execution record,729,8ab65ef7fb52ea7aacec0a427c2bf629c3608933f97b0e8c48fb3fa90cabb03f,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/metal_nut/metrics.json,execution record,577,ff09e9c0104dbfe0110d6fab0884f5cd118396bb14167612b58f4e3c92bd3405,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/metal_nut/status.json,execution record,728,7606a79362af305271cc019a0ee6b502a075248ea161c60678cb6eff784aaa45,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/pill/metrics.json,execution record,578,e12ef1c5a05f3bd3cb7bd7c8bbfc0805fd5c65846d05c16f56f6b3161b0485a7,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/pill/status.json,execution record,729,ca1e76f42fb55e3fb5666fed002a4c91a97ec3233f7131263a7a24f89ebbd1a8,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/results.csv,evaluation table,3424,18f617920384a0264b2551f7db258177d268205f2ec3293def6effe5f43e1d3d,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/screw/metrics.json,execution record,582,6d4fa5e43baf85f627bd5299955d2354dcad7ee244c6b234bb68679bacadaf2b,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/screw/status.json,execution record,733,2c470a532ba00d9f27bc266bd6f04a9721f43648343cdfdc3d49629fc92df2e0,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/status.json,supplementary evidence; interpret with reconciliation report,63,e4d7be0d4f59c34c82864075822a7c7c666a58909cb24efbcca3063d0a474f8d,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/summary.json,supplementary evidence; interpret with reconciliation report,242,c664694f4cc5887f98aacb0397cfb9d3c85d4b6455b7ed99042b20623e9afe3b,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/tile/metrics.json,execution record,577,ea4ad9e079b48f02aaa6bfe77df84d350d731aed834ee9a57199fbb0822f1777,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/tile/status.json,execution record,728,77b7b4c9b82721b7124f1f48787089b318658b7cbbaf474f42c7d0ff6e391e18,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/toothbrush/metrics.json,execution record,577,b9e142beb127785c4143cc09c53689e6da358a5a590649f0080774241918c6e6,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/toothbrush/status.json,execution record,728,d8890e49ed1ea991a6b3f8b59e74d22c84652ac9fefc6ac3b80167e464f83883,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/transistor/metrics.json,execution record,580,a9d0d0ec0aaf84128e4a8930f2c59c10f51b26ca17e1ca5d663a74b691047b79,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/transistor/status.json,execution record,731,a9e9da6d67a66e7f87de8447f61a1ce929ada411a2dc1098fa10572f66cb6977,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/wood/metrics.json,execution record,579,e9e374d8d920c749d433d856eb43c82015da82d54f415e02e6f0b6c93a2b3a82,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/wood/status.json,execution record,730,22be20adaac378c562b340dc921f2dc3368de8a90ee624c69735aae825fa4474,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/zipper/metrics.json,execution record,581,7a8d33b486b4d34608fe999281da7dfa6f33caa515da495ccf3211828aaaf46f,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_MVTec_all15_20261012/zipper/status.json,execution record,732,b8df0213e6c8fce3276225e686acacff81d64e5858e316624381222df3939e15,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_rootcause_20261015/status.json,supplementary evidence; interpret with reconciliation report,61,987f0637ebe6257f221d11b350de6b4985a16709017e2d3fb4a952a65e7e1649,2026-10-22T10:28:27+03:00
+patchsvdd,PatchSVDD_rootcause_20261015/summary.json,supplementary evidence; interpret with reconciliation report,9124,1262727d0e38941c769b0ca312838077a203eeb4ad446a047725b2bdf2e9b291,2026-10-22T10:28:27+03:00
+rd4ad,RD4AD_holdout_calibration/comparison.csv,supplementary evidence; interpret with reconciliation report,2253,bb4fa557d265f5fbff4d59e4a255781fd1858cf25540a408435008a97c20a0b8,2026-10-22T10:28:27+03:00
+rd4ad,RD4AD_holdout_calibration/status.json,supplementary evidence; interpret with reconciliation report,219,767f0eb7540ce6c61463d5b2c1d944388c22f3d8179cebe64f76b535c2672383,2026-10-22T10:28:27+03:00
+rd4ad,RD4AD_results_all/all15_results.csv,evaluation table,1840,c4bf9b437b0f330585a825dd33974f6038214c1f1f8552031a047b2dfad85a61,2026-10-22T10:28:27+03:00
+rd4ad,RD4AD_results_bottle/final/environment.json,supplementary evidence; interpret with reconciliation report,439,a426a82a43d1661c5c4f34e227e0ad87b323f3ad6834a9b0d3513745270708cc,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet-main/SimpleNet-main/results/mvtec_official_cpu/smoke.json,supplementary evidence; interpret with reconciliation report,397,669156b8b4c0711d581435016d54cf7fa80ff70ffe799a0caf5e5abad08edff8,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet-main/SimpleNet-main/results/mvtec_official_cpu/status.json,supplementary evidence; interpret with reconciliation report,334,9bcaf0c3a171c15aea09570057f8e8976c8e82339aa8e45be7553cd04e88bc98,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/bottle/metrics.json,execution record,611,1256de6918a7d7e620bd08e4645b9c9ab2f90500c06e7fd67269fbedf207956e,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/cable/metrics.json,execution record,609,3dc283896caa14bb242e8bed4fbda9300271353f695efd24c9a329c8baa4d33c,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/capsule/metrics.json,execution record,613,eb90fbef248ce2fe8c9027cb0904b1723717db4e85e9971c64aa7f5302f9ddc3,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/carpet/metrics.json,execution record,610,7e77bcebfb38a8f073764ee2e4b23f46a512c502e0ceac68847cfc487c617601,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/grid/metrics.json,execution record,606,9a44b6f4c4c8ba89f805d8daf334d8f8976e69fb04827c86a8ee5331148937da,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/hazelnut/metrics.json,execution record,615,df69d64befeaae4e96d5052829e79e8d483b7763d6600a4696682a78815dfb99,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/leather/metrics.json,execution record,598,cd4db7d97ce25dd2149a9a1244ead01c88e6fda06b94cd37fbfddf740e990848,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/metal_nut/metrics.json,execution record,615,aa868955a90010da8d9fcbbf2cd210f8a177b0b87fd26822992b660ba09af20b,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/pill/metrics.json,execution record,608,4677291a0c95f99c2d7956ef634b877da8250facf309ba293d036067badaed95,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/results.csv,evaluation table,3493,661b6a28919a57a024abc785582cd473fa9164eb91ff7e2653c8f48d1cf59ed0,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/screw/metrics.json,execution record,610,e476b74e70f962ef69064da69a17cb0275be6bee4561cda42ca0a770467f946b,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/tile/metrics.json,execution record,609,826bfe70968e17851c4794b1533f46939367658077501771e1b1cbcda56242c4,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/toothbrush/metrics.json,execution record,610,19080e46820a728d944b15e37bcb2ece60ed28d98a2beadb8b635be2068417e2,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/transistor/metrics.json,execution record,614,1e3a0221fbce0330729993f4bdac58de524ce230293b308cd08fbcdf81dad111,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/wood/metrics.json,execution record,608,f9591c18cbd5667b029420c27e101f35c212880c317ec191617f0c078687fc4a,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_results_20261020/zipper/metrics.json,execution record,611,5f37a0a87ce330d7c54a3db73c4c4b19d6adc839724eb5f34bd9c09475560125,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/bottle/status.json,execution record,73,34ef58e422b34dd963cad1f7fcf9655fde60979f5e9826b51146f6217750368e,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/cable/status.json,execution record,73,d55e2e0a616eb8341cd6b015db08efd8205303bc38ab661357b645f2b8100c0e,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/capsule/status.json,execution record,73,13309b09c02d9fdba1aed6f4a578216dcbf8bd2911ebecec5c60ad1c5b27d510,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/carpet/status.json,execution record,73,ae4c986f91676bed5a835f17d2db3ddf83c231aeb10f220475b21e980e8151e5,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/grid/status.json,execution record,73,879df7954aa8b15057e3af6518ca5bed46a8e96ee7180cf9df44ab8b4783c8c8,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/hazelnut/status.json,execution record,73,bf682c4509a91334175e27c2eb9f5ec0375bdc2243925fff44fc286989240372,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/leather/status.json,execution record,73,676b9d41481ca888e011d1b2c9532adc1c4c32c740267d345869728e6a533b60,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/metal_nut/status.json,execution record,73,6f67ee237d76a5ea5b9a1f119df0ea31d610b18a7acfa51101bcbb3c1c727882,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/pill/status.json,execution record,73,82202ad516ff6d44ca5c084e046468fd26a15ce041def0f70d34d1797bf75ca1,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/screw/status.json,execution record,73,4220a7f2394c5b0cfd90c8459c1c0aef1df1e3164910dd64d199333fdb6231eb,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/tile/status.json,execution record,73,acdf7dfb140fc9de4adc628d503ea231a2c961bddcfdd1cd5be849fa454dd7a1,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/toothbrush/status.json,execution record,73,a81e1b55450e78a1ea39fcdef98331dd4d472f4d0ec835553e06b8582009ca8c,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/transistor/status.json,execution record,73,0abb86f5517d7f20aa84ea0af7b329787bd01937327dac13746e0a37b993d2a4,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/wood/status.json,execution record,73,7f287f3ae446ed676eccaa4ac133b367727a51db906d093f57e764d40196a017,2026-10-22T10:28:27+03:00
+simplenet,SimpleNet_MVTec_training_20261020/zipper/status.json,execution record,73,a5af36dae578edfb6e3e3a6c851f7174bfc6aa72403bfafcb75ff6b3e9cfde1e,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/bottle/metrics.json,execution record,601,054a109ff9e587b63c4e4c2665f1b46096f3f6c479db701a2d49503ebeae64e8,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/cable/metrics.json,execution record,618,84a109daf7a585d460532d7df7020dea9993f5edc8870c60ed890a8bc1804f1a,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/capsule/metrics.json,execution record,617,dbc89d44343e5ad63b3dd446dc2230acf9dcc6c14fdc888181b757d1f37b1095,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/carpet/metrics.json,execution record,616,57b159eb9e7343030628be997c95d6365a874dbdb7de6a4defdd74c97841d5ae,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/grid/metrics.json,execution record,613,3aa54d71fe5fc2a3ade4061a08e3ca09995f38faefbdf964351ad2636c3b9fcc,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/hazelnut/metrics.json,execution record,603,a9fa72fe5cd6c82717c49b35b8e9473fce3de6612907bfe918947a1540bd24ee,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/leather/metrics.json,execution record,603,ba0ff9b97800e6c11505b6d2939171492d7ea2178658287f34db7ed7c14ecaa6,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/metal_nut/metrics.json,execution record,621,2d2511f97dc7ebf655213e755cfe16f56c95202751ab25027e7046ee88a424de,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/pill/metrics.json,execution record,613,aab4f8497e2dda6fa2002e86de6a03f4a03fe6f4c448afdccfbeefd12fab1c11,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/results.csv,evaluation table,2667,711a24eb01a0760b8dcbc7b8180e97a6e873d0323a6d5574a364db67fb8d3cf0,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/screw/metrics.json,execution record,616,6b6610711b8eaa6e1c0adefa87bd9438290cfa4c3d87571ef78b0fa7e1960244,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_results_20261020/tile/metrics.json,execution record,616,5e23ef922e5c97b40a530aa073a880dd301d6329653228d179a81cead83209dc,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/bottle/status.json,execution record,73,731c83bf6124f526078123e16dc50a8629246535c580a48cdb83bbaed6b17cee,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/cable/status.json,execution record,73,f93816e710a7008887e67ae684aeb149a53a0f5e7218bfb7ab5eeb8662738cf5,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/capsule/status.json,execution record,73,008e5c83440334b1179e9b27d25232e8d122a5e7acef83075d701da20aa60805,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/carpet/status.json,execution record,73,80ad761c53fbd3240a22e68f9f7062f25c2f468dc996372684c5563fc8025688,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/grid/status.json,execution record,73,26a93fd66ac7ef44330bcb225cf3ee49a791445e4c1899ab26124715f920b16b,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/hazelnut/status.json,execution record,73,c0c6c082467bbf25a6a18463496980f9d2fe5cb423c9a9014450e3c5342e241d,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/leather/status.json,execution record,73,d48857eed022e8508f753a6b0276a5f576d29b3a511232338be731da1677d0ca,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/metal_nut/status.json,execution record,73,2994f893957589b5cebdfeb81b5a512ba036d5887b7d3e26635d108e31746d83,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/pill/status.json,execution record,73,e100371710b10282b771236c20599379145b5fafd7eaaa13ac9e1324e7fac60d,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/screw/status.json,execution record,73,2be32982757f7b793cf05e730ed3bcfb1bb62778de2a999e0cfbc5e29738f510,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/tile/status.json,execution record,73,87067af8ae5e4acdd74995a94b27d8cd536595f2fe82af69feeee62f7afab35f,2026-10-22T10:28:27+03:00
+supersimplenet,SuperSimpleNet_MVTec_training_20261020/toothbrush/status.json,execution record,245,e49645cac8600882a231e83e17fbe71a0bc3624a25b3b11e961b30e82548b805,2026-10-22T10:28:27+03:00
+repo_ae_baseline,defect-detection-main/LICENSE,supplementary evidence; interpret with reconciliation report,1077,ac73005f27c3d57ded440abffcdd2f0bfa14f343596f43685987ceae6b371d1c,2026-10-22T10:28:27+03:00
+repo_ae_baseline,defect-detection-main/reports/cleanup_inventory.csv,supplementary evidence; interpret with reconciliation report,1072040,a0a4b53e308c13855395bcc6cc9706ffb40a123304864d825c04cb1794ce3903,2026-10-22T10:28:27+03:00
+repo_ae_baseline,defect-detection-main/reports/cleanup_result.json,supplementary evidence; interpret with reconciliation report,468,e70a4064eafbda1891a5eb51625069d06809ea2912fc43a512a653839adcbfcc,2026-10-22T10:28:27+03:00
+repo_ae_baseline,defect-detection-main/reports/experiment_report.md,supplementary evidence; interpret with reconciliation report,5720,7dd25c8f4c63e7b876199a21faa0bc979d12c3c2c43b67172d54f004a4d38885,2026-10-22T10:28:27+03:00
+ae_dpae,defect-detection-main/runs/normalized_l2_20260916_084513/summary.json,supplementary evidence; interpret with reconciliation report,2091,3a87f00d3b5cf0fdf48fe19ff1cd423c6403a46d2e4c06cd87f1c1417168a670,2026-10-22T10:28:27+03:00
+ae_dpae,defect-detection-main/runs/normalized_l2_20260916_084513/two_epochs/AE_L2_controlled/history.json,supplementary evidence; interpret with reconciliation report,765,204a14a0a5f62ab271dbcec68dd5885c2843a12158a2b346543eace93e788000,2026-10-22T10:28:27+03:00
+ae_dpae,defect-detection-main/runs/smoke_2epoch_20260916_082748/summary.json,supplementary evidence; interpret with reconciliation report,4582,66f8d0a2d61c2048eb19dd2d7114bf17e5586755131b4a7c05b093b1e602323a,2026-10-22T10:28:27+03:00
+repo_ae_baseline,defect-detection-main/src/models/ae.py,supplementary evidence; interpret with reconciliation report,4337,e38b725e7e9bb4209900fb1dcf864ce21e262d76520058fb1567e8f7c6b950a4,2026-10-22T10:28:27+03:00
+all,github_release/experiments/registry.csv,supplementary evidence; interpret with reconciliation report,3306,166974b8a05312e173a609b4fd441f1f8cb59149041753f5a1b719d7bcfb8297,2026-10-22T10:28:27+03:00
+all,github_release/third_party/SOURCES.csv,supplementary evidence; interpret with reconciliation report,6699,2e614d1e002e57c62766a1c6b895defc17fa7441735a1b8c40a8e108896897ae,2026-10-22T10:28:27+03:00
+patchcore,patchcore-inspection-main/patchcore_final_results.csv,evaluation table,1339,5d79787a81b26ad68631ec6a2e28f38a9461df0717473e909d0af5265a805ea2,2026-10-22T10:28:27+03:00
+all,reports/PROJE_DURUMU_VE_GITHUB_YAPISI_LLM_20261012.md,supplementary evidence; interpret with reconciliation report,30941,5a1ae8d21502bf6fa02f11bcf8cfd24303ff1f56cfd793262d368f8102b3eca7,2026-10-22T10:28:27+03:00
+all,reports/awesome_iad_review_20261014/research_summary.md,supplementary evidence; interpret with reconciliation report,6892,e335a007b178167c790bfb659697639c4293c649abfbfc48ae5e37992155a99f,2026-10-22T10:28:27+03:00
+skip_ganomaly,skip-ganomaly-master/skip-ganomaly-master/skipganomaly_mvtec15_results.csv,evaluation table,5698,69f44ebe2c7326e0366af2c3ad18ba56f42beafe8fb316157971a346dcb8bda2,2026-10-22T10:28:27+03:00
+skip_ganomaly,skip-ganomaly-master/skip-ganomaly-master/skipganomaly_mvtec15_summary.json,supplementary evidence; interpret with reconciliation report,17917,4ec1632fbfc700751bbafb1fa992935602ef63970001585c8a5e61cff07f037a,2026-10-22T10:28:27+03:00

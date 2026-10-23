@@ -1,0 +1,9 @@
+{
+  "method": "anomalyncd",
+  "url": "https://github.com/HUST-SLOW/AnomalyNCD",
+  "commit": "unknown",
+  "commit_evidence": "not recovered",
+  "license": "MIT",
+  "adaptation_reference": "",
+  "relocated_execution_verified": false
+}

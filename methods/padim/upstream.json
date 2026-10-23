@@ -1,0 +1,9 @@
+{
+  "method": "padim",
+  "url": "https://github.com/xiahaifeng1995/PaDiM-Anomaly-Detection-Localization-master",
+  "commit": "unknown",
+  "commit_evidence": "not recovered",
+  "license": "Apache-2.0",
+  "adaptation_reference": "",
+  "relocated_execution_verified": false
+}
