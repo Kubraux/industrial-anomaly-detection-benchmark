@@ -1,0 +1,18 @@
+workbook,cell,original,publication_value,reason,evidence
+Kitap1.xlsx,Sayfa1!H12,#NAME?,https://github.com/DonaldRR/SimpleNet,Broken legacy HYPERLINK formula replaced by plain URL,Local SimpleNet source/config
+Kitap1.xlsx,Sayfa1!H13,PatchCore URL,https://github.com/samet-akcay/skip-ganomaly,Wrong repository,Local Skip-GANomaly audit
+Kitap1.xlsx,Sayfa1!H10,GitHub,https://github.com/amazon-science/patchcore-inspection,Placeholder resolved,Local PatchCore records
+anomaly_detection_methods_and_datasets (1).xlsx,YONTEMLER!I31,PatchCore hyperlink,https://github.com/samet-akcay/skip-ganomaly,Wrong target concealed by display label,Local Skip-GANomaly audit
+anomaly_detection_methods_and_datasets (1).xlsx,YONTEMLER!I30,SimpleNet?utm,https://github.com/DonaldRR/SimpleNet,Empty tracking query removed,Local SimpleNet config
+anomaly_detection_methods_and_datasets (1).xlsx,"YONTEMLER!B34,H34",Teacher-student;arXiv2212.10156,Unified transformer feature reconstruction;arXiv2206.03687,Old URL is an autonomous-driving paper with same acronym,https://arxiv.org/abs/2206.03687
+anomaly_detection_methods_and_datasets (1).xlsx,YONTEMLER!B35,Unified Transformer Feature Reconstruction,Supervised YOLO instance segmentation,Incorrect method family,https://docs.ultralytics.com/tasks/segment
+anomaly_detection_methods_and_datasets (1).xlsx,VERI SETLERI!E15,10 defect class,6 defect classes,Incorrect count,https://faculty.neu.edu.cn/songkc/en/zdylm/263265/list/
+anomaly_detection_methods_and_datasets (1).xlsx,VERI SETLERI!E9,6 defect class,5 defect types +1 defect-free class,"MT_Free is normal,not defective",defect-detection-main/manifests/magnetic_tile/dataset_audit.json
+anomaly_detection_methods_and_datasets (1).xlsx,VERI SETLERI!F9,Repository URL without final dot,https://github.com/abin24/Magnetic-tile-defect-datasets.,Canonical source URL,https://github.com/abin24/Magnetic-tile-defect-datasets.
+anomaly_detection_methods_and_datasets (1).xlsx,YONTEMLER!row21,Unnamed flagged row,Omitted from normalized table;original retained,No method identity,Original workbook
+Both,Capability flags,0/1/O/P/O*,Retained as undefined legacy fields,No legend;not proof of implementation/completion,Original workbooks
+anomaly_detection_methods_and_datasets (1).xlsx,SONUCLAR,Rounded scores without protocol IDs,CSV-derived numeric results with sources and protocols,AUPRO conventions and test-dependent selection must remain separate,results/summary.csv
+anomaly_detection_methods_and_datasets (1).xlsx,"YONTEMLER!A22,A30",PaDim;SimpleNET,PaDiM;SimpleNet,Name normalization,Local method records
+anomaly_detection_methods_and_datasets (1).xlsx,"YONTEMLER!D3,D30",0,Legacy preserved;local evidence separate,AnoGAN pixel metric exists;SimpleNet localization code does not mean completed local result,Local experiment reports
+anomaly_detection_methods_and_datasets (1).xlsx,"YONTEMLER!F6,I6",CBAM-UNET dataset claim/generic CBAM repo,Retained as unverified literature note,Generic CBAM repository does not prove this full method;no local run,Original workbook;verification pending
+anomaly_detection_methods_and_datasets (1).xlsx,VERI SETLERI!F5,Generic Tianchi listing,Retained;exact dataset unresolved,Do not invent a dataset ID,Original workbook

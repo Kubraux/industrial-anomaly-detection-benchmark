@@ -1,0 +1,24 @@
+key,method,title,year,url,verification
+patchcore,PatchCore,Towards Total Recall in Industrial Anomaly Detection,2021,https://arxiv.org/abs/2106.08265,Primary arXiv identity checked2026-10-13;year is initial preprint year
+dfr,DFR,DFR: Deep Feature Reconstruction for Unsupervised Anomaly Segmentation,2020,https://arxiv.org/abs/2012.07122,Primary arXiv identity checked2026-10-13;year is initial preprint year
+rd4ad,RD4AD,Anomaly Detection via Reverse Distillation from One-Class Embedding,2022,https://arxiv.org/abs/2201.10703,Primary arXiv identity checked2026-10-13;year is initial preprint year
+padim,PaDiM,PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization,2020,https://arxiv.org/abs/2011.08785,Primary arXiv identity checked2026-10-13;year is initial preprint year
+anogan,AnoGAN,Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery,2017,https://arxiv.org/abs/1703.05921,Primary arXiv identity checked2026-10-13;year is initial preprint year
+ganomaly,GANomaly,GANomaly: Semi-Supervised Anomaly Detection via Adversarial Training,2018,https://arxiv.org/abs/1805.06725,Primary arXiv identity checked2026-10-13;year is initial preprint year
+skipganomaly,Skip-GANomaly,Skip-GANomaly: Skip Connected and Adversarially Trained Encoder-Decoder Anomaly Detection,2019,https://arxiv.org/abs/1901.08954,Primary arXiv identity checked2026-10-13;year is initial preprint year
+patchsvdd,Patch SVDD,Patch SVDD: Patch-level SVDD for Anomaly Detection and Segmentation,2020,https://arxiv.org/abs/2006.16067,Primary arXiv identity checked2026-10-13;year is initial preprint year
+simplenet,SimpleNet,SimpleNet: A Simple Network for Image Anomaly Detection and Localization,2023,https://arxiv.org/abs/2303.15140,Primary arXiv identity checked2026-10-13;year is initial preprint year
+uniad,UniAD,A Unified Model for Multi-class Anomaly Detection,2022,https://arxiv.org/abs/2206.03687,Primary arXiv identity checked2026-10-13;year is initial preprint year
+workbook_ast,AST,Unverified source link recorded for AST,,https://arxiv.org/pdf/2210.07829,Workbook link only;full bibliographic identity unverified
+workbook_cbamunet,CBAM-UNET,Unverified source link recorded for CBAM-UNET,,https://ace.ewapub.com/article/view/16822.pdf,Workbook link only;full bibliographic identity unverified
+workbook_cflowad,CFLOW-AD,Unverified source link recorded for CFLOW-AD,,https://arxiv.org/abs/2107.12571,Workbook link only;full bibliographic identity unverified
+workbook_dinomaly,Dinomaly,Unverified source link recorded for Dinomaly,,https://arxiv.org/pdf/2405.14325,Workbook link only;full bibliographic identity unverified
+workbook_draem,DRAEM,Unverified source link recorded for DRAEM,,https://ieeexplore.ieee.org/abstract/document/9710329,Workbook link only;full bibliographic identity unverified
+workbook_fastflow,FastFlow,Unverified source link recorded for FastFlow,,https://arxiv.org/abs/2111.07677,Workbook link only;full bibliographic identity unverified
+workbook_fewsome,FewSOME,Unverified source link recorded for FewSOME,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10208830,Workbook link only;full bibliographic identity unverified
+workbook_dualsiamesenetwork,Dual Siamese Network,Unverified source link recorded for Dual Siamese Network,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9681338,Workbook link only;full bibliographic identity unverified
+workbook_siamesecnn,Siamese CNN,Unverified source link recorded for Siamese CNN,,https://www.sciencedirect.com/science/article/pii/S2351978920315985,Workbook link only;full bibliographic identity unverified
+workbook_stfpm,STFPM,Unverified source link recorded for STFPM,,https://arxiv.org/pdf/2103.04257v3,Workbook link only;full bibliographic identity unverified
+workbook_vtadl,VT-ADL,Unverified source link recorded for VT-ADL,,https://arxiv.org/pdf/2104.10036,Workbook link only;full bibliographic identity unverified
+mvtec2019,MVTec AD,MVTec AD - A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection,2019,https://openaccess.thecvf.com/content_CVPR_2019/html/Bergmann_MVTec_AD_--_A_Comprehensive_Real-World_Dataset_for_Unsupervised_Anomaly_CVPR_2019_paper.html,Title/year from local protocol reference
+magnetictile,Magnetic Tile,Saliency of magnetic tile surface defects,,https://github.com/abin24/Magnetic-tile-defect-datasets.,Dataset repository title;remaining publication metadata not inferred

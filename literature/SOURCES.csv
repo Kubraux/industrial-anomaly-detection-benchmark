@@ -1,0 +1,4 @@
+file,original_source,source_sha256,handling
+industrial_anomaly_research_complete.xlsx,industrial_anomaly_research_complete.xlsx,624bbd37fe206d7e7ce13f8cf82039d84fb102f2a4da357c84322ce41cb75701,"byte-identical copy; all3 sheets, formatting, links and workbook information retained"
+methods.csv,industrial_anomaly_research_complete.xlsx#METHODS,624bbd37fe206d7e7ce13f8cf82039d84fb102f2a4da357c84322ce41cb75701,47 nonempty rows; recorded values plus hyperlink targets; flags not reinterpreted
+datasets.csv,industrial_anomaly_research_complete.xlsx#DATASETS,624bbd37fe206d7e7ce13f8cf82039d84fb102f2a4da357c84322ce41cb75701,19 nonempty rows; recorded values plus hyperlink targets

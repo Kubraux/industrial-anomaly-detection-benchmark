@@ -1,0 +1,20 @@
+dataset,task,content,ground_truth_type,classes,link,url,source_sheet,source_row,evidence_type
+BTAD,Anomaly detection + segmentation,Industrial products,Pixel-level masks,3 products,btad-beantech-anomaly-detection,https://www.kaggle.com/datasets/thtuan/btad-beantech-anomaly-detection,DATASETS,2,literature_catalog_annotation
+CIFAR-10,Image classification / one-class anomaly benchmark,General natural images,Image-level class label,10 classes,CIFAR ,https://cave.cs.toronto.edu/kriz/cifar.html,DATASETS,3,literature_catalog_annotation
+GC10-DET,Supervised defect detection + classification,Metal / steel surface defects,Bounding-box GT,10 defect classes,GC10-DET,https://github.com/lvxiaoming2019/GC10-DET-Metallic-Surface-Defect-Datasets,DATASETS,4,literature_catalog_annotation
+Guandong-Aluminium-Defect-Detection,,,,,https://tianchi.aliyun.com/dataset/,https://tianchi.aliyun.com/dataset/,DATASETS,5,literature_catalog_annotation
+KolektorSDD,Defect detection / segmentation,Industrial surfaces,Fine pixel masks and bounding-box variants,Binary defect labels,kolektorsdd,https://www.vicos.si/resources/kolektorsdd/,DATASETS,6,literature_catalog_annotation
+KolektorSDD2,Defect detection / segmentation,Industrial surfaces,Defect annotation,Multiple defect types,kolektorsdd2,https://www.vicos.si/resources/kolektorsdd2/,DATASETS,7,literature_catalog_annotation
+MPDD,Unsupervised anomaly detection + localization,Metal parts,Pixel-precise masks,Multiple metal-part categories,MPDD,https://github.com/stepanje/MPDD,DATASETS,8,literature_catalog_annotation
+MTD / Magnetic Tile Defect,Defect detection + segmentation + classification,Magnetic tile surfaces,Pixel-level GT,6 defect classes,Magnetic-tile-defect-datasets.,https://github.com/abin24/Magnetic-tile-defect-datasets,DATASETS,9,literature_catalog_annotation
+MVTec 3D-AD,3D anomaly detection + localization,3D industrial objects,Precise anomaly GT,10 categories,MVTec 3D-AD,https://www.mvtec.com/research-teaching/datasets/mvtec-3d-ad,DATASETS,10,literature_catalog_annotation
+MVTec AD,Unsupervised anomaly detection + localization,Industrial objects and textures,Pixel-level anomaly mask,15 categories,MVTecAD,https://www.mvtec.com/research-teaching/datasets,DATASETS,11,literature_catalog_annotation
+MVTec-FS,OK/NOK may be derived; sample-level masks,Industrial objects and textures,Sample-level masks,46 defect types (as recorded),MVTec-FS(MVREC),https://github.com/ShuaiLYU/MVTec-FS,DATASETS,12,literature_catalog_annotation
+MVTec AD 2,,,,,mvtec-ad-2,https://www.mvtec.com/research-teaching/datasets/mvtec-ad-2,DATASETS,13,literature_catalog_annotation
+MVTec Loco AD,Logical + structural anomaly detection,Industrial assemblies / arrangements,Pixel-level,5 categories,MVTec Loco AD,https://www.mvtec.com/research-teaching/datasets/mvtec-loco-ad,DATASETS,14,literature_catalog_annotation
+Nano TWICE,,,,,,,DATASETS,15,literature_catalog_annotation
+NEU-DET,Supervised defect detection + classification,Hot-rolled steel,Bounding box / VOC,10 defect classes,NEU-DET ,https://faculty.neu.edu.cn/songkechen/zh_CN/zdylm/263270/list/,DATASETS,16,literature_catalog_annotation
+Real-IAD,Large-scale industrial anomaly detection,Real industrial products,Pixel-level + metadata,30 products,Real-IAD,https://realiad4ad.github.io/Real-IAD/,DATASETS,17,literature_catalog_annotation
+SD-saliency 900,Defect segmentation / salient defect detection,Strip-steel surface defects,Pixel-level saliency/defect mask,"3 defect types: inclusion, patches, scratches",SD-Saliency 900,https://www.kaggle.com/datasets/alex000kim/sdsaliency900,DATASETS,18,literature_catalog_annotation
+Severstal Steel Defect,Supervised segmentation + classification,Steel surfaces,Pixel mask / RLE,4 defect classes,Severstal Steel Defect ,https://www.kaggle.com/competitions/severstal-steel-defect-detection/data,DATASETS,19,literature_catalog_annotation
+VisA,Anomaly detection + segmentation,PCBs and various industrial/object categories,Image + pixel mask,12 categories,VisA,https://github.com/amazon-science/spot-diff,DATASETS,20,literature_catalog_annotation
