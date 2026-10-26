@@ -6,9 +6,9 @@ An ongoing research project investigating how models fitted to normal industrial
 
 **12 completed method studies | 15 MVTec AD categories each | 180 category-level records**
 
-The [bundled benchmark tables](results/summary.csv) cover 11 studies (165 records). EfficientAD-S adds 15 verified category results, summarized below; its detailed records await publication integration. Counts are not independent repetitions. Publication snapshot: **23 October 2026**, with EfficientAD-S records verified **26 October 2026**.
+The [published benchmark tables](results/summary.csv) now cover all 12 completed studies and 180 category-level records. These are not independent repetitions. Earlier records retain their original dates; EfficientAD-S and the literature catalog were integrated **26 October 2026**.
 
-[Methods](methods/README.md) | [Results](results/README.md) | [Visual gallery](assets/GALLERY.md)
+[Methods](methods/README.md) | [Results](results/README.md) | [Visual gallery](assets/GALLERY.md) | [Literature catalog](literature/README.md)
 
 <p align="center">
   <img src="assets/figures/simplenet_cable.png" alt="SimpleNet Cable example: input, ground truth and recorded anomaly map" width="800">
@@ -25,11 +25,11 @@ The [bundled benchmark tables](results/summary.csv) cover 11 studies (165 record
 | Self-supervised patch representations | [PatchSVDD](methods/patchsvdd/README.md) |
 | Generative reconstruction and latent discrepancy | [AnoGAN adaptation](methods/anogan/README.md), [GANomaly](methods/ganomaly/README.md), [Skip-GANomaly](methods/skip_ganomaly/README.md) |
 | Learning with synthetic anomalies | [SimpleNet](methods/simplenet/README.md), [SuperSimpleNet, JIMS extension](methods/supersimplenet/README.md), [DRAEM](methods/draem/README.md) |
-| Efficient teacher-student and autoencoder | **EfficientAD-S (Anomalib)**; 15/15 completed, detailed guide pending |
+| Efficient teacher-student and autoencoder | [EfficientAD-S through Anomalib](methods/efficientad_s_anomalib/README.md) |
 
 Guides distinguish published methods, local implementations and historical diagnostics. [Full results](results/README.md) retain category measurements and protocol identifiers. **Different preprocessing, checkpoint selection, scoring and PRO/AUPRO definitions preclude a directly comparable leaderboard.** Completed execution does not establish paper reproduction.
 
-**EfficientAD-S update.** The Anomalib 2.2.0 small variant completed all 15 categories with 70,000 fixed optimizer updates per category, seed 42 and held-out-normal map calibration. Equal-category macro results are **98.03% image AUROC, 96.01% pixel AUROC and 90.62% AUPRO@0.30**. The recorded implementation uses Anomalib commit `592aafc373091dda8206510a0853eb11c8e4099d`. Imagenette auxiliary data and native-resolution pixel evaluation distinguish this protocol from the other studies; these values do not form a matched leaderboard. Its source records and category tables remain in the research workspace and are not yet bundled here.
+[EfficientAD-S](methods/efficientad_s_anomalib/README.md) now has bundled configuration, source and 15-category result records. Its native-resolution evaluation and Imagenette auxiliary data remain explicit protocol distinctions.
 
 ## Key research findings
 
@@ -54,6 +54,7 @@ The [gallery](assets/GALLERY.md) includes complementary localization, calibratio
 | [Experiments](experiments/README.md) | Registry, retained settings and evaluation protocols |
 | [Results](results/README.md) | Benchmark tables, calibration, ablations and negative results |
 | [Visual gallery](assets/GALLERY.md) | Coverage of all methods and figure-specific caveats |
+| [Literature catalog](literature/README.md) | English workbook, method/dataset CSVs and preserved source information |
 | [Third-party sources](third_party/README.md) | Repository references, revisions, local changes and licenses |
 
 ## Reproducibility and limitations
