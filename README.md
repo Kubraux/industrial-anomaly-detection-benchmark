@@ -1,24 +1,22 @@
 # Industrial Visual Anomaly Detection
 
-**Learning normal appearance. Localizing defects. Examining the reliability of anomaly decisions.**
+**Normality modeling, defect localization, and reliable decisions.**
 
-An ongoing research project on detecting and localizing defects in industrial imagery. We study how models fitted to normal data behave on unseen defects, how anomaly scores become usable decisions, and which implementation and evaluation choices affect the evidence. MVTec AD is the current published benchmark; the broader research agenda includes additional industrial datasets, improved localization and future defect-type classification.
+An ongoing research project investigating how models fitted to normal industrial images detect defects, localize anomalous regions, and support useful decisions. MVTec AD is the current published benchmark; the wider agenda includes additional industrial datasets, improved localization and future defect-type classification.
 
-[Methods](methods/README.md) | [Results](results/README.md) | [Experiments](experiments/README.md) | [Visual gallery](assets/GALLERY.md) | [Source records](third_party/SOURCES.csv)
+**12 completed method studies | 15 MVTec AD categories each | 180 category-level records**
 
-| Published method studies | Categories per study | Category-level result records |
-|:---:|:---:|:---:|
-| **11 completed** | **15 MVTec AD categories** | **165** |
+The [bundled benchmark tables](results/summary.csv) cover 11 studies (165 records). EfficientAD-S adds 15 verified category results, summarized below; its detailed records await publication integration. Counts are not independent repetitions. Publication snapshot: **23 October 2026**, with EfficientAD-S records verified **26 October 2026**.
 
-Counts refer to the [published benchmark tables](results/summary.csv), not independent repetitions or every experiment in the research workspace. Evidence snapshot: **23 October 2026**; homepage reviewed **26 October 2026**.
+[Methods](methods/README.md) | [Results](results/README.md) | [Visual gallery](assets/GALLERY.md)
 
-![DRAEM: Grid input, ground truth and recorded anomaly response](assets/figures/draem_grid.png)
+<p align="center">
+  <img src="assets/figures/simplenet_cable.png" alt="SimpleNet Cable example: input, ground truth and recorded anomaly map" width="800">
+</p>
 
-*Texture localization with the locally trained DRAEM final checkpoint: Grid/glue/007. The recorded preprocessing and GT conventions apply; the map does not imply a calibrated binary decision. [Method and limitations](methods/draem/README.md).*
+*SimpleNet Cable: recorded fixed-final localization. The map is normalized per image for display; it is not a calibrated binary mask. [Method details](methods/simplenet/README.md).*
 
 ## Methods and benchmarking
-
-The published studies span complementary ways of representing normality and scoring deviations.
 
 | Approach | Completed method guides |
 |---|---|
@@ -27,51 +25,49 @@ The published studies span complementary ways of representing normality and scor
 | Self-supervised patch representations | [PatchSVDD](methods/patchsvdd/README.md) |
 | Generative reconstruction and latent discrepancy | [AnoGAN adaptation](methods/anogan/README.md), [GANomaly](methods/ganomaly/README.md), [Skip-GANomaly](methods/skip_ganomaly/README.md) |
 | Learning with synthetic anomalies | [SimpleNet](methods/simplenet/README.md), [SuperSimpleNet, JIMS extension](methods/supersimplenet/README.md), [DRAEM](methods/draem/README.md) |
+| Efficient teacher-student and autoencoder | **EfficientAD-S (Anomalib)**; 15/15 completed, detailed guide pending |
 
-Each guide distinguishes the original method from the actual local implementation, completed runs and historical diagnostics. [Full results](results/README.md) retain category-level measurements and additional metrics. **Different preprocessing, checkpoint selection, scoring and PRO/AUPRO implementations preclude a directly comparable leaderboard.** Completion establishes recorded local execution, not successful paper reproduction.
+Guides distinguish published methods, local implementations and historical diagnostics. [Full results](results/README.md) retain category measurements and protocol identifiers. **Different preprocessing, checkpoint selection, scoring and PRO/AUPRO definitions preclude a directly comparable leaderboard.** Completed execution does not establish paper reproduction.
+
+**EfficientAD-S update.** The Anomalib 2.2.0 small variant completed all 15 categories with 70,000 fixed optimizer updates per category, seed 42 and held-out-normal map calibration. Equal-category macro results are **98.03% image AUROC, 96.01% pixel AUROC and 90.62% AUPRO@0.30**. The recorded implementation uses Anomalib commit `592aafc373091dda8206510a0853eb11c8e4099d`. Imagenette auxiliary data and native-resolution pixel evaluation distinguish this protocol from the other studies; these values do not form a matched leaderboard. Its source records and category tables remain in the research workspace and are not yet bundled here.
 
 ## Key research findings
 
-Our contribution is the experimental investigation: calibration, controlled interventions, failure analysis and scrutiny of evaluation behavior.
+- **Ranking and thresholded decisions differ.** Under the common DFR/RD4AD evaluator, RD4AD has higher category-macro pixel AUROC (**97.78% vs 95.25%**) but lower pixel F1 (**15.04% vs 41.56%**) at the specified training-normal quantile rule. This observed threshold-transfer result is not a general ranking of architectures. [Evidence](results/common_evaluation/report.md).
+- **Calibration trades coverage for precision.** In the PaDiM Bottle holdout study, q99.5 to q99.9 raises pooled Dice from **64.41% to 71.42%**, while recall falls from **97.99% to 92.43%**. Prior test inspection makes this sensitivity analysis, not independently validated threshold selection. [Recorded measurements](results/calibration/padim_bottle/metrics.csv).
+- **False-positive analysis requires controlled interventions.** DFR alignment and resolution ablations examine mask area alongside ranking. Native128 changes aggregation and PCA capacity together; its effects cannot be attributed solely to output resolution. [Ablations and failure analyses](results/ADDITIONAL_STUDIES.md).
+- **Evaluation behavior affects reliability.** GANomaly's best-test selection and persistent test BatchNorm updates affect reported scores. Later scoring variants and pretrained-weight evaluations remain separate. [Protocol distinctions](results/PROTOCOLS.md).
 
-- **Ranking does not determine thresholded segmentation quality.** In the common DFR/RD4AD evaluation, RD4AD has higher category-macro pixel AUROC (**97.78% vs 95.25%**) but lower pixel F1 (**15.04% vs 41.56%**) under the specified training-normal quantile rule. This is an observed threshold-transfer outcome, not a general ranking of the architectures. [Matched-evaluator evidence](results/common_evaluation/report.md).
-- **Calibration exposes trade-offs.** In the PaDiM Bottle holdout study, changing q99.5 to q99.9 raises pooled Dice from **64.41% to 71.42%**, while recall falls from **97.99% to 92.43%**. The test set had previously been inspected; this is sensitivity analysis, not independently validated threshold selection. [Recorded calibration results](results/calibration/padim_bottle/metrics.csv).
-- **False-positive investigations need carefully defined interventions.** DFR alignment and spatial-resolution ablations examine false-positive area alongside ranking metrics. Native128 changes both aggregation and PCA capacity, so its effects cannot be attributed solely to output resolution. [Ablations and failure analyses](results/ADDITIONAL_STUDIES.md).
-- **Evaluation behavior can change the interpretation of a result.** GANomaly's best-test selection and persistent test BatchNorm updates affect its reported scores; later scoring variants and pretrained-weight evaluations are recorded separately. [Protocol distinctions](results/PROTOCOLS.md).
+<p align="center">
+  <img src="assets/figures/common_leather.png" alt="DFR and RD4AD on the same Leather input: independently scaled maps, ground truth and thresholded predictions" width="800">
+</p>
 
-![DFR and RD4AD: independently scaled maps and recorded thresholded masks](assets/figures/common_leather.png)
+*Leather threshold-transfer example: maps have independent scales; white denotes predicted anomaly and cyan traces GT. This selected case is not representative sampling.*
 
-*Same Leather sample, different score scales and recorded normal-training thresholds. White denotes predicted anomaly in the binary panels; cyan traces GT. This selected example illustrates threshold transfer, not representative dataset-wide behavior.*
-
-![PatchSVDD: recorded normal and defective Screw failure examples](assets/figures/patchsvdd_screw.png)
-
-*Failure evidence is retained alongside successful localization: these Screw cases were selected by score, with product maps sharing their original display range. No score inversion or new inference was performed. [PatchSVDD analysis](methods/patchsvdd/README.md).*
-
-[Explore all methods in the visual gallery](assets/GALLERY.md). Figure sources, hashes, selection rules and rendering transformations are recorded in [figure provenance](assets/figures/SOURCES.csv).
+The [gallery](assets/GALLERY.md) includes complementary localization, calibration and failure examples, including the [PatchSVDD Screw investigation](methods/patchsvdd/README.md). [Figure provenance](assets/figures/SOURCES.csv) records sources, hashes, selection and rendering.
 
 ## Repository guide
 
 | Resource | Contents |
 |---|---|
-| [Methods](methods/README.md) | Architectures, actual implementations, outcomes and limitations |
-| [Experiments](experiments/README.md) | Compact registry, retained settings and evaluation protocols |
+| [Methods](methods/README.md) | Architectures, local implementations, outcomes and limitations |
+| [Experiments](experiments/README.md) | Registry, retained settings and evaluation protocols |
 | [Results](results/README.md) | Benchmark tables, calibration, ablations and negative results |
-| [Visual gallery](assets/GALLERY.md) | Method coverage, illustrative examples and quantitative-only evidence |
-| [Third-party sources](third_party/README.md) | Repository references, recorded revisions, local changes and licenses |
-| [Local code](code/README.md) | Selected orchestration scripts for inspection |
+| [Visual gallery](assets/GALLERY.md) | Coverage of all methods and figure-specific caveats |
+| [Third-party sources](third_party/README.md) | Repository references, revisions, local changes and licenses |
 
 ## Reproducibility and limitations
 
-The published summaries describe single-seed studies. Equal-category macro averages are not uncertainty estimates. Some studies include test-dependent checkpoint selection, test-updated state or prior test inspection; historical SimpleNet CPU selection differs from the newer fixed-final run. These issues remain explicit in the [evaluation protocols](experiments/PROTOCOLS.md).
+Published summaries describe single-seed studies; category macro averages are not uncertainty estimates. Test-dependent selection, test-updated state and prior test inspection remain explicit. Historical SimpleNet CPU selection differs from the newer fixed-final run. See the [evaluation protocols](experiments/PROTOCOLS.md).
 
-Selected runners, patches and source records are available, but some historical revisions, complete modifications and configuration details are missing. Raw datasets, large checkpoints and full research outputs are not bundled. Some provenance references require the original workspace; training and inference after relocation have not been verified. See [reconstruction limits](third_party/RECONSTRUCTION_LIMITS.md). Failed or partial diagnostics are retained separately from completed benchmarks.
+Selected runners, patches and source records are retained, but historical revisions and complete modifications are sometimes missing. Raw datasets, large checkpoints and full research outputs are not bundled. Some references require the original workspace, and relocated training/inference has not been verified. [Reconstruction limits](third_party/RECONSTRUCTION_LIMITS.md) document these gaps; failed and partial diagnostics remain distinct from completed benchmarks.
 
 ## Future directions
 
-Planned research includes cross-dataset evaluation on additional industrial data, further anomaly detection methods, sharper localization with fewer false positives, and efficiency studies under consistent hardware and measurement scopes. Defect-type classification is a future extension, not a completed capability of this benchmark. Broader seed coverage and more rigorous calibration and protocol controls remain priorities.
+Planned work includes cross-dataset evaluation, additional anomaly detection methods, sharper localization with fewer false positives, and efficiency comparisons under consistent hardware and timing scopes. Broader seed coverage and stronger calibration controls remain priorities. **Defect-type classification is a future research direction, not a completed benchmark capability.**
 
 ## References and attribution
 
-Original papers and implementation sources are linked from the [method guides](methods/README.md), [reference list](literature/REFERENCES.md) and [source catalog](third_party/SOURCES.csv). Upstream algorithms and code remain credited to their authors; local adaptations are identified separately.
+Original papers and implementations are linked through the [method guides](methods/README.md) and [source catalog](third_party/SOURCES.csv). Upstream work remains credited to its authors; local adaptations are identified separately.
 
-**No blanket project license has been selected.** Consult the [licensing scope](LICENSE.md) and [retained third-party licenses](third_party/licenses/README.md). This repository does not grant new rights to upstream code, datasets or figures.
+No blanket project license has been selected. Consult the [retained third-party license records](third_party/licenses/README.md) for their stated scope. Inclusion here does not grant new rights to upstream code, datasets or figures.
