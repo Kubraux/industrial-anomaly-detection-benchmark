@@ -1,6 +1,6 @@
 # Figure gallery
 
-Evidence snapshot: 23 October 2026. Every completed method has visual coverage below, with evidence type stated explicitly. Examples are chosen for scientific interpretation and category diversity, not unbiased performance estimation. Different methods' map colors and metrics do not define a matched-protocol comparison.
+Earlier snapshot:23 October 2026; EfficientAD-S added26 October 2026. Every completed method has visual coverage below, with evidence type stated explicitly. Examples are chosen for scientific interpretation and category diversity, not unbiased performance estimation. Different methods' map colors and metrics do not define a matched-protocol comparison.
 
 | Method | Figure | Category / sample | Evidence and limits |
 |---|---|---|---|
@@ -14,7 +14,8 @@ Evidence snapshot: 23 October 2026. Every completed method has visual coverage b
 | [PatchSVDD](../methods/patchsvdd/README.md) | [View](figures/patchsvdd_screw.png) | Screw good/005; thread_top/003 | Score-selected failure; product-map display shared across rows. |
 | [SimpleNet](../methods/simplenet/README.md) | [View](figures/simplenet_cable.png) | Cable | Input / GT / map from completed fixed-final CUDA run. |
 | [SuperSimpleNet](../methods/supersimplenet/README.md) | [View](figures/supersimplenet_transistor.png) | Transistor | Final300 JIMS-extension example; separate image head. |
-| [DRAEM](../methods/draem/README.md) | [View](figures/draem_grid.png) | Grid glue/007 | Locally trained final700; original GT/preprocessing conventions retained. |
+| [DRAEM](../methods/draem/README.md) | [View](figures/draem_grid.png) | Grid glue/007 | Locally trained final 700; original GT/preprocessing conventions retained. |
+| [EfficientAD-S (Anomalib)](../methods/efficientad_s_anomalib/README.md) | [View](figures/efficientad_s_tile.png) | Tile crack/000 | Recorded fixed-final model; native GT; per-image display scale; first sorted defective image. |
 
 [Shared DFR/RD4AD comparison](figures/common_leather.png) additionally shows independently scaled maps and normal-training-threshold masks on the same Leather sample. The main [results page](../results/README.md) embeds four key examples; other figures are linked here and in method guides.
 

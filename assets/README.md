@@ -9,3 +9,5 @@ GT and binary masks use nearest-neighbor resizing; other panels use Lanczos. The
 Skip-GANomaly is a standard category-level plot of unchanged AUROC fields, not a localization example. Components are diagnostic, while the recorded combined score remains primary.
 
 SOURCES.csv records source/output SHA-256, original crop rectangles, output panel positions, method/category, selection and scaling notes. Archive-source paths are workspace-relative provenance identifiers, not bundled GitHub links. Original experiments remain unchanged. Prior presentation files and their provenance are retained outside GitHub under publication_archive/visual_refresh_20261023; earlier full outputs remain under publication_archive/results_assets_20261023.
+
+EfficientAD-S through Anomalib was added 26 October 2026 from its recorded Tile/crack/000 output; the main homepage keeps its two existing figures. Current source metadata covers 13 figures and 12 completed methods. This does not change previous figure selections or evaluation grids.
