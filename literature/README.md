@@ -1,11 +1,15 @@
 # Literature catalog
 
-[English research workbook](industrial_anomaly_research_complete.xlsx) | [Methods CSV](methods.csv) | [Datasets CSV](datasets.csv) | [Source record](SOURCES.csv)
+[Research workbook](industrial_anomaly_research.xlsx) · [Methods CSV](methods.csv) · [Datasets CSV](datasets.csv)
 
-The latest supplied English workbook is copied byte-for-byte. Its METHODS, DATASETS and RESULTS sheets, original formatting, hyperlink targets and existing information are preserved. CSV views contain 47 method annotations and 19 dataset annotations; displayed paper/repository/link labels are preserved separately from extracted URL targets. Empty formatting-only rows are omitted from CSV, and original sheet/row identifiers remain.
+One canonical English workbook retains the original **METHODS, DATASETS and RESULTS** sheets, formatting, hyperlinks and research annotations. The CSV views retain 47 method and 19 dataset annotations with original sheet/row references. Capability flags and unverified notes remain as recorded; listing a method is not evidence of local execution.
 
-This is a literature catalog, not evidence of local execution. Capability flags (including 0/1/O) and descriptive claims retain the workbook's meaning as recorded; uncertain entries and blanks are not silently corrected or certified. Links are extracted, not a claim that every external URL or bibliographic interpretation has been independently verified. Classification methods in the catalog do not establish completed defect-type classification research here.
+Verified corrections applied on **27 October 2026**:
 
-The workbook RESULTS sheet is preserved as a historical comparison with unverified/mixed provenance. It is not imported into the measured benchmark. Use [results](../results/README.md) for current local measurements, explicit protocol IDs and evaluation limits; paper-reported values and our measured results remain separate.
+- **NEU-DET:** six defect classes, with the [dataset author's page](https://faculty.neu.edu.cn/songkc/en/zdylm/263265/list/) as the source.
+- **Magnetic Tile:** five defect types plus one defect-free class (MT_Free), rather than six defect types. The [author repository](https://github.com/abin24/Magnetic-tile-defect-datasets.) contains these six folders; its canonical URL includes the terminal dot.
+- **UniAD:** unified transformer feature reconstruction and the [correct anomaly-detection paper](https://arxiv.org/abs/2206.03687), replacing the unrelated autonomous-driving paper. **Skip-GANomaly:** the [official repository](https://github.com/samet-akcay/skip-ganomaly), replacing an incorrect PatchCore target. SimpleNet's empty tracking query was removed from its repository URL.
 
-Earlier workbooks, corrections, references and originals remain intact. Previous CSVs (including local-status fields and legacy corrections not present in the new workbook) are retained in originals/methods_before_20261026.csv and originals/datasets_before_20261026.csv. The old catalog README is preserved there as historical text; its relative links describe its original layout. No workbook was regenerated or translated during integration.
+The workbook RESULTS sheet is preserved as a historical comparison with mixed or unverified provenance. Literature-reported values are **not** imported into our [measured experimental results](../results/README.md). Undefined legacy flags and unresolved entries (including the generic Tianchi and CBAM-UNET references) are not certified.
+
+Original workbooks, intermediate extracts, duplicate references and full correction records are preserved outside this GitHub publication, under the research workspace's publication_archive/homepage_literature_refinement_20261027. Original supplied workbook SHA-256: 624bbd37fe206d7e7ce13f8cf82039d84fb102f2a4da357c84322ce41cb75701. Only the corrections above alter workbook content; no sheet is regenerated.
