@@ -21,6 +21,15 @@ Earlier snapshot:23 October 2026; EfficientAD-S added26 October 2026. Every comp
 
 [Shared DFR/RD4AD comparison](figures/common_leather.png) additionally shows independently scaled maps and normal-training-threshold masks on the same Leather sample. The main [results page](../results/README.md) embeds four key examples; other figures are linked here and in method guides.
 
-Individual figures are 1200x675; the 45-panel all-category overview is 3000×2060. [Rendering conventions](README.md) and [source hashes/crop rectangles](figures/SOURCES.csv) apply. Original source plots and replaced presentation files remain in the research archive. Representative success, background response and failure cases coexist; selection by diagnostic extremes is explicitly identified.
+Individual figures are 1200x675; the 45-panel all-category overviews are 3000×2060. [Rendering conventions](README.md) and [source hashes/crop rectangles](figures/SOURCES.csv) apply. Original source plots and replaced presentation files remain in the research archive. Representative success, background response and failure cases coexist; selection by diagnostic extremes is explicitly identified.
 
 Missing evidence: no final-run qualitative image artifact was found for Skip-GANomaly. GANomaly's included panel is an earlier archived diagnostic, not qualitative verification of the official-flow aggregate. AnoGAN's reconstruction panel has no GT/binary-mask column and its residual display limits are unverified. These gaps are not filled with synthesized maps.
+
+## Additional all-category overviews
+
+- [EfficientAD-S through Anomalib: all 15 categories](figures/efficientad_s_all15.png) — first sorted defective sample per category, independently of scores; original per-image jet scales. [Sources](figures/efficientad_s_all15_sources.csv).
+- [DRAEM: all 15 categories](figures/draem_all15.png) — original pre-score random samples, seed 1024; fixed inferno probability range 0–1. [Sources](figures/draem_all15_sources.csv).
+
+Both use the SuperSimpleNet overview's 3000×2060 layout. DRAEM uses different recorded samples and preprocessing; these panels are not a matched-image or matched-protocol comparison. [Rendering, sample selection and license](README.md#efficientad-s-and-draem-all-category-overviews).
+
+[SimpleNet: all 15 categories](figures/simplenet_all15.png) — original first sorted defective sample per category; input / GT / map, with independent per-image jet scales. [Sources](figures/simplenet_all15_sources.csv) | [Rendering and selection](README.md#simplenet-all-category-overview).
