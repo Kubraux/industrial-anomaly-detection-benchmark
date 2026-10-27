@@ -11,10 +11,10 @@ The [published benchmark tables](results/summary.csv) now cover all 12 completed
 [Methods](methods/README.md) | [Results](results/README.md) | [Visual gallery](assets/GALLERY.md) | [Literature catalog](literature/README.md)
 
 <p align="center">
-  <img src="assets/figures/simplenet_cable.png" alt="SimpleNet Cable example: input, ground truth and recorded anomaly map" width="800">
+  <img src="assets/figures/supersimplenet_all15.png" alt="SuperSimpleNet: recorded input, ground truth and anomaly map for all 15 MVTec AD categories" width="800">
 </p>
 
-*SimpleNet Cable: recorded fixed-final localization. The map is normalized per image for display; it is not a calibrated binary mask. [Method details](methods/simplenet/README.md).*
+*SuperSimpleNet across all 15 MVTec AD categories: the recorded first sorted defective sample per category, selected independently of scores. Maps use per-image scales; these examples do not estimate general performance. [Full-resolution figure](assets/figures/supersimplenet_all15.png) · [Selection, provenance and MVTec AD attribution](assets/README.md#all-category-supersimplenet-overview).*
 
 ## Methods and benchmarking
 
