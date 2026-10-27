@@ -10,11 +10,33 @@ The [published benchmark tables](results/summary.csv) now cover all 12 completed
 
 [Methods](methods/README.md) | [Results](results/README.md) | [Visual gallery](assets/GALLERY.md) | [Literature catalog](literature/README.md)
 
+## Qualitative overviews
+
+Recorded input / ground truth / anomaly maps across all 15 MVTec AD categories. SuperSimpleNet, EfficientAD-S and SimpleNet use the first sorted defective sample per category; DRAEM retains its pre-score random samples (seed 1024). These examples illustrate coverage, not average performance. Differences in samples, preprocessing and map scales prevent a controlled cross-method comparison. [Selection, rendering and MVTec AD attribution](assets/README.md).
+
 <p align="center">
   <img src="assets/figures/supersimplenet_all15.png" alt="SuperSimpleNet: recorded input, ground truth and anomaly map for all 15 MVTec AD categories" width="800">
 </p>
 
-*SuperSimpleNet across all 15 MVTec AD categories: the recorded first sorted defective sample per category, selected independently of scores. Maps use per-image scales; these examples do not estimate general performance. [Full-resolution figure](assets/figures/supersimplenet_all15.png) · [Selection, provenance and MVTec AD attribution](assets/README.md#all-category-supersimplenet-overview).*
+*SuperSimpleNet. Original per-image map scales. [Full resolution](assets/figures/supersimplenet_all15.png).*
+
+<p align="center">
+  <img src="assets/figures/simplenet_all15.png" alt="SimpleNet: recorded input, ground truth and anomaly map for all 15 MVTec AD categories" width="800">
+</p>
+
+*SimpleNet. Original per-image map scales. [Full resolution](assets/figures/simplenet_all15.png).*
+
+<p align="center">
+  <img src="assets/figures/efficientad_s_all15.png" alt="EfficientAD-S (Anomalib): recorded input, ground truth and anomaly map for all 15 MVTec AD categories" width="800">
+</p>
+
+*EfficientAD-S (Anomalib). Original per-image map scales. [Full resolution](assets/figures/efficientad_s_all15.png).*
+
+<p align="center">
+  <img src="assets/figures/draem_all15.png" alt="DRAEM: recorded input, ground truth and anomaly map for all 15 MVTec AD categories" width="800">
+</p>
+
+*DRAEM. Original fixed anomaly-probability scale [0, 1]. [Full resolution](assets/figures/draem_all15.png).*
 
 ## Methods and benchmarking
 
