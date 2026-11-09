@@ -1,0 +1,562 @@
+[
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/dataset/dataset.py",
+    "source_sha256": "24ac288a50a0f2456d30a2f2b924237a9eeb9977be8a4082b48041964b254d6b",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/dataset/dataset.py",
+    "published_sha256": "24ac288a50a0f2456d30a2f2b924237a9eeb9977be8a4082b48041964b254d6b",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/dataset/noise.py",
+    "source_sha256": "80673559d74eb90854a2f36457cd1ecd4f82ee60e31509e8941e5c7099b7175d",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/dataset/noise.py",
+    "published_sha256": "80673559d74eb90854a2f36457cd1ecd4f82ee60e31509e8941e5c7099b7175d",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/inference.py",
+    "source_sha256": "4afeee6b87a8b59092d930c3ab146188c9eaf1221d1703bf7c32d1b31bac2d7a",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/inference.py",
+    "published_sha256": "4afeee6b87a8b59092d930c3ab146188c9eaf1221d1703bf7c32d1b31bac2d7a",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/LICENSE",
+    "source_sha256": "15652742cf5cbc8c25cc1e1a4b9660544cd242defa64abdad50f0ef43937e489",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/LICENSE",
+    "published_sha256": "15652742cf5cbc8c25cc1e1a4b9660544cd242defa64abdad50f0ef43937e489",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/main.py",
+    "source_sha256": "d9f7bb661e15bf5960fa515471e0f5d92a42a6ace4b036a4a2294a52fb9421d8",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/main.py",
+    "published_sha256": "d9f7bb661e15bf5960fa515471e0f5d92a42a6ace4b036a4a2294a52fb9421d8",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/model/de_resnet.py",
+    "source_sha256": "09ddb5b7f3c4cc19e01f7743cee78b8575d53e521a6e96d1b44fb983ff0796ab",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/model/de_resnet.py",
+    "published_sha256": "09ddb5b7f3c4cc19e01f7743cee78b8575d53e521a6e96d1b44fb983ff0796ab",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/model/resnet.py",
+    "source_sha256": "e966ab12df8e27118566eef7fff258991c5be0542ff486dc5cb32a2ac33ee60f",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/model/resnet.py",
+    "published_sha256": "e966ab12df8e27118566eef7fff258991c5be0542ff486dc5cb32a2ac33ee60f",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/requirements.txt",
+    "source_sha256": "20730dede5cce369e2e57a6e4b68870f5050976f688953eb15059e858bbf46ed",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/requirements.txt",
+    "published_sha256": "20730dede5cce369e2e57a6e4b68870f5050976f688953eb15059e858bbf46ed",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/utils/utils_test.py",
+    "source_sha256": "aba8088756e0feb7a8f2acdc3c6f66d98b908ae4a244a511f97d422d4ec11841",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/utils/utils_test.py",
+    "published_sha256": "aba8088756e0feb7a8f2acdc3c6f66d98b908ae4a244a511f97d422d4ec11841",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/utils/utils_train.py",
+    "source_sha256": "dc6a4de2f6b88ddfc1791361b273e857e817d94119bb2a60d5be261122c93260",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/utils/utils_train.py",
+    "published_sha256": "dc6a4de2f6b88ddfc1791361b273e857e817d94119bb2a60d5be261122c93260",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/completed.json",
+    "source_sha256": "7c2070411525f71459ed42beb5b28e2364c4d78bd3257a18fa9cd9fbad37e1ea",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/completed.json",
+    "published_sha256": "ffd85fc579089e4b73ade70c971d4dbc7fdb341ae8dfeb93709ef35cafb825d9",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/plan.md",
+    "source_sha256": "cdcd896772f81e506eca69a616c6d1f537b1e09de817aa25a9f048626aa7d636",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/plan.md",
+    "published_sha256": "ffe3e384f1922063963783a2fe3d602e0afb5e516b96445b265c02c4cd6429b5",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/reproducibility.md",
+    "source_sha256": "906e1f5f7f129d670be4dccbec173dd02cfdf372655004b688a7e88627dda48f",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/reproducibility.md",
+    "published_sha256": "a97443642177984cb4265092610454a1a6ac87dcbbccdba144d72128897e772d",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/environment.txt",
+    "source_sha256": "a40b07be9282f99a9749e61d7125244e83595148404927a54534d1e4a856480f",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/environment.txt",
+    "published_sha256": "7b21b00374fd8f603228ee5b88d21f990ee622c6e70338135283463b1318a036",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/config.yaml",
+    "source_sha256": "9d8f80e9602a6f5eaede4e88d086254186c6b401846386e4c0dd31120adfdfc2",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/config.yaml",
+    "published_sha256": "9d8f80e9602a6f5eaede4e88d086254186c6b401846386e4c0dd31120adfdfc2",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/run_all.py",
+    "source_sha256": "f7e11d717551835ca7b935a74c4e1194e40c71407fd51c0bb855d8a740ae3e08",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/run_all.py",
+    "published_sha256": "f7e11d717551835ca7b935a74c4e1194e40c71407fd51c0bb855d8a740ae3e08",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/launcher_changes.patch",
+    "source_sha256": "6fa87342970d8918e821366c9e42463221c17be5f7b8a1f46cf0c9ec17698488",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/launcher_changes.patch",
+    "published_sha256": "6fa87342970d8918e821366c9e42463221c17be5f7b8a1f46cf0c9ec17698488",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/plan.md",
+    "source_sha256": "513e98e59f468bcd62242dfa53d0ac3f9222c6f2b9bfc0dd3841a647ba058c12",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/plan.md",
+    "published_sha256": "9605697ae31a481ad75c08d6b303b2666980258a265069121be7f42327609116",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/config.json",
+    "source_sha256": "98fcac02b928b8cafb66734ca746aa136038bee4dabf7a2aa3fe809c559ac9e0",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/config.json",
+    "published_sha256": "98fcac02b928b8cafb66734ca746aa136038bee4dabf7a2aa3fe809c559ac9e0",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/validation_final.json",
+    "source_sha256": "13d816cbcf88d460183c1da36cb1176a5ba9d4d030cba16e382122cc63fcab8f",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/validation_final.json",
+    "published_sha256": "13d816cbcf88d460183c1da36cb1176a5ba9d4d030cba16e382122cc63fcab8f",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/resource_usage.json",
+    "source_sha256": "b5432ed277b59fd8fb40ebf681fb18948fcd400d3d641c08e7cc44e0eb6b3f70",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/resource_usage.json",
+    "published_sha256": "b5432ed277b59fd8fb40ebf681fb18948fcd400d3d641c08e7cc44e0eb6b3f70",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/environment_rdpp.txt",
+    "source_sha256": "ee0f52a88e8da0e0fb10683f9126a2a7ba7ea7ac0381a49a0e3f4dfe4b70a6b4",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/environment_rdpp.txt",
+    "published_sha256": "ee0f52a88e8da0e0fb10683f9126a2a7ba7ea7ac0381a49a0e3f4dfe4b70a6b4",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/bottle/attempt_001/bottle/metrics.json",
+    "source_sha256": "ee0a8e7e4caf0a581226299e70b887991d06b61cee30acee9431e219c817baa6",
+    "published": "results/benchmarks/rdpp/categories/bottle/metrics.json",
+    "published_sha256": "ee0a8e7e4caf0a581226299e70b887991d06b61cee30acee9431e219c817baa6",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/bottle/attempt_001/bottle/resource_usage.json",
+    "source_sha256": "33d940f70b13755b565990d7b26d30bd7d124650bfdf5bbec4222bdc0ca4262a",
+    "published": "results/benchmarks/rdpp/categories/bottle/resource_usage.json",
+    "published_sha256": "33d940f70b13755b565990d7b26d30bd7d124650bfdf5bbec4222bdc0ca4262a",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/bottle/attempt_001/bottle/provenance.json",
+    "source_sha256": "76c1b51e800e71bb0a287ade8bd86112f27b4b8522be184cc509b5b58c481f72",
+    "published": "results/benchmarks/rdpp/categories/bottle/provenance.json",
+    "published_sha256": "7d3683b8cdaa520825f69dfe19b6c36483e8cc2607af86fa1d9b427b087ab0bb",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/cable/attempt_001/cable/metrics.json",
+    "source_sha256": "2ad1dd5cfe3ccb6ee22e487ad872f69f47d1296b8e310aa714a85623655faa6d",
+    "published": "results/benchmarks/rdpp/categories/cable/metrics.json",
+    "published_sha256": "2ad1dd5cfe3ccb6ee22e487ad872f69f47d1296b8e310aa714a85623655faa6d",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/cable/attempt_001/cable/resource_usage.json",
+    "source_sha256": "555dcd8ce9f9b5fbfb333ac6aa36f91aa30721a2a4f535797b8b5879b31cde17",
+    "published": "results/benchmarks/rdpp/categories/cable/resource_usage.json",
+    "published_sha256": "555dcd8ce9f9b5fbfb333ac6aa36f91aa30721a2a4f535797b8b5879b31cde17",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/cable/attempt_001/cable/provenance.json",
+    "source_sha256": "95cab25d3af6e55e381a6afc8f86ce7fb6fc9a19566fb8f7f1505163b2ec285d",
+    "published": "results/benchmarks/rdpp/categories/cable/provenance.json",
+    "published_sha256": "6d3dbbb7a2d6c55edf83f85b43a24b19371a99a50079cb101893198ad48bdf3a",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/capsule/attempt_001/capsule/metrics.json",
+    "source_sha256": "f83b10eec034cb3a8525f2b1ce0805690b44aa2943cfaa3c52e1e1ac8bac73f0",
+    "published": "results/benchmarks/rdpp/categories/capsule/metrics.json",
+    "published_sha256": "f83b10eec034cb3a8525f2b1ce0805690b44aa2943cfaa3c52e1e1ac8bac73f0",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/capsule/attempt_001/capsule/resource_usage.json",
+    "source_sha256": "64645590a270b8fbe68e5a4c6894b20eddff8319571c03a013f00f9535f7c099",
+    "published": "results/benchmarks/rdpp/categories/capsule/resource_usage.json",
+    "published_sha256": "64645590a270b8fbe68e5a4c6894b20eddff8319571c03a013f00f9535f7c099",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/capsule/attempt_001/capsule/provenance.json",
+    "source_sha256": "d5d3a9c71f9288a6d8835f04741f370d08a636711c04bdd6273aa7f548d40a4d",
+    "published": "results/benchmarks/rdpp/categories/capsule/provenance.json",
+    "published_sha256": "5d4f8e26c9fb52cb2073d0143a95a1bf4f3c157d534b37955bb66eb5950401c5",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/carpet/attempt_001/carpet/metrics.json",
+    "source_sha256": "ae6be79b90ecbcec3620510035cf4c75c07e6ba4e6707c1642c69d87719b34e0",
+    "published": "results/benchmarks/rdpp/categories/carpet/metrics.json",
+    "published_sha256": "ae6be79b90ecbcec3620510035cf4c75c07e6ba4e6707c1642c69d87719b34e0",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/carpet/attempt_001/carpet/resource_usage.json",
+    "source_sha256": "68292966960d943a8b0d35f5f77239922ead21423a39b6e524793a2faca583ba",
+    "published": "results/benchmarks/rdpp/categories/carpet/resource_usage.json",
+    "published_sha256": "68292966960d943a8b0d35f5f77239922ead21423a39b6e524793a2faca583ba",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/carpet/attempt_001/carpet/provenance.json",
+    "source_sha256": "e0fa1f1c8288625894af1e5a6d01f5973a3531e26d3ba3336fc79ae1a4e4ffd9",
+    "published": "results/benchmarks/rdpp/categories/carpet/provenance.json",
+    "published_sha256": "ebe1a4ed7c5624128cfcc23cdc518515df88f299dac8de151ca963a5b87b2bc5",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/grid/attempt_001/grid/metrics.json",
+    "source_sha256": "375e11395511640678bc5f67cc92ca099d0030a2e2904c6f75591303c454907b",
+    "published": "results/benchmarks/rdpp/categories/grid/metrics.json",
+    "published_sha256": "375e11395511640678bc5f67cc92ca099d0030a2e2904c6f75591303c454907b",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/grid/attempt_001/grid/resource_usage.json",
+    "source_sha256": "90c6ba66e70dc0c80e1414d4a8545d2132d095e6dfb70f215a810ab6746fd958",
+    "published": "results/benchmarks/rdpp/categories/grid/resource_usage.json",
+    "published_sha256": "90c6ba66e70dc0c80e1414d4a8545d2132d095e6dfb70f215a810ab6746fd958",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/grid/attempt_001/grid/provenance.json",
+    "source_sha256": "d022391ce44f9515e05b19f3b7e5db3aa799df42fc132ac6ae55e7bbc1dfe80d",
+    "published": "results/benchmarks/rdpp/categories/grid/provenance.json",
+    "published_sha256": "c607862c2c098c39053ee56279213bd86b41923936fbd5ed6d5b964be8a64a9e",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/hazelnut/attempt_001/hazelnut/metrics.json",
+    "source_sha256": "9ad3aa54a7799fbf205a91f9f60bc8e378d28737800cfc8d217e28c7905b700c",
+    "published": "results/benchmarks/rdpp/categories/hazelnut/metrics.json",
+    "published_sha256": "9ad3aa54a7799fbf205a91f9f60bc8e378d28737800cfc8d217e28c7905b700c",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/hazelnut/attempt_001/hazelnut/resource_usage.json",
+    "source_sha256": "bc4f5efe650b309f588b4240ff0b1601cf55b97cf8b5ea0907a05f4219d9966c",
+    "published": "results/benchmarks/rdpp/categories/hazelnut/resource_usage.json",
+    "published_sha256": "bc4f5efe650b309f588b4240ff0b1601cf55b97cf8b5ea0907a05f4219d9966c",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/hazelnut/attempt_001/hazelnut/provenance.json",
+    "source_sha256": "74d9eee8b71185d041f804c85083b8d8f20f4b170dfa531eb55291e40c8448eb",
+    "published": "results/benchmarks/rdpp/categories/hazelnut/provenance.json",
+    "published_sha256": "0d5b002c6f335d9a246bf844a453638e235f6da7767ec59714a15200d60e42bd",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/leather/attempt_001/leather/metrics.json",
+    "source_sha256": "2e447cc79a85e7deabe2f9516babd16a1aba5e1fa67180f4f26db1be85465db4",
+    "published": "results/benchmarks/rdpp/categories/leather/metrics.json",
+    "published_sha256": "2e447cc79a85e7deabe2f9516babd16a1aba5e1fa67180f4f26db1be85465db4",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/leather/attempt_001/leather/resource_usage.json",
+    "source_sha256": "fbddc188ee3c10c09f9b99650786692a8e541ba1f0406f5ce66d936c822bbe15",
+    "published": "results/benchmarks/rdpp/categories/leather/resource_usage.json",
+    "published_sha256": "fbddc188ee3c10c09f9b99650786692a8e541ba1f0406f5ce66d936c822bbe15",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/leather/attempt_001/leather/provenance.json",
+    "source_sha256": "1bc0563861e5e3bcf415e6d73f35a1d15d1fbeda5d10c5d2fbb7c46c99424db9",
+    "published": "results/benchmarks/rdpp/categories/leather/provenance.json",
+    "published_sha256": "a1b38d25ede4e9018690510c53122ee52ba948a7b63391bd1b192ce39d6764d7",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/metal_nut/attempt_001/metal_nut/metrics.json",
+    "source_sha256": "fc5de4098a5f5639e9756d54ef8d4b7d44e248f3cb13f1b15f71e91fb54d114f",
+    "published": "results/benchmarks/rdpp/categories/metal_nut/metrics.json",
+    "published_sha256": "fc5de4098a5f5639e9756d54ef8d4b7d44e248f3cb13f1b15f71e91fb54d114f",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/metal_nut/attempt_001/metal_nut/resource_usage.json",
+    "source_sha256": "251e789bd3336bffe8ac1c9a3ec905531bf43e0305116f956c99d78c8c91a359",
+    "published": "results/benchmarks/rdpp/categories/metal_nut/resource_usage.json",
+    "published_sha256": "251e789bd3336bffe8ac1c9a3ec905531bf43e0305116f956c99d78c8c91a359",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/metal_nut/attempt_001/metal_nut/provenance.json",
+    "source_sha256": "2622644662d9088334f20c3b29c713366b5dff9062f494ae85e62e8e6c3de04a",
+    "published": "results/benchmarks/rdpp/categories/metal_nut/provenance.json",
+    "published_sha256": "57314328b3838f64bd6c00f4a6063a68001edf6ec868d60b882b48cf174f1496",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/pill/attempt_001/pill/metrics.json",
+    "source_sha256": "fb79ba883c5c3c0176b8e7bc2754baaee55d96887a37a3b8d99602f61999fbc9",
+    "published": "results/benchmarks/rdpp/categories/pill/metrics.json",
+    "published_sha256": "fb79ba883c5c3c0176b8e7bc2754baaee55d96887a37a3b8d99602f61999fbc9",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/pill/attempt_001/pill/resource_usage.json",
+    "source_sha256": "c98e6415f068a238ea8fec9467d1f175b64bcc79f2990009280aa72925003aaf",
+    "published": "results/benchmarks/rdpp/categories/pill/resource_usage.json",
+    "published_sha256": "c98e6415f068a238ea8fec9467d1f175b64bcc79f2990009280aa72925003aaf",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/pill/attempt_001/pill/provenance.json",
+    "source_sha256": "f7ca53767b93834a6e681b43f60a949acda018a1abd067e5a7b1214663845ff4",
+    "published": "results/benchmarks/rdpp/categories/pill/provenance.json",
+    "published_sha256": "71c5b266b129f8a749de8ac8669fdda87a9a139e49be9c7b026b2274387d34a4",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/screw/attempt_001/screw/metrics.json",
+    "source_sha256": "ebe12ef668f72d03f876ee97cba073def0ffae831364ccf7da918e04b2309558",
+    "published": "results/benchmarks/rdpp/categories/screw/metrics.json",
+    "published_sha256": "ebe12ef668f72d03f876ee97cba073def0ffae831364ccf7da918e04b2309558",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/screw/attempt_001/screw/resource_usage.json",
+    "source_sha256": "b1fa669b967e949308e2ac47ddaf1e567a84e0fe535820ee4d0b062c8221531a",
+    "published": "results/benchmarks/rdpp/categories/screw/resource_usage.json",
+    "published_sha256": "b1fa669b967e949308e2ac47ddaf1e567a84e0fe535820ee4d0b062c8221531a",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/screw/attempt_001/screw/provenance.json",
+    "source_sha256": "fbed50420afdfe37f68c9f8e935f9c1c42ca68384b219326f4fcb3faaa73050e",
+    "published": "results/benchmarks/rdpp/categories/screw/provenance.json",
+    "published_sha256": "f7dbde6e5bdb890f94fdb46e22a154531ce02419a233f0850f1fb6293b9095a1",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/tile/attempt_001/tile/metrics.json",
+    "source_sha256": "48a18fc9090a4eefcaf550858263762e1993a0ab816f15ee466b6ad304a6794e",
+    "published": "results/benchmarks/rdpp/categories/tile/metrics.json",
+    "published_sha256": "48a18fc9090a4eefcaf550858263762e1993a0ab816f15ee466b6ad304a6794e",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/tile/attempt_001/tile/resource_usage.json",
+    "source_sha256": "cfd10b584c339d71dfc32d6e25ec7ba0fe65d509eca91a323a06a7a909320df1",
+    "published": "results/benchmarks/rdpp/categories/tile/resource_usage.json",
+    "published_sha256": "cfd10b584c339d71dfc32d6e25ec7ba0fe65d509eca91a323a06a7a909320df1",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/tile/attempt_001/tile/provenance.json",
+    "source_sha256": "1dd1ec94febf0b9290fbf77bcb1926a7a7cea7ca83dd80a58060762fa1d257cb",
+    "published": "results/benchmarks/rdpp/categories/tile/provenance.json",
+    "published_sha256": "b77f26474db38122142fc36c91a02da6478b1f1d20fb7e885cc6a5a2d0b7d564",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/toothbrush/attempt_001/toothbrush/metrics.json",
+    "source_sha256": "542c03751ab5436017718719338812d73bea819107dd55dde55c16bcb142762e",
+    "published": "results/benchmarks/rdpp/categories/toothbrush/metrics.json",
+    "published_sha256": "542c03751ab5436017718719338812d73bea819107dd55dde55c16bcb142762e",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/toothbrush/attempt_001/toothbrush/resource_usage.json",
+    "source_sha256": "efbb54f435e8b834a8611bf9502aad1a0c17a3c602a19574ccb88e16a9067b38",
+    "published": "results/benchmarks/rdpp/categories/toothbrush/resource_usage.json",
+    "published_sha256": "efbb54f435e8b834a8611bf9502aad1a0c17a3c602a19574ccb88e16a9067b38",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/toothbrush/attempt_001/toothbrush/provenance.json",
+    "source_sha256": "dd08e7baaf9273287221dc4dbb49a42799091cd8783bbabcf11b8063864e96bc",
+    "published": "results/benchmarks/rdpp/categories/toothbrush/provenance.json",
+    "published_sha256": "2acac16c21f449f4882d5a834c31d81a093fb5505a21fbe43da9f9b75c98176e",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/transistor/attempt_001/transistor/metrics.json",
+    "source_sha256": "b81ec9948664416c86a55b16b9c01c529f605f2da03f23e6c02e4c8b6f2f060d",
+    "published": "results/benchmarks/rdpp/categories/transistor/metrics.json",
+    "published_sha256": "b81ec9948664416c86a55b16b9c01c529f605f2da03f23e6c02e4c8b6f2f060d",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/transistor/attempt_001/transistor/resource_usage.json",
+    "source_sha256": "d3484b5be992acb7a4a61b74a5f29e544b5162888a1930400e06ae2c7489bcfa",
+    "published": "results/benchmarks/rdpp/categories/transistor/resource_usage.json",
+    "published_sha256": "d3484b5be992acb7a4a61b74a5f29e544b5162888a1930400e06ae2c7489bcfa",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/transistor/attempt_001/transistor/provenance.json",
+    "source_sha256": "2524e8ed16afdd3b7191870b4bdb227efed166e136f709be4e1a1e6af63c6950",
+    "published": "results/benchmarks/rdpp/categories/transistor/provenance.json",
+    "published_sha256": "ae7519ed0865bde902019228e592bd8500d87305da8e4a0404277ad849fdc70b",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/wood/attempt_001/wood/metrics.json",
+    "source_sha256": "32fbd6ee03a3157480b8d4fa9ade32fe4cd683a4281283e27e15d28ee0c2c838",
+    "published": "results/benchmarks/rdpp/categories/wood/metrics.json",
+    "published_sha256": "32fbd6ee03a3157480b8d4fa9ade32fe4cd683a4281283e27e15d28ee0c2c838",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/wood/attempt_001/wood/resource_usage.json",
+    "source_sha256": "c8aaf389df8dbb24fa4e0f524dfa121a5975a1ee34554210b42d2bebb88f4355",
+    "published": "results/benchmarks/rdpp/categories/wood/resource_usage.json",
+    "published_sha256": "c8aaf389df8dbb24fa4e0f524dfa121a5975a1ee34554210b42d2bebb88f4355",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/wood/attempt_001/wood/provenance.json",
+    "source_sha256": "6d2ab1c1f3cd372ddd7d790a18de47570d16be6acdbe5f1e093b5a3ba4346265",
+    "published": "results/benchmarks/rdpp/categories/wood/provenance.json",
+    "published_sha256": "aabef9c3128cbdc7e123e192e6aa1b2f3ab6e56b4c9ed4138705d7f7091b6076",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/zipper/attempt_001/zipper/metrics.json",
+    "source_sha256": "2cd78e0f55164315f6d170a14a4673e3dc7b36422e2111c536db9c171a55708f",
+    "published": "results/benchmarks/rdpp/categories/zipper/metrics.json",
+    "published_sha256": "2cd78e0f55164315f6d170a14a4673e3dc7b36422e2111c536db9c171a55708f",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/zipper/attempt_001/zipper/resource_usage.json",
+    "source_sha256": "9d05055b93e86bc85ea149dc24217fbcc802ef2edac774cac933f2c7e00aa2c2",
+    "published": "results/benchmarks/rdpp/categories/zipper/resource_usage.json",
+    "published_sha256": "9d05055b93e86bc85ea149dc24217fbcc802ef2edac774cac933f2c7e00aa2c2",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/rdpp/zipper/attempt_001/zipper/provenance.json",
+    "source_sha256": "2c5058efc5c7a0c71bd0bab16e80325ffd15225364c5f068f16d7218bd5603b2",
+    "published": "results/benchmarks/rdpp/categories/zipper/provenance.json",
+    "published_sha256": "bf92e2661fe0af81817989773afff246b125ed34065f6fdb4797a4b31c81a3bd",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "compare_dfr_rd4ad_common.py",
+    "source_sha256": "42598a2185d3e1f543424a0b7e047c0b7ab6f43c9ef65b75b93d09c43fef42ef",
+    "published": "reproducibility/rdpp/workspace/compare_dfr_rd4ad_common.py",
+    "published_sha256": "7b80e251840b7a83fd54cd07111f3505cb9de1a437f3814fcc9b1b3bb5b2b558",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/evaluate_export.py",
+    "source_sha256": "15f67916df81a3e527538494da9bc260ab6be0e408c3da23e57b37c96f21e797",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/evaluate_export.py",
+    "published_sha256": "03942cc2bd2ed8df1e082e2505c982659059cd3a0aa9c588ea182bcc61f90086",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/dataset/dataset.py",
+    "source_sha256": "24ac288a50a0f2456d30a2f2b924237a9eeb9977be8a4082b48041964b254d6b",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/dataset/dataset.py",
+    "published_sha256": "24ac288a50a0f2456d30a2f2b924237a9eeb9977be8a4082b48041964b254d6b",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/dataset/noise.py",
+    "source_sha256": "80673559d74eb90854a2f36457cd1ecd4f82ee60e31509e8941e5c7099b7175d",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/dataset/noise.py",
+    "published_sha256": "80673559d74eb90854a2f36457cd1ecd4f82ee60e31509e8941e5c7099b7175d",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/inference.py",
+    "source_sha256": "4afeee6b87a8b59092d930c3ab146188c9eaf1221d1703bf7c32d1b31bac2d7a",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/inference.py",
+    "published_sha256": "4afeee6b87a8b59092d930c3ab146188c9eaf1221d1703bf7c32d1b31bac2d7a",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/LICENSE",
+    "source_sha256": "15652742cf5cbc8c25cc1e1a4b9660544cd242defa64abdad50f0ef43937e489",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/LICENSE",
+    "published_sha256": "15652742cf5cbc8c25cc1e1a4b9660544cd242defa64abdad50f0ef43937e489",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/main.py",
+    "source_sha256": "8a0535121910379b5367b1bf70377b1fa3965ddaacef43a4d608070a63539847",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/main.py",
+    "published_sha256": "8a0535121910379b5367b1bf70377b1fa3965ddaacef43a4d608070a63539847",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/model/de_resnet.py",
+    "source_sha256": "09ddb5b7f3c4cc19e01f7743cee78b8575d53e521a6e96d1b44fb983ff0796ab",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/model/de_resnet.py",
+    "published_sha256": "09ddb5b7f3c4cc19e01f7743cee78b8575d53e521a6e96d1b44fb983ff0796ab",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/model/resnet.py",
+    "source_sha256": "e966ab12df8e27118566eef7fff258991c5be0542ff486dc5cb32a2ac33ee60f",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/model/resnet.py",
+    "published_sha256": "e966ab12df8e27118566eef7fff258991c5be0542ff486dc5cb32a2ac33ee60f",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/requirements.txt",
+    "source_sha256": "20730dede5cce369e2e57a6e4b68870f5050976f688953eb15059e858bbf46ed",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/requirements.txt",
+    "published_sha256": "20730dede5cce369e2e57a6e4b68870f5050976f688953eb15059e858bbf46ed",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/utils/utils_test.py",
+    "source_sha256": "aba8088756e0feb7a8f2acdc3c6f66d98b908ae4a244a511f97d422d4ec11841",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/utils/utils_test.py",
+    "published_sha256": "aba8088756e0feb7a8f2acdc3c6f66d98b908ae4a244a511f97d422d4ec11841",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/utils/utils_train.py",
+    "source_sha256": "dc6a4de2f6b88ddfc1791361b273e857e817d94119bb2a60d5be261122c93260",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/utils/utils_train.py",
+    "published_sha256": "dc6a4de2f6b88ddfc1791361b273e857e817d94119bb2a60d5be261122c93260",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/models/rdpp/requirements.lock.txt",
+    "source_sha256": "376e07bece783dfdd5ea9ccf3da018e0ea86d4b2a9e34cd6d335b192a51b221c",
+    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/requirements.lock.txt",
+    "published_sha256": "ee0f52a88e8da0e0fb10683f9126a2a7ba7ea7ac0381a49a0e3f4dfe4b70a6b4",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  }
+]

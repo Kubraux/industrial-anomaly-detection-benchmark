@@ -1,0 +1,12 @@
+{
+  "method": "rdpp",
+  "categories": 15,
+  "scale": "fraction_0_1",
+  "aggregation": "equal_weight_category_macro",
+  "protocol": "common256_nearest_exact_aupro030",
+  "image_auroc": 0.9856911275516436,
+  "image_ap": 0.994309842822982,
+  "pixel_auroc": 0.9806989519916617,
+  "pixel_ap": 0.5959973972112829,
+  "aupro_030": 0.9432788931362743
+}

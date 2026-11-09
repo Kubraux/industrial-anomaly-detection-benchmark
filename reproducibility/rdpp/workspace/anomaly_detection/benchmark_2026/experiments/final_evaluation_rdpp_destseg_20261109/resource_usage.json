@@ -1,0 +1,600 @@
+{
+  "training_from_retained_records": {
+    "rdpp": {
+      "recorded_category_seconds": 137938.94767640065,
+      "peak_allocated_bytes": 11716400640
+    },
+    "destseg": {
+      "recorded_category_seconds": 280034.5856721997,
+      "peak_allocated_bytes": 9054607872
+    }
+  },
+  "evaluation_categories": {
+    "rdpp/bottle": {
+      "model_only": {
+        "n": 83,
+        "median_ms": 79.24619968980551,
+        "p95_ms": 83.92689991742373
+      },
+      "pipeline_decode_to_export": {
+        "n": 83,
+        "median_ms": 194.29709948599339,
+        "p95_ms": 206.194450519979
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763304,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/cable": {
+      "model_only": {
+        "n": 150,
+        "median_ms": 77.07249978557229,
+        "p95_ms": 89.1212147194892
+      },
+      "pipeline_decode_to_export": {
+        "n": 150,
+        "median_ms": 188.23219975456595,
+        "p95_ms": 219.96793448925013
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763240,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/capsule": {
+      "model_only": {
+        "n": 132,
+        "median_ms": 78.86565010994673,
+        "p95_ms": 87.06324459053576
+      },
+      "pipeline_decode_to_export": {
+        "n": 132,
+        "median_ms": 202.20329985022545,
+        "p95_ms": 218.25495017692447
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763240,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/carpet": {
+      "model_only": {
+        "n": 117,
+        "median_ms": 79.27570026367903,
+        "p95_ms": 90.02617988735437
+      },
+      "pipeline_decode_to_export": {
+        "n": 117,
+        "median_ms": 204.54000029712915,
+        "p95_ms": 228.4767404198646
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763304,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/grid": {
+      "model_only": {
+        "n": 78,
+        "median_ms": 22.549250163137913,
+        "p95_ms": 87.17285534366965
+      },
+      "pipeline_decode_to_export": {
+        "n": 78,
+        "median_ms": 135.23515034466982,
+        "p95_ms": 188.8496899977326
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763304,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/hazelnut": {
+      "model_only": {
+        "n": 110,
+        "median_ms": 78.09549989178777,
+        "p95_ms": 87.43941024877131
+      },
+      "pipeline_decode_to_export": {
+        "n": 110,
+        "median_ms": 204.31995019316673,
+        "p95_ms": 218.00750535912812
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763240,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/leather": {
+      "model_only": {
+        "n": 124,
+        "median_ms": 79.2810502462089,
+        "p95_ms": 88.5758001357317
+      },
+      "pipeline_decode_to_export": {
+        "n": 124,
+        "median_ms": 208.19499995559454,
+        "p95_ms": 224.1169301327318
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763240,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/metal_nut": {
+      "model_only": {
+        "n": 115,
+        "median_ms": 35.64599994570017,
+        "p95_ms": 102.1189005114138
+      },
+      "pipeline_decode_to_export": {
+        "n": 115,
+        "median_ms": 142.87429954856634,
+        "p95_ms": 215.590800344944
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763304,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/pill": {
+      "model_only": {
+        "n": 167,
+        "median_ms": 77.40679942071438,
+        "p95_ms": 83.51374957710505
+      },
+      "pipeline_decode_to_export": {
+        "n": 167,
+        "median_ms": 188.14419955015182,
+        "p95_ms": 205.30832018703222
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763240,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/screw": {
+      "model_only": {
+        "n": 160,
+        "median_ms": 26.490300428122282,
+        "p95_ms": 94.79693989269433
+      },
+      "pipeline_decode_to_export": {
+        "n": 160,
+        "median_ms": 158.55035046115518,
+        "p95_ms": 221.87195583246637
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763240,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/tile": {
+      "model_only": {
+        "n": 117,
+        "median_ms": 28.538300655782223,
+        "p95_ms": 86.5780396386981
+      },
+      "pipeline_decode_to_export": {
+        "n": 117,
+        "median_ms": 134.89330001175404,
+        "p95_ms": 189.98358007520437
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763240,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/toothbrush": {
+      "model_only": {
+        "n": 42,
+        "median_ms": 18.124999944120646,
+        "p95_ms": 88.94743546843527
+      },
+      "pipeline_decode_to_export": {
+        "n": 42,
+        "median_ms": 129.73899999633431,
+        "p95_ms": 198.8629756029695
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763240,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/transistor": {
+      "model_only": {
+        "n": 100,
+        "median_ms": 34.82520021498203,
+        "p95_ms": 84.8142905626446
+      },
+      "pipeline_decode_to_export": {
+        "n": 100,
+        "median_ms": 144.80819972231984,
+        "p95_ms": 194.33340509422123
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763240,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/wood": {
+      "model_only": {
+        "n": 79,
+        "median_ms": 34.55919958651066,
+        "p95_ms": 102.48825000599024
+      },
+      "pipeline_decode_to_export": {
+        "n": 79,
+        "median_ms": 184.557200409472,
+        "p95_ms": 299.0591700188815
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763240,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "rdpp/zipper": {
+      "model_only": {
+        "n": 151,
+        "median_ms": 47.82299976795912,
+        "p95_ms": 111.7694997228682
+      },
+      "pipeline_decode_to_export": {
+        "n": 151,
+        "median_ms": 239.83589932322502,
+        "p95_ms": 298.3530000783503
+      },
+      "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+      "peak_allocated_bytes": 788260352,
+      "peak_reserved_bytes": 801112064,
+      "checkpoint_bytes": 1622763240,
+      "teacher_bytes": 138223492,
+      "gpu": "NVIDIA RTX A4000",
+      "cuda": "12.1",
+      "cudnn_tf32": true,
+      "matmul_tf32": false
+    },
+    "destseg/bottle": {
+      "model_only": {
+        "n": 83,
+        "median_ms": 14.735800214111805,
+        "p95_ms": 15.623399987816809
+      },
+      "pipeline_decode_to_export": {
+        "n": 83,
+        "median_ms": 42.54289995878935,
+        "p95_ms": 45.602159760892384
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1161506816,
+      "wall_seconds": 12.496755200438201
+    },
+    "destseg/cable": {
+      "model_only": {
+        "n": 150,
+        "median_ms": 19.50185000896454,
+        "p95_ms": 27.87963543087244
+      },
+      "pipeline_decode_to_export": {
+        "n": 150,
+        "median_ms": 60.763499699532986,
+        "p95_ms": 70.5347596667707
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1196253184,
+      "wall_seconds": 30.735559199936688
+    },
+    "destseg/capsule": {
+      "model_only": {
+        "n": 132,
+        "median_ms": 16.06169994920492,
+        "p95_ms": 29.50739967636764
+      },
+      "pipeline_decode_to_export": {
+        "n": 132,
+        "median_ms": 59.38720004633069,
+        "p95_ms": 83.62038969062267
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1186639872,
+      "wall_seconds": 24.42536100000143
+    },
+    "destseg/carpet": {
+      "model_only": {
+        "n": 117,
+        "median_ms": 20.86069993674755,
+        "p95_ms": 54.595280066132545
+      },
+      "pipeline_decode_to_export": {
+        "n": 117,
+        "median_ms": 77.92820036411285,
+        "p95_ms": 115.33015966415405
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1178365952,
+      "wall_seconds": 25.05717290006578
+    },
+    "destseg/grid": {
+      "model_only": {
+        "n": 78,
+        "median_ms": 18.11280008405447,
+        "p95_ms": 20.851074671372768
+      },
+      "pipeline_decode_to_export": {
+        "n": 78,
+        "median_ms": 51.900200080126524,
+        "p95_ms": 57.334574637934566
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1164595200,
+      "wall_seconds": 14.27964779920876
+    },
+    "destseg/hazelnut": {
+      "model_only": {
+        "n": 110,
+        "median_ms": 20.71245014667511,
+        "p95_ms": 52.031589997932315
+      },
+      "pipeline_decode_to_export": {
+        "n": 110,
+        "median_ms": 74.74950002506375,
+        "p95_ms": 104.56029050983489
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1175257088,
+      "wall_seconds": 22.732805900275707
+    },
+    "destseg/leather": {
+      "model_only": {
+        "n": 124,
+        "median_ms": 20.73805034160614,
+        "p95_ms": 48.34154029376804
+      },
+      "pipeline_decode_to_export": {
+        "n": 124,
+        "median_ms": 70.22019987925887,
+        "p95_ms": 92.86076012067495
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1185513472,
+      "wall_seconds": 23.670142900198698
+    },
+    "destseg/metal_nut": {
+      "model_only": {
+        "n": 115,
+        "median_ms": 17.435300163924694,
+        "p95_ms": 21.558960154652596
+      },
+      "pipeline_decode_to_export": {
+        "n": 115,
+        "median_ms": 48.46480023115873,
+        "p95_ms": 54.36685997992754
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1175269376,
+      "wall_seconds": 17.711550399661064
+    },
+    "destseg/pill": {
+      "model_only": {
+        "n": 167,
+        "median_ms": 23.410200141370296,
+        "p95_ms": 29.98946951702237
+      },
+      "pipeline_decode_to_export": {
+        "n": 167,
+        "median_ms": 64.06150013208389,
+        "p95_ms": 71.97803044691682
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1202008064,
+      "wall_seconds": 29.151075100526214
+    },
+    "destseg/screw": {
+      "model_only": {
+        "n": 160,
+        "median_ms": 18.630399834364653,
+        "p95_ms": 28.722375305369493
+      },
+      "pipeline_decode_to_export": {
+        "n": 160,
+        "median_ms": 51.98685033246875,
+        "p95_ms": 63.514120038598776
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1407406080,
+      "wall_seconds": 26.394935300573707
+    },
+    "destseg/tile": {
+      "model_only": {
+        "n": 117,
+        "median_ms": 17.80110038816929,
+        "p95_ms": 25.79159997403621
+      },
+      "pipeline_decode_to_export": {
+        "n": 117,
+        "median_ms": 58.955200016498566,
+        "p95_ms": 71.94054052233696
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1177071616,
+      "wall_seconds": 19.900985199958086
+    },
+    "destseg/toothbrush": {
+      "model_only": {
+        "n": 42,
+        "median_ms": 17.327450215816498,
+        "p95_ms": 19.260134920477867
+      },
+      "pipeline_decode_to_export": {
+        "n": 42,
+        "median_ms": 68.43814952298999,
+        "p95_ms": 73.46654529683292
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1141997568,
+      "wall_seconds": 8.358227100223303
+    },
+    "destseg/transistor": {
+      "model_only": {
+        "n": 100,
+        "median_ms": 18.437799997627735,
+        "p95_ms": 26.762690348550677
+      },
+      "pipeline_decode_to_export": {
+        "n": 100,
+        "median_ms": 73.79639986902475,
+        "p95_ms": 83.88454942032695
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1173495808,
+      "wall_seconds": 18.73047459963709
+    },
+    "destseg/wood": {
+      "model_only": {
+        "n": 79,
+        "median_ms": 17.76980049908161,
+        "p95_ms": 25.19117956981062
+      },
+      "pipeline_decode_to_export": {
+        "n": 79,
+        "median_ms": 73.45359958708286,
+        "p95_ms": 82.83873023465276
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1161445376,
+      "wall_seconds": 15.675292699597776
+    },
+    "destseg/zipper": {
+      "model_only": {
+        "n": 151,
+        "median_ms": 15.333999879658222,
+        "p95_ms": 19.979399628937244
+      },
+      "pipeline_decode_to_export": {
+        "n": 151,
+        "median_ms": 39.726500399410725,
+        "p95_ms": 44.83185010030866
+      },
+      "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 221455872,
+      "peak_reserved_bytes": 266338304,
+      "sampled_peak_ram_bytes": 1201172480,
+      "wall_seconds": 21.975163099355996
+    }
+  },
+  "evaluation_wall_seconds": 1400.1523773670197
+}

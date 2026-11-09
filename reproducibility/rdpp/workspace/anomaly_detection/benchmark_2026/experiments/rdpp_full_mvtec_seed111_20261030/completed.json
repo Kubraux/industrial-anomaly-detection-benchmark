@@ -1,0 +1,107 @@
+{
+  "carpet": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\carpet\\attempt_001\\carpet\\final.pt",
+    "sha256": "1c53dc908d0cd7b7b10054d443257e0455c047a5d94ba68ac9631f1058664292",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\carpet\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "3888fce60adb9b3a00acf98e7c24b6eb8249d1603f8de43f900d71a78e080e8f",
+    "epoch": 10
+  },
+  "grid": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\grid\\attempt_001\\grid\\final.pt",
+    "sha256": "0b86e588a9bc60702a87ff53488b1a365742df7fe3f709f78663828a4ac67a92",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\grid\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "7e0c99de9f4560319a9f89040c7fe81ba2128fcebace4ef637c54fe2699b4bbf",
+    "epoch": 260
+  },
+  "leather": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\leather\\attempt_001\\leather\\final.pt",
+    "sha256": "c508e278216c784c4f005b9939f37a9c93e22711c075cb5d911af75c67846d88",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\leather\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "78f159fcf6a25d919718015860afd7982a68ec6ba9fbf7e90ab326349c085347",
+    "epoch": 10
+  },
+  "tile": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\tile\\attempt_001\\tile\\final.pt",
+    "sha256": "1ba39eb239b35d38d26075fbd6b119997eb40e2b55a650f6752432cc1310120c",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\tile\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "a35a8a1f93eb63659b747812f68f9d6a68313b9ecadfe3b3151315868eaff007",
+    "epoch": 260
+  },
+  "wood": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\wood\\attempt_001\\wood\\final.pt",
+    "sha256": "4053e209854f4887bbdad6808786a99230439cc3ca04b037cfbca40d2fcc3131",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\wood\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "40abb0f1c4832aceaa3ae26e2908a32d5b308ee0837d006dfcfd704b571517cc",
+    "epoch": 100
+  },
+  "bottle": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\bottle\\attempt_001\\bottle\\final.pt",
+    "sha256": "6b758666a2755ab3ed4d837ad05176eef252abc346170785ec55ec655716ecd4",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\bottle\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "081cda9adb7a3a6e497039de6c21b833eee082d1adfa4abc09f3772565a3aed8",
+    "epoch": 200
+  },
+  "cable": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\cable\\attempt_001\\cable\\final.pt",
+    "sha256": "e93e03a0cf9c3c185e3ad64e0cd7b8bc24a818615e1dc0b2f6615ab77db13ae3",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\cable\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "b89d70b8c7ece0b2706fba52a7cc7f35977d2c7b26276275437248c567aaadb7",
+    "epoch": 240
+  },
+  "capsule": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\capsule\\attempt_001\\capsule\\final.pt",
+    "sha256": "db9406a2eabd6e24fd08c9808bc327e23af78fc34edbb468c02d9f1e305f2a6d",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\capsule\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "9304a4e55866124531b98be681af5ccf68a338330e7e50904f6fda67879886e8",
+    "epoch": 300
+  },
+  "hazelnut": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\hazelnut\\attempt_001\\hazelnut\\final.pt",
+    "sha256": "084ddf38cbb9cb9048b49c80607d26602b472142d39373d79775f9e91d0b20a5",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\hazelnut\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "5d6ef25fc321dc7259b867221d70ab47850f392026a573cd00076e53ed2a1c80",
+    "epoch": 160
+  },
+  "metal_nut": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\metal_nut\\attempt_001\\metal_nut\\final.pt",
+    "sha256": "f48ebfc0ba07f4ea30c780ef2cd26286e3ac046340299986f4cec334a75913ba",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\metal_nut\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "b4e8a3c2998bf5f725ceba5a060cb395f3efe64824b1906bf4af2903fc917cc6",
+    "epoch": 160
+  },
+  "pill": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\pill\\attempt_001\\pill\\final.pt",
+    "sha256": "745d8ee122e9ed49c364759d9c082badd9c4f41dffd542c756a4b2f2c1a9d6d5",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\pill\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "535d226de273a546fadce4fe07fedc96349efdf8f923e1e16a050c87149576d4",
+    "epoch": 200
+  },
+  "screw": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\screw\\attempt_001\\screw\\final.pt",
+    "sha256": "d3ab0b44a3a96a67b90f865a3e12f84ff53346037c9b626aa7aab1482839ed4d",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\screw\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "45092872c29125aa2fe136e6e3b34badf529ca70d0d8183fa248b74245bde0ec",
+    "epoch": 280
+  },
+  "toothbrush": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\toothbrush\\attempt_001\\toothbrush\\final.pt",
+    "sha256": "56df7b063dc8b0ca68ae6a17b6a31088c0bef4c4ef4b35645b0efa9fa10fb26c",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\toothbrush\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "ee95d9d86d12528fc69186ce119976540bd97737e4b2135d7ebeaff43dd05ace",
+    "epoch": 280
+  },
+  "transistor": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\transistor\\attempt_001\\transistor\\final.pt",
+    "sha256": "580bad2cc81bcc59d30157654a77c85962895ceded4ad5413ab1c925f72a3d9e",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\transistor\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "49743f3436776b718e8d6ca8f90dd1f1affcac617d46f663ed5c3ebbce3430fe",
+    "epoch": 300
+  },
+  "zipper": {
+    "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\zipper\\attempt_001\\zipper\\final.pt",
+    "sha256": "cff75b3475c791eb797c6b1fa0b04c414714b343344361b2e56dc9b28699cde7",
+    "rng_boundary": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\zipper\\attempt_001\\next_category_rng.pt",
+    "rng_sha256": "8e9b3e0b23e0408c47bd91aca14c52fc6ca7256957b1bc465805a654f3eb9207",
+    "epoch": 300
+  }
+}

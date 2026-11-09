@@ -29,3 +29,9 @@ All research evidence, original configurations, results and the detailed archive
 [Method guide](../methods/efficientad/README.md) | [Recorded workspace, configurations, license locations and source hashes](../reproducibility/efficientad/README.md).
 
 Native-grid AUROC/AU-PRO and common256 Pixel AP are separate evaluations; preserved normal calibration, seed42 and 70,000 updates. No test-based selection. Single-seed results; uncertainty Not recorded. This addition supplements historical catalogs and registries; archived plans and training-only records retain their original status. See the method guide for deviations and reconstruction limits; no cross-protocol leaderboard claim.
+
+## RD++ — publication 2026-11-09
+
+[Method guide](../methods/rdpp/README.md) | [Recorded workspace, configurations, license locations and source hashes](../reproducibility/rdpp/README.md).
+
+Common256 nearest-mask Image/Pixel AUROC/AP and exact normalized AU-PRO0.30; original-mask metrics remain separately labeled. Seed111 and fixed-final official schedule. No test-based selection. Single-seed results; uncertainty Not recorded. This addition supplements historical catalogs and registries; archived plans and training-only records retain their original status. See the method guide for deviations and reconstruction limits; no cross-protocol leaderboard claim.

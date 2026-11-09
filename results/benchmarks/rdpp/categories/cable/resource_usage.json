@@ -1,0 +1,21 @@
+{
+  "model_only": {
+    "n": 150,
+    "median_ms": 77.07249978557229,
+    "p95_ms": 89.1212147194892
+  },
+  "pipeline_decode_to_export": {
+    "n": 150,
+    "median_ms": 188.23219975456595,
+    "p95_ms": 219.96793448925013
+  },
+  "scope": "batch1 FP32;3 warmups; synchronized forward excludes transfer/map, pipeline includes image decode through prediction NPZ export; excludes labels/metrics/hash",
+  "peak_allocated_bytes": 788260352,
+  "peak_reserved_bytes": 801112064,
+  "checkpoint_bytes": 1622763240,
+  "teacher_bytes": 138223492,
+  "gpu": "NVIDIA RTX A4000",
+  "cuda": "12.1",
+  "cudnn_tf32": true,
+  "matmul_tf32": false
+}

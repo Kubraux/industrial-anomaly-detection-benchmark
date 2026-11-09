@@ -1,0 +1,32 @@
+{
+  "methods": [
+    "rdpp",
+    "destseg"
+  ],
+  "categories": [
+    "bottle",
+    "cable",
+    "capsule",
+    "carpet",
+    "grid",
+    "hazelnut",
+    "leather",
+    "metal_nut",
+    "pill",
+    "screw",
+    "tile",
+    "toothbrush",
+    "transistor",
+    "wood",
+    "zipper"
+  ],
+  "mode": "fixed_final_evaluation",
+  "seed": 111,
+  "batch": 1,
+  "precision": "FP32",
+  "protocol_version": "1.5",
+  "max_seconds": 28800,
+  "min_free_bytes": 3221225472,
+  "calibration": false,
+  "training": false
+}

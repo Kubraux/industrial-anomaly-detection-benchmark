@@ -1,0 +1,59 @@
+{
+  "dataset": "MVTec_AD",
+  "method": "RD++",
+  "class": "wood",
+  "track": "T1",
+  "seed": 111,
+  "mode": "benchmark",
+  "benchmark_result": true,
+  "positive_images": 60,
+  "negative_images": 19,
+  "mask_count": 60,
+  "common256": {
+    "image": {
+      "status": "completed",
+      "auroc": 0.9903508771929824,
+      "ap": 0.9969370083844328
+    },
+    "pixel": {
+      "status": "completed",
+      "auroc": 0.9568900630810627,
+      "ap": 0.49579468138893645
+    },
+    "region": {
+      "status": "completed",
+      "aupro_0_30": 0.9210395963436723,
+      "regions": 167
+    }
+  },
+  "original_mask": {
+    "image": {
+      "status": "completed",
+      "auroc": 0.9903508771929824,
+      "ap": 0.9969370083844328
+    },
+    "pixel": {
+      "status": "completed",
+      "auroc": 0.9569335065871541,
+      "ap": 0.49762314094617677
+    },
+    "region": {
+      "status": "completed",
+      "aupro_0_30": 0.9213432664276685,
+      "regions": 167
+    }
+  },
+  "repo_pro_200": {
+    "value": 0.924629574609384,
+    "status": "completed",
+    "definition": "mean per-anomaly official 200-threshold PRO; normalized to largest sampled FPR below0.3; distinct from exact common PRO"
+  },
+  "definitions": {
+    "auroc": "sklearn roc_auc_score",
+    "ap": "sklearn average_precision_score noninterpolated",
+    "aupro": "common evaluator exact tied thresholds, 8-connectivity, equal-region weighting, pooled backgrounds, interpolated normalized FPR0.30",
+    "image_score": "max smoothed map",
+    "masks": "original PIL bilinear >.5 and separate common PIL nearest >0"
+  },
+  "checkpoint_sha256": "4053e209854f4887bbdad6808786a99230439cc3ca04b037cfbca40d2fcc3131"
+}

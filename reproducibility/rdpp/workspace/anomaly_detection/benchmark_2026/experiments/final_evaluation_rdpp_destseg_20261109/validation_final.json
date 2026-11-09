@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "categories_per_method": 15,
+  "test_images_per_method": 1725,
+  "all30_checkpoint_hashes_unchanged": true,
+  "all_prediction_mask_hashes_verified": true,
+  "image_mask_ids_identical_between_methods": true,
+  "source_protocol_pins_unchanged": true,
+  "training_started": false
+}

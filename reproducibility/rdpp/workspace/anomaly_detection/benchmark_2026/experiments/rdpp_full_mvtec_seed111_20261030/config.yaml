@@ -1,0 +1,28 @@
+{
+  "method": "RD++",
+  "dataset": "MVTec AD",
+  "track": "T1",
+  "batch_size": 16,
+  "seed": 111,
+  "selection": "fixed_final",
+  "category_order_epochs": {
+    "carpet": 10,
+    "grid": 260,
+    "leather": 10,
+    "tile": 260,
+    "wood": 100,
+    "bottle": 200,
+    "cable": 240,
+    "capsule": 300,
+    "hazelnut": 160,
+    "metal_nut": 160,
+    "pill": 200,
+    "screw": 280,
+    "toothbrush": 280,
+    "transistor": 300,
+    "zipper": 300
+  },
+  "resume": "completed-prefix skip with boundary RNG; incomplete category restarted in new attempt",
+  "test_evaluation": false,
+  "source_commit": "7f2ceb7c87e602617b8600e1a498f7ef7f5247d6"
+}

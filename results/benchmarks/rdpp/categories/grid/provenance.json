@@ -1,0 +1,22 @@
+{
+  "commit": "7f2ceb7c87e602617b8600e1a498f7ef7f5247d6",
+  "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\rdpp_full_mvtec_seed111_20261030\\attempts\\grid\\attempt_001\\grid\\final.pt",
+  "checkpoint_sha256_before": "0b86e588a9bc60702a87ff53488b1a365742df7fe3f709f78663828a4ac67a92",
+  "checkpoint_sha256_after": "0b86e588a9bc60702a87ff53488b1a365742df7fe3f709f78663828a4ac67a92",
+  "teacher_sha256": "95faca4d11227dddf8633dbb5ff6c8a9003c1aa5b8945c73834b8007b10950b8",
+  "state_unchanged": true,
+  "sources": {
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\models\\rdpp\\evaluate_export.py": "15f67916df81a3e527538494da9bc260ab6be0e408c3da23e57b37c96f21e797",
+    "${PROJECT_ROOT}\\compare_dfr_rd4ad_common.py": "42598a2185d3e1f543424a0b7e047c0b7ab6f43c9ef65b75b93d09c43fef42ef",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\models\\rdpp\\source\\inference.py": "4afeee6b87a8b59092d930c3ab146188c9eaf1221d1703bf7c32d1b31bac2d7a",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\models\\rdpp\\source\\main.py": "8a0535121910379b5367b1bf70377b1fa3965ddaacef43a4d608070a63539847",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\models\\rdpp\\source\\dataset\\dataset.py": "24ac288a50a0f2456d30a2f2b924237a9eeb9977be8a4082b48041964b254d6b",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\models\\rdpp\\source\\dataset\\noise.py": "80673559d74eb90854a2f36457cd1ecd4f82ee60e31509e8941e5c7099b7175d",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\models\\rdpp\\source\\model\\de_resnet.py": "09ddb5b7f3c4cc19e01f7743cee78b8575d53e521a6e96d1b44fb983ff0796ab",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\models\\rdpp\\source\\model\\resnet.py": "e966ab12df8e27118566eef7fff258991c5be0542ff486dc5cb32a2ac33ee60f",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\models\\rdpp\\source\\utils\\utils_test.py": "aba8088756e0feb7a8f2acdc3c6f66d98b908ae4a244a511f97d422d4ec11841",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\models\\rdpp\\source\\utils\\utils_train.py": "dc6a4de2f6b88ddfc1791361b273e857e817d94119bb2a60d5be261122c93260"
+  },
+  "test_images_read": 78,
+  "manifest_sha256": "8c7469e46a1447b8b0f1d51098daabfb46c680ea806802971115000e670a13cd"
+}
