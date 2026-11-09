@@ -27,12 +27,12 @@ Completed records are not claims of paper reproduction. Ablations and calibratio
 
 ## EfficientAD-S/M — published 2026-11-09
 
-[EfficientAD-S/M](efficientad/README.md): completed all 15 MVTec AD categories per variant. Fixed-final checkpoints; source/configuration/results and compatibility notes are linked in the guide.
+[EfficientAD-S/M](efficientad/README.md): completed all 15 MVTec AD categories per variant. Fixed-final checkpoints; configuration/results, upstream references and compatibility notes are linked in the guide.
 
 ## RD++ — published 2026-11-09
 
-[RD++](rdpp/README.md): completed all 15 MVTec AD categories per variant. Fixed-final checkpoints; source/configuration/results and compatibility notes are linked in the guide.
+[RD++](rdpp/README.md): completed all 15 MVTec AD categories per variant. Fixed-final checkpoints; configuration/results, upstream references and compatibility notes are linked in the guide.
 
 ## DeSTSeg — published 2026-11-09
 
-[DeSTSeg](destseg/README.md): completed all 15 MVTec AD categories per variant. Fixed-final checkpoints; source/configuration/results and compatibility notes are linked in the guide.
+[DeSTSeg](destseg/README.md): completed all 15 MVTec AD categories per variant. Fixed-final checkpoints; configuration/results, upstream references and compatibility notes are linked in the guide.

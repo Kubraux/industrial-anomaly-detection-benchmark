@@ -1,2 +1,0 @@
-# Isolated validated replacement; original pins retained in upstream snapshot.
--r ../requirements.in

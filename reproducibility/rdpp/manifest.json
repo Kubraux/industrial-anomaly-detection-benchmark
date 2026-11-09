@@ -1,75 +1,5 @@
 [
   {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/dataset/dataset.py",
-    "source_sha256": "24ac288a50a0f2456d30a2f2b924237a9eeb9977be8a4082b48041964b254d6b",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/dataset/dataset.py",
-    "published_sha256": "24ac288a50a0f2456d30a2f2b924237a9eeb9977be8a4082b48041964b254d6b",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/dataset/noise.py",
-    "source_sha256": "80673559d74eb90854a2f36457cd1ecd4f82ee60e31509e8941e5c7099b7175d",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/dataset/noise.py",
-    "published_sha256": "80673559d74eb90854a2f36457cd1ecd4f82ee60e31509e8941e5c7099b7175d",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/inference.py",
-    "source_sha256": "4afeee6b87a8b59092d930c3ab146188c9eaf1221d1703bf7c32d1b31bac2d7a",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/inference.py",
-    "published_sha256": "4afeee6b87a8b59092d930c3ab146188c9eaf1221d1703bf7c32d1b31bac2d7a",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/LICENSE",
-    "source_sha256": "15652742cf5cbc8c25cc1e1a4b9660544cd242defa64abdad50f0ef43937e489",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/LICENSE",
-    "published_sha256": "15652742cf5cbc8c25cc1e1a4b9660544cd242defa64abdad50f0ef43937e489",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/main.py",
-    "source_sha256": "d9f7bb661e15bf5960fa515471e0f5d92a42a6ace4b036a4a2294a52fb9421d8",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/main.py",
-    "published_sha256": "d9f7bb661e15bf5960fa515471e0f5d92a42a6ace4b036a4a2294a52fb9421d8",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/model/de_resnet.py",
-    "source_sha256": "09ddb5b7f3c4cc19e01f7743cee78b8575d53e521a6e96d1b44fb983ff0796ab",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/model/de_resnet.py",
-    "published_sha256": "09ddb5b7f3c4cc19e01f7743cee78b8575d53e521a6e96d1b44fb983ff0796ab",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/model/resnet.py",
-    "source_sha256": "e966ab12df8e27118566eef7fff258991c5be0542ff486dc5cb32a2ac33ee60f",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/model/resnet.py",
-    "published_sha256": "e966ab12df8e27118566eef7fff258991c5be0542ff486dc5cb32a2ac33ee60f",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/requirements.txt",
-    "source_sha256": "20730dede5cce369e2e57a6e4b68870f5050976f688953eb15059e858bbf46ed",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/requirements.txt",
-    "published_sha256": "20730dede5cce369e2e57a6e4b68870f5050976f688953eb15059e858bbf46ed",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/utils/utils_test.py",
-    "source_sha256": "aba8088756e0feb7a8f2acdc3c6f66d98b908ae4a244a511f97d422d4ec11841",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/utils/utils_test.py",
-    "published_sha256": "aba8088756e0feb7a8f2acdc3c6f66d98b908ae4a244a511f97d422d4ec11841",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/utils/utils_train.py",
-    "source_sha256": "dc6a4de2f6b88ddfc1791361b273e857e817d94119bb2a60d5be261122c93260",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/source/utils/utils_train.py",
-    "published_sha256": "dc6a4de2f6b88ddfc1791361b273e857e817d94119bb2a60d5be261122c93260",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
     "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/completed.json",
     "source_sha256": "7c2070411525f71459ed42beb5b28e2364c4d78bd3257a18fa9cd9fbad37e1ea",
     "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/completed.json",
@@ -102,20 +32,6 @@
     "source_sha256": "9d8f80e9602a6f5eaede4e88d086254186c6b401846386e4c0dd31120adfdfc2",
     "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/config.yaml",
     "published_sha256": "9d8f80e9602a6f5eaede4e88d086254186c6b401846386e4c0dd31120adfdfc2",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/run_all.py",
-    "source_sha256": "f7e11d717551835ca7b935a74c4e1194e40c71407fd51c0bb855d8a740ae3e08",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/run_all.py",
-    "published_sha256": "f7e11d717551835ca7b935a74c4e1194e40c71407fd51c0bb855d8a740ae3e08",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/launcher_changes.patch",
-    "source_sha256": "6fa87342970d8918e821366c9e42463221c17be5f7b8a1f46cf0c9ec17698488",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/experiments/rdpp_full_mvtec_seed111_20261030/launcher_changes.patch",
-    "published_sha256": "6fa87342970d8918e821366c9e42463221c17be5f7b8a1f46cf0c9ec17698488",
     "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
   },
   {
@@ -466,90 +382,6 @@
     "source_sha256": "2c5058efc5c7a0c71bd0bab16e80325ffd15225364c5f068f16d7218bd5603b2",
     "published": "results/benchmarks/rdpp/categories/zipper/provenance.json",
     "published_sha256": "bf92e2661fe0af81817989773afff246b125ed34065f6fdb4797a4b31c81a3bd",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "compare_dfr_rd4ad_common.py",
-    "source_sha256": "42598a2185d3e1f543424a0b7e047c0b7ab6f43c9ef65b75b93d09c43fef42ef",
-    "published": "reproducibility/rdpp/workspace/compare_dfr_rd4ad_common.py",
-    "published_sha256": "7b80e251840b7a83fd54cd07111f3505cb9de1a437f3814fcc9b1b3bb5b2b558",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/models/rdpp/evaluate_export.py",
-    "source_sha256": "15f67916df81a3e527538494da9bc260ab6be0e408c3da23e57b37c96f21e797",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/evaluate_export.py",
-    "published_sha256": "03942cc2bd2ed8df1e082e2505c982659059cd3a0aa9c588ea182bcc61f90086",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/dataset/dataset.py",
-    "source_sha256": "24ac288a50a0f2456d30a2f2b924237a9eeb9977be8a4082b48041964b254d6b",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/dataset/dataset.py",
-    "published_sha256": "24ac288a50a0f2456d30a2f2b924237a9eeb9977be8a4082b48041964b254d6b",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/dataset/noise.py",
-    "source_sha256": "80673559d74eb90854a2f36457cd1ecd4f82ee60e31509e8941e5c7099b7175d",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/dataset/noise.py",
-    "published_sha256": "80673559d74eb90854a2f36457cd1ecd4f82ee60e31509e8941e5c7099b7175d",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/inference.py",
-    "source_sha256": "4afeee6b87a8b59092d930c3ab146188c9eaf1221d1703bf7c32d1b31bac2d7a",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/inference.py",
-    "published_sha256": "4afeee6b87a8b59092d930c3ab146188c9eaf1221d1703bf7c32d1b31bac2d7a",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/LICENSE",
-    "source_sha256": "15652742cf5cbc8c25cc1e1a4b9660544cd242defa64abdad50f0ef43937e489",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/LICENSE",
-    "published_sha256": "15652742cf5cbc8c25cc1e1a4b9660544cd242defa64abdad50f0ef43937e489",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/main.py",
-    "source_sha256": "8a0535121910379b5367b1bf70377b1fa3965ddaacef43a4d608070a63539847",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/main.py",
-    "published_sha256": "8a0535121910379b5367b1bf70377b1fa3965ddaacef43a4d608070a63539847",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/model/de_resnet.py",
-    "source_sha256": "09ddb5b7f3c4cc19e01f7743cee78b8575d53e521a6e96d1b44fb983ff0796ab",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/model/de_resnet.py",
-    "published_sha256": "09ddb5b7f3c4cc19e01f7743cee78b8575d53e521a6e96d1b44fb983ff0796ab",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/model/resnet.py",
-    "source_sha256": "e966ab12df8e27118566eef7fff258991c5be0542ff486dc5cb32a2ac33ee60f",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/model/resnet.py",
-    "published_sha256": "e966ab12df8e27118566eef7fff258991c5be0542ff486dc5cb32a2ac33ee60f",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/requirements.txt",
-    "source_sha256": "20730dede5cce369e2e57a6e4b68870f5050976f688953eb15059e858bbf46ed",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/requirements.txt",
-    "published_sha256": "20730dede5cce369e2e57a6e4b68870f5050976f688953eb15059e858bbf46ed",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/utils/utils_test.py",
-    "source_sha256": "aba8088756e0feb7a8f2acdc3c6f66d98b908ae4a244a511f97d422d4ec11841",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/utils/utils_test.py",
-    "published_sha256": "aba8088756e0feb7a8f2acdc3c6f66d98b908ae4a244a511f97d422d4ec11841",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "anomaly_detection/benchmark_2026/models/rdpp/source/utils/utils_train.py",
-    "source_sha256": "dc6a4de2f6b88ddfc1791361b273e857e817d94119bb2a60d5be261122c93260",
-    "published": "reproducibility/rdpp/workspace/anomaly_detection/benchmark_2026/models/rdpp/source/utils/utils_train.py",
-    "published_sha256": "dc6a4de2f6b88ddfc1791361b273e857e817d94119bb2a60d5be261122c93260",
     "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
   },
   {

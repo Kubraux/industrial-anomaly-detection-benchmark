@@ -1,7 +1,9 @@
-# destseg: recorded workspace
+# destseg: experiment documentation and provenance
 
-Published 2026-11-09. workspace/ preserves selected paths relative to the original project root. Copying this partial snapshot alone is insufficient to run an experiment. Obtain the pinned upstream implementation and declared data/teacher assets separately; use the isolated environment lock files and documented patches. Review the recorded plans and replace local path placeholders before any new execution. Do not invoke upstream reference training/evaluation entrypoints for benchmark selection.
+This folder retains configuration, environment, plans, failure records and provenance for the reported experiments. It does not distribute implementation code, training/evaluation scripts or code patches. Method implementations belong to their original authors.
 
-${PROJECT_ROOT} and ${USER_HOME} replace machine-specific absolute prefixes; original file and published-file SHA256 values are in manifest.json. Historical numeric results and configuration values are unchanged. Files omitted intentionally: datasets, checkpoints, predictions, optimizer states, caches, per-image inventories, large logs and unrelated experiments. Original historical records stay local. Source licenses are retained next to copied source (Anomalib license in third_party/licenses). The full upstream repository is identified by pinned commit; source bundles here are partial.
+Reference implementation: [upstream repository](https://github.com/apple-aiml-research/ml-destseg), pinned revision [f168ba576e0a917ae5e037b677e7d37b741ea3d8](https://github.com/apple-aiml-research/ml-destseg/tree/f168ba576e0a917ae5e037b677e7d37b741ea3d8).
 
-Training-only records correctly retain test-not-run state; final evaluation results are separate under results/benchmarks/. Archived plans describe their historical readiness, not current status. This publication does not activate any new protocol version.
+workspace/ preserves the original relative paths of selected non-code records. Archived documents may mention local source files and patches that are intentionally not published here. These records are historical evidence, not execution instructions for this repository. See the [method guide](../../methods/destseg/README.md) for results and compatibility limits.
+
+manifest.json lists only retained published records, with original and published SHA256 hashes. ${PROJECT_ROOT} and ${USER_HOME} replace local absolute prefixes. Checkpoints, datasets, predictions and environments are not bundled. Training-only records preserve their original status; final evaluations are separate under results/benchmarks/. No protocol, experiment settings or numeric results were changed by this publication cleanup.

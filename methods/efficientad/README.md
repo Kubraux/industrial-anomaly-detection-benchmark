@@ -6,4 +6,4 @@ Common256 macro Pixel AP: S 61.335189%, M 60.482297%. Nearest-mask256 AP must no
 
 ## Reproducibility and limitations
 
-[Recorded workspace and publication manifest](../../reproducibility/efficientad/README.md). Code/configuration/results are evidence snapshots, not a packaged one-command application. Weights, datasets, prediction archives, caches and virtual environments are not published. Retained checkpoint hashes identify local artifacts. No training or inference was run for this publication.
+[Experiment documentation and publication manifest](../../reproducibility/efficientad/README.md). Configuration and results are evidence records. Implementation code, local runners and patches are not distributed here; use the linked original repositories. Weights, datasets, prediction archives, caches and virtual environments are not published. Retained checkpoint hashes identify local artifacts. No training or inference was run for this publication.

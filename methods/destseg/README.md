@@ -1,5 +1,5 @@
 # DeSTSeg
-Official reference: https://github.com/apple-aiml-research/ml-destseg (commit f168ba576e0a917ae5e037b677e7d37b741ea3d8). Apple source license is retained alongside source; no blanket relicensing.
+Official reference: https://github.com/apple-aiml-research/ml-destseg (commit f168ba576e0a917ae5e037b677e7d37b741ea3d8). Implementation code and its license are available from the original Apple repository; code is not redistributed here.
 MVTec AD T1, all 15 categories; batch 32, seed 111 per category; 1000 student + 4000 segmentation steps. ResNet18 teacher/student and residual/ASPP segmentation preserved. SGD momentum 0.9, weight decay 1e-4, student/residual/head learning rates 0.4/0.1/0.01. DTD synthetic textures. Fixed-final only, no test-based selection.
 Original PIL RGB bilinear256 / ImageNet normalization; upsampled sigmoid segmentation and top100 mean image score. Common masks use nearest256; original bilinear-threshold masks remain separate.
 [All category results](../../results/benchmarks/destseg/results.csv), [macro metrics](../../results/benchmarks/destseg/macro.json). Macro Image AUROC/AP 98.464417/99.508676%; Pixel AUROC/AP 97.994413/74.684704%; AU-PRO0.30 93.641591%. Instance AP (IAP) was not computed; it is not Image AP.
@@ -7,6 +7,6 @@ Compatibility: Python3.11/timm dataclass patch, torch2.5.1+cu121 instead of2.0.0
 
 ## Reproducibility and limitations
 
-[Recorded workspace and publication manifest](../../reproducibility/destseg/README.md). Code/configuration/results are evidence snapshots, not a packaged one-command application. Weights, datasets, prediction archives, caches and virtual environments are not published. Retained checkpoint hashes identify local artifacts. No training or inference was run for this publication.
+[Experiment documentation and publication manifest](../../reproducibility/destseg/README.md). Configuration and results are evidence records. Implementation code, local runners and patches are not distributed here; use the linked original repositories. Weights, datasets, prediction archives, caches and virtual environments are not published. Retained checkpoint hashes identify local artifacts. No training or inference was run for this publication.
 
 Final evaluation: 2026-11-09, 1725 held-out images per method. Common256 PIL nearest masks, all normal pixels included; exact normalized AU-PRO to FPR0.30. No recalibration, threshold fitting or test-based model selection. Same image/mask IDs verified across RD++ and DeSTSeg. Single seed111; SD Not recorded. RTX A4000, batch1 FP32, three warmups. RD++ model latency excludes map postprocessing; DeSTSeg model latency includes interpolation/top100. Pipeline timing includes compressed export, excludes GT/metrics/hashing; not pure production latency. Training timings also have different scopes. See category resource/provenance records.

@@ -8,7 +8,7 @@ An ongoing research project investigating how models fitted to normal industrial
 
 The [published benchmark tables](results/summary.csv) cover 15 completed method/variant studies and 225 category-level records. These are not independent repetitions. EfficientAD-S/M count as two variant studies of one method. Historical rows retain their original metrics; new records were published **9 November 2026**.
 
-New source/configuration/result bundles: [EfficientAD-S/M](methods/efficientad/README.md) | [RD++](methods/rdpp/README.md) | [DeSTSeg](methods/destseg/README.md).
+New configuration/result records: [EfficientAD-S/M](methods/efficientad/README.md) | [RD++](methods/rdpp/README.md) | [DeSTSeg](methods/destseg/README.md).
 
 [Methods](methods/README.md) | [Results](results/README.md) | [Visual gallery](assets/GALLERY.md) | [Literature catalog](literature/README.md)
 
@@ -53,7 +53,7 @@ Recorded input / ground truth / anomaly maps across all 15 MVTec AD categories. 
 
 Guides distinguish published methods, local implementations and historical diagnostics. [Full results](results/README.md) retain category measurements and protocol identifiers. **Different preprocessing, checkpoint selection, scoring and PRO/AUPRO definitions preclude a directly comparable leaderboard.** Completed execution does not establish paper reproduction.
 
-[EfficientAD-S](methods/efficientad_s_anomalib/README.md) now has bundled configuration, source and 15-category result records. Its native-resolution evaluation and Imagenette auxiliary data remain explicit protocol distinctions.
+[EfficientAD-S](methods/efficientad_s_anomalib/README.md) now has configuration and 15-category result records, with links to the original implementation. Its native-resolution evaluation and Imagenette auxiliary data remain explicit protocol distinctions.
 
 ## Key research findings
 

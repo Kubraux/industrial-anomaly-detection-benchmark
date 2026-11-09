@@ -1,19 +1,5 @@
 [
   {
-    "source": "EfficientAD_Anomalib_setup_20261023/experiment.py",
-    "source_sha256": "3f0a05c2547f63eb9e80c656e47c053b5bf3e7951b9c04b6a0539c13696f724b",
-    "published": "reproducibility/efficientad/workspace/EfficientAD_Anomalib_setup_20261023/experiment.py",
-    "published_sha256": "3f0a05c2547f63eb9e80c656e47c053b5bf3e7951b9c04b6a0539c13696f724b",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "EfficientAD_Anomalib_setup_20261023/evaluate.py",
-    "source_sha256": "0f96459f96367703d8e8d7dd60db3514a1419c53fdc3a21e86ebb6148665f103",
-    "published": "reproducibility/efficientad/workspace/EfficientAD_Anomalib_setup_20261023/evaluate.py",
-    "published_sha256": "0f96459f96367703d8e8d7dd60db3514a1419c53fdc3a21e86ebb6148665f103",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
     "source": "EfficientAD_Anomalib_setup_20261023/PROTOCOL.md",
     "source_sha256": "423e5cc30c17b3fe4d3da906ff9950fcf27d43e64a9ff751f83f57ac6e3b0abf",
     "published": "reproducibility/efficientad/workspace/EfficientAD_Anomalib_setup_20261023/PROTOCOL.md",
@@ -46,13 +32,6 @@
     "source_sha256": "8a7bac1b876eb17642cec5d7b19b42ce583425126a62d06be172563525b736d1",
     "published": "reproducibility/efficientad/workspace/EfficientAD_Anomalib_setup_20261023/implementation_integrity.json",
     "published_sha256": "8a7bac1b876eb17642cec5d7b19b42ce583425126a62d06be172563525b736d1",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "EfficientAD_Anomalib_setup_20261023/source/anomalib-592aafc373091dda8206510a0853eb11c8e4099d/LICENSE",
-    "source_sha256": "7ae7504c2b7e895c3f61320a389af7fdde68143cd4dfd7941247640b0b62cc76",
-    "published": "third_party/licenses/efficientad_anomalib/LICENSE",
-    "published_sha256": "7ae7504c2b7e895c3f61320a389af7fdde68143cd4dfd7941247640b0b62cc76",
     "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
   },
   {
@@ -490,13 +469,6 @@
     "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
   },
   {
-    "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/regenerate_maps.py",
-    "source_sha256": "1d40ff03653c386f491c29c3ed486151ad44543e7e466069a748b30c8984fbae",
-    "published": "reproducibility/efficientad/workspace/anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/regenerate_maps.py",
-    "published_sha256": "1d40ff03653c386f491c29c3ed486151ad44543e7e466069a748b30c8984fbae",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
     "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/config.yaml",
     "source_sha256": "9d876e85bd91b126fd663018691c663182334058ed0d693003dc5650b2c20187",
     "published": "reproducibility/efficientad/workspace/anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/config.yaml",
@@ -557,13 +529,6 @@
     "source_sha256": "d28f2e58eb93cc1dc5518a7e1262b56431c75109d3f195c47d65f7354bdee5ea",
     "published": "results/benchmarks/efficientad/common256_pixel_ap.csv",
     "published_sha256": "d28f2e58eb93cc1dc5518a7e1262b56431c75109d3f195c47d65f7354bdee5ea",
-    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
-  },
-  {
-    "source": "compare_dfr_rd4ad_common.py",
-    "source_sha256": "42598a2185d3e1f543424a0b7e047c0b7ab6f43c9ef65b75b93d09c43fef42ef",
-    "published": "reproducibility/efficientad/workspace/compare_dfr_rd4ad_common.py",
-    "published_sha256": "7b80e251840b7a83fd54cd07111f3505cb9de1a437f3814fcc9b1b3bb5b2b558",
     "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
   }
 ]
