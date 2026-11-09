@@ -1,0 +1,10 @@
+{
+  "scope": "new inference/common-grid evaluation only",
+  "elapsed_seconds": 318.89558480028063,
+  "peak_process_ram_bytes": 1741987840,
+  "gpu_peak_allocated_bytes": 221491712,
+  "training_time": null,
+  "calibration_time": null,
+  "warmup_per_category": 30,
+  "gpu": "NVIDIA RTX A4000"
+}

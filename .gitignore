@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Exclude additional model checkpoint formats
+*.pckl
+*.ckpt
+*.safetensors

@@ -1,0 +1,22 @@
+{
+  "training_seconds": 13804.714324799832,
+  "training_peak_allocated_mb": 728.74169921875,
+  "training_peak_reserved_mb": 932.0,
+  "steps": 70000,
+  "final_checkpoint": "${PROJECT_ROOT}\\EfficientAD_M_Anomalib_training_20261023\\screw\\final.pt",
+  "calibration": {
+    "qa_st": 0.18737944960594177,
+    "qb_st": 0.4302792549133301,
+    "qa_ae": 0.054935768246650696,
+    "qb_ae": 0.16160620748996735
+  },
+  "gradient": {
+    "student": 1.8658370971679688,
+    "ae": 0.019913943484425545
+  },
+  "checkpoint_reload_equal": true,
+  "fit_count": 256,
+  "validation_count": 64,
+  "test_images_seen": 0,
+  "imagenette_count": 9469
+}

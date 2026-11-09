@@ -1,0 +1,3 @@
+## Paper reference (not measured results)
+
+[EfficientAD v3](https://arxiv.org/html/2303.14535v3), Tables2/12: MVTec AD mean image AUROC S=98.8%, M=99.1%; AUPRO@.30 S=93.1%, M=93.5%. These are five-run means, versus this seed42 run. The paper's Table14 reports pixel AUROC only up to FPR.05; it must not be substituted for full-range pixel AUROC. Full-range per-scenario pixel numbers are not verified here and are left unavailable. Anomalib's pinned README reports its own Image AUROC S=.982/M=.975, separate from paper results. Hardware/precision/warmup/throughput and Imagenette differences prevent a direct reproduction claim.

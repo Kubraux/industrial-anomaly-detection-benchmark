@@ -1,0 +1,157 @@
+{
+  "status": "passed",
+  "archives": [
+    {
+      "variant": "s",
+      "category": "bottle",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "cable",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "capsule",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "carpet",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "grid",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "hazelnut",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "leather",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "metal_nut",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "pill",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "screw",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "tile",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "toothbrush",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "transistor",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "wood",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "s",
+      "category": "zipper",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "bottle",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "cable",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "capsule",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "carpet",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "grid",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "hazelnut",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "leather",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "metal_nut",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "pill",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "screw",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "tile",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "toothbrush",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "transistor",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "wood",
+      "prediction_checksum_and_pairing": "passed"
+    },
+    {
+      "variant": "m",
+      "category": "zipper",
+      "prediction_checksum_and_pairing": "passed"
+    }
+  ],
+  "source_files_unchanged": 3283,
+  "all_3450_image_scores_exact": true
+}

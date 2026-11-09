@@ -54,3 +54,9 @@ Illustrative examples selected from existing outputs. Heatmap scales, diagnostic
 - The experiment registry and method evidence still include external workspace paths. The latest benchmark category tables are bundled here, but those external references were not rewritten outside this task. Method configuration links now point to the retained consolidated settings.
 - Historical incomplete/ files survive solely for existing method references. They do not override current benchmark results. The root README/release manifests may still describe older snapshots.
 - All former results/assets files are preserved outside GitHub under publication_archive/results_assets_20261023; original training/evaluation records elsewhere are unchanged. No experiments were rerun.
+
+## EfficientAD-S/M — publication 2026-11-09
+
+[Method guide](../methods/efficientad/README.md) | [Recorded workspace, configurations, license locations and source hashes](../reproducibility/efficientad/README.md).
+
+Native-grid AUROC/AU-PRO and common256 Pixel AP are separate evaluations; preserved normal calibration, seed42 and 70,000 updates. No test-based selection. Single-seed results; uncertainty Not recorded. This addition supplements historical catalogs and registries; archived plans and training-only records retain their original status. See the method guide for deviations and reconstruction limits; no cross-protocol leaderboard claim.

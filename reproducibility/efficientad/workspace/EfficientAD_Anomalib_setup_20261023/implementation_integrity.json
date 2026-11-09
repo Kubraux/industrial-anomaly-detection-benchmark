@@ -1,0 +1,7 @@
+{
+  "files": {
+    "torch_model.py": "8f80c2db5e546e5209f105c757d8c88c70c48e86bcf1d036b797fff88be3bd08",
+    "lightning_model.py": "2703b23abfc126b038202e74f2640253c2f3bb51d4e3a3c3e4fc3ed3cf2fbcf4"
+  },
+  "imagenette_verified": 9469
+}

@@ -1,0 +1,22 @@
+{
+  "training_seconds": 13700.371334199794,
+  "training_peak_allocated_mb": 728.74169921875,
+  "training_peak_reserved_mb": 932.0,
+  "steps": 70000,
+  "final_checkpoint": "${PROJECT_ROOT}\\EfficientAD_M_Anomalib_training_20261023\\toothbrush\\final.pt",
+  "calibration": {
+    "qa_st": 0.06485816836357117,
+    "qb_st": 0.15289543569087982,
+    "qa_ae": 0.02655632421374321,
+    "qb_ae": 0.13095687329769135
+  },
+  "gradient": {
+    "student": 2.3341894149780273,
+    "ae": 0.047335878014564514
+  },
+  "checkpoint_reload_equal": true,
+  "fit_count": 48,
+  "validation_count": 12,
+  "test_images_seen": 0,
+  "imagenette_count": 9469
+}

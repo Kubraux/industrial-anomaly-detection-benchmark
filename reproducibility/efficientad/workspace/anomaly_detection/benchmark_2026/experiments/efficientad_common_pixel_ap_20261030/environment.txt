@@ -1,0 +1,19 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "${PROJECT_ROOT}\\EfficientAD_Anomalib_setup_20261023\\venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "torchvision": "0.20.1+cu121",
+    "anomalib": "2.2.0",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "Pillow": "12.3.0"
+  },
+  "gpu": "NVIDIA RTX A4000",
+  "cuda": "12.1",
+  "script_sha256": "1d40ff03653c386f491c29c3ed486151ad44543e7e466069a748b30c8984fbae",
+  "common_evaluator_sha256": "42598a2185d3e1f543424a0b7e047c0b7ab6f43c9ef65b75b93d09c43fef42ef",
+  "transform": "Compose(\n      ToTensor()\n      Resize(size=[256, 256], interpolation=InterpolationMode.BILINEAR, antialias=True)\n)"
+}

@@ -1,0 +1,22 @@
+{
+  "training_seconds": 7983.876392999664,
+  "training_peak_allocated_mb": 358.71484375,
+  "training_peak_reserved_mb": 466.0,
+  "steps": 70000,
+  "final_checkpoint": "${PROJECT_ROOT}\\EfficientAD_S_Anomalib_training_20261023\\leather\\final.pt",
+  "calibration": {
+    "qa_st": 0.020263535901904106,
+    "qb_st": 0.030876867473125458,
+    "qa_ae": 0.025234589353203773,
+    "qb_ae": 0.08821192383766174
+  },
+  "gradient": {
+    "student": 8.907684326171875,
+    "ae": 0.050657693296670914
+  },
+  "checkpoint_reload_equal": true,
+  "fit_count": 196,
+  "validation_count": 49,
+  "test_images_seen": 0,
+  "imagenette_count": 9469
+}

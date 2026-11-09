@@ -23,3 +23,9 @@ Test-F1-max/oracle columns use test labels. GANomaly best-test checkpoints are t
 Recorded timing scopes and hardware differ; no timing leaderboard is supplied. SuperSimpleNet recorded GPU counters sometimes exceed physical VRAM; they are not physical memory requirements. Single-seed category macro averages are not confidence intervals. Paper results embedded in source tables are reference values, not local measurements.
 
 See [experiment protocols](../experiments/PROTOCOLS.md) and [method guides](../methods/README.md) for implementation details.
+
+## EfficientAD-S/M — publication 2026-11-09
+
+[Method guide](../methods/efficientad/README.md) | [Recorded workspace, configurations, license locations and source hashes](../reproducibility/efficientad/README.md).
+
+Native-grid AUROC/AU-PRO and common256 Pixel AP are separate evaluations; preserved normal calibration, seed42 and 70,000 updates. No test-based selection. Single-seed results; uncertainty Not recorded. This addition supplements historical catalogs and registries; archived plans and training-only records retain their original status. See the method guide for deviations and reconstruction limits; no cross-protocol leaderboard claim.

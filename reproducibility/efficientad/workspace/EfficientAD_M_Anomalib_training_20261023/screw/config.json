@@ -1,0 +1,31 @@
+{
+  "size": "m",
+  "category": "screw",
+  "seed": 42,
+  "steps": 70000,
+  "batch_size": 1,
+  "input_size": 256,
+  "lr": 0.0001,
+  "weight_decay": 1e-05,
+  "adam_betas": [
+    0.9,
+    0.999
+  ],
+  "adam_eps": 1e-08,
+  "lr_drop_step": 66500,
+  "lr_gamma": 0.1,
+  "padding": false,
+  "pad_maps": true,
+  "precision": "float32",
+  "tf32": false,
+  "checkpoint": "fixed_final",
+  "validation": "normal calibration only after training",
+  "split_manifest": "${PROJECT_ROOT}\\EfficientAD_Anomalib_setup_20261023\\splits\\screw.json",
+  "split_sha256": "5af2f03ff0352a6a82dc2a4150bd3571e543f36e89220eff8a12face0a749384",
+  "teacher": "${PROJECT_ROOT}\\EfficientAD_Anomalib_setup_20261023\\assets\\efficientad_pretrained_weights\\pretrained_teacher_medium.pth",
+  "teacher_sha256": "f7356663c8e00ada12ae01fb8c8aad0a1de2f800f8eadf252a46d29bbdfdf718",
+  "anomalib": {
+    "version": "2.2.0",
+    "commit": "592aafc373091dda8206510a0853eb11c8e4099d"
+  }
+}

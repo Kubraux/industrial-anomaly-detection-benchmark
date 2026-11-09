@@ -1,0 +1,22 @@
+{
+  "training_seconds": 15137.12718770001,
+  "training_peak_allocated_mb": 728.74169921875,
+  "training_peak_reserved_mb": 932.0,
+  "steps": 70000,
+  "final_checkpoint": "${PROJECT_ROOT}\\EfficientAD_M_Anomalib_training_20261023\\cable\\final.pt",
+  "calibration": {
+    "qa_st": 0.10708172619342804,
+    "qb_st": 0.1974087953567505,
+    "qa_ae": 0.09490104764699936,
+    "qb_ae": 0.3371216654777527
+  },
+  "gradient": {
+    "student": 1.9335148334503174,
+    "ae": 0.014316700398921967
+  },
+  "checkpoint_reload_equal": true,
+  "fit_count": 179,
+  "validation_count": 45,
+  "test_images_seen": 0,
+  "imagenette_count": 9469
+}

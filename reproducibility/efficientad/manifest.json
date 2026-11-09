@@ -1,0 +1,569 @@
+[
+  {
+    "source": "EfficientAD_Anomalib_setup_20261023/experiment.py",
+    "source_sha256": "3f0a05c2547f63eb9e80c656e47c053b5bf3e7951b9c04b6a0539c13696f724b",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_Anomalib_setup_20261023/experiment.py",
+    "published_sha256": "3f0a05c2547f63eb9e80c656e47c053b5bf3e7951b9c04b6a0539c13696f724b",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_Anomalib_setup_20261023/evaluate.py",
+    "source_sha256": "0f96459f96367703d8e8d7dd60db3514a1419c53fdc3a21e86ebb6148665f103",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_Anomalib_setup_20261023/evaluate.py",
+    "published_sha256": "0f96459f96367703d8e8d7dd60db3514a1419c53fdc3a21e86ebb6148665f103",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_Anomalib_setup_20261023/PROTOCOL.md",
+    "source_sha256": "423e5cc30c17b3fe4d3da906ff9950fcf27d43e64a9ff751f83f57ac6e3b0abf",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_Anomalib_setup_20261023/PROTOCOL.md",
+    "published_sha256": "82fd543ed559b99de45f7961b528540c0900f62ccb5e1b5b7369af7404631b60",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_Anomalib_setup_20261023/paper_comparison.md",
+    "source_sha256": "50b8e3488aa3f4bba407c6a106124895e6da2c6cff55fee1c6d1148e63a9f450",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_Anomalib_setup_20261023/paper_comparison.md",
+    "published_sha256": "cecde1da2f808d7a7b7ffa2c6eb39e845e88f3a7b26cd5a0ec47362967690b25",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_Anomalib_setup_20261023/requirements.lock.txt",
+    "source_sha256": "c798c96754f9f032a282b33fc819942a2b9ca132bd97b84492301b18a8091b08",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_Anomalib_setup_20261023/requirements.lock.txt",
+    "published_sha256": "961be132aba80be3f854cfecaea42414219199017a0eb2a2bbff11f90f6d9f35",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_Anomalib_setup_20261023/version.json",
+    "source_sha256": "3fb881f47c2435cc106c4341c1050eb3a200f2d995eef303077c8175fd683540",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_Anomalib_setup_20261023/version.json",
+    "published_sha256": "3fb881f47c2435cc106c4341c1050eb3a200f2d995eef303077c8175fd683540",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_Anomalib_setup_20261023/implementation_integrity.json",
+    "source_sha256": "8a7bac1b876eb17642cec5d7b19b42ce583425126a62d06be172563525b736d1",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_Anomalib_setup_20261023/implementation_integrity.json",
+    "published_sha256": "8a7bac1b876eb17642cec5d7b19b42ce583425126a62d06be172563525b736d1",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_Anomalib_setup_20261023/source/anomalib-592aafc373091dda8206510a0853eb11c8e4099d/LICENSE",
+    "source_sha256": "7ae7504c2b7e895c3f61320a389af7fdde68143cd4dfd7941247640b0b62cc76",
+    "published": "third_party/licenses/efficientad_anomalib/LICENSE",
+    "published_sha256": "7ae7504c2b7e895c3f61320a389af7fdde68143cd4dfd7941247640b0b62cc76",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_results_20261023/results.csv",
+    "source_sha256": "abf7e3dfa218c14ebe24f1b1cf5f9fb8561d5f9d6585a48dbca90da2da95eff5",
+    "published": "results/benchmarks/efficientad_s_anomalib/results.csv",
+    "published_sha256": "59b8d83d87101976c7e63af691a26de6ebdffc1338eab1d9ea1bdc52fb3340fd",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/bottle/config.json",
+    "source_sha256": "2ad1a6eea547a7a045db1ea178b6e90411d4e300d9840f77814f0b7400e4695b",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/bottle/config.json",
+    "published_sha256": "066f9dd60160f245d7bb7eed5f39f798af13fc2bbb380a14ecb6bc6241f7d32a",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/bottle/training.json",
+    "source_sha256": "7d285a69b1d26d178051b848fa64c17ef245cf84681b8ad95d53e268b19bde8f",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/bottle/training.json",
+    "published_sha256": "8269fd9e56cc1feeb3cf0e05bcbb67f5fa1db22f1f3aacb466eb79624eb82591",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/cable/config.json",
+    "source_sha256": "9a32dacf335214676fc48ea6b0288bdb41a41d381e738962ca2b996755d76abc",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/cable/config.json",
+    "published_sha256": "0173fe31bed506c8d59d4c5aadbc7abf97a3a4a17759c9b5487a56d71c7af3f7",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/cable/training.json",
+    "source_sha256": "4b42ee65dab48aca9ccc4a5046ea9ecdd653ec46917c0383e27e47176a2b22df",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/cable/training.json",
+    "published_sha256": "db668f16b90f83d4be14b24174304a70e602b4e13f1d6428bbaba9a906ff2717",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/capsule/config.json",
+    "source_sha256": "b1aaefd8b3762cd9b12672126cb362edf417a665201bf25a4510cdf379b10f75",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/capsule/config.json",
+    "published_sha256": "1c8039310765c6e33adf2366173586c7d511e78d31bc3bc0d190fb8946bbae33",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/capsule/training.json",
+    "source_sha256": "ef43b97b58a418d15ec75a899fa86aeb5e753cfad09f0927356295a6c8615891",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/capsule/training.json",
+    "published_sha256": "8f185e9024aea9eeb4ef0c21185fd5e35639b5e851b7d8ecf8d7a8237770f158",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/carpet/config.json",
+    "source_sha256": "444dc2cdd3a28fe473dce6694036f9d43bd56c66b67f6d7b8db5edd55feb5dc7",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/carpet/config.json",
+    "published_sha256": "6051edff634a153b121c84422dcb23f853a2e494f95cd9f633123ba860fdd4ac",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/carpet/training.json",
+    "source_sha256": "b473404092826b4522ddb57dfea81b415fbe337eb1b1033c19e006101be5145a",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/carpet/training.json",
+    "published_sha256": "2a403188043fc59406c7c40bb15a220fd07b663caefce22bbe755f5598c40496",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/grid/config.json",
+    "source_sha256": "63974baf5a484ce301cfeb3570335a3d6f7d437a8590eebd1f021ca6b0f84464",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/grid/config.json",
+    "published_sha256": "5dfe2ff0ebf82f043282b8882b8642ad00a0d8e6d9f057c3038ef28534252adc",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/grid/training.json",
+    "source_sha256": "66f4860a3fa4f8b16d9e4cc7b89ab6e2e9f6547fdc71c2808cd05e79d197293f",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/grid/training.json",
+    "published_sha256": "96967cf133da6f1c690aa1be20d41e7c4743638254e3fe0798e81eea753f6a0f",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/hazelnut/config.json",
+    "source_sha256": "f679315e810eaba77144a730efe3ff9158ad01f8899668bcd19ce67478835b55",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/hazelnut/config.json",
+    "published_sha256": "723240e70c30ad8296364b7f9bea74c9960c2df970c2234316fb04083545bc5c",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/hazelnut/training.json",
+    "source_sha256": "c352da6bcacc07c25a6f122af2d3ee6e4eb91979cfe679bfdfa5e00252dee568",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/hazelnut/training.json",
+    "published_sha256": "67267680b12dc3fd5d105cdd03a6999546b641258d36c7306f893fbe2c690a99",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/leather/config.json",
+    "source_sha256": "f34c086e432fa80763ae2f6b59fef0b8125c853c6e9663e73c50d40b7a4c08c0",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/leather/config.json",
+    "published_sha256": "4530e6d5365ca98333bd4c323d51bea620cda96eb47a83e9b13b0c2ee31feff5",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/leather/training.json",
+    "source_sha256": "7a598795d4c6c7620914e2462a4aedff52649c01c7abdc59e0c38f0e480a0b82",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/leather/training.json",
+    "published_sha256": "b20ebaea7409be2381b89437af135cd23c130679f955e91b0b716e1c87decb17",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/metal_nut/config.json",
+    "source_sha256": "6de256f57edc1d52899485f45b3f210f156b72de99e4849421dc8ed46761dc2c",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/metal_nut/config.json",
+    "published_sha256": "5ca01d093134b0634363e3fd1910f0ee2c21a5d17ab144be146cf96b7163ce68",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/metal_nut/training.json",
+    "source_sha256": "08e43443a31765f5b296d0b39dede822d87d17241efc9857d1bbb1556f1f32df",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/metal_nut/training.json",
+    "published_sha256": "ae5b7cf402c3a5bbc3966673db05ac998551d4b7df6a0f1830c9daa7eb4c7237",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/pill/config.json",
+    "source_sha256": "5dce3f0533756ca9c133a76d94646452fa14b89325c4f22f1bc48b00c9aa0d6d",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/pill/config.json",
+    "published_sha256": "9e06c90db506640c28fdf894bf69fd5d80fcbfbcb7554c1d93cf0b0b8298a6c5",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/pill/training.json",
+    "source_sha256": "b981d6c217ebc4fa8d396bacb1e24d10c22be9b662f409726c98f4609fc93d60",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/pill/training.json",
+    "published_sha256": "43c95a064177fcf3ac8c1019c68abd70a4415e1e09c8c5c8a079d1ba0fef9b94",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/screw/config.json",
+    "source_sha256": "03262e33f7a81040be659268197b85f903b4183d34d40c8017d739684590c409",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/screw/config.json",
+    "published_sha256": "0b5c32dc5dbf2513a7053a39c20be1f208aff0056e1eaf1e7dfdeebc6817f6f7",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/screw/training.json",
+    "source_sha256": "3edd4196be85f8dd234d39b1152ba99dabc176fd2a91e44ed6365795125284d3",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/screw/training.json",
+    "published_sha256": "a83d7a1d6e7a659ca8ae18e2c22bca7713dbdfd1eaace6fcf36bee6b7f122e53",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/tile/config.json",
+    "source_sha256": "276d9bcb08ce341fa1987431e2a42be777c20016d65f1c3a0869dd1701af19d2",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/tile/config.json",
+    "published_sha256": "799eaa6b5f165b72b4c21cf081fc0cd78480ade2a6107bcce2a47f974c6dba4a",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/tile/training.json",
+    "source_sha256": "a6e00a0fe8e4376b9c471f04d4cd1d8cb5a4064d9ba3422701eec2f234bf18bc",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/tile/training.json",
+    "published_sha256": "fe6fa116f774a4eb08a6756634b45705be52611ca330f5b2556945d513febf25",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/toothbrush/config.json",
+    "source_sha256": "952b9e5232cf17c2d025dd4840bf1805fde9bedfa8a938505c30e1b9591e7224",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/toothbrush/config.json",
+    "published_sha256": "2a9ab29b57bf26d75269b111130f6e5de19caeaf775dae659d333438e6f5e402",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/toothbrush/training.json",
+    "source_sha256": "140eee69bcfd3289240db961ad01361b3b4007ebe84a889b800e35611d1cf379",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/toothbrush/training.json",
+    "published_sha256": "7d758180611f0ed5794dc7a267fa4c0246a3506dc8c0037415fb99682ddd1239",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/transistor/config.json",
+    "source_sha256": "66dadc35feacfb81aa9266b326273adca1e40c241e392acc2a5bc85c34178bb7",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/transistor/config.json",
+    "published_sha256": "04391a200daae8108fa74a17f5fef6f5217a3588699a0f94ee4d0ceca84f496f",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/transistor/training.json",
+    "source_sha256": "93170710fafebae26b73f22133880bcdcc27150bc3a1c64614d82337ec930bd6",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/transistor/training.json",
+    "published_sha256": "d0367cf06a4c57682d951d975330ef1cccbf53ffa1cb5a14b0bbaf48eeaa031b",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/wood/config.json",
+    "source_sha256": "1b8109403cdf080a97dc5c04cc9df756928891895d9210361677ae340708b58c",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/wood/config.json",
+    "published_sha256": "4bcca79a01919b297faadec44c82a3e9dcf778ae7c18e5511857796621a1d976",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/wood/training.json",
+    "source_sha256": "331cc60d05be8be4f60826d57dd2f1becbe2751752e7cf9e83bba49751946bbc",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/wood/training.json",
+    "published_sha256": "5008bb948a47d3e3825df85a486257d22ebef219aecd272eb87e612a446aebb5",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/zipper/config.json",
+    "source_sha256": "1426c21e81a09c301154f674e4d13c2fad88b8e8135bbe77c9a9eea2df47b350",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/zipper/config.json",
+    "published_sha256": "8bc48fedbf8d2cd99ac4c095989ddbaf3729c9b005a891c2be924c3d7f16fbac",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_S_Anomalib_training_20261023/zipper/training.json",
+    "source_sha256": "ac719aefd79f4d75b058002cd1011b8481016bacc9468abd3953325b1d188242",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_S_Anomalib_training_20261023/zipper/training.json",
+    "published_sha256": "1017c7ac120d2f96f3652afb70944c61441a9b858503c43331d0a28700a270dc",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_results_20261023/results.csv",
+    "source_sha256": "b034abd8a8addefc2441781b6c157f6da67e5c1a9962c4b50f60b85c40ccb05d",
+    "published": "results/benchmarks/efficientad_m_anomalib/results.csv",
+    "published_sha256": "d199ec9bb45d557d53a9829806817205b07d2cb589f8c5d4af47a83eaba10839",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/bottle/config.json",
+    "source_sha256": "c79eee5849f4cc3242eeeffa9ebc8baa8ffd60daab7998895b0769b6d304fa7a",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/bottle/config.json",
+    "published_sha256": "b6cc0ed2187ed4d22571fad692a208d7ed3f0be686a75b48cbfad5f76cd0ccc1",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/bottle/training.json",
+    "source_sha256": "202f2bd75d2a402d46f3531767cee1ff113910ba38fd6f739b7e737db83754ca",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/bottle/training.json",
+    "published_sha256": "c6e6be6b725ac5cb1181679fb584335047d586581f313cd52e8f0a8612d9cebf",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/cable/config.json",
+    "source_sha256": "aa02e6bf5b9a8e882fc65269d61e8798c9576551f75720681cf06b4740f5037c",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/cable/config.json",
+    "published_sha256": "0d6d8bd662a1df0c621801cb64174772dae8a82c14ddc3546e2a8e8bb2e799d4",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/cable/training.json",
+    "source_sha256": "609738e83cf4dd1e12e95357bbd31e7ec85db6f19eeae20cd3bdde11ac2335f6",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/cable/training.json",
+    "published_sha256": "4b3990f633825b3f8b32c45f555eb145109a498fd6978769423f5f23937b5af8",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/capsule/config.json",
+    "source_sha256": "2e51962e1084506c8c43851706c4c8e284a7b2acbe0e038c40495b03662f8e6a",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/capsule/config.json",
+    "published_sha256": "fd83d442d7b730a33dca3d92d0fe010db458e7aa661794568d41db62653d70cc",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/capsule/training.json",
+    "source_sha256": "75e14d06dfd631c1d6f9038acfeba904bd52987eeeeb5aa90d3cb1c21690d804",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/capsule/training.json",
+    "published_sha256": "a014cede8a61f8ba9527cfc79c3c47c0f671d07c1cf6db964aba33899c21d689",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/carpet/config.json",
+    "source_sha256": "f3619bb0f45b1bde3cfffe0fad257fcebdfc0e817bfab8d0cfd3a415d9abb76d",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/carpet/config.json",
+    "published_sha256": "24875b2efaf8cf599e9f60e42ea5ca9478aa8fa46dc101cde9943ef8205af24b",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/carpet/training.json",
+    "source_sha256": "7f6d7d8049666349ef0cf9daa8875222ad8c4777dd5359c39c3ca08fc37a6414",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/carpet/training.json",
+    "published_sha256": "79dd39a75a2f83e9bbfa8ecca470d6836cb0e04ad634cb55259744487f9a4049",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/grid/config.json",
+    "source_sha256": "33ef5990573e93bcf2c44dad2ab2cca8c2c8de244d4639b900f624b4805b2cea",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/grid/config.json",
+    "published_sha256": "baa4c6f34257936d0455608d6f0730fdf7fc0fd1fc716ed911e807e0750ba461",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/grid/training.json",
+    "source_sha256": "136526eba9c92fe664cec55fe1b9d353a834160e6a2fc20e15d0862f11430944",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/grid/training.json",
+    "published_sha256": "d20e89a582ab7aaa0f72b6b74b3ae5802f8d4abd60531b161dd1728051ab71a4",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/hazelnut/config.json",
+    "source_sha256": "8478f848b9250d65e8ff80cb11e893ec9417680c8a1a64b8f345f15bb4f60cef",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/hazelnut/config.json",
+    "published_sha256": "052ec3a36e3bf4416821d44c998a34f181e090dcf0a2f40971308f498aba6800",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/hazelnut/training.json",
+    "source_sha256": "e67ac7493ced07627595f5d7a366df2c77d48c4bc21dc37752bba4abe472c3ec",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/hazelnut/training.json",
+    "published_sha256": "7605c834ae28408eab255491b3e41ddb650a5a007fd2d8b5d180c56ee1713c97",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/leather/config.json",
+    "source_sha256": "de679d98ea5db998b5e24063ca17dfc8ff802f9fb8fde4dc2ee071e2e80f8f1c",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/leather/config.json",
+    "published_sha256": "8d95ce0d82a13becdc3ca8d756720a60d5628784e77082a7ece226361ad4953a",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/leather/training.json",
+    "source_sha256": "eb5fefe1a6ab90e8d2f3502478581142df94be8e4c815be732ec5ea81b43fbb7",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/leather/training.json",
+    "published_sha256": "47266c19b96909cc7c91529c76994ed3597911b9811f1fb8974ce7d6b860fa89",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/metal_nut/config.json",
+    "source_sha256": "893c1197355218045ac0679ba7bed5cbaca9571540c42963fc40f39ea673c329",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/metal_nut/config.json",
+    "published_sha256": "a4dd2c2a5257fb9b2a2f2f1c32b3f66cfd86791754ee8bee0175e07c12c97066",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/metal_nut/training.json",
+    "source_sha256": "009ed9f6c6c7dbcffc6f217500e74732db74a637a7bc3b9a36edfa32efc1fa1a",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/metal_nut/training.json",
+    "published_sha256": "b5f604f8cc595abbf7ebe6b752c4c6d40585fa07081b938b5628b0cf665b15a1",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/pill/config.json",
+    "source_sha256": "d05b8afd78d9f5e0c173ce1a47e1c0351e2ec61d119e9a617451c6068d8ce387",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/pill/config.json",
+    "published_sha256": "7dbe35e92a9afd5e9ad4b390ad8bc602753c3db716b5801e15a51e3e4517ea6e",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/pill/training.json",
+    "source_sha256": "d71c66023dade0ada31bb0cc2a3c97285e4d7038445442e1522b8d0d042ff44b",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/pill/training.json",
+    "published_sha256": "30bc9d3ffd86140473161a05f2f408b9d2d84fb651d1c14da24e85ddad642fc7",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/screw/config.json",
+    "source_sha256": "425c10a7edea9674136b6378f06b5faf848b23c9d9cebdb7f1274e8a106b5ab9",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/screw/config.json",
+    "published_sha256": "96e5622fae7ee51829124880c0024d42d4aba499960b76bb44814742b21abe58",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/screw/training.json",
+    "source_sha256": "5926e34c1e04a0de38d5cb7c6a1bc35047e1c9c0333966e58da2d1fc3308302a",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/screw/training.json",
+    "published_sha256": "2b25649c86ea4ed26f4cf86ce82d72f431aa0951e415f88bb4e0e1e93b19f7fc",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/tile/config.json",
+    "source_sha256": "1e5dc218441bec515a7c66ea729ee0a3f5269001a80a040de557a5dfdde34b3a",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/tile/config.json",
+    "published_sha256": "ac5298e992019654901cd66c4f23dcf530695d0a687a42ef236a8f4f6019b605",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/tile/training.json",
+    "source_sha256": "f2c98e764b768fe460fcb1dda23afcfb149a4ae4f7cdd7e0fb9b5be2bf62b0aa",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/tile/training.json",
+    "published_sha256": "3521a7d87ef7952a24798b758499c99e889747a52a02ce1f329f933490cd4c7b",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/toothbrush/config.json",
+    "source_sha256": "965a3c57f0f7bd81fc6a56d9106bb1a4355a058661003869c85547a89ffd0252",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/toothbrush/config.json",
+    "published_sha256": "0591fd08bb5e82e8ecdac094bedbea44b685dd1a38e5deb50dc3055f8f8aaedf",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/toothbrush/training.json",
+    "source_sha256": "7f981bb04b693dd7dad5b420beb74eb4e69ac2e8823e04fbc2fc26418325ff21",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/toothbrush/training.json",
+    "published_sha256": "50a37f92711ba56c9727f8dfde984a0c3cbbfb2131e13f3eb1ca8eb7b2b2b09c",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/transistor/config.json",
+    "source_sha256": "00f1c0b2a70bf96ef2289ebf8a6c0577aa53df30eff75e8ef263a8ce5defefe2",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/transistor/config.json",
+    "published_sha256": "d18f8963e78ce2eb51c9a1238e5eb271b0e03459a469a15b9d78900157faf2da",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/transistor/training.json",
+    "source_sha256": "16c499df5bbbb6cdbc0d32eeb97ad000b603a31ee11d41296dbb7da21b678c41",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/transistor/training.json",
+    "published_sha256": "f0862e17131666f657344099641b89a8812526c19f85cf014caf3e35d50f1cd8",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/wood/config.json",
+    "source_sha256": "e1edfbe4d1ca53f075586b9280288a5a43bde558ec5f2dc5a965f8ff0301cf5a",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/wood/config.json",
+    "published_sha256": "99b9ba0b12c0c96a883449288c1b26261f8f3ba7fc72cc7f8247399ad571db76",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/wood/training.json",
+    "source_sha256": "d78ffd072d0ea9525c1e772790c2b106c993acbd11904defc0cc0eb362109fce",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/wood/training.json",
+    "published_sha256": "30dc9804e7d27eea7cfa9855b4eeb9b8c3e94f922069843dabe864daaf4db9af",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/zipper/config.json",
+    "source_sha256": "245230f8bb12f4cbf2f0398dc767547fb05a60b080a34360cd487cf30bed7b35",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/zipper/config.json",
+    "published_sha256": "6ad97a7cdd718e22af6398ca228ffc4f9b70ca4afd774946fcf8af2a692d6bea",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "EfficientAD_M_Anomalib_training_20261023/zipper/training.json",
+    "source_sha256": "3073847cd9fc95ab0e977b5ae8282efe433978b58d97452aa89cad9c94eaccae",
+    "published": "reproducibility/efficientad/workspace/EfficientAD_M_Anomalib_training_20261023/zipper/training.json",
+    "published_sha256": "86915bd25c84ca0c37b1d88e39d90cd1f725836ef22419d0332ab0d5d5164762",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/regenerate_maps.py",
+    "source_sha256": "1d40ff03653c386f491c29c3ed486151ad44543e7e466069a748b30c8984fbae",
+    "published": "reproducibility/efficientad/workspace/anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/regenerate_maps.py",
+    "published_sha256": "1d40ff03653c386f491c29c3ed486151ad44543e7e466069a748b30c8984fbae",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/config.yaml",
+    "source_sha256": "9d876e85bd91b126fd663018691c663182334058ed0d693003dc5650b2c20187",
+    "published": "reproducibility/efficientad/workspace/anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/config.yaml",
+    "published_sha256": "9d876e85bd91b126fd663018691c663182334058ed0d693003dc5650b2c20187",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/environment.txt",
+    "source_sha256": "ed20d995a760ccef4088ff880c8441e7f885325a4a876b27af0539015c1e8d47",
+    "published": "reproducibility/efficientad/workspace/anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/environment.txt",
+    "published_sha256": "2c65319a89a86cfcf21185a550a62fc37655f3e54b76ecde87fd2eb9d162f1c6",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/reproducibility.md",
+    "source_sha256": "ffc8ecb21a9eb028ceaf418f7913dffb821ff4f1c08bd931521fbb09cfc6f83c",
+    "published": "reproducibility/efficientad/workspace/anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/reproducibility.md",
+    "published_sha256": "ffc8ecb21a9eb028ceaf418f7913dffb821ff4f1c08bd931521fbb09cfc6f83c",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/artifact_verification.json",
+    "source_sha256": "27c6dadc69003d91f5d7c4b34daa4d5b6ffe94d56e5e73fda4f213bdad38bb23",
+    "published": "reproducibility/efficientad/workspace/anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/artifact_verification.json",
+    "published_sha256": "27c6dadc69003d91f5d7c4b34daa4d5b6ffe94d56e5e73fda4f213bdad38bb23",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/metric_validation.json",
+    "source_sha256": "7d6e110f7d827ded24affa851a263f06d3ab5ef6b780b4fcc8524df432c303f4",
+    "published": "reproducibility/efficientad/workspace/anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/metric_validation.json",
+    "published_sha256": "7d6e110f7d827ded24affa851a263f06d3ab5ef6b780b4fcc8524df432c303f4",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/resource_usage.json",
+    "source_sha256": "20807aed604844858437b2e692a196c2434277b2b372cff988d532fd2c92b197",
+    "published": "reproducibility/efficientad/workspace/anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/resource_usage.json",
+    "published_sha256": "20807aed604844858437b2e692a196c2434277b2b372cff988d532fd2c92b197",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/summary.json",
+    "source_sha256": "907a380630f5c954f8da7e952ed4600321ebe9ca5947fb067794442782e376b0",
+    "published": "reproducibility/efficientad/workspace/anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/summary.json",
+    "published_sha256": "907a380630f5c954f8da7e952ed4600321ebe9ca5947fb067794442782e376b0",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/plan.md",
+    "source_sha256": "e3508c587e8b295531025dfcc52ae86b67f84f690411c206611fb991cd468be7",
+    "published": "reproducibility/efficientad/workspace/anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/plan.md",
+    "published_sha256": "e3508c587e8b295531025dfcc52ae86b67f84f690411c206611fb991cd468be7",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/efficientad_common_pixel_ap_20261030/metrics.csv",
+    "source_sha256": "d28f2e58eb93cc1dc5518a7e1262b56431c75109d3f195c47d65f7354bdee5ea",
+    "published": "results/benchmarks/efficientad/common256_pixel_ap.csv",
+    "published_sha256": "d28f2e58eb93cc1dc5518a7e1262b56431c75109d3f195c47d65f7354bdee5ea",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "compare_dfr_rd4ad_common.py",
+    "source_sha256": "42598a2185d3e1f543424a0b7e047c0b7ab6f43c9ef65b75b93d09c43fef42ef",
+    "published": "reproducibility/efficientad/workspace/compare_dfr_rd4ad_common.py",
+    "published_sha256": "7b80e251840b7a83fd54cd07111f3505cb9de1a437f3814fcc9b1b3bb5b2b558",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  }
+]

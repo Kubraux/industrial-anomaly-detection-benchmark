@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": [
+    "noninterpolated AP5/6",
+    "ties1/2",
+    "perfect1",
+    "pooled2x2 mask3/4"
+  ]
+}

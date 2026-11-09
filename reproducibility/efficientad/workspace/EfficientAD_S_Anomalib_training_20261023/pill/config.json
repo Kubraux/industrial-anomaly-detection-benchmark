@@ -1,0 +1,31 @@
+{
+  "size": "s",
+  "category": "pill",
+  "seed": 42,
+  "steps": 70000,
+  "batch_size": 1,
+  "input_size": 256,
+  "lr": 0.0001,
+  "weight_decay": 1e-05,
+  "adam_betas": [
+    0.9,
+    0.999
+  ],
+  "adam_eps": 1e-08,
+  "lr_drop_step": 66500,
+  "lr_gamma": 0.1,
+  "padding": false,
+  "pad_maps": true,
+  "precision": "float32",
+  "tf32": false,
+  "checkpoint": "fixed_final",
+  "validation": "normal calibration only after training",
+  "split_manifest": "${PROJECT_ROOT}\\EfficientAD_Anomalib_setup_20261023\\splits\\pill.json",
+  "split_sha256": "346547678eeaee3f297e883e05109f5ab24a96e6021a63fe7be493bc845c2a17",
+  "teacher": "${PROJECT_ROOT}\\EfficientAD_Anomalib_setup_20261023\\assets\\efficientad_pretrained_weights\\pretrained_teacher_small.pth",
+  "teacher_sha256": "a16ded54719674435576aee641152616a640dfc6dc2b83115dab6e226610ae7d",
+  "anomalib": {
+    "version": "2.2.0",
+    "commit": "592aafc373091dda8206510a0853eb11c8e4099d"
+  }
+}

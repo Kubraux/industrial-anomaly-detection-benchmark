@@ -1,0 +1,22 @@
+{
+  "training_seconds": 6584.417164999992,
+  "training_peak_allocated_mb": 358.71484375,
+  "training_peak_reserved_mb": 466.0,
+  "steps": 70000,
+  "final_checkpoint": "${PROJECT_ROOT}\\EfficientAD_S_Anomalib_training_20261023\\metal_nut\\final.pt",
+  "calibration": {
+    "qa_st": 0.06895962357521057,
+    "qb_st": 0.1130116879940033,
+    "qa_ae": 0.06383241713047028,
+    "qb_ae": 0.17805087566375732
+  },
+  "gradient": {
+    "student": 5.925690650939941,
+    "ae": 0.019602611660957336
+  },
+  "checkpoint_reload_equal": true,
+  "fit_count": 176,
+  "validation_count": 44,
+  "test_images_seen": 0,
+  "imagenette_count": 9469
+}

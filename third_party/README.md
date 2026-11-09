@@ -30,3 +30,9 @@ From this folder, run "python -B validate.py" for offline checks of the inventor
 Catalog checks require nonempty unique method_id values, nonempty method names, distinct record directories matching the available STATUS.md records, and consistent upstream identities, repository URLs, commit SHAs and commit URLs. Multiple source variants may share a method name. Method and source counts are computed from the catalog, not fixed; new methods can be added with their records and manifest updates.
 
 For future updates, add a dated source record and exact source evidence; keep unknown values explicit. Retain license text with any local patch containing upstream code. Update the local copy and file manifests together with changes; never overwrite historical source records to make them appear current. The original release manifest is unchanged and does not cover this separate folder.
+
+## EfficientAD-S/M — publication 2026-11-09
+
+[Method guide](../methods/efficientad/README.md) | [Recorded workspace, configurations, license locations and source hashes](../reproducibility/efficientad/README.md).
+
+Native-grid AUROC/AU-PRO and common256 Pixel AP are separate evaluations; preserved normal calibration, seed42 and 70,000 updates. No test-based selection. Single-seed results; uncertainty Not recorded. This addition supplements historical catalogs and registries; archived plans and training-only records retain their original status. See the method guide for deviations and reconstruction limits; no cross-protocol leaderboard claim.

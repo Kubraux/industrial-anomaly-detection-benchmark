@@ -23,3 +23,9 @@ Publish this subset as experiments/. Keep the original detailed archive and unmo
 Excluded from this subset: per-experiment evidence JSON, repeated method pages, bulk evidence/hash inventories, validation scripts/reports, the historical registry copy, unexecuted configuration templates, routine successful smoke tests, duplicate pilots and individual low-level probes. Significant failed AE/DPAE diagnostics and historical stopped runs remain summarized in retained studies. AnoGAN recovery attempts/CUDA checks and individual PatchSVDD probes remain in the detailed backup. The deleted historical AE baseline has only indirect cleanup evidence, so it is not a verified benchmark here; its limitations remain in methods/ and the detailed archive.
 
 All research evidence, original configurations, results and the detailed archive remain untouched. To add a study, use a new stable registry ID, link verified results, record actual settings and distinguish execution from planned budgets.
+
+## EfficientAD-S/M — publication 2026-11-09
+
+[Method guide](../methods/efficientad/README.md) | [Recorded workspace, configurations, license locations and source hashes](../reproducibility/efficientad/README.md).
+
+Native-grid AUROC/AU-PRO and common256 Pixel AP are separate evaluations; preserved normal calibration, seed42 and 70,000 updates. No test-based selection. Single-seed results; uncertainty Not recorded. This addition supplements historical catalogs and registries; archived plans and training-only records retain their original status. See the method guide for deviations and reconstruction limits; no cross-protocol leaderboard claim.

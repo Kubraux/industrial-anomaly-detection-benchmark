@@ -1,0 +1,20 @@
+[
+  {
+    "method": "EfficientAD-S",
+    "categories": 15,
+    "macro_pixel_ap": 0.6133518901980506,
+    "grid": [
+      256,
+      256
+    ]
+  },
+  {
+    "method": "EfficientAD-M",
+    "categories": 15,
+    "macro_pixel_ap": 0.6048229679345687,
+    "grid": [
+      256,
+      256
+    ]
+  }
+]
