@@ -1,0 +1,541 @@
+[
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/constant.py",
+    "source_sha256": "5808168f388f571a4ed0742ffc78dfb717a5173cea592e402c6f2e1db73b81c5",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/constant.py",
+    "published_sha256": "5808168f388f571a4ed0742ffc78dfb717a5173cea592e402c6f2e1db73b81c5",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/data/data_utils.py",
+    "source_sha256": "148e6da4fb14f00355fc37d24faad281aef595a8b66b60fb7e3be76aff13598c",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/data/data_utils.py",
+    "published_sha256": "148e6da4fb14f00355fc37d24faad281aef595a8b66b60fb7e3be76aff13598c",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/data/mvtec_dataset.py",
+    "source_sha256": "23df3d738c24cc24b434e895cf02d35aad7ff6f5324928f1291150291aa2eeda",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/data/mvtec_dataset.py",
+    "published_sha256": "23df3d738c24cc24b434e895cf02d35aad7ff6f5324928f1291150291aa2eeda",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/eval.py",
+    "source_sha256": "678487fb26cd68b00fa5070d490f119b954f96696af105d677cb1d1f868c5f82",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/eval.py",
+    "published_sha256": "678487fb26cd68b00fa5070d490f119b954f96696af105d677cb1d1f868c5f82",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/LICENSE",
+    "source_sha256": "9ed7fc2e1b6cb0404bf8275b1497a3027469e300691dc32f3937d3e6bc2560c5",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/LICENSE",
+    "published_sha256": "9ed7fc2e1b6cb0404bf8275b1497a3027469e300691dc32f3937d3e6bc2560c5",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/model/destseg.py",
+    "source_sha256": "1aadc365ce958c2f7fc422d5d43e75db9a20ef4540b9cb00bfd92e7a28531881",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/model/destseg.py",
+    "published_sha256": "1aadc365ce958c2f7fc422d5d43e75db9a20ef4540b9cb00bfd92e7a28531881",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/model/losses.py",
+    "source_sha256": "37a4e58368b19db689a097f96b2b7dec25b1edfed13220a3c3becfae08984745",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/model/losses.py",
+    "published_sha256": "37a4e58368b19db689a097f96b2b7dec25b1edfed13220a3c3becfae08984745",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/model/metrics.py",
+    "source_sha256": "4c429cbceb3bc36ecd80b185306e44a28cf3b9a0da1b9be11069595df22fd5d2",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/model/metrics.py",
+    "published_sha256": "4c429cbceb3bc36ecd80b185306e44a28cf3b9a0da1b9be11069595df22fd5d2",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/model/model_utils.py",
+    "source_sha256": "95d1f47b97cda0694dabd901c760a12760534b72653c2dabff4b2e6e22e5d57d",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/model/model_utils.py",
+    "published_sha256": "95d1f47b97cda0694dabd901c760a12760534b72653c2dabff4b2e6e22e5d57d",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/requirements.txt",
+    "source_sha256": "d286b5bb581ec2513667101391e35b3539f53357e67286c3145fb6d9302d7853",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/requirements.txt",
+    "published_sha256": "d286b5bb581ec2513667101391e35b3539f53357e67286c3145fb6d9302d7853",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/train.py",
+    "source_sha256": "8325bc169ae511735f2d88d7b15ec7664ca74a1f5aa2319665531c064cbfbda3",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/source/train.py",
+    "published_sha256": "8325bc169ae511735f2d88d7b15ec7664ca74a1f5aa2319665531c064cbfbda3",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/completed.json",
+    "source_sha256": "7c76401d52ba1cc71f92204cf1b391c32a76b4c96cf87b1cec59a0246242a5b4",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/completed.json",
+    "published_sha256": "2279a8fb54696eb0b979349946c44d82e6c88f040e12d5ab90691ccb4db1de93",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/plan.md",
+    "source_sha256": "071987d463626e633580f11e49fda03e1734076f2ae6713070e8d553e90c4eea",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/plan.md",
+    "published_sha256": "071987d463626e633580f11e49fda03e1734076f2ae6713070e8d553e90c4eea",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/reproducibility.md",
+    "source_sha256": "75631bddd6ea8f0f834a3670058b753656c022c23dcbdc4558c28a6934fb8939",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/reproducibility.md",
+    "published_sha256": "75631bddd6ea8f0f834a3670058b753656c022c23dcbdc4558c28a6934fb8939",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/environment.txt",
+    "source_sha256": "99756139e054bd8a2d5e1780d574eb2aa1c649770872847f63259e3687345e08",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/environment.txt",
+    "published_sha256": "99756139e054bd8a2d5e1780d574eb2aa1c649770872847f63259e3687345e08",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/config.json",
+    "source_sha256": "5191e7250f54857b42905947c2ec06a49403d995bc2337ad28e6a4fd6fc68377",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/config.json",
+    "published_sha256": "5191e7250f54857b42905947c2ec06a49403d995bc2337ad28e6a4fd6fc68377",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/worker.py",
+    "source_sha256": "2e42e99c468f6b8871f35fb1e42f1787c974c53f71306f0a798a16abdc6b70fc",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/worker.py",
+    "published_sha256": "7f7b027786a3312b91a2c56eb0c39d5f7cc7f66407e0b50c814e96416a5cf144",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/destseg_queue.py",
+    "source_sha256": "40fe7474aacd7cfcc500a925ab96816a902406c230d98f56d0c8d668410b74dd",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/destseg_queue.py",
+    "published_sha256": "40fe7474aacd7cfcc500a925ab96816a902406c230d98f56d0c8d668410b74dd",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/training_instrumentation.patch",
+    "source_sha256": "0267091c653a94c105076bec0c7728ef1146aa48dbdc2f49cb1659916b09cae6",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/training_instrumentation.patch",
+    "published_sha256": "0267091c653a94c105076bec0c7728ef1146aa48dbdc2f49cb1659916b09cae6",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/failure_20261104_005811.txt",
+    "source_sha256": "36442c2a675a8feaf849390f22df32b7d512acb20c792fa7868fdaeba72d399d",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/failure_20261104_005811.txt",
+    "published_sha256": "065ecef7416a53afbbcf58f70dc8c1b45902e8332575d7f0c36dad5705a655ec",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/failure_20261104_080446.txt",
+    "source_sha256": "43b85d19a6a1cecea8aeaf8524d474a6f0799ec704d005ebc4b7fd7d474021c1",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_auto_mvtec_seed111_20261103/failure_20261104_080446.txt",
+    "published_sha256": "40e58b12336fd4584993edad284275075db5865811dd7975df2137dff2191ed1",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/plan.md",
+    "source_sha256": "513e98e59f468bcd62242dfa53d0ac3f9222c6f2b9bfc0dd3841a647ba058c12",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/plan.md",
+    "published_sha256": "9605697ae31a481ad75c08d6b303b2666980258a265069121be7f42327609116",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/config.json",
+    "source_sha256": "98fcac02b928b8cafb66734ca746aa136038bee4dabf7a2aa3fe809c559ac9e0",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/config.json",
+    "published_sha256": "98fcac02b928b8cafb66734ca746aa136038bee4dabf7a2aa3fe809c559ac9e0",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/validation_final.json",
+    "source_sha256": "13d816cbcf88d460183c1da36cb1176a5ba9d4d030cba16e382122cc63fcab8f",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/validation_final.json",
+    "published_sha256": "13d816cbcf88d460183c1da36cb1176a5ba9d4d030cba16e382122cc63fcab8f",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/resource_usage.json",
+    "source_sha256": "b5432ed277b59fd8fb40ebf681fb18948fcd400d3d641c08e7cc44e0eb6b3f70",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/resource_usage.json",
+    "published_sha256": "b5432ed277b59fd8fb40ebf681fb18948fcd400d3d641c08e7cc44e0eb6b3f70",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/environment_destseg.txt",
+    "source_sha256": "99756139e054bd8a2d5e1780d574eb2aa1c649770872847f63259e3687345e08",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/environment_destseg.txt",
+    "published_sha256": "99756139e054bd8a2d5e1780d574eb2aa1c649770872847f63259e3687345e08",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/bottle/attempt_001/metrics.json",
+    "source_sha256": "ec6dd3d9210b5d11fe6f90da55e21a44bc0b8a50c34d9b9e73f3202c22277e0d",
+    "published": "results/benchmarks/destseg/categories/bottle/metrics.json",
+    "published_sha256": "ec6dd3d9210b5d11fe6f90da55e21a44bc0b8a50c34d9b9e73f3202c22277e0d",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/bottle/attempt_001/resource_usage.json",
+    "source_sha256": "68d9df18c8a6590aa561359d5d4d758ff8a06145bf6f05715fbc160035a26de3",
+    "published": "results/benchmarks/destseg/categories/bottle/resource_usage.json",
+    "published_sha256": "68d9df18c8a6590aa561359d5d4d758ff8a06145bf6f05715fbc160035a26de3",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/bottle/attempt_001/provenance.json",
+    "source_sha256": "44dce3d3673cc19e57442172833b8a50c6a204b07bb5115429076bc224443266",
+    "published": "results/benchmarks/destseg/categories/bottle/provenance.json",
+    "published_sha256": "31a192d7da0dfff04b94c7c850853cea67a0086b065e9c77f5824be4ae5cdbe8",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/cable/attempt_001/metrics.json",
+    "source_sha256": "0620e2f7d4f6725997acecca1a61cb22af3fa230927e357b714ae2848cb122ee",
+    "published": "results/benchmarks/destseg/categories/cable/metrics.json",
+    "published_sha256": "0620e2f7d4f6725997acecca1a61cb22af3fa230927e357b714ae2848cb122ee",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/cable/attempt_001/resource_usage.json",
+    "source_sha256": "e0a451b21ebfaeedeab6243ea949d8e959112c9ff2c6fb1b3827f58f2bbd3177",
+    "published": "results/benchmarks/destseg/categories/cable/resource_usage.json",
+    "published_sha256": "e0a451b21ebfaeedeab6243ea949d8e959112c9ff2c6fb1b3827f58f2bbd3177",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/cable/attempt_001/provenance.json",
+    "source_sha256": "4ddad0a910295b9abafd11cffa7c795a61d32506cf2b5949a75cc68de92727b3",
+    "published": "results/benchmarks/destseg/categories/cable/provenance.json",
+    "published_sha256": "793214437d7338f9f1b52f0f4a159de62c49e4029b2754a705378df1b6530dc3",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/capsule/attempt_001/metrics.json",
+    "source_sha256": "a4de445aac2a84791e4ac5818f00285f8769b4c10a25b0f1fa7e45d2f4da6aff",
+    "published": "results/benchmarks/destseg/categories/capsule/metrics.json",
+    "published_sha256": "a4de445aac2a84791e4ac5818f00285f8769b4c10a25b0f1fa7e45d2f4da6aff",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/capsule/attempt_001/resource_usage.json",
+    "source_sha256": "f53ecbc7d6a046f6ec877d226e094e44bedaa67f837308a8106aa520027323b5",
+    "published": "results/benchmarks/destseg/categories/capsule/resource_usage.json",
+    "published_sha256": "f53ecbc7d6a046f6ec877d226e094e44bedaa67f837308a8106aa520027323b5",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/capsule/attempt_001/provenance.json",
+    "source_sha256": "6c3e4e5e98c47e230dd6faaa25b3b61b3834d3b3d849e23f6afecff2ed41ab89",
+    "published": "results/benchmarks/destseg/categories/capsule/provenance.json",
+    "published_sha256": "b43959b1228014e543f5aeb8312fa04d0f7e30fee6bd789db42c9cd014718102",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/carpet/attempt_001/metrics.json",
+    "source_sha256": "8b26037916ea4aa386f3285aa1820c44e0020880bd467a737ae4a308c3c0ed32",
+    "published": "results/benchmarks/destseg/categories/carpet/metrics.json",
+    "published_sha256": "8b26037916ea4aa386f3285aa1820c44e0020880bd467a737ae4a308c3c0ed32",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/carpet/attempt_001/resource_usage.json",
+    "source_sha256": "a9619f31b654b70422b1f347cb6c55daacc5485d2edb9fe269dcfc3a5d7e7588",
+    "published": "results/benchmarks/destseg/categories/carpet/resource_usage.json",
+    "published_sha256": "a9619f31b654b70422b1f347cb6c55daacc5485d2edb9fe269dcfc3a5d7e7588",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/carpet/attempt_001/provenance.json",
+    "source_sha256": "08d893714fc386957f70ca52dc52c96fdccb64fd297122b3fe0cfbe72e6bfb11",
+    "published": "results/benchmarks/destseg/categories/carpet/provenance.json",
+    "published_sha256": "10781d7916081a7be4cba4d16960613eabf6edc50facdaf30e545e8db562a2fc",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/grid/attempt_001/metrics.json",
+    "source_sha256": "c5d73089192fed12c02300dc6c50c67f0f689c92ff675049d5a454fd829a59f3",
+    "published": "results/benchmarks/destseg/categories/grid/metrics.json",
+    "published_sha256": "c5d73089192fed12c02300dc6c50c67f0f689c92ff675049d5a454fd829a59f3",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/grid/attempt_001/resource_usage.json",
+    "source_sha256": "e02a6bc5c7cf74a54ce6c69970705a4bd99cd192ff1bcf87a2be937ff2192be5",
+    "published": "results/benchmarks/destseg/categories/grid/resource_usage.json",
+    "published_sha256": "e02a6bc5c7cf74a54ce6c69970705a4bd99cd192ff1bcf87a2be937ff2192be5",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/grid/attempt_001/provenance.json",
+    "source_sha256": "15f817ecc3580e8ac087f0f39c4cd140ddfcebf3fab329fd147e816af23622b6",
+    "published": "results/benchmarks/destseg/categories/grid/provenance.json",
+    "published_sha256": "c018c8ec8093737e0c36f49275ef36f75f0c888f461bcd73b7e86e2f529c0f54",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/hazelnut/attempt_001/metrics.json",
+    "source_sha256": "f912e1f8eda084997cf0fc377d44b8d4ee3f1325e00f63fea2049a288b409e02",
+    "published": "results/benchmarks/destseg/categories/hazelnut/metrics.json",
+    "published_sha256": "f912e1f8eda084997cf0fc377d44b8d4ee3f1325e00f63fea2049a288b409e02",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/hazelnut/attempt_001/resource_usage.json",
+    "source_sha256": "efc7a6e6eed00eae52a35b12c5ad570a9e6c57dbac6f697020cd37d91bb3bd26",
+    "published": "results/benchmarks/destseg/categories/hazelnut/resource_usage.json",
+    "published_sha256": "efc7a6e6eed00eae52a35b12c5ad570a9e6c57dbac6f697020cd37d91bb3bd26",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/hazelnut/attempt_001/provenance.json",
+    "source_sha256": "ce4cf44054cd0c4a7c2db312651e36ed638f82cfc5697a9c4015a5807fe87864",
+    "published": "results/benchmarks/destseg/categories/hazelnut/provenance.json",
+    "published_sha256": "d8590fd4e025bb5ad32a1f07236d556105527ba2f17b4f120a5b0c9e7a7dc5f2",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/leather/attempt_001/metrics.json",
+    "source_sha256": "c01e89ab6ea52c1e6f779b17cbd61cdcc1b834b04a43f71292c9589af9daf2c8",
+    "published": "results/benchmarks/destseg/categories/leather/metrics.json",
+    "published_sha256": "c01e89ab6ea52c1e6f779b17cbd61cdcc1b834b04a43f71292c9589af9daf2c8",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/leather/attempt_001/resource_usage.json",
+    "source_sha256": "16fb729b1c2d5f79057814151386f8b52ee0188b894b8775d2335527a63bec4c",
+    "published": "results/benchmarks/destseg/categories/leather/resource_usage.json",
+    "published_sha256": "16fb729b1c2d5f79057814151386f8b52ee0188b894b8775d2335527a63bec4c",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/leather/attempt_001/provenance.json",
+    "source_sha256": "2739d4a08d472d58cf4783732b127a04beed24eee855551a674f56305229ae45",
+    "published": "results/benchmarks/destseg/categories/leather/provenance.json",
+    "published_sha256": "6954a2b9cee0d8cd958aa1823a91061af2e4fe21ecc3053d319bf6c8ef997b16",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/metal_nut/attempt_001/metrics.json",
+    "source_sha256": "85a7ac8e1b7b1976a43c7335204fced62343d6af626fb7959edd692148125db6",
+    "published": "results/benchmarks/destseg/categories/metal_nut/metrics.json",
+    "published_sha256": "85a7ac8e1b7b1976a43c7335204fced62343d6af626fb7959edd692148125db6",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/metal_nut/attempt_001/resource_usage.json",
+    "source_sha256": "03c1dcf654eb411cee8d8b150f90fcd726df76840fdafffbbafbe5b0162c3532",
+    "published": "results/benchmarks/destseg/categories/metal_nut/resource_usage.json",
+    "published_sha256": "03c1dcf654eb411cee8d8b150f90fcd726df76840fdafffbbafbe5b0162c3532",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/metal_nut/attempt_001/provenance.json",
+    "source_sha256": "401e66d2f44e775dd84c2dc20a2c841f65054dd806cfef29767458cd93eda26e",
+    "published": "results/benchmarks/destseg/categories/metal_nut/provenance.json",
+    "published_sha256": "53ab0664d79f3d7e21ac9cc14262c7f2fb40d46e619f4e751cae933d4f669ce5",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/pill/attempt_001/metrics.json",
+    "source_sha256": "828fe6c1061f7611fa4f1dfcae80bd988d57ecde57a4ff57c614dffd7a77ea68",
+    "published": "results/benchmarks/destseg/categories/pill/metrics.json",
+    "published_sha256": "828fe6c1061f7611fa4f1dfcae80bd988d57ecde57a4ff57c614dffd7a77ea68",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/pill/attempt_001/resource_usage.json",
+    "source_sha256": "7fac108cea4787c59424a67dabd226adb31485ccb94b06d7f570b1e9ed9120d9",
+    "published": "results/benchmarks/destseg/categories/pill/resource_usage.json",
+    "published_sha256": "7fac108cea4787c59424a67dabd226adb31485ccb94b06d7f570b1e9ed9120d9",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/pill/attempt_001/provenance.json",
+    "source_sha256": "1960fa0362191a60ec88cbcfe64300101b3226fdeccd543d50dcd75ccd5c3b7a",
+    "published": "results/benchmarks/destseg/categories/pill/provenance.json",
+    "published_sha256": "b967a4996951343d759f2fa9979aa886d4c45c8390222138a00ecdd9ab1ebedb",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/screw/attempt_001/metrics.json",
+    "source_sha256": "f8bd182a80720397c76ab65cef6dea9d11d3e3badb864de9cdad59e79ad82a1d",
+    "published": "results/benchmarks/destseg/categories/screw/metrics.json",
+    "published_sha256": "f8bd182a80720397c76ab65cef6dea9d11d3e3badb864de9cdad59e79ad82a1d",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/screw/attempt_001/resource_usage.json",
+    "source_sha256": "d3d893deb065c4373ef75f7a8d63abf271623f67f693b24ffe935ebdfd60bdb0",
+    "published": "results/benchmarks/destseg/categories/screw/resource_usage.json",
+    "published_sha256": "d3d893deb065c4373ef75f7a8d63abf271623f67f693b24ffe935ebdfd60bdb0",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/screw/attempt_001/provenance.json",
+    "source_sha256": "a117bdaf920bf96070d2e1e3c37e601e7cf1ef567c8effdbf146df988e99f6e9",
+    "published": "results/benchmarks/destseg/categories/screw/provenance.json",
+    "published_sha256": "b82eea1a90fa73f9ff9d3304d0897bef03346915e45490d8b4ce660fc86e9838",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/tile/attempt_001/metrics.json",
+    "source_sha256": "a563ecd726882b6a87e7d00cb9fc64d788b570d2e379e5e4281ac392b90ea249",
+    "published": "results/benchmarks/destseg/categories/tile/metrics.json",
+    "published_sha256": "a563ecd726882b6a87e7d00cb9fc64d788b570d2e379e5e4281ac392b90ea249",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/tile/attempt_001/resource_usage.json",
+    "source_sha256": "456703c72ad6708ee9c71893f1209b5141a84c39c9db34021728a7fe67cd00c7",
+    "published": "results/benchmarks/destseg/categories/tile/resource_usage.json",
+    "published_sha256": "456703c72ad6708ee9c71893f1209b5141a84c39c9db34021728a7fe67cd00c7",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/tile/attempt_001/provenance.json",
+    "source_sha256": "1cc28c486f5147f5f9cde1e18c59e712bec2f8943ee716dc1025c67cf072eee8",
+    "published": "results/benchmarks/destseg/categories/tile/provenance.json",
+    "published_sha256": "600c0e5cff837155b735a37f2f076cce05201e1e0679b4bcbf87882b32e63c79",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/toothbrush/attempt_001/metrics.json",
+    "source_sha256": "7b75c0b35710d0401e5b80fcda2eb7009730243ffb370fd6cca3d2f5ac897c36",
+    "published": "results/benchmarks/destseg/categories/toothbrush/metrics.json",
+    "published_sha256": "7b75c0b35710d0401e5b80fcda2eb7009730243ffb370fd6cca3d2f5ac897c36",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/toothbrush/attempt_001/resource_usage.json",
+    "source_sha256": "513903a356a058583faca2e4bbcfcf8ca1e255c78b5452eb81a940cd33ec45fa",
+    "published": "results/benchmarks/destseg/categories/toothbrush/resource_usage.json",
+    "published_sha256": "513903a356a058583faca2e4bbcfcf8ca1e255c78b5452eb81a940cd33ec45fa",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/toothbrush/attempt_001/provenance.json",
+    "source_sha256": "a4059b8d43a036d10aa54b85e572f1bf5d0bf2a6a146de7deb336afa95ea57e1",
+    "published": "results/benchmarks/destseg/categories/toothbrush/provenance.json",
+    "published_sha256": "d1d4e27f55adca9e78451efb97c6911ac49396f432658888f75483e008b46790",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/transistor/attempt_001/metrics.json",
+    "source_sha256": "de348a38207fe970980bd2ef94aab17554b06eae8571ded7baae5af9d98b145f",
+    "published": "results/benchmarks/destseg/categories/transistor/metrics.json",
+    "published_sha256": "de348a38207fe970980bd2ef94aab17554b06eae8571ded7baae5af9d98b145f",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/transistor/attempt_001/resource_usage.json",
+    "source_sha256": "1c94efc00e463be73a3a897c0ff02f088fb16e3cfc729a3e2ced8b72c5ce487f",
+    "published": "results/benchmarks/destseg/categories/transistor/resource_usage.json",
+    "published_sha256": "1c94efc00e463be73a3a897c0ff02f088fb16e3cfc729a3e2ced8b72c5ce487f",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/transistor/attempt_001/provenance.json",
+    "source_sha256": "df220f5794f5ee59136baa7c9f72e83dcfd8cf4082d49702380517f53647e3b1",
+    "published": "results/benchmarks/destseg/categories/transistor/provenance.json",
+    "published_sha256": "3d3ac3c10812d04c5ccdc669e632ceb0fbd8242823021e962f1903d5f47fe29c",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/wood/attempt_001/metrics.json",
+    "source_sha256": "914064c429e4a36561608f41070c4854eb7c9c863ac4cf0c2ad8bfc187aec17f",
+    "published": "results/benchmarks/destseg/categories/wood/metrics.json",
+    "published_sha256": "914064c429e4a36561608f41070c4854eb7c9c863ac4cf0c2ad8bfc187aec17f",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/wood/attempt_001/resource_usage.json",
+    "source_sha256": "12ebd880878feb606564d4b093aacd54db2a05236543d01002253e8aef813a58",
+    "published": "results/benchmarks/destseg/categories/wood/resource_usage.json",
+    "published_sha256": "12ebd880878feb606564d4b093aacd54db2a05236543d01002253e8aef813a58",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/wood/attempt_001/provenance.json",
+    "source_sha256": "631e989db2974b240396a9396f95b93ac113df8b7f11be2ae652d61edeb02e00",
+    "published": "results/benchmarks/destseg/categories/wood/provenance.json",
+    "published_sha256": "38c6a3d4fd4b05ed19d4d7099b776f64817812b0a1fcc4bfbc75d7deccd27b74",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/zipper/attempt_001/metrics.json",
+    "source_sha256": "befcd130d37e42df67044357dbc1acf9ea37bdcd4c18417ebaed4ae6518f4ea4",
+    "published": "results/benchmarks/destseg/categories/zipper/metrics.json",
+    "published_sha256": "befcd130d37e42df67044357dbc1acf9ea37bdcd4c18417ebaed4ae6518f4ea4",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/zipper/attempt_001/resource_usage.json",
+    "source_sha256": "fe044b87e1ca9e9675526c5d89fd01adc00643c13e225e217a459fcb061ea956",
+    "published": "results/benchmarks/destseg/categories/zipper/resource_usage.json",
+    "published_sha256": "fe044b87e1ca9e9675526c5d89fd01adc00643c13e225e217a459fcb061ea956",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/destseg/zipper/attempt_001/provenance.json",
+    "source_sha256": "a6a5a0e6071d7f6d0e7e859b918021d883575cb1ee5671f28b1f6cbb70497c4d",
+    "published": "results/benchmarks/destseg/categories/zipper/provenance.json",
+    "published_sha256": "f4ebdb17512ce09f04db286a8d9b43c229795fab9a3ad2da364c010d65d9ac1e",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "compare_dfr_rd4ad_common.py",
+    "source_sha256": "42598a2185d3e1f543424a0b7e047c0b7ab6f43c9ef65b75b93d09c43fef42ef",
+    "published": "reproducibility/destseg/workspace/compare_dfr_rd4ad_common.py",
+    "published_sha256": "7b80e251840b7a83fd54cd07111f3505cb9de1a437f3814fcc9b1b3bb5b2b558",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/evaluate_destseg.py",
+    "source_sha256": "7d1ba96b39c780a688b6c1a43fb393cd40c0588da353925f31fff27009389c6d",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/final_evaluation_rdpp_destseg_20261109/evaluate_destseg.py",
+    "published_sha256": "dd4c0ba5b3bd7f9802ec33344f684cd314f25a1a658eace615fe81339a12b791",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_preparation_20261103/requirements.lock.txt",
+    "source_sha256": "99756139e054bd8a2d5e1780d574eb2aa1c649770872847f63259e3687345e08",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_preparation_20261103/requirements.lock.txt",
+    "published_sha256": "99756139e054bd8a2d5e1780d574eb2aa1c649770872847f63259e3687345e08",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_preparation_20261103/timm_python311.patch",
+    "source_sha256": "8896781be39d021ec379c1ddd48b82354cd1551f010eadb6f4d869ffe8a35a58",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_preparation_20261103/timm_python311.patch",
+    "published_sha256": "8896781be39d021ec379c1ddd48b82354cd1551f010eadb6f4d869ffe8a35a58",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_preparation_20261103/dependency_patch.json",
+    "source_sha256": "401077a9fcdef443e349def605421181195acccc4f9db05d4310fad1e32aead0",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_preparation_20261103/dependency_patch.json",
+    "published_sha256": "401077a9fcdef443e349def605421181195acccc4f9db05d4310fad1e32aead0",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/destseg_preparation_20261103/training_adapter.patch",
+    "source_sha256": "f38d0471e047c0a61475c3f0c5e9c623b01694ba6ef040dac843d9b975efc62a",
+    "published": "reproducibility/destseg/workspace/anomaly_detection/benchmark_2026/experiments/destseg_preparation_20261103/training_adapter.patch",
+    "published_sha256": "f38d0471e047c0a61475c3f0c5e9c623b01694ba6ef040dac843d9b975efc62a",
+    "transformation": "UTF-8 without BOM; local path placeholders; no numeric edits"
+  }
+]

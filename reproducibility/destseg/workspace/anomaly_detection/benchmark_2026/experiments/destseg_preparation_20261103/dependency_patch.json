@@ -1,0 +1,8 @@
+{
+  "reason": "Python3.11 rejects mutable dataclass defaults in unused MaxxVitCfg",
+  "file": "anomaly_detection\\benchmark_2026\\environments\\destseg\\Lib\\site-packages\\timm\\models\\maxxvit.py",
+  "before_sha256": "8dc7b7183eff1b20cf01773fa420f41de774c3b471791487c3523087444c2170",
+  "after_sha256": "a58eef4ef0ba4da62974a95fd70dfe3c7b23092cc71775a89a06b40bde3cd844",
+  "resnet_py_sha256_before": "56dafc57252b4db685825d7761333ccc878b2ad322ab3ad64270bdbbe46a97c5",
+  "resnet_py_sha256_after": "56dafc57252b4db685825d7761333ccc878b2ad322ab3ad64270bdbbe46a97c5"
+}

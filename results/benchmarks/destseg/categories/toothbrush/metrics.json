@@ -1,0 +1,53 @@
+{
+  "method": "DeSTSeg",
+  "dataset": "MVTec_AD",
+  "class": "toothbrush",
+  "seed": 111,
+  "track": "T1",
+  "mode": "benchmark",
+  "benchmark_result": true,
+  "positive_images": 30,
+  "negative_images": 12,
+  "mask_count": 30,
+  "common256": {
+    "image": {
+      "status": "completed",
+      "auroc": 1.0,
+      "ap": 0.9999999999999999
+    },
+    "pixel": {
+      "status": "completed",
+      "auroc": 0.9925854034382393,
+      "ap": 0.7492936612170901
+    },
+    "region": {
+      "status": "completed",
+      "aupro_0_30": 0.926726447260712,
+      "regions": 71
+    }
+  },
+  "original_mask": {
+    "image": {
+      "status": "completed",
+      "auroc": 1.0,
+      "ap": 0.9999999999999999
+    },
+    "pixel": {
+      "status": "completed",
+      "auroc": 0.9927670595545781,
+      "ap": 0.7539941416837334
+    },
+    "region": {
+      "status": "completed",
+      "aupro_0_30": 0.928041843408282,
+      "regions": 71
+    }
+  },
+  "checkpoint_sha256": "972df052684055953a1d92d4ecab8a040a4d11e055856892bc5bd2ad56e1f9b2",
+  "definitions": {
+    "image_score": "mean largest100 of bilinear256 sigmoid segmentation map",
+    "original_mask": "tensor bilinear antialias>=0.5",
+    "common_mask": "PIL nearest>0",
+    "aupro": "common exact8-connected equal-region normalized FPR0.30"
+  }
+}

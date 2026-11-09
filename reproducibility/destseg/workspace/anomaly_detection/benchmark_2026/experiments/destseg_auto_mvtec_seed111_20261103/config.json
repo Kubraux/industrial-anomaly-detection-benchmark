@@ -1,0 +1,33 @@
+{
+  "method": "DeSTSeg",
+  "commit": "f168ba576e0a917ae5e037b677e7d37b741ea3d8",
+  "seed": 111,
+  "seed_scope": "each_category",
+  "batch": 32,
+  "steps": 5000,
+  "student_steps": 1000,
+  "input": 256,
+  "workers": 0,
+  "precision": "FP32",
+  "selection": "fixed_final",
+  "categories": [
+    "capsule",
+    "metal_nut",
+    "pill",
+    "toothbrush",
+    "transistor",
+    "wood",
+    "zipper",
+    "cable",
+    "bottle",
+    "grid",
+    "hazelnut",
+    "leather",
+    "tile",
+    "carpet",
+    "screw"
+  ],
+  "max_seconds": 432000,
+  "wait_seconds": 604800,
+  "test_evaluation": false
+}

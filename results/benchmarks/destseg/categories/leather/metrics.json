@@ -1,0 +1,53 @@
+{
+  "method": "DeSTSeg",
+  "dataset": "MVTec_AD",
+  "class": "leather",
+  "seed": 111,
+  "track": "T1",
+  "mode": "benchmark",
+  "benchmark_result": true,
+  "positive_images": 92,
+  "negative_images": 32,
+  "mask_count": 92,
+  "common256": {
+    "image": {
+      "status": "completed",
+      "auroc": 1.0,
+      "ap": 1.0000000000000002
+    },
+    "pixel": {
+      "status": "completed",
+      "auroc": 0.9978732032092054,
+      "ap": 0.7688523925874597
+    },
+    "region": {
+      "status": "completed",
+      "aupro_0_30": 0.9908043250159891,
+      "regions": 99
+    }
+  },
+  "original_mask": {
+    "image": {
+      "status": "completed",
+      "auroc": 1.0,
+      "ap": 1.0000000000000002
+    },
+    "pixel": {
+      "status": "completed",
+      "auroc": 0.9978917325284251,
+      "ap": 0.7710823727381834
+    },
+    "region": {
+      "status": "completed",
+      "aupro_0_30": 0.9909160261172578,
+      "regions": 99
+    }
+  },
+  "checkpoint_sha256": "1d95a19362fe627623787be1ae35e3aa70255bb106a4442cc41cbbcc4d5cbca0",
+  "definitions": {
+    "image_score": "mean largest100 of bilinear256 sigmoid segmentation map",
+    "original_mask": "tensor bilinear antialias>=0.5",
+    "common_mask": "PIL nearest>0",
+    "aupro": "common exact8-connected equal-region normalized FPR0.30"
+  }
+}

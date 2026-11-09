@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "${PROJECT_ROOT}\anomaly_detection\benchmark_2026\experiments\destseg_auto_mvtec_seed111_20261103\queue.py", line 95, in main
+    sm=run_attempt('capsule',True);dump(R/'smoke_success.json',sm)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "${PROJECT_ROOT}\anomaly_detection\benchmark_2026\experiments\destseg_auto_mvtec_seed111_20261103\queue.py", line 54, in run_attempt
+    assert child.returncode==0,'Worker failed: '+str(attempt)
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError: Worker failed: ${PROJECT_ROOT}\anomaly_detection\benchmark_2026\experiments\destseg_auto_mvtec_seed111_20261103\smoke\capsule\attempt_001

@@ -1,0 +1,24 @@
+{
+  "commit": "f168ba576e0a917ae5e037b677e7d37b741ea3d8",
+  "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\destseg_auto_mvtec_seed111_20261103\\categories\\bottle\\attempt_001\\checkpoints\\DeSTSeg_5000_bottle.pckl",
+  "checkpoint_sha256_before": "f190df0dac1d5097b439bc29611fe548ee7e33fe19e1577de3a93e87114b2470",
+  "checkpoint_sha256_after": "f190df0dac1d5097b439bc29611fe548ee7e33fe19e1577de3a93e87114b2470",
+  "state_unchanged": true,
+  "teacher_sha256": "5c106cde386e87d4033832f2996f5493238eda96ccf559d1d62760c4de0613f8",
+  "sources": {
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\evaluate_destseg.py": "7d1ba96b39c780a688b6c1a43fb393cd40c0588da353925f31fff27009389c6d",
+    "${PROJECT_ROOT}\\compare_dfr_rd4ad_common.py": "42598a2185d3e1f543424a0b7e047c0b7ab6f43c9ef65b75b93d09c43fef42ef",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\destseg_auto_mvtec_seed111_20261103\\source\\constant.py": "5808168f388f571a4ed0742ffc78dfb717a5173cea592e402c6f2e1db73b81c5",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\destseg_auto_mvtec_seed111_20261103\\source\\eval.py": "678487fb26cd68b00fa5070d490f119b954f96696af105d677cb1d1f868c5f82",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\destseg_auto_mvtec_seed111_20261103\\source\\train.py": "8325bc169ae511735f2d88d7b15ec7664ca74a1f5aa2319665531c064cbfbda3",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\destseg_auto_mvtec_seed111_20261103\\source\\data\\data_utils.py": "148e6da4fb14f00355fc37d24faad281aef595a8b66b60fb7e3be76aff13598c",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\destseg_auto_mvtec_seed111_20261103\\source\\data\\mvtec_dataset.py": "23df3d738c24cc24b434e895cf02d35aad7ff6f5324928f1291150291aa2eeda",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\destseg_auto_mvtec_seed111_20261103\\source\\model\\destseg.py": "1aadc365ce958c2f7fc422d5d43e75db9a20ef4540b9cb00bfd92e7a28531881",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\destseg_auto_mvtec_seed111_20261103\\source\\model\\losses.py": "37a4e58368b19db689a097f96b2b7dec25b1edfed13220a3c3becfae08984745",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\destseg_auto_mvtec_seed111_20261103\\source\\model\\metrics.py": "4c429cbceb3bc36ecd80b185306e44a28cf3b9a0da1b9be11069595df22fd5d2",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\destseg_auto_mvtec_seed111_20261103\\source\\model\\model_utils.py": "95d1f47b97cda0694dabd901c760a12760534b72653c2dabff4b2e6e22e5d57d"
+  },
+  "manifest_sha256": "d33690bb5f386f6b9cde3e10a0fa713d29536820761a702a4cd6249e51018926",
+  "test_images_read": 83,
+  "validation": {}
+}

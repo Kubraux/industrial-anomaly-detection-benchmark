@@ -1,0 +1,12 @@
+{
+  "method": "destseg",
+  "categories": 15,
+  "scale": "fraction_0_1",
+  "aggregation": "equal_weight_category_macro",
+  "protocol": "common256_nearest_exact_aupro030",
+  "image_auroc": 0.9846441675978054,
+  "image_ap": 0.9950867565437641,
+  "pixel_auroc": 0.9799441335418496,
+  "pixel_ap": 0.7468470366554052,
+  "aupro_030": 0.9364159150163641
+}

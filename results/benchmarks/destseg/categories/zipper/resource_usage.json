@@ -1,0 +1,18 @@
+{
+  "model_only": {
+    "n": 151,
+    "median_ms": 15.333999879658222,
+    "p95_ms": 19.979399628937244
+  },
+  "pipeline_decode_to_export": {
+    "n": 151,
+    "median_ms": 39.726500399410725,
+    "p95_ms": 44.83185010030866
+  },
+  "scope": "batch1 FP32;3warmups; synchronized model includes interpolation/top100; pipeline includes decode through compressed prediction export; excludes GT/metrics/hashes",
+  "gpu": "NVIDIA RTX A4000",
+  "peak_allocated_bytes": 221455872,
+  "peak_reserved_bytes": 266338304,
+  "sampled_peak_ram_bytes": 1201172480,
+  "wall_seconds": 21.975163099355996
+}

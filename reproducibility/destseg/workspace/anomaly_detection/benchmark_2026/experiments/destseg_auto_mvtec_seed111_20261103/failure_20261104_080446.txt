@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "${PROJECT_ROOT}\anomaly_detection\benchmark_2026\experiments\destseg_auto_mvtec_seed111_20261103\destseg_queue.py", line 97, in main
+    assert estimated<=172800,'Pilot extrapolation exceeds48h budget'
+           ^^^^^^^^^^^^^^^^^
+AssertionError: Pilot extrapolation exceeds48h budget

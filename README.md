@@ -4,11 +4,11 @@
 
 An ongoing research project investigating how models fitted to normal industrial images detect defects, localize anomalous regions, and support useful decisions. MVTec AD is the current published benchmark; the wider agenda includes additional industrial datasets, improved localization and future defect-type classification.
 
-**14 completed method/variant studies | 15 MVTec AD categories each | 210 category-level records**
+**15 completed method/variant studies | 15 MVTec AD categories each | 225 category-level records**
 
-The [published benchmark tables](results/summary.csv) cover 14 completed method/variant studies and 210 category-level records. These are not independent repetitions. EfficientAD-S/M count as two variant studies of one method. Historical rows retain their original metrics; new records were published **9 November 2026**.
+The [published benchmark tables](results/summary.csv) cover 15 completed method/variant studies and 225 category-level records. These are not independent repetitions. EfficientAD-S/M count as two variant studies of one method. Historical rows retain their original metrics; new records were published **9 November 2026**.
 
-New source/configuration/result bundles: [EfficientAD-S/M](methods/efficientad/README.md) | [RD++](methods/rdpp/README.md).
+New source/configuration/result bundles: [EfficientAD-S/M](methods/efficientad/README.md) | [RD++](methods/rdpp/README.md) | [DeSTSeg](methods/destseg/README.md).
 
 [Methods](methods/README.md) | [Results](results/README.md) | [Visual gallery](assets/GALLERY.md) | [Literature catalog](literature/README.md)
 

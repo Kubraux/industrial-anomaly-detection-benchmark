@@ -1,0 +1,40 @@
+--- prepared/train.py
++++ queued/train.py
+@@ -6,6 +6,7 @@
+ import numpy as np
+ from pathlib import Path
+ import warnings
++import psutil
+ 
+ import torch
+ import torch.nn.functional as F
+@@ -76,6 +77,9 @@
+     )
+ 
+     teacher_before = {k:v.detach().cpu().clone() for k,v in model.teacher_net.state_dict().items()}
++    def check_gradients(module):
++        grads = [p.grad for p in module.parameters() if p.grad is not None]
++        assert grads and all(torch.isfinite(g).all() for g in grads), "missing/nonfinite gradients"
+     global_step = 0
+     started = time.perf_counter()
+ 
+@@ -118,15 +122,18 @@
+                 total_loss_val = cosine_loss_val
+                 assert torch.isfinite(total_loss_val), "nonfinite loss"
+                 total_loss_val.backward()
++                check_gradients(model.student_net)
+                 de_st_optimizer.step()
+             else:
+                 total_loss_val = focal_loss_val + l1_loss_val
+                 assert torch.isfinite(total_loss_val), "nonfinite loss"
+                 total_loss_val.backward()
++                check_gradients(model.segmentation_net)
+                 seg_optimizer.step()
+ 
++            assert psutil.Process().memory_info().rss < 16*2**30, "RAM budget exceeded"
+             global_step += 1
+-            row = {"step":global_step,"steps":args.steps,"phase":"student" if global_step<=args.de_st_steps else "segmentation","loss":float(total_loss_val.detach()),"peak_allocated_bytes":torch.cuda.max_memory_allocated(),"elapsed_seconds":time.perf_counter()-started}
++            row = {"step":global_step,"steps":args.steps,"phase":"student" if global_step<=args.de_st_steps else "segmentation","loss":float(total_loss_val.detach()),"peak_allocated_bytes":torch.cuda.max_memory_allocated(),"peak_reserved_bytes":torch.cuda.max_memory_reserved(),"rss_bytes":psutil.Process().memory_info().rss,"elapsed_seconds":time.perf_counter()-started}
+             with open(os.path.join(args.log_path,"loss_trace.jsonl"),"a",encoding="utf-8") as stream:stream.write(json.dumps(row)+"\n")
+             Path(args.log_path,"progress.json").write_text(json.dumps(row),encoding="utf-8")
+             assert row["peak_allocated_bytes"]<14*2**30,"registered VRAM budget exceeded"
