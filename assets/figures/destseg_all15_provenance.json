@@ -1,0 +1,680 @@
+{
+  "method": "DeSTSeg",
+  "commit": "f168ba576e0a917ae5e037b677e7d37b741ea3d8",
+  "categories": [
+    {
+      "category": "bottle",
+      "sample_id": "bottle/test/broken_large/000.png",
+      "image": "archive\\bottle\\test\\broken_large\\000.png",
+      "image_sha256": "11a691a06a33dd78c5fcab6a822caa48c0d72f27f660e19f5abd9b5aa392b0eb",
+      "mask": "archive\\bottle\\ground_truth\\broken_large\\000_mask.png",
+      "mask_sha256": "e0c99ed15df25c67ad48505a3c50682172d49115650b8d0bdafa687e3c48c7c5",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\bottle\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "928f13c1586b53ba1f9af2b6afe5775636c9fe8be951994818d215fc73b333a8",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\bottle\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "2dddc92a22897db81d014cec966d5c5f2892b17888e8d02e0d44186fd5ccc09a",
+      "checkpoint_sha256": "f190df0dac1d5097b439bc29611fe548ee7e33fe19e1577de3a93e87114b2470",
+      "map_min": 2.058623249467928e-05,
+      "map_max": 0.9997618794441223,
+      "image_score": 0.9996156096458435,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          110,
+          190,
+          390,
+          470
+        ],
+        [
+          410,
+          190,
+          690,
+          470
+        ],
+        [
+          710,
+          190,
+          990,
+          470
+        ]
+      ]
+    },
+    {
+      "category": "cable",
+      "sample_id": "cable/test/bent_wire/000.png",
+      "image": "archive\\cable\\test\\bent_wire\\000.png",
+      "image_sha256": "4aa2490bd1227dce17dcccba7dcd21c1297a9a858d295f114cb72c2c0f98aa06",
+      "mask": "archive\\cable\\ground_truth\\bent_wire\\000_mask.png",
+      "mask_sha256": "9812577ff9395069eff26f24e086cd13c9e44ae2b0eb42559abb358b4c1b001c",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\cable\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "ae5c328f88cb8e0c6d770b235f4e819ff0f15cd53f92597860733d276df9b5b9",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\cable\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "0e011764203244f377778ae21c2f2896de05c987468a1e5a12105b9ee5d157e3",
+      "checkpoint_sha256": "4ee10a5cb261c9e03148798bfa615f5c0564bb6417705ae4a88bdb7f23803294",
+      "map_min": 0.00010031140118371695,
+      "map_max": 0.9912819862365723,
+      "image_score": 0.9833602905273438,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          1060,
+          190,
+          1340,
+          470
+        ],
+        [
+          1360,
+          190,
+          1640,
+          470
+        ],
+        [
+          1660,
+          190,
+          1940,
+          470
+        ]
+      ]
+    },
+    {
+      "category": "capsule",
+      "sample_id": "capsule/test/crack/000.png",
+      "image": "archive\\capsule\\test\\crack\\000.png",
+      "image_sha256": "6462a533da731a19e4df05fc1815719b94603aee341a2ac620add75ec2334ef4",
+      "mask": "archive\\capsule\\ground_truth\\crack\\000_mask.png",
+      "mask_sha256": "650a3bca9dda64b435441238a0d0fd6e4db4ec3cd74f25a5c152e6a2333beb2d",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\capsule\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "8391c83f82089369d2e6bfb61086c83653f3dfc30f027b0f4fc5008a3e8984a4",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\capsule\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "ac73dc9cf7ad6ccdd5428d0afa9eca7241fa7a09decac6714bee3de4e454ce11",
+      "checkpoint_sha256": "23a2ff1d53eb1d342745ef10a7b9361c0d0db7598ab683da42120c60dd95e47e",
+      "map_min": 3.005646703968523e-06,
+      "map_max": 0.3324793875217438,
+      "image_score": 0.18796290457248688,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          2010,
+          190,
+          2290,
+          470
+        ],
+        [
+          2310,
+          190,
+          2590,
+          470
+        ],
+        [
+          2610,
+          190,
+          2890,
+          470
+        ]
+      ]
+    },
+    {
+      "category": "carpet",
+      "sample_id": "carpet/test/color/000.png",
+      "image": "archive\\carpet\\test\\color\\000.png",
+      "image_sha256": "12dff41957a900a38a9def83edbea55006c9190109678fc29b0d96b546ecae28",
+      "mask": "archive\\carpet\\ground_truth\\color\\000_mask.png",
+      "mask_sha256": "dddfe66b56bd36a64f996b0e29173cb22bc8d73f4c50249a32da84c9e9e8e06c",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\carpet\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "44e97d6ab1447952015c309d0d462954f270ede0721f46da9b20529488e340c2",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\carpet\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "704e4598f50e1d8df8d27a906a38be9c8a89805ff4681023118a60b7a1f5f719",
+      "checkpoint_sha256": "fd43be74a6555a207d4e430ca614ab8f4c296382ae8eb8baee6c08de2d1c96e1",
+      "map_min": 1.5432457303177216e-06,
+      "map_max": 0.9999982714653015,
+      "image_score": 0.9999976754188538,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          110,
+          560,
+          390,
+          840
+        ],
+        [
+          410,
+          560,
+          690,
+          840
+        ],
+        [
+          710,
+          560,
+          990,
+          840
+        ]
+      ]
+    },
+    {
+      "category": "grid",
+      "sample_id": "grid/test/bent/000.png",
+      "image": "archive\\grid\\test\\bent\\000.png",
+      "image_sha256": "20a158b8868f08156ea79cabd42b1ff174b2d69adbe08b2f46737a851847e8bc",
+      "mask": "archive\\grid\\ground_truth\\bent\\000_mask.png",
+      "mask_sha256": "9fed5beddf20ccb0bfa75a93e7744435dc52c1cd3ffe5fb9cdcdabe9aea560b1",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\grid\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "51c501d2afa63f058f2280e3e7a29184ab40f2ecb1ec5d73dc6f03de299aebdf",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\grid\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "d9c61eaf8adf0bfc81fee1e87d6fc4db421d645a29a3fda65d7b4805cce20939",
+      "checkpoint_sha256": "defbba51e9b4a69a447166df799f0e0d82ab7295b29dd6e8c24da7f26fa8f8fb",
+      "map_min": 2.61747823060432e-06,
+      "map_max": 0.9964948296546936,
+      "image_score": 0.9571854472160339,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          1060,
+          560,
+          1340,
+          840
+        ],
+        [
+          1360,
+          560,
+          1640,
+          840
+        ],
+        [
+          1660,
+          560,
+          1940,
+          840
+        ]
+      ]
+    },
+    {
+      "category": "hazelnut",
+      "sample_id": "hazelnut/test/crack/000.png",
+      "image": "archive\\hazelnut\\test\\crack\\000.png",
+      "image_sha256": "e26b54282b6b11286760905ca2880af594561b606dfa0643859d6ee6027cf8c2",
+      "mask": "archive\\hazelnut\\ground_truth\\crack\\000_mask.png",
+      "mask_sha256": "299566b57b84b9d466f4f7f50a8210e0bd0ff2a4ac5922f456d00cd9169cfbb4",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\hazelnut\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "8d9522b40f5f66fe7b72255c27c59f64c9386ddfb5a9030732506f58865fe585",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\hazelnut\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "ea16fe8f20b2d77f8e2e69ea8230ce2371c9abf4e2dc6754d114386eb25c8a38",
+      "checkpoint_sha256": "696965506a4730b67fd33fff0fda8bd201288fd3965fd3b2dea7baf4b587038e",
+      "map_min": 5.053024324297439e-06,
+      "map_max": 0.9930789470672607,
+      "image_score": 0.9864363074302673,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          2010,
+          560,
+          2290,
+          840
+        ],
+        [
+          2310,
+          560,
+          2590,
+          840
+        ],
+        [
+          2610,
+          560,
+          2890,
+          840
+        ]
+      ]
+    },
+    {
+      "category": "leather",
+      "sample_id": "leather/test/color/000.png",
+      "image": "archive\\leather\\test\\color\\000.png",
+      "image_sha256": "c0bc61600c97dede10e577255c6d40c66412b8350b830582a3e128c3a868a34e",
+      "mask": "archive\\leather\\ground_truth\\color\\000_mask.png",
+      "mask_sha256": "5570104ea53cb0fdf4127f206524e0938dc84e4e452dd2a9f1bf6bad40a653f0",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\leather\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "0061f11d6ebad185cf8100eceb976b73dadb8c61deb6bccde12a557be61b7594",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\leather\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "4301094eddf416cedafc3c73484f12d95679c68bb4b4e07a846c8dbfb5f612fa",
+      "checkpoint_sha256": "1d95a19362fe627623787be1ae35e3aa70255bb106a4442cc41cbbcc4d5cbca0",
+      "map_min": 1.8762597392196767e-05,
+      "map_max": 0.999747097492218,
+      "image_score": 0.9983090162277222,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          110,
+          930,
+          390,
+          1210
+        ],
+        [
+          410,
+          930,
+          690,
+          1210
+        ],
+        [
+          710,
+          930,
+          990,
+          1210
+        ]
+      ]
+    },
+    {
+      "category": "metal_nut",
+      "sample_id": "metal_nut/test/bent/000.png",
+      "image": "archive\\metal_nut\\test\\bent\\000.png",
+      "image_sha256": "602cceb099d5aa10a416f31cd6370ef9d8c810118f4ada9dbc9c28e91a889e0b",
+      "mask": "archive\\metal_nut\\ground_truth\\bent\\000_mask.png",
+      "mask_sha256": "2ba625f7fa1357d3d31b84c39f38b5a2ddc546d751f3186388d0b7a4be150938",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\metal_nut\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "7d62abd5a724425227fc53939f33233fa3c8a6900107f50e383ba06e7dfd5fe6",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\metal_nut\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "2d2246cace609060ed4bda1ebc9a4a8c0c7fdf7f5f73a11e61138426a8094afc",
+      "checkpoint_sha256": "cfda48635e053c6bc3a113490a293ae3bc2de8b8aa75dcc5c08a8e7b5869b644",
+      "map_min": 3.218145138816908e-05,
+      "map_max": 0.9998559355735779,
+      "image_score": 0.999780535697937,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          1060,
+          930,
+          1340,
+          1210
+        ],
+        [
+          1360,
+          930,
+          1640,
+          1210
+        ],
+        [
+          1660,
+          930,
+          1940,
+          1210
+        ]
+      ]
+    },
+    {
+      "category": "pill",
+      "sample_id": "pill/test/color/000.png",
+      "image": "archive\\pill\\test\\color\\000.png",
+      "image_sha256": "d3f975073a5fde118e8848e495370c32c714f58870127537e74bb8b9a32ef74c",
+      "mask": "archive\\pill\\ground_truth\\color\\000_mask.png",
+      "mask_sha256": "4b987232ba22f83865db68b82ca9b484fe62eabfaca0d7fab9159d913160c277",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\pill\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "a6c101a5ff364c713979842afb0f6a2a0273db263e3b301e497acdf9cd7af121",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\pill\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "85a38ddad93eebe3a71fcfaa346584980710db5c930e81284f3c115faa45d837",
+      "checkpoint_sha256": "5758f9bb941d1df9d5bca41b004460c58575372ae55fdfe93a03769b31f196c7",
+      "map_min": 1.8248995274916524e-06,
+      "map_max": 0.24122515320777893,
+      "image_score": 0.07442748546600342,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          2010,
+          930,
+          2290,
+          1210
+        ],
+        [
+          2310,
+          930,
+          2590,
+          1210
+        ],
+        [
+          2610,
+          930,
+          2890,
+          1210
+        ]
+      ]
+    },
+    {
+      "category": "screw",
+      "sample_id": "screw/test/manipulated_front/000.png",
+      "image": "archive\\screw\\test\\manipulated_front\\000.png",
+      "image_sha256": "e9bdcdd0ef90d82b13a97a0b6b2ab0e0bf0c894408a9bc4dbb8c4b6503186eab",
+      "mask": "archive\\screw\\ground_truth\\manipulated_front\\000_mask.png",
+      "mask_sha256": "46db61f53968c876a733697fdaa33f7ef8f8a2913c09a38df93ef2089a6bcc0e",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\screw\\attempt_001\\0041_prediction.npz",
+      "prediction_sha256": "1a8491668c525cbe4ac237f2787feb0f07a4cc505fdf5e862306521eff6c8a64",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\screw\\attempt_001\\0041_masks.npz",
+      "saved_masks_sha256": "499a7d096682d3994c52dbc4420395dad8dedde474f5c4986ceda0e5ab24ef0b",
+      "checkpoint_sha256": "0e0a5e12a6a7fb5723d4031088652ae8ffe55338e08f5fca5e8caac37d2ceea5",
+      "map_min": 2.432399742247071e-05,
+      "map_max": 0.7324489951133728,
+      "image_score": 0.4232887923717499,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          110,
+          1300,
+          390,
+          1580
+        ],
+        [
+          410,
+          1300,
+          690,
+          1580
+        ],
+        [
+          710,
+          1300,
+          990,
+          1580
+        ]
+      ]
+    },
+    {
+      "category": "tile",
+      "sample_id": "tile/test/crack/000.png",
+      "image": "archive\\tile\\test\\crack\\000.png",
+      "image_sha256": "d10be1f6ec065f83d54c03b4093d7d87dfcc77617d8eb0df9f5a053aece4becf",
+      "mask": "archive\\tile\\ground_truth\\crack\\000_mask.png",
+      "mask_sha256": "13ac4973d2f68bc6d0c2876c84dff08e876485d0bc601382880c7dbdcf1debe8",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\tile\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "40554e0b4b5d095120435e41db775e6c7085f16ff088359136ad067930648a0b",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\tile\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "d7732b19063f8a03d80a0a3998b8e0b1f96ed8a3704d336a1ecd648746d40d09",
+      "checkpoint_sha256": "04a991a16c7be68514238e78898a26e336ab7ca359a37be0973d457b026db597",
+      "map_min": 1.6789925211924128e-05,
+      "map_max": 0.9842860698699951,
+      "image_score": 0.9479052424430847,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          1060,
+          1300,
+          1340,
+          1580
+        ],
+        [
+          1360,
+          1300,
+          1640,
+          1580
+        ],
+        [
+          1660,
+          1300,
+          1940,
+          1580
+        ]
+      ]
+    },
+    {
+      "category": "toothbrush",
+      "sample_id": "toothbrush/test/defective/000.png",
+      "image": "archive\\toothbrush\\test\\defective\\000.png",
+      "image_sha256": "6f651596d895298aa517226aa998bb407f052d9b3f6617ea3c086d2f8dfd635b",
+      "mask": "archive\\toothbrush\\ground_truth\\defective\\000_mask.png",
+      "mask_sha256": "8a7cd1b0ec6cbfd50633f920af56e454545ebcd92b54a0cc6400d95e3de3ed4a",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\toothbrush\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "41fc67c2fa34646e6678fcb12afa97993d1a6b188894f23ea0223feb63ebc394",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\toothbrush\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "8b8ab5b20bcc8a57b5abe08a6e4b3021b6b23249422138b039f6f13732d648b9",
+      "checkpoint_sha256": "972df052684055953a1d92d4ecab8a040a4d11e055856892bc5bd2ad56e1f9b2",
+      "map_min": 2.3310094547923654e-05,
+      "map_max": 0.9971997737884521,
+      "image_score": 0.9957621693611145,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          2010,
+          1300,
+          2290,
+          1580
+        ],
+        [
+          2310,
+          1300,
+          2590,
+          1580
+        ],
+        [
+          2610,
+          1300,
+          2890,
+          1580
+        ]
+      ]
+    },
+    {
+      "category": "transistor",
+      "sample_id": "transistor/test/bent_lead/000.png",
+      "image": "archive\\transistor\\test\\bent_lead\\000.png",
+      "image_sha256": "82bf661fb868a80558fc45f4fc356c96888bf26827005a57aea6aa707e13483a",
+      "mask": "archive\\transistor\\ground_truth\\bent_lead\\000_mask.png",
+      "mask_sha256": "01373cc4717936b4815c23312e159f591cc41d5a245ec9ee8c47baa4ff321ac6",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\transistor\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "24dfa47272e0202a228f3801859ca41a1d94fb52a6e716a63d85d75741021b23",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\transistor\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "69bbd3ca13e7ac76242bef49bdfc60edba15ec6dc762fcad93efdf035047cbeb",
+      "checkpoint_sha256": "35215b7b4409678c723f24d5c0657352dbfd030f3b60c6054df342d49c6abdeb",
+      "map_min": 7.151912541303318e-06,
+      "map_max": 0.9987834692001343,
+      "image_score": 0.9947344660758972,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          110,
+          1670,
+          390,
+          1950
+        ],
+        [
+          410,
+          1670,
+          690,
+          1950
+        ],
+        [
+          710,
+          1670,
+          990,
+          1950
+        ]
+      ]
+    },
+    {
+      "category": "wood",
+      "sample_id": "wood/test/color/000.png",
+      "image": "archive\\wood\\test\\color\\000.png",
+      "image_sha256": "ff5173b6d04d3b94a7d08faa35fba597f60ba466d52e2a0d91773fd334766aa9",
+      "mask": "archive\\wood\\ground_truth\\color\\000_mask.png",
+      "mask_sha256": "b2013b51dce0aff907871d3a3c2f80aac647fe04faa1d9f68b52d96804de0e2a",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\wood\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "da0520fffbeaa349e8af078de61fdcce434fd99ce3906bb92526be05a9160650",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\wood\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "4a38d3fc6ae56bb2ff9fd4da4493edd3ae9c3fb1b8a2b740138e934fe2a52356",
+      "checkpoint_sha256": "4ae966d6838fc86cb36280e2ea8a6110aaf025aaf05396f352b451d27ac3bcef",
+      "map_min": 1.4191732589097228e-05,
+      "map_max": 0.9976173043251038,
+      "image_score": 0.9796085953712463,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          1060,
+          1670,
+          1340,
+          1950
+        ],
+        [
+          1360,
+          1670,
+          1640,
+          1950
+        ],
+        [
+          1660,
+          1670,
+          1940,
+          1950
+        ]
+      ]
+    },
+    {
+      "category": "zipper",
+      "sample_id": "zipper/test/broken_teeth/000.png",
+      "image": "archive\\zipper\\test\\broken_teeth\\000.png",
+      "image_sha256": "a4e1c5a988d05432b59e3ffadfab2dd643503740232b8d8ce48d9c9bf58d7606",
+      "mask": "archive\\zipper\\ground_truth\\broken_teeth\\000_mask.png",
+      "mask_sha256": "b2d054440f8a21a8998a0da2f9d25fb403fd25f640f543184e9f9a4461ce1370",
+      "prediction": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\zipper\\attempt_001\\0000_prediction.npz",
+      "prediction_sha256": "cd9623e57a13080306228f401279b2bd79ba5fe9f95e51ea93415b82da61e651",
+      "saved_masks": "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\zipper\\attempt_001\\0000_masks.npz",
+      "saved_masks_sha256": "83fa54261a339d92fdab07be1fc74dcbd1ca595e7e1aa84eaac64d39a2877b3f",
+      "checkpoint_sha256": "325fe2209d335f767f1cf662eff8f6e1d3098ce735be0e51e94b2844595fb508",
+      "map_min": 1.078559216693975e-05,
+      "map_max": 0.9945806860923767,
+      "image_score": 0.991737961769104,
+      "display": "inferno fixed [0,1]; no per-image normalization",
+      "gt": "saved common_nearest256",
+      "panel_rectangles": [
+        [
+          2010,
+          1670,
+          2290,
+          1950
+        ],
+        [
+          2310,
+          1670,
+          2590,
+          1950
+        ],
+        [
+          2610,
+          1670,
+          2890,
+          1950
+        ]
+      ]
+    }
+  ],
+  "input_hashes": {
+    "INDUSTRIAL_ANOMALY_BENCHMARK_PROTOCOL.md": "bb4aad47c994cb1d90f8f6527285cf6deec46a5fb7551a2ec6d0c26cfcd463fc",
+    "anomaly_detection\\benchmark_2026\\experiments\\destseg_all15_visualization_20261109\\plan.md": "a205e671797cef22217392e7228ec308c9f404c03f44eee3cb07c352ff5038a0",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\bottle\\attempt_001\\per_image.json": "d33690bb5f386f6b9cde3e10a0fa713d29536820761a702a4cd6249e51018926",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\cable\\attempt_001\\per_image.json": "1168c33344d644a18d71c5576ef9c12d7f9f96c3cfe5c7ddd0cb6aadb74126f6",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\capsule\\attempt_001\\per_image.json": "73f11ba84f993ff86690844a6a7ca9096e8b0b4d1bbee3b19517875753bba355",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\carpet\\attempt_001\\per_image.json": "dcc488fd1ac3765ed44dea552fa0fa55db7c994489f6cb092206714faf8b7f0c",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\grid\\attempt_001\\per_image.json": "8d2303e9b1972d1010987e4128fc777fbf9ed2d5d3afd5d2347674e69da109d8",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\hazelnut\\attempt_001\\per_image.json": "35051bde89d2d0cf68116c8ff5776b1c818ee65df1a0b9e323fd2a5f015176f4",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\leather\\attempt_001\\per_image.json": "ca77f9de3f5433217ad36597bf2d9819e0440771c11a471875837d8eaf99ed8b",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\metal_nut\\attempt_001\\per_image.json": "2368e0a9da6b853c6d72ed860b00e4209a5e37a4aa80bbe0b2630d258d6ea4f7",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\pill\\attempt_001\\per_image.json": "e3ad99e952583938d4626c8f3d03611ce98ec73728dcaa049c189e458816c88d",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\screw\\attempt_001\\per_image.json": "2996135e788cd11287192f275cc03696d2b3fca44788f7fe1449a0de2df36279",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\tile\\attempt_001\\per_image.json": "f393c320d5cdee69fa626d0502338840b9a2e01211378d0d13730a57f2a7d9b7",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\toothbrush\\attempt_001\\per_image.json": "51b496ef8aa28fc77bd90f4a4d482b80f7e38989a4549659c490d44b2c25aad5",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\transistor\\attempt_001\\per_image.json": "052927b5ccddea0f363b50c675a1ab57092708ad446fe3db1ade47df7c6ed712",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\wood\\attempt_001\\per_image.json": "306298800e301350bb950520e22b0019b24a195760efa475c8f1d89f7085c92e",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\zipper\\attempt_001\\per_image.json": "02bbbd62989e090af24be0e33921c9dc13398d82874280679805270e11fd4750",
+    "archive\\bottle\\test\\broken_large\\000.png": "11a691a06a33dd78c5fcab6a822caa48c0d72f27f660e19f5abd9b5aa392b0eb",
+    "archive\\bottle\\ground_truth\\broken_large\\000_mask.png": "e0c99ed15df25c67ad48505a3c50682172d49115650b8d0bdafa687e3c48c7c5",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\bottle\\attempt_001\\0000_prediction.npz": "928f13c1586b53ba1f9af2b6afe5775636c9fe8be951994818d215fc73b333a8",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\bottle\\attempt_001\\0000_masks.npz": "2dddc92a22897db81d014cec966d5c5f2892b17888e8d02e0d44186fd5ccc09a",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\bottle\\attempt_001\\provenance.json": "44dce3d3673cc19e57442172833b8a50c6a204b07bb5115429076bc224443266",
+    "archive\\cable\\test\\bent_wire\\000.png": "4aa2490bd1227dce17dcccba7dcd21c1297a9a858d295f114cb72c2c0f98aa06",
+    "archive\\cable\\ground_truth\\bent_wire\\000_mask.png": "9812577ff9395069eff26f24e086cd13c9e44ae2b0eb42559abb358b4c1b001c",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\cable\\attempt_001\\0000_prediction.npz": "ae5c328f88cb8e0c6d770b235f4e819ff0f15cd53f92597860733d276df9b5b9",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\cable\\attempt_001\\0000_masks.npz": "0e011764203244f377778ae21c2f2896de05c987468a1e5a12105b9ee5d157e3",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\cable\\attempt_001\\provenance.json": "4ddad0a910295b9abafd11cffa7c795a61d32506cf2b5949a75cc68de92727b3",
+    "archive\\capsule\\test\\crack\\000.png": "6462a533da731a19e4df05fc1815719b94603aee341a2ac620add75ec2334ef4",
+    "archive\\capsule\\ground_truth\\crack\\000_mask.png": "650a3bca9dda64b435441238a0d0fd6e4db4ec3cd74f25a5c152e6a2333beb2d",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\capsule\\attempt_001\\0000_prediction.npz": "8391c83f82089369d2e6bfb61086c83653f3dfc30f027b0f4fc5008a3e8984a4",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\capsule\\attempt_001\\0000_masks.npz": "ac73dc9cf7ad6ccdd5428d0afa9eca7241fa7a09decac6714bee3de4e454ce11",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\capsule\\attempt_001\\provenance.json": "6c3e4e5e98c47e230dd6faaa25b3b61b3834d3b3d849e23f6afecff2ed41ab89",
+    "archive\\carpet\\test\\color\\000.png": "12dff41957a900a38a9def83edbea55006c9190109678fc29b0d96b546ecae28",
+    "archive\\carpet\\ground_truth\\color\\000_mask.png": "dddfe66b56bd36a64f996b0e29173cb22bc8d73f4c50249a32da84c9e9e8e06c",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\carpet\\attempt_001\\0000_prediction.npz": "44e97d6ab1447952015c309d0d462954f270ede0721f46da9b20529488e340c2",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\carpet\\attempt_001\\0000_masks.npz": "704e4598f50e1d8df8d27a906a38be9c8a89805ff4681023118a60b7a1f5f719",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\carpet\\attempt_001\\provenance.json": "08d893714fc386957f70ca52dc52c96fdccb64fd297122b3fe0cfbe72e6bfb11",
+    "archive\\grid\\test\\bent\\000.png": "20a158b8868f08156ea79cabd42b1ff174b2d69adbe08b2f46737a851847e8bc",
+    "archive\\grid\\ground_truth\\bent\\000_mask.png": "9fed5beddf20ccb0bfa75a93e7744435dc52c1cd3ffe5fb9cdcdabe9aea560b1",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\grid\\attempt_001\\0000_prediction.npz": "51c501d2afa63f058f2280e3e7a29184ab40f2ecb1ec5d73dc6f03de299aebdf",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\grid\\attempt_001\\0000_masks.npz": "d9c61eaf8adf0bfc81fee1e87d6fc4db421d645a29a3fda65d7b4805cce20939",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\grid\\attempt_001\\provenance.json": "15f817ecc3580e8ac087f0f39c4cd140ddfcebf3fab329fd147e816af23622b6",
+    "archive\\hazelnut\\test\\crack\\000.png": "e26b54282b6b11286760905ca2880af594561b606dfa0643859d6ee6027cf8c2",
+    "archive\\hazelnut\\ground_truth\\crack\\000_mask.png": "299566b57b84b9d466f4f7f50a8210e0bd0ff2a4ac5922f456d00cd9169cfbb4",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\hazelnut\\attempt_001\\0000_prediction.npz": "8d9522b40f5f66fe7b72255c27c59f64c9386ddfb5a9030732506f58865fe585",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\hazelnut\\attempt_001\\0000_masks.npz": "ea16fe8f20b2d77f8e2e69ea8230ce2371c9abf4e2dc6754d114386eb25c8a38",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\hazelnut\\attempt_001\\provenance.json": "ce4cf44054cd0c4a7c2db312651e36ed638f82cfc5697a9c4015a5807fe87864",
+    "archive\\leather\\test\\color\\000.png": "c0bc61600c97dede10e577255c6d40c66412b8350b830582a3e128c3a868a34e",
+    "archive\\leather\\ground_truth\\color\\000_mask.png": "5570104ea53cb0fdf4127f206524e0938dc84e4e452dd2a9f1bf6bad40a653f0",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\leather\\attempt_001\\0000_prediction.npz": "0061f11d6ebad185cf8100eceb976b73dadb8c61deb6bccde12a557be61b7594",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\leather\\attempt_001\\0000_masks.npz": "4301094eddf416cedafc3c73484f12d95679c68bb4b4e07a846c8dbfb5f612fa",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\leather\\attempt_001\\provenance.json": "2739d4a08d472d58cf4783732b127a04beed24eee855551a674f56305229ae45",
+    "archive\\metal_nut\\test\\bent\\000.png": "602cceb099d5aa10a416f31cd6370ef9d8c810118f4ada9dbc9c28e91a889e0b",
+    "archive\\metal_nut\\ground_truth\\bent\\000_mask.png": "2ba625f7fa1357d3d31b84c39f38b5a2ddc546d751f3186388d0b7a4be150938",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\metal_nut\\attempt_001\\0000_prediction.npz": "7d62abd5a724425227fc53939f33233fa3c8a6900107f50e383ba06e7dfd5fe6",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\metal_nut\\attempt_001\\0000_masks.npz": "2d2246cace609060ed4bda1ebc9a4a8c0c7fdf7f5f73a11e61138426a8094afc",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\metal_nut\\attempt_001\\provenance.json": "401e66d2f44e775dd84c2dc20a2c841f65054dd806cfef29767458cd93eda26e",
+    "archive\\pill\\test\\color\\000.png": "d3f975073a5fde118e8848e495370c32c714f58870127537e74bb8b9a32ef74c",
+    "archive\\pill\\ground_truth\\color\\000_mask.png": "4b987232ba22f83865db68b82ca9b484fe62eabfaca0d7fab9159d913160c277",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\pill\\attempt_001\\0000_prediction.npz": "a6c101a5ff364c713979842afb0f6a2a0273db263e3b301e497acdf9cd7af121",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\pill\\attempt_001\\0000_masks.npz": "85a38ddad93eebe3a71fcfaa346584980710db5c930e81284f3c115faa45d837",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\pill\\attempt_001\\provenance.json": "1960fa0362191a60ec88cbcfe64300101b3226fdeccd543d50dcd75ccd5c3b7a",
+    "archive\\screw\\test\\manipulated_front\\000.png": "e9bdcdd0ef90d82b13a97a0b6b2ab0e0bf0c894408a9bc4dbb8c4b6503186eab",
+    "archive\\screw\\ground_truth\\manipulated_front\\000_mask.png": "46db61f53968c876a733697fdaa33f7ef8f8a2913c09a38df93ef2089a6bcc0e",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\screw\\attempt_001\\0041_prediction.npz": "1a8491668c525cbe4ac237f2787feb0f07a4cc505fdf5e862306521eff6c8a64",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\screw\\attempt_001\\0041_masks.npz": "499a7d096682d3994c52dbc4420395dad8dedde474f5c4986ceda0e5ab24ef0b",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\screw\\attempt_001\\provenance.json": "a117bdaf920bf96070d2e1e3c37e601e7cf1ef567c8effdbf146df988e99f6e9",
+    "archive\\tile\\test\\crack\\000.png": "d10be1f6ec065f83d54c03b4093d7d87dfcc77617d8eb0df9f5a053aece4becf",
+    "archive\\tile\\ground_truth\\crack\\000_mask.png": "13ac4973d2f68bc6d0c2876c84dff08e876485d0bc601382880c7dbdcf1debe8",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\tile\\attempt_001\\0000_prediction.npz": "40554e0b4b5d095120435e41db775e6c7085f16ff088359136ad067930648a0b",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\tile\\attempt_001\\0000_masks.npz": "d7732b19063f8a03d80a0a3998b8e0b1f96ed8a3704d336a1ecd648746d40d09",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\tile\\attempt_001\\provenance.json": "1cc28c486f5147f5f9cde1e18c59e712bec2f8943ee716dc1025c67cf072eee8",
+    "archive\\toothbrush\\test\\defective\\000.png": "6f651596d895298aa517226aa998bb407f052d9b3f6617ea3c086d2f8dfd635b",
+    "archive\\toothbrush\\ground_truth\\defective\\000_mask.png": "8a7cd1b0ec6cbfd50633f920af56e454545ebcd92b54a0cc6400d95e3de3ed4a",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\toothbrush\\attempt_001\\0000_prediction.npz": "41fc67c2fa34646e6678fcb12afa97993d1a6b188894f23ea0223feb63ebc394",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\toothbrush\\attempt_001\\0000_masks.npz": "8b8ab5b20bcc8a57b5abe08a6e4b3021b6b23249422138b039f6f13732d648b9",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\toothbrush\\attempt_001\\provenance.json": "a4059b8d43a036d10aa54b85e572f1bf5d0bf2a6a146de7deb336afa95ea57e1",
+    "archive\\transistor\\test\\bent_lead\\000.png": "82bf661fb868a80558fc45f4fc356c96888bf26827005a57aea6aa707e13483a",
+    "archive\\transistor\\ground_truth\\bent_lead\\000_mask.png": "01373cc4717936b4815c23312e159f591cc41d5a245ec9ee8c47baa4ff321ac6",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\transistor\\attempt_001\\0000_prediction.npz": "24dfa47272e0202a228f3801859ca41a1d94fb52a6e716a63d85d75741021b23",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\transistor\\attempt_001\\0000_masks.npz": "69bbd3ca13e7ac76242bef49bdfc60edba15ec6dc762fcad93efdf035047cbeb",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\transistor\\attempt_001\\provenance.json": "df220f5794f5ee59136baa7c9f72e83dcfd8cf4082d49702380517f53647e3b1",
+    "archive\\wood\\test\\color\\000.png": "ff5173b6d04d3b94a7d08faa35fba597f60ba466d52e2a0d91773fd334766aa9",
+    "archive\\wood\\ground_truth\\color\\000_mask.png": "b2013b51dce0aff907871d3a3c2f80aac647fe04faa1d9f68b52d96804de0e2a",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\wood\\attempt_001\\0000_prediction.npz": "da0520fffbeaa349e8af078de61fdcce434fd99ce3906bb92526be05a9160650",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\wood\\attempt_001\\0000_masks.npz": "4a38d3fc6ae56bb2ff9fd4da4493edd3ae9c3fb1b8a2b740138e934fe2a52356",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\wood\\attempt_001\\provenance.json": "631e989db2974b240396a9396f95b93ac113df8b7f11be2ae652d61edeb02e00",
+    "archive\\zipper\\test\\broken_teeth\\000.png": "a4e1c5a988d05432b59e3ffadfab2dd643503740232b8d8ce48d9c9bf58d7606",
+    "archive\\zipper\\ground_truth\\broken_teeth\\000_mask.png": "b2d054440f8a21a8998a0da2f9d25fb403fd25f640f543184e9f9a4461ce1370",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\zipper\\attempt_001\\0000_prediction.npz": "cd9623e57a13080306228f401279b2bd79ba5fe9f95e51ea93415b82da61e651",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\zipper\\attempt_001\\0000_masks.npz": "83fa54261a339d92fdab07be1fc74dcbd1ca595e7e1aa84eaac64d39a2877b3f",
+    "anomaly_detection\\benchmark_2026\\experiments\\final_evaluation_rdpp_destseg_20261109\\destseg\\zipper\\attempt_001\\provenance.json": "a6a5a0e6071d7f6d0e7e859b918021d883575cb1ee5671f28b1f6cbb70497c4d"
+  },
+  "source_preservation": "passed",
+  "alignment": "passed all15",
+  "inference_run": false,
+  "metrics_recomputed": false,
+  "outputs": {
+    "destseg_all15.png": "faedcb756ec32392e2d4607a08b814ae5014fc9da7a10e9559a4628bafa04e0c",
+    "destseg_all15.pdf": "17cc9ebc28afb4a59c13833a32d1fa2def6c9f2a03f68d6f9bc2ab6a82bfbe22",
+    "destseg_all15_preview.png": "4641ba57f28f202c4d79b3e869ba495e412f5aa7bec1aae7689d6423f74ab59b",
+    "destseg_all15_sources.csv": "a2ca3e93fe6bdccce7070900c6f2f39d2c5fdc5679a5ffa30dcc3eaea7bf61d3"
+  }
+}

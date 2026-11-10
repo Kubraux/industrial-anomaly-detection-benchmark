@@ -14,7 +14,7 @@ New configuration/result records: [EfficientAD-S/M](methods/efficientad/README.m
 
 ## Qualitative overviews
 
-Recorded input / ground truth / anomaly maps across all 15 MVTec AD categories. SuperSimpleNet, EfficientAD-S and SimpleNet use the first sorted defective sample per category; DRAEM retains its pre-score random samples (seed 1024). These examples illustrate coverage, not average performance. Differences in samples, preprocessing and map scales prevent a controlled cross-method comparison. [Selection, rendering and MVTec AD attribution](assets/README.md).
+Recorded input / ground truth / anomaly maps across all 15 MVTec AD categories. SuperSimpleNet, EfficientAD-S, SimpleNet, DeSTSeg and MSFlow use the first sorted defective sample per category; DRAEM retains its pre-score random samples (seed 1024). These examples illustrate coverage, not average performance. Differences in samples, preprocessing and map scales prevent a controlled cross-method comparison. [Selection, rendering and MVTec AD attribution](assets/README.md).
 
 <p align="center">
   <img src="assets/figures/supersimplenet_all15.png" alt="SuperSimpleNet: recorded input, ground truth and anomaly map for all 15 MVTec AD categories" width="800">
@@ -39,6 +39,18 @@ Recorded input / ground truth / anomaly maps across all 15 MVTec AD categories. 
 </p>
 
 *DRAEM. Original fixed anomaly-probability scale [0, 1]. [Full resolution](assets/figures/draem_all15.png).*
+
+<p align="center">
+  <img src="assets/figures/destseg_all15.png" alt="DeSTSeg: input, ground truth and anomaly maps across all15 MVTec AD categories" width="800">
+</p>
+
+*DeSTSeg. fixed0–1; common256 ground truth. [Full PNG](assets/figures/destseg_all15.png) · [PDF](assets/figures/destseg_all15.pdf).*
+
+<p align="center">
+  <img src="assets/figures/msflow_all15.png" alt="MSFlow: input, ground truth and anomaly maps across all15 MVTec AD categories" width="800">
+</p>
+
+*MSFlow. additive fixed0–3; native model512/256 ground truth. [Full PNG](assets/figures/msflow_all15.png) · [PDF](assets/figures/msflow_all15.pdf).*
 
 ## Methods and benchmarking
 

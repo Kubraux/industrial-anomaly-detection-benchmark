@@ -33,3 +33,18 @@ Missing evidence: no final-run qualitative image artifact was found for Skip-GAN
 Both use the SuperSimpleNet overview's 3000×2060 layout. DRAEM uses different recorded samples and preprocessing; these panels are not a matched-image or matched-protocol comparison. [Rendering, sample selection and license](README.md#efficientad-s-and-draem-all-category-overviews).
 
 [SimpleNet: all 15 categories](figures/simplenet_all15.png) — original first sorted defective sample per category; input / GT / map, with independent per-image jet scales. [Sources](figures/simplenet_all15_sources.csv) | [Rendering and selection](README.md#simplenet-all-category-overview).
+
+## DeSTSeg and MSFlow — all 15 categories (10 November 2026)
+
+Both show the first lexicographically sorted defective sample per category, selected independently of scores. Saved predictions only; no new training, inference or metric evaluation. Each triplet is input / ground truth / anomaly map. These are illustrative examples, not average performance.
+
+| Method | Full PNG | Report PDF | Display and masks | Sources |
+|---|---|---|---|---|
+| DeSTSeg | [PNG](figures/destseg_all15.png) | [PDF](figures/destseg_all15.pdf) | Inferno fixed0–1; common nearest256 GT | [CSV](figures/destseg_all15_sources.csv) |
+| MSFlow | [PNG](figures/msflow_all15.png) | [PDF](figures/msflow_all15.pdf) | Additive inferno fixed0–3; native model512/256 nearest GT | [CSV](figures/msflow_all15_sources.csv) |
+
+![DeSTSeg across15 MVTec AD categories](figures/destseg_all15.png)
+
+![MSFlow across15 MVTec AD categories](figures/msflow_all15.png)
+
+These45-panel figures are3000×2160. Different score scales and evaluation grids prevent direct comparison of brightness. [Rendering and license](README.md#destseg-and-msflow-all-category-overviews).
