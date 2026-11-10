@@ -1,0 +1,15 @@
+{
+  "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\bottle\\attempt_001\\final.pt",
+  "checkpoint_sha256_before": "4ee823e3912bc9b069b1a0fe35df8b8f36971563e001aa979c3d0ae74749a2e8",
+  "checkpoint_sha256_after": "4ee823e3912bc9b069b1a0fe35df8b8f36971563e001aa979c3d0ae74749a2e8",
+  "state_unchanged": true,
+  "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+  "manifest_sha256": "e9082211046131524367a372eae8ba0ff23ef8a3ca24b86fa3ebab5df1f8c98c",
+  "validation": {
+    "synthetic_perfect_inverted_ties": true,
+    "asymmetric_alignment": true,
+    "preprocessing_identical": true,
+    "strict_checkpoint_load": true
+  },
+  "test_images_read": 0
+}

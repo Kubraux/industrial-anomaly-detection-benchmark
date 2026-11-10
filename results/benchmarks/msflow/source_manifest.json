@@ -1,0 +1,178 @@
+{
+  "files": {
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_final_evaluation_20261110\\evaluate.py": "cfbe0d3006ef59228d8feb0926ec1d068d4617b7bcc3ecb7c4f57e4f1ae209e3",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_final_evaluation_20261110\\run_all.py": "e0eb8c78e9d95cf74c0347294f51a58fc04e18a2f0e359dce4197789ba861c16",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_final_evaluation_20261110\\plan.md": "99871a94c3eac1c4a7162fa4f9f2f1a450a3bffa3cbe3a59798b894c421014c3",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_final_evaluation_20261110\\config.json": "8dc979b3db0c52022da14eda73145d769f24fe3efc4a49f41870f64d38f05f84",
+    "${PROJECT_ROOT}\\compare_dfr_rd4ad_common.py": "42598a2185d3e1f543424a0b7e047c0b7ab6f43c9ef65b75b93d09c43fef42ef",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\bottle\\attempt_001\\final.pt": "4ee823e3912bc9b069b1a0fe35df8b8f36971563e001aa979c3d0ae74749a2e8",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\cable\\attempt_001\\final.pt": "c39f27cdfd39c8b5c48ab02c8612263ee76ecf241fa529a5db8f16116773d4cd",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\capsule\\attempt_001\\final.pt": "3325f54bec116a2e9df3c2fabb4121580fea0908f1ef25f8d4f18060cae834dd",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\carpet\\attempt_001\\final.pt": "2023ef9296f8ef6955262d3f364a21078c2da7b101a9dd88ecbe7c5518788791",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\grid\\attempt_001\\final.pt": "8ee94f7c04f86ea497a556e5e47f552f0d5266c85e0c5a2807b100460aed1d19",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\hazelnut\\attempt_001\\final.pt": "fc6d1e7f2150ddf1bac1c057bfcf47aea32709c14ca6413ae7b24e73fc79184f",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\leather\\attempt_001\\final.pt": "531d22bed53631745b6adf79301fc8dc9b9e015c1e5a6adada84c844dec8a643",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\metal_nut\\attempt_001\\final.pt": "cb7d3e35996649c51b944490706f679361c575b0a02522b0a6264a937433d5c7",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\pill\\attempt_001\\final.pt": "1ebc4e117aec0da4b36d60a29b47e88fc312bafd4eb85abc91c68a23b2af632c",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\screw\\attempt_001\\final.pt": "8811ed17678b25e886116e377ffcaf174ac654d6c3edbac8400f4ef9883c8a0f",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\tile\\attempt_001\\final.pt": "957b5e210cb5cba8324eefa900275ab6bb14c3dba0d439a2193ecf509e7dc059",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\toothbrush\\attempt_001\\final.pt": "e29c6404a4786f0da068d0adbb63176978b953c49acbec8d6556fead891df0eb",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\transistor\\attempt_001\\final.pt": "5107e5d7f431d99f1fe99d1897d65b37e1e757f5a43db85727351ff6ce76fbf6",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\wood\\attempt_001\\final.pt": "a48b84cd1a2cdfa3baeb82688c4b17dc05a7b32bfca6f487fdbc9acea65348f8",
+    "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\zipper\\attempt_001\\final.pt": "be4cc022f53d381f33658e01d544e4aac0466c2f7863932d740630ea97524c95"
+  },
+  "training_run": "msflow_full_mvtec_seed9826_20261109",
+  "official_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+  "per_category": {
+    "bottle": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\bottle\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "4ee823e3912bc9b069b1a0fe35df8b8f36971563e001aa979c3d0ae74749a2e8",
+      "checkpoint_sha256_after": "4ee823e3912bc9b069b1a0fe35df8b8f36971563e001aa979c3d0ae74749a2e8",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "39cd36341698c1a588e5a5e21c64aa93109b73172fd824190f6c0138dfb57024",
+      "validation": {},
+      "test_images_read": 83
+    },
+    "cable": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\cable\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "c39f27cdfd39c8b5c48ab02c8612263ee76ecf241fa529a5db8f16116773d4cd",
+      "checkpoint_sha256_after": "c39f27cdfd39c8b5c48ab02c8612263ee76ecf241fa529a5db8f16116773d4cd",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "0be6291f1c353edffdf55e1c67e666ef0007a3d790ce9629322ff6926f02131f",
+      "validation": {},
+      "test_images_read": 150
+    },
+    "capsule": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\capsule\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "3325f54bec116a2e9df3c2fabb4121580fea0908f1ef25f8d4f18060cae834dd",
+      "checkpoint_sha256_after": "3325f54bec116a2e9df3c2fabb4121580fea0908f1ef25f8d4f18060cae834dd",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "43b3cf71e6acaf41dd0d65466405d31777aa9be1b52e5bc4602ed30f651e7544",
+      "validation": {},
+      "test_images_read": 132
+    },
+    "carpet": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\carpet\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "2023ef9296f8ef6955262d3f364a21078c2da7b101a9dd88ecbe7c5518788791",
+      "checkpoint_sha256_after": "2023ef9296f8ef6955262d3f364a21078c2da7b101a9dd88ecbe7c5518788791",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "b6bab453b6ab2d9dfc89d68c63499a46a7789bdb2774980013c6d0b134c12752",
+      "validation": {},
+      "test_images_read": 117
+    },
+    "grid": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\grid\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "8ee94f7c04f86ea497a556e5e47f552f0d5266c85e0c5a2807b100460aed1d19",
+      "checkpoint_sha256_after": "8ee94f7c04f86ea497a556e5e47f552f0d5266c85e0c5a2807b100460aed1d19",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "e43526d083ad6fcf4797ca0f6d4ac8eaca88ec4b551b90927c288478869aca07",
+      "validation": {},
+      "test_images_read": 78
+    },
+    "hazelnut": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\hazelnut\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "fc6d1e7f2150ddf1bac1c057bfcf47aea32709c14ca6413ae7b24e73fc79184f",
+      "checkpoint_sha256_after": "fc6d1e7f2150ddf1bac1c057bfcf47aea32709c14ca6413ae7b24e73fc79184f",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "ab1d8298c1d97c0374c581d87bbf42e81fb07bac12c4fb62da6659d36944b71e",
+      "validation": {},
+      "test_images_read": 110
+    },
+    "leather": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\leather\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "531d22bed53631745b6adf79301fc8dc9b9e015c1e5a6adada84c844dec8a643",
+      "checkpoint_sha256_after": "531d22bed53631745b6adf79301fc8dc9b9e015c1e5a6adada84c844dec8a643",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "e40ffb0d22d8ed58a3a76dd9d407d68bcd96e89a24f9bace4e578af13fabc8af",
+      "validation": {},
+      "test_images_read": 124
+    },
+    "metal_nut": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\metal_nut\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "cb7d3e35996649c51b944490706f679361c575b0a02522b0a6264a937433d5c7",
+      "checkpoint_sha256_after": "cb7d3e35996649c51b944490706f679361c575b0a02522b0a6264a937433d5c7",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "93bc0065bbfc116f866b7869965345444b6da80a8c09aaae103b2a27139dc07e",
+      "validation": {},
+      "test_images_read": 115
+    },
+    "pill": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\pill\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "1ebc4e117aec0da4b36d60a29b47e88fc312bafd4eb85abc91c68a23b2af632c",
+      "checkpoint_sha256_after": "1ebc4e117aec0da4b36d60a29b47e88fc312bafd4eb85abc91c68a23b2af632c",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "e2473fbd86a114252dfc2247fa239968768c8bfc3df5c0c6bd57e1dc034b904a",
+      "validation": {},
+      "test_images_read": 167
+    },
+    "screw": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\screw\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "8811ed17678b25e886116e377ffcaf174ac654d6c3edbac8400f4ef9883c8a0f",
+      "checkpoint_sha256_after": "8811ed17678b25e886116e377ffcaf174ac654d6c3edbac8400f4ef9883c8a0f",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "09ae4a5803d92f1a19594f4716db854d746a37ae28a8e548104c5048bc838c76",
+      "validation": {},
+      "test_images_read": 160
+    },
+    "tile": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\tile\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "957b5e210cb5cba8324eefa900275ab6bb14c3dba0d439a2193ecf509e7dc059",
+      "checkpoint_sha256_after": "957b5e210cb5cba8324eefa900275ab6bb14c3dba0d439a2193ecf509e7dc059",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "ef19c03587887e112836355ccb96d22490e1aa1d2dab1f2b3e91614d3c172491",
+      "validation": {},
+      "test_images_read": 117
+    },
+    "toothbrush": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\toothbrush\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "e29c6404a4786f0da068d0adbb63176978b953c49acbec8d6556fead891df0eb",
+      "checkpoint_sha256_after": "e29c6404a4786f0da068d0adbb63176978b953c49acbec8d6556fead891df0eb",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "c4115a813430d03fa8daa34a80d66634b8a38ad6f887390a666574cd03f81a2e",
+      "validation": {},
+      "test_images_read": 42
+    },
+    "transistor": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\transistor\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "5107e5d7f431d99f1fe99d1897d65b37e1e757f5a43db85727351ff6ce76fbf6",
+      "checkpoint_sha256_after": "5107e5d7f431d99f1fe99d1897d65b37e1e757f5a43db85727351ff6ce76fbf6",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "0e86af32be5f1964d69d986bca2ca06b969019b24310fb6da4a2f1148ac92c92",
+      "validation": {},
+      "test_images_read": 100
+    },
+    "wood": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\wood\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "a48b84cd1a2cdfa3baeb82688c4b17dc05a7b32bfca6f487fdbc9acea65348f8",
+      "checkpoint_sha256_after": "a48b84cd1a2cdfa3baeb82688c4b17dc05a7b32bfca6f487fdbc9acea65348f8",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "f5b025d5f90918f0a03e48fc506396aca8d07a58dae1938d9862b47818c6032a",
+      "validation": {},
+      "test_images_read": 79
+    },
+    "zipper": {
+      "checkpoint": "${PROJECT_ROOT}\\anomaly_detection\\benchmark_2026\\experiments\\msflow_full_mvtec_seed9826_20261109\\categories\\zipper\\attempt_001\\final.pt",
+      "checkpoint_sha256_before": "be4cc022f53d381f33658e01d544e4aac0466c2f7863932d740630ea97524c95",
+      "checkpoint_sha256_after": "be4cc022f53d381f33658e01d544e4aac0466c2f7863932d740630ea97524c95",
+      "state_unchanged": true,
+      "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+      "manifest_sha256": "31448c4e2c7bd77caa090de75125f34c912cf9f01277206b84bd5586cd212601",
+      "validation": {},
+      "test_images_read": 151
+    }
+  }
+}

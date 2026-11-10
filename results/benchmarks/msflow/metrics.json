@@ -1,0 +1,991 @@
+{
+  "method": "MSFlow",
+  "dataset": "MVTec_AD",
+  "track": "T1",
+  "seed": 9826,
+  "status": "completed",
+  "categories": 15,
+  "test_images": 1725,
+  "aggregation": "equal-category macro",
+  "scale": "fraction_0_1",
+  "macro": {
+    "native": {
+      "image_auroc": 0.9924985133706883,
+      "image_ap": 0.9972225578035785,
+      "pixel_auroc": 0.9851867631114466,
+      "pixel_ap": 0.6187045046920445,
+      "aupro_0_30": 0.9511199648566976
+    },
+    "common256": {
+      "image_auroc": 0.9924985133706883,
+      "image_ap": 0.9972225578035785,
+      "pixel_auroc": 0.9851879063161219,
+      "pixel_ap": 0.6188635830496222,
+      "aupro_0_30": 0.9500750467345559
+    },
+    "supplementary_native_multiplicative_aupro_0_30": 0.9098641033135417
+  },
+  "per_category": [
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "bottle",
+      "mode": "benchmark",
+      "positive_images": 63,
+      "negative_images": 20,
+      "mask_count": 63,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 1.0,
+          "ap": 1.0
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9841673442144838,
+          "ap": 0.7505289408808618
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9381270618557821,
+          "regions": 68
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 1.0,
+          "ap": 1.0
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9841742161534416,
+          "ap": 0.7506506543475646
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9382190402737611,
+          "regions": 68
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.8895771627326886,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "4ee823e3912bc9b069b1a0fe35df8b8f36971563e001aa979c3d0ae74749a2e8"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "cable",
+      "mode": "benchmark",
+      "positive_images": 92,
+      "negative_images": 58,
+      "mask_count": 92,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9868815592203899,
+          "ap": 0.9919915540184328
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9838096383034911,
+          "ap": 0.6999761490909976
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9376688476691524,
+          "regions": 151
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9868815592203899,
+          "ap": 0.9919915540184328
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9838291128289454,
+          "ap": 0.7002932287825528
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9376063495225777,
+          "regions": 146
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.9202308525936062,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "c39f27cdfd39c8b5c48ab02c8612263ee76ecf241fa529a5db8f16116773d4cd"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "capsule",
+      "mode": "benchmark",
+      "positive_images": 109,
+      "negative_images": 23,
+      "mask_count": 109,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9896290386916634,
+          "ap": 0.9975388847370725
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9917459811593634,
+          "ap": 0.5159483859289472
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9767472757511533,
+          "regions": 118
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9896290386916634,
+          "ap": 0.9975388847370725
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9917467401399727,
+          "ap": 0.5154696369570316
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9657587176710202,
+          "regions": 120
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.9467727485920046,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "3325f54bec116a2e9df3c2fabb4121580fea0908f1ef25f8d4f18060cae834dd"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "carpet",
+      "mode": "benchmark",
+      "positive_images": 89,
+      "negative_images": 28,
+      "mask_count": 89,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9847512038523274,
+          "ap": 0.9954290549953007
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9867261155807554,
+          "ap": 0.5925560328895111
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9522605401422076,
+          "regions": 98
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9847512038523274,
+          "ap": 0.9954290549953007
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9867222155862058,
+          "ap": 0.5924209645327179
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9530962133290019,
+          "regions": 97
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.8915804088236728,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "2023ef9296f8ef6955262d3f364a21078c2da7b101a9dd88ecbe7c5518788791"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "grid",
+      "mode": "benchmark",
+      "positive_images": 57,
+      "negative_images": 21,
+      "mask_count": 57,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9941520467836258,
+          "ap": 0.9980811403508771
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9940793798346045,
+          "ap": 0.5414607504358038
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9727867729428885,
+          "regions": 169
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9941520467836258,
+          "ap": 0.9980811403508771
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9940832546464361,
+          "ap": 0.5423120526154087
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9728939612794237,
+          "regions": 170
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.9136017559067798,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "8ee94f7c04f86ea497a556e5e47f552f0d5266c85e0c5a2807b100460aed1d19"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "hazelnut",
+      "mode": "benchmark",
+      "positive_images": 70,
+      "negative_images": 40,
+      "mask_count": 70,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 1.0,
+          "ap": 0.9999999999999999
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9869977361667572,
+          "ap": 0.5503611049637206
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9693084721155519,
+          "regions": 137
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 1.0,
+          "ap": 0.9999999999999999
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9869947106888508,
+          "ap": 0.5500663992418079
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9704656663571981,
+          "regions": 134
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.9519273317561951,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "fc6d1e7f2150ddf1bac1c057bfcf47aea32709c14ca6413ae7b24e73fc79184f"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "leather",
+      "mode": "benchmark",
+      "positive_images": 92,
+      "negative_images": 32,
+      "mask_count": 92,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9996603260869565,
+          "ap": 0.9998831229546516
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9938007330325584,
+          "ap": 0.4964190737698133
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9823580115410454,
+          "regions": 99
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9996603260869565,
+          "ap": 0.9998831229546516
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.993795682845603,
+          "ap": 0.4965953584913828
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.982413551721516,
+          "regions": 99
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.9207239501896097,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "531d22bed53631745b6adf79301fc8dc9b9e015c1e5a6adada84c844dec8a643"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "metal_nut",
+      "mode": "benchmark",
+      "positive_images": 93,
+      "negative_images": 22,
+      "mask_count": 93,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 1.0,
+          "ap": 1.0
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.992527856870665,
+          "ap": 0.9251352559562234
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9437072504827317,
+          "regions": 132
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 1.0,
+          "ap": 1.0
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9925322382647837,
+          "ap": 0.925269943147348
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9436048105303123,
+          "regions": 131
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.8901303546719238,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "cb7d3e35996649c51b944490706f679361c575b0a02522b0a6264a937433d5c7"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "pill",
+      "mode": "benchmark",
+      "positive_images": 141,
+      "negative_images": 26,
+      "mask_count": 141,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9888161483906166,
+          "ap": 0.997963733528304
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9873379678830988,
+          "ap": 0.757285151811878
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9554004369923874,
+          "regions": 239
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9888161483906166,
+          "ap": 0.997963733528304
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.987337327138634,
+          "ap": 0.7571558726403471
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9542672445501149,
+          "regions": 232
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.9362752833289079,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "1ebc4e117aec0da4b36d60a29b47e88fc312bafd4eb85abc91c68a23b2af632c"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "screw",
+      "mode": "benchmark",
+      "positive_images": 119,
+      "negative_images": 41,
+      "mask_count": 119,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9579831932773109,
+          "ap": 0.9829857141205448
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9933511798386397,
+          "ap": 0.3689976200486739
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9658731086523183,
+          "regions": 135
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9579831932773109,
+          "ap": 0.9829857141205448
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9933598304687298,
+          "ap": 0.3699208362955087
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.967610078428241,
+          "regions": 136
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.9559924537796615,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "8811ed17678b25e886116e377ffcaf174ac654d6c3edbac8400f4ef9883c8a0f"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "tile",
+      "mode": "benchmark",
+      "positive_images": 84,
+      "negative_images": 33,
+      "mask_count": 84,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9978354978354979,
+          "ap": 0.9991338278390266
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.98127212490813,
+          "ap": 0.7810294145244845
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9439141263048205,
+          "regions": 86
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9978354978354979,
+          "ap": 0.9991338278390266
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9812996703374214,
+          "ap": 0.7813125820532946
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9428334142345495,
+          "regions": 94
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.8813944071953389,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "957b5e210cb5cba8324eefa900275ab6bb14c3dba0d439a2193ecf509e7dc059"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "toothbrush",
+      "mode": "benchmark",
+      "positive_images": 30,
+      "negative_images": 12,
+      "mask_count": 30,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 1.0,
+          "ap": 1.0
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.987312638137468,
+          "ap": 0.4084802229896278
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9050511398335664,
+          "regions": 66
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 1.0,
+          "ap": 1.0
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9873285113837094,
+          "ap": 0.40882369799406376
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.899187872749636,
+          "regions": 71
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.8580016568344278,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "e29c6404a4786f0da068d0adbb63176978b953c49acbec8d6556fead891df0eb"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "transistor",
+      "mode": "benchmark",
+      "positive_images": 40,
+      "negative_images": 60,
+      "mask_count": 40,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9991666666666666,
+          "ap": 0.9988095238095238
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9617118526375427,
+          "ap": 0.6018276408276696
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9122038022185525,
+          "regions": 44
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9991666666666666,
+          "ap": 0.9988095238095238
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9617118526375427,
+          "ap": 0.6018276408276696
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9122038022185525,
+          "regions": 44
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.8999188445774428,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "5107e5d7f431d99f1fe99d1897d65b37e1e757f5a43db85727351ff6ce76fbf6"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "wood",
+      "mode": "benchmark",
+      "positive_images": 60,
+      "negative_images": 19,
+      "mask_count": 60,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9912280701754386,
+          "ap": 0.9971970119099041
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9620181964993674,
+          "ap": 0.6782326276182084
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.945290934600621,
+          "regions": 168
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9912280701754386,
+          "ap": 0.9971970119099041
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9619595724166156,
+          "ap": 0.6780826601875241
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9449221355070866,
+          "regions": 167
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.8643600332356041,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "a48b84cd1a2cdfa3baeb82688c4b17dc05a7b32bfca6f487fdbc9acea65348f8"
+    },
+    {
+      "method": "MSFlow",
+      "dataset": "MVTec_AD",
+      "track": "T1",
+      "seed": 9826,
+      "category": "zipper",
+      "mode": "benchmark",
+      "positive_images": 119,
+      "negative_images": 32,
+      "mask_count": 119,
+      "native": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9973739495798319,
+          "ap": 0.9993247987900394
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9909427016047756,
+          "ap": 0.6123291986442478
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9661016917476827,
+          "regions": 178
+        }
+      },
+      "common256": {
+        "image": {
+          "status": "completed",
+          "auroc": 0.9973739495798319,
+          "ap": 0.9993247987900394
+        },
+        "pixel": {
+          "status": "completed",
+          "auroc": 0.9909436592049365,
+          "ap": 0.6127522176301143
+        },
+        "region": {
+          "status": "completed",
+          "aupro_0_30": 0.9660428426453492,
+          "regions": 177
+        }
+      },
+      "supplementary_native_multiplicative_aupro_0_30": 0.9274743054852645,
+      "definitions": {
+        "method": "MSFlow",
+        "dataset": "MVTec_AD",
+        "track": "T1",
+        "seed": 9826,
+        "input": "512 except transistor256",
+        "preprocessing": "official LANCZOS/ImageNet; no crop",
+        "image_score": "mean top3% multiplicative",
+        "native_pixel": "additive map; PIL nearest mask >0",
+        "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+        "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+        "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+        "selection": "fixed-final100epochs",
+        "calibration": "none",
+        "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+        "budget_seconds": 14400
+      },
+      "checkpoint_sha256": "be4cc022f53d381f33658e01d544e4aac0466c2f7863932d740630ea97524c95"
+    }
+  ],
+  "seed_sd": "Not recorded"
+}

@@ -1,0 +1,314 @@
+{
+  "evaluation_wall_seconds": 1473.4835443999618,
+  "training": {
+    "status": "completed",
+    "queue_wall_seconds": 35925.843999999575,
+    "category_training_wall_seconds": 35716.149197399616,
+    "peak_allocated_bytes": 8605393408,
+    "peak_reserved_bytes": 9401532416,
+    "test_images_read": 0
+  },
+  "per_category": [
+    {
+      "category": "bottle",
+      "wall_seconds": 45.93224410060793,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1388654592,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 2125.8230711994693,
+      "forward_gpu_ms": {
+        "n": 83,
+        "median": 46.787699684500694,
+        "p95": 59.509240090847015
+      },
+      "pipeline_ms": {
+        "n": 83,
+        "median": 164.74020015448332,
+        "p95": 179.91035990417004
+      }
+    },
+    {
+      "category": "cable",
+      "wall_seconds": 80.94022279977798,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1558900736,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 2575.5571964001283,
+      "forward_gpu_ms": {
+        "n": 150,
+        "median": 71.98204984888434,
+        "p95": 78.80737464874983
+      },
+      "pipeline_ms": {
+        "n": 150,
+        "median": 203.87279987335205,
+        "p95": 221.5562058147043
+      }
+    },
+    {
+      "category": "capsule",
+      "wall_seconds": 80.61736920010298,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1510178816,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 2831.7821971001104,
+      "forward_gpu_ms": {
+        "n": 132,
+        "median": 69.41649969667196,
+        "p95": 77.90059987455606
+      },
+      "pipeline_ms": {
+        "n": 132,
+        "median": 203.75064946711063,
+        "p95": 222.21673959866166
+      }
+    },
+    {
+      "category": "carpet",
+      "wall_seconds": 101.13349009957165,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1468776448,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 3688.393797799945,
+      "forward_gpu_ms": {
+        "n": 117,
+        "median": 59.62429940700531,
+        "p95": 158.30195974558592
+      },
+      "pipeline_ms": {
+        "n": 117,
+        "median": 306.4732998609543,
+        "p95": 399.60790034383535
+      }
+    },
+    {
+      "category": "grid",
+      "wall_seconds": 69.33632780052722,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1359544320,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 2373.1575074000284,
+      "forward_gpu_ms": {
+        "n": 78,
+        "median": 59.11305034533143,
+        "p95": 160.33156053163106
+      },
+      "pipeline_ms": {
+        "n": 78,
+        "median": 276.53479995206,
+        "p95": 392.7035446278751
+      }
+    },
+    {
+      "category": "hazelnut",
+      "wall_seconds": 94.6667987992987,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1432399872,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 3972.7268430003896,
+      "forward_gpu_ms": {
+        "n": 110,
+        "median": 62.872049398720264,
+        "p95": 163.92232533544302
+      },
+      "pipeline_ms": {
+        "n": 110,
+        "median": 296.69260047376156,
+        "p95": 396.171760186553
+      }
+    },
+    {
+      "category": "leather",
+      "wall_seconds": 105.16770000010729,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1484066816,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 2406.645318100229,
+      "forward_gpu_ms": {
+        "n": 124,
+        "median": 60.18689973279834,
+        "p95": 157.14966440573332
+      },
+      "pipeline_ms": {
+        "n": 124,
+        "median": 296.04085022583604,
+        "p95": 394.39391060732305
+      }
+    },
+    {
+      "category": "metal_nut",
+      "wall_seconds": 91.97152000013739,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1458339840,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 1757.1333862999454,
+      "forward_gpu_ms": {
+        "n": 115,
+        "median": 60.18669996410608,
+        "p95": 152.25780019536614
+      },
+      "pipeline_ms": {
+        "n": 115,
+        "median": 282.6578002423048,
+        "p95": 356.51357993483543
+      }
+    },
+    {
+      "category": "pill",
+      "wall_seconds": 131.43459589965641,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1589870592,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 2307.766876399517,
+      "forward_gpu_ms": {
+        "n": 167,
+        "median": 63.985600136220455,
+        "p95": 157.49284997582436
+      },
+      "pipeline_ms": {
+        "n": 167,
+        "median": 284.1592999175191,
+        "p95": 381.49414025247097
+      }
+    },
+    {
+      "category": "screw",
+      "wall_seconds": 125.05343380011618,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1586929664,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 2867.344426199794,
+      "forward_gpu_ms": {
+        "n": 160,
+        "median": 59.041449800133705,
+        "p95": 152.63332561589772
+      },
+      "pipeline_ms": {
+        "n": 160,
+        "median": 285.0063997320831,
+        "p95": 381.80879019200796
+      }
+    },
+    {
+      "category": "tile",
+      "wall_seconds": 97.70559679996222,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1467424768,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 2103.8544204002246,
+      "forward_gpu_ms": {
+        "n": 117,
+        "median": 59.78950019925833,
+        "p95": 166.8882196769118
+      },
+      "pipeline_ms": {
+        "n": 117,
+        "median": 283.94690062850714,
+        "p95": 400.1422805711627
+      }
+    },
+    {
+      "category": "toothbrush",
+      "wall_seconds": 47.04358419962227,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1266233344,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 617.4683863008395,
+      "forward_gpu_ms": {
+        "n": 42,
+        "median": 52.93024983257055,
+        "p95": 79.05959081836045
+      },
+      "pipeline_ms": {
+        "n": 42,
+        "median": 296.146749984473,
+        "p95": 340.2814453002065
+      }
+    },
+    {
+      "category": "transistor",
+      "wall_seconds": 52.826799099333584,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 640819200,
+      "peak_reserved_bytes": 710934528,
+      "rss_at_end_bytes": 1204219904,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 1342.5929805999622,
+      "forward_gpu_ms": {
+        "n": 100,
+        "median": 37.5877502374351,
+        "p95": 101.85436028987168
+      },
+      "pipeline_ms": {
+        "n": 100,
+        "median": 166.47390043362975,
+        "p95": 234.10659469664094
+      }
+    },
+    {
+      "category": "wood",
+      "wall_seconds": 78.37755030021071,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1361477632,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 2607.79067119956,
+      "forward_gpu_ms": {
+        "n": 79,
+        "median": 56.772999465465546,
+        "p95": 123.80456980317813
+      },
+      "pipeline_ms": {
+        "n": 79,
+        "median": 314.3449993804097,
+        "p95": 396.6041200794279
+      }
+    },
+    {
+      "category": "zipper",
+      "wall_seconds": 124.66090860031545,
+      "gpu": "NVIDIA RTX A4000",
+      "peak_allocated_bytes": 681665024,
+      "peak_reserved_bytes": 784334848,
+      "rss_at_end_bytes": 1560375296,
+      "checkpoint_bytes": 476946922,
+      "training_seconds": 2138.1121189994738,
+      "forward_gpu_ms": {
+        "n": 151,
+        "median": 64.8122001439333,
+        "p95": 152.413799893111
+      },
+      "pipeline_ms": {
+        "n": 151,
+        "median": 286.2651003524661,
+        "p95": 380.59864984825253
+      }
+    }
+  ],
+  "latency_scope": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics"
+}

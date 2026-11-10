@@ -1,0 +1,92 @@
+{
+  "method": "MSFlow",
+  "source_commit": "e23975598bc7eb6f74604739d8f04d1519d704da",
+  "freia_commit": "Not recorded for PyPI0.2 source release",
+  "dataset": "MVTec AD",
+  "track": "T1",
+  "seed": 9826,
+  "seed_scope": "per category; documented difference from one uninterrupted reference loop",
+  "batch_size": 8,
+  "batch_basis": "official main.py effective CLI default; paper/default.py use16",
+  "meta_epochs": 25,
+  "sub_epochs": 4,
+  "total_epochs": 100,
+  "input_size_default": [
+    512,
+    512
+  ],
+  "input_size_transistor": [
+    256,
+    256
+  ],
+  "input_basis": "paper V.A.1 and reference log; fix CLI resolution assignment before category loop",
+  "optimizer": "Adam",
+  "lr": 0.0001,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "weight_decay": 0,
+  "grad_clip_norm": 2,
+  "lr_warmup_start_factor": 0.1,
+  "lr_warmup_subepochs": 12,
+  "lr_decay_milestones_subepochs": [
+    70,
+    90
+  ],
+  "lr_decay_gamma": 0.33,
+  "precision": "FP32",
+  "amp": false,
+  "workers": 0,
+  "extractor": "official custom reflect-padding wide_resnet50_2, layers1/2/3",
+  "teacher_sha256": "95faca4d11227dddf8633dbb5ff6c8a9003c1aa5b8945c73834b8007b10950b8",
+  "teacher_autograd": "retained reference behavior, excluded from optimizer, eval mode",
+  "parallel_blocks": [
+    2,
+    5,
+    8
+  ],
+  "c_conds": [
+    64,
+    64,
+    64
+  ],
+  "clamp_alpha": 1.9,
+  "pool": "AvgPool2d(3,2,1)",
+  "input_preprocessing": "PIL LANCZOS resize; reference grayscale triplication; ToTensor/ImageNet normalize",
+  "image_score": "mean top3% of multiplicative map",
+  "pixel_map": "additive",
+  "region_map": "multiplicative reference; common adapter separately pending",
+  "selection": "fixed_final",
+  "test_access": false,
+  "smoke_max_optimizer_updates": 4,
+  "resource_limit_seconds": 900,
+  "protocol_sha256": "bb4aad47c994cb1d90f8f6527285cf6deec46a5fb7551a2ec6d0c26cfcd463fc",
+  "train_manifest_sha256": "d99c537cd078b64e631a1640a9b3a348659e9f8e098977092e55605989f5dcc8",
+  "freia_package": "FrEIA==0.2",
+  "freia_sdist_sha256": "e9f1732b4a238b85b0ad3bc14b279a653a6063d14152028e164b989582026bdc",
+  "run_id": "msflow_full_mvtec_seed9826_20261109",
+  "categories": [
+    "bottle",
+    "cable",
+    "capsule",
+    "carpet",
+    "grid",
+    "hazelnut",
+    "leather",
+    "metal_nut",
+    "pill",
+    "screw",
+    "tile",
+    "toothbrush",
+    "transistor",
+    "wood",
+    "zipper"
+  ],
+  "queue_budget_seconds": 86400,
+  "checkpoint_allowance_bytes": 500000000,
+  "disk_margin_bytes": 3221225472,
+  "full_training": true,
+  "automatic_evaluation": false,
+  "primary_region_map": "additive; reference multiplicative supplementary"
+}

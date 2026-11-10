@@ -41,3 +41,7 @@ Common256 nearest-mask Image/Pixel AUROC/AP and exact normalized AU-PRO0.30; ori
 [Method guide](../methods/destseg/README.md) | [Experiment documentation, configurations and provenance](../reproducibility/destseg/README.md).
 
 Common256 nearest-mask Image/Pixel AUROC/AP and exact normalized AU-PRO0.30; original-mask metrics remain separately labeled. Seed111 and fixed-final official schedule. No test-based selection. Single-seed results; uncertainty Not recorded. This addition supplements historical catalogs and registries; archived plans and training-only records retain their original status. See the method guide for deviations and reconstruction limits; no cross-protocol leaderboard claim.
+
+## MSFlow — 2026-11-10
+
+Training completed15/15 MVTec AD categories;100epochs,seed9826,release CLI batch8,fixed-final,no periodic test. Evaluation covers1725 test images; prospective normal-only/synthetic checks and post-run checkpoint/source/hash/mask alignment verification passed. [Results](../results/benchmarks/msflow/RESULTS.md) and [configuration/provenance](../reproducibility/msflow/README.md). No model code or raw assets published.

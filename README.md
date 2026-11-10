@@ -4,11 +4,11 @@
 
 An ongoing research project investigating how models fitted to normal industrial images detect defects, localize anomalous regions, and support useful decisions. MVTec AD is the current published benchmark; the wider agenda includes additional industrial datasets, improved localization and future defect-type classification.
 
-**15 completed method/variant studies | 15 MVTec AD categories each | 225 category-level records**
+**16 completed method/variant studies | 15 MVTec AD categories each | 240 category-level records**
 
-The [published benchmark tables](results/summary.csv) cover 15 completed method/variant studies and 225 category-level records. These are not independent repetitions. EfficientAD-S/M count as two variant studies of one method. Historical rows retain their original metrics; new records were published **9 November 2026**.
+The [published benchmark tables](results/summary.csv) cover 16 completed method/variant studies and 240 category-level records. These are not independent repetitions. EfficientAD-S/M count as two variant studies of one method. Historical rows retain their original metrics; latest records were published **10 November 2026**.
 
-New configuration/result records: [EfficientAD-S/M](methods/efficientad/README.md) | [RD++](methods/rdpp/README.md) | [DeSTSeg](methods/destseg/README.md).
+New configuration/result records: [EfficientAD-S/M](methods/efficientad/README.md) | [RD++](methods/rdpp/README.md) | [DeSTSeg](methods/destseg/README.md) | [MSFlow](methods/msflow/README.md).
 
 [Methods](methods/README.md) | [Results](results/README.md) | [Visual gallery](assets/GALLERY.md) | [Literature catalog](literature/README.md)
 
@@ -49,6 +49,7 @@ Recorded input / ground truth / anomaly maps across all 15 MVTec AD categories. 
 | Self-supervised patch representations | [PatchSVDD](methods/patchsvdd/README.md) |
 | Generative reconstruction and latent discrepancy | [AnoGAN adaptation](methods/anogan/README.md), [GANomaly](methods/ganomaly/README.md), [Skip-GANomaly](methods/skip_ganomaly/README.md) |
 | Learning with synthetic anomalies | [SimpleNet](methods/simplenet/README.md), [SuperSimpleNet, JIMS extension](methods/supersimplenet/README.md), [DRAEM](methods/draem/README.md) |
+| Multi-scale normalizing flows | [MSFlow](methods/msflow/README.md) |
 | Efficient teacher-student and autoencoder | [EfficientAD-S through Anomalib](methods/efficientad_s_anomalib/README.md) |
 
 Guides distinguish published methods, local implementations and historical diagnostics. [Full results](results/README.md) retain category measurements and protocol identifiers. **Different preprocessing, checkpoint selection, scoring and PRO/AUPRO definitions preclude a directly comparable leaderboard.** Completed execution does not establish paper reproduction.

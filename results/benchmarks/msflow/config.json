@@ -1,0 +1,17 @@
+{
+  "method": "MSFlow",
+  "dataset": "MVTec_AD",
+  "track": "T1",
+  "seed": 9826,
+  "input": "512 except transistor256",
+  "preprocessing": "official LANCZOS/ImageNet; no crop",
+  "image_score": "mean top3% multiplicative",
+  "native_pixel": "additive map; PIL nearest mask >0",
+  "common256_pixel": "additive map bilinear align_corners=False; PIL nearest mask >0",
+  "aupro": "exact8-connected equal-region normalized FPR0.30; all test background; ties grouped",
+  "supplementary": "native multiplicative exact AU-PRO; not upstream approximate algorithm",
+  "selection": "fixed-final100epochs",
+  "calibration": "none",
+  "timing": "batch1 FP32,3train-normal warmups; synchronized forward only; pipeline decode through compressed export including GT reads excluding hashes/metrics",
+  "budget_seconds": 14400
+}

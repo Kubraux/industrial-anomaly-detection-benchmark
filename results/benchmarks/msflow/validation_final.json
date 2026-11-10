@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "categories": 15,
+  "test_images": 1725,
+  "prediction_archives_verified": 1725,
+  "all_checkpoint_source_protocol_pins_unchanged": true,
+  "all_model_states_unchanged": true,
+  "shared_test_image_mask_hashes_match_destseg": true,
+  "common256_masks_bitwise_match_destseg": true,
+  "dry_run_passed": true,
+  "no_retraining_or_calibration": true
+}

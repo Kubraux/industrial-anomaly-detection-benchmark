@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "queue_wall_seconds": 35925.843999999575,
+  "category_training_wall_seconds": 35716.149197399616,
+  "peak_allocated_bytes": 8605393408,
+  "peak_reserved_bytes": 9401532416,
+  "test_images_read": 0
+}

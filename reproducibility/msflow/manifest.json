@@ -1,0 +1,135 @@
+[
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/RESULTS.md",
+    "published": "results/benchmarks/msflow/RESULTS.md",
+    "source_sha256": "fd9895997a07c63c53516a2d3da5d0d6a5a4a9dfb8679ce6554b0b9932019a46",
+    "published_sha256": "fd9895997a07c63c53516a2d3da5d0d6a5a4a9dfb8679ce6554b0b9932019a46",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/results.csv",
+    "published": "results/benchmarks/msflow/results.csv",
+    "source_sha256": "073d644cd4e47e0542ac15dc9c43bbf393055d21f637b220f2eb181894faead3",
+    "published_sha256": "073d644cd4e47e0542ac15dc9c43bbf393055d21f637b220f2eb181894faead3",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/metrics.json",
+    "published": "results/benchmarks/msflow/metrics.json",
+    "source_sha256": "89f06344b75924d585427ff2d4c05b4b363d14b6e99a6bb2a26188264b766dca",
+    "published_sha256": "89f06344b75924d585427ff2d4c05b4b363d14b6e99a6bb2a26188264b766dca",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/resource_usage.json",
+    "published": "results/benchmarks/msflow/resource_usage.json",
+    "source_sha256": "094511b0a9514afd1ca72ea219505882c9aa5561c6db9a93fa53955a4140d373",
+    "published_sha256": "094511b0a9514afd1ca72ea219505882c9aa5561c6db9a93fa53955a4140d373",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/training_summary.csv",
+    "published": "results/benchmarks/msflow/training_summary.csv",
+    "source_sha256": "ef4631899cfbb180b4a86bd1fa89d152b123af2dec6a28aa3d71edabd1f29555",
+    "published_sha256": "ef4631899cfbb180b4a86bd1fa89d152b123af2dec6a28aa3d71edabd1f29555",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/validation_final.json",
+    "published": "results/benchmarks/msflow/validation_final.json",
+    "source_sha256": "4fefbb5e7f659968903414a0c53b0c619da16224c4fcc59f065c3c3a545986ba",
+    "published_sha256": "4fefbb5e7f659968903414a0c53b0c619da16224c4fcc59f065c3c3a545986ba",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/source_manifest.json",
+    "published": "results/benchmarks/msflow/source_manifest.json",
+    "source_sha256": "73802d3fd8c4d003ef8ccc9a9be7eb97e00075bb2088a98691e58bb3c6cee505",
+    "published_sha256": "56396f4291e4b72c86f02dd845310c24e4d380c65be7978ff4ecb2c245a49eba",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/plan.md",
+    "published": "results/benchmarks/msflow/plan.md",
+    "source_sha256": "99871a94c3eac1c4a7162fa4f9f2f1a450a3bffa3cbe3a59798b894c421014c3",
+    "published_sha256": "9809926d3b3508c712785afebadbb7078b56ebc1ccf2acb5212525ff04b05cbf",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/config.json",
+    "published": "results/benchmarks/msflow/config.json",
+    "source_sha256": "8dc979b3db0c52022da14eda73145d769f24fe3efc4a49f41870f64d38f05f84",
+    "published_sha256": "8dc979b3db0c52022da14eda73145d769f24fe3efc4a49f41870f64d38f05f84",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/environment.txt",
+    "published": "results/benchmarks/msflow/environment.txt",
+    "source_sha256": "151ccc1183b3a7d9f9bf2862018b051787e550570e5ae420746f8c22735ca426",
+    "published_sha256": "85159cd93f6e7e768befeea75685551e5a1c838c03cbd806aabd9592cff53c71",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/reproducibility.md",
+    "published": "results/benchmarks/msflow/reproducibility.md",
+    "source_sha256": "b2d8f2d4de901be4cc29cde773b778949545c0d54e016027bf70ee82352de96d",
+    "published_sha256": "b2d8f2d4de901be4cc29cde773b778949545c0d54e016027bf70ee82352de96d",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_full_mvtec_seed9826_20261109/plan.md",
+    "published": "reproducibility/msflow/training/plan.md",
+    "source_sha256": "0d3327c4819ba946f65d2ec11d9d123cddccc03fef420a3d0ac41e55dc52640c",
+    "published_sha256": "9d3e00a635997720f4a2b7794ab21a19a45a52d57f3eca8bcad5efc4cacfe165",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_full_mvtec_seed9826_20261109/config.json",
+    "published": "reproducibility/msflow/training/config.json",
+    "source_sha256": "93ca407d3119fac8f0d40bb18bf552d04822af7062a9e6c47f57763ef71e8982",
+    "published_sha256": "93ca407d3119fac8f0d40bb18bf552d04822af7062a9e6c47f57763ef71e8982",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_full_mvtec_seed9826_20261109/resource_usage.json",
+    "published": "reproducibility/msflow/training/resource_usage.json",
+    "source_sha256": "c876ecf223126f90e1ee44192232e5213ec1c1055ea803bbb734e3b4e86b84dd",
+    "published_sha256": "c876ecf223126f90e1ee44192232e5213ec1c1055ea803bbb734e3b4e86b84dd",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_full_mvtec_seed9826_20261109/reproducibility.md",
+    "published": "reproducibility/msflow/training/reproducibility.md",
+    "source_sha256": "c8fa917bb1ff0fc81299b53451a1549fb1c12edbcc1d37a149eb2fb7a73a5cfc",
+    "published_sha256": "c8fa917bb1ff0fc81299b53451a1549fb1c12edbcc1d37a149eb2fb7a73a5cfc",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_preparation_20261109/READINESS.md",
+    "published": "reproducibility/msflow/preparation/READINESS.md",
+    "source_sha256": "349525f63ee6d5b5ebe036134381e6bf2d7d0513a534219cb2c9508f973b686d",
+    "published_sha256": "349525f63ee6d5b5ebe036134381e6bf2d7d0513a534219cb2c9508f973b686d",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_preparation_20261109/CONFIG_COMPARISON.md",
+    "published": "reproducibility/msflow/preparation/CONFIG_COMPARISON.md",
+    "source_sha256": "dda7c6e8ec81497db444296be828c843ff268f420e02df16e53adf1659cbbbed",
+    "published_sha256": "dda7c6e8ec81497db444296be828c843ff268f420e02df16e53adf1659cbbbed",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_preparation_20261109/requirements.lock.txt",
+    "published": "reproducibility/msflow/preparation/requirements.lock.txt",
+    "source_sha256": "151ccc1183b3a7d9f9bf2862018b051787e550570e5ae420746f8c22735ca426",
+    "published_sha256": "85159cd93f6e7e768befeea75685551e5a1c838c03cbd806aabd9592cff53c71",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  },
+  {
+    "source": "anomaly_detection/benchmark_2026/experiments/msflow_final_evaluation_20261110/dry_normal/bottle/provenance.json",
+    "published": "reproducibility/msflow/dry_validation.json",
+    "source_sha256": "ea883d623a9b87e215878d3247bd6f4640c6008071d11b68b9252dc2cef21122",
+    "published_sha256": "feec7b9f43f7255dfe94969a3c24ab9f7dde1b2dcf7aca32b7cd715d3854aa79",
+    "transformation": "UTF8 without BOM; local path placeholders; no numeric changes"
+  }
+]

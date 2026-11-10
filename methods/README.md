@@ -36,3 +36,7 @@ Completed records are not claims of paper reproduction. Ablations and calibratio
 ## DeSTSeg — published 2026-11-09
 
 [DeSTSeg](destseg/README.md): completed all 15 MVTec AD categories per variant. Fixed-final checkpoints; configuration/results, upstream references and compatibility notes are linked in the guide.
+
+## MSFlow — published 2026-11-10
+
+[MSFlow](msflow/README.md): completed15/15 categories; fixed-final100epochs, native512/256 additive primary metrics and separately labeled common256 evaluation. Batch8 release CLI versus paper16 retained. Documentation/results only; implementation code remains upstream.

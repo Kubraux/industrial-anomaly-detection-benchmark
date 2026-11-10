@@ -72,3 +72,9 @@ Common256 nearest-mask Image/Pixel AUROC/AP and exact normalized AU-PRO0.30; ori
 [Method guide](../methods/destseg/README.md) | [Experiment documentation, configurations and provenance](../reproducibility/destseg/README.md).
 
 Common256 nearest-mask Image/Pixel AUROC/AP and exact normalized AU-PRO0.30; original-mask metrics remain separately labeled. Seed111 and fixed-final official schedule. No test-based selection. Single-seed results; uncertainty Not recorded. This addition supplements historical catalogs and registries; archived plans and training-only records retain their original status. See the method guide for deviations and reconstruction limits; no cross-protocol leaderboard claim.
+
+## MSFlow — publication 2026-11-10
+
+[All category results and grid-specific macros](benchmarks/msflow/RESULTS.md) | [Method guide](../methods/msflow/README.md).
+
+Native512/256 macro: Image AUROC 99.2499%, Image AP 99.7223%, Pixel AUROC 98.5187%, Pixel AP 61.8705%, additive exact AU-PRO0.30 95.1120%. Common256 results separately labeled; no retraining or test selection. Single seed9826; paper batch16 versus release CLI8 difference retained. Primary additive region scoring differs from paper/reference multiplicative PRO and is not claimed an exact paper reproduction. Supplementary multiplicative exact AU-PRO remains separate.

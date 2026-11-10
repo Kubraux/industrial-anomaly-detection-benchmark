@@ -41,3 +41,7 @@ Common256 nearest-mask Image/Pixel AUROC/AP and exact normalized AU-PRO0.30; ori
 [Method guide](../methods/destseg/README.md) | [Experiment documentation, configurations and provenance](../reproducibility/destseg/README.md).
 
 Common256 nearest-mask Image/Pixel AUROC/AP and exact normalized AU-PRO0.30; original-mask metrics remain separately labeled. Seed111 and fixed-final official schedule. No test-based selection. Single-seed results; uncertainty Not recorded. This addition supplements historical catalogs and registries; archived plans and training-only records retain their original status. See the method guide for deviations and reconstruction limits; no cross-protocol leaderboard claim.
+
+## msflow_fixed_final_native_additive_exact030
+
+MSFlow fixed-final100epochs,seed9826,batch8 release CLI (paper16),official reflect-padding WRN50,512 input except transistor256. Native output grid512/256; nearest binary masks. Image score=mean top3% multiplicative map. Primary pixel AUROC/AP and exact8-connected equal-region normalized AU-PRO0.30 all use additive map. Common256 extension: bilinear align_corners=False map resize; original masks PIL nearest>0. No test selection/calibration. Supplementary multiplicative exact PRO is separately reported, not upstream approximate PRO reproduction. Native and common256 are two evaluations of the same15 trained models, not30 experiments.
